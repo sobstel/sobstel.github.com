@@ -1,0 +1,5 @@
+---
+title: "Javascript: checking if variable exists"
+---
+
+<p>Recently I&#8217;ve learned that the best way to check if variable really exists in JavaScript is to call <code>if (typeof somevar !== "undefined")</code>. It seems to be most reliable as <code>typeof</code> always returns string and non-existing var is always &#8220;undefined&#8221;. Be aware that even if you declare variable with <code>var somevar;</code> it&#8217;s still undefined as it has no value assigned during declaration.</p>

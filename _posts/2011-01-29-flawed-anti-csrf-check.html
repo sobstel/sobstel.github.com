@@ -1,0 +1,5 @@
+---
+title: "Flawed anti-csrf check"
+---
+
+<p>Typical anti-csrf (captcha) check looks like that: <code>$_SESSION['csrf_token'] == $_POST['csrf_token']</code>. What&#8217;s wrong with this code? If attacker sends POST request directly with empty csrf_token, then it will meet this condition and pass this check easily. So simply remember to verify if value is not-empty, and only then apply actual check.</p>

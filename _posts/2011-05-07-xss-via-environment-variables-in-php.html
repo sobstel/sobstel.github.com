@@ -1,0 +1,7 @@
+---
+title: "XSS via environment variables in PHP"
+---
+
+<p>If you ever been at least a bit interested in security of web apps, you must have heard about <a href="http://ha.ckers.org/xss.html">XSS</a>. You know probably that you need to sanitize any user input, but what isn&#8217;t that much clear is that <code>$_SERVER</code> by no means should be trusted entirely.</p>
+<p><code>HTTP_X_FORWARDED_FOR</code>, <code>HTTP_REFERER</code>, any <code>HTTP_USER_*</code>, in some cases even <code>HTTP_HOST</code>, <code>PATH_INFO</code> may be all (usually easily) modified by user. Most of them usually come from an user agent only (browser or whatever, you never know, don&#8217;t you?).</p>
+<p>Actually <code>$_SESSION</code> should not be trusted sometimes either. If your app is on shared hosting and you store session data in <code>/tmp</code> directory (which is default), other users can get access to it and modify it to whatever they want&#8230; or just steal it. Pretty nasty, huh?</p>

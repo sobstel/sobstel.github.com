@@ -1,0 +1,15 @@
+---
+title: "PHP: Call to undefined method on tr_TR locale"
+---
+
+<p>It&#8217;s one of weirdest errors in PHP - if not the weirdest - I&#8217;ve ever seen. If you set your locale to tr_TR, suddenly some classes or methods names are not available anymore. Really.</p>
+<p>Following code:</p>
+<pre>&lt;?php
+setlocale(LC_ALL, 'tr_TR');
+class SomeClass {}
+$r = new ReflectionClass('SomeClass');
+$r-&gt;newInstanceArgs(array());
+</pre>
+<p>results in <code>Fatal error: Call to undefined method ReflectionClass::newInstanceArgs()</code> error.</p>
+<p>After quick research it turned out that it&#8217;s actually known bug, yet still not fixed since 2002! See <a href="https://bugs.php.net/bug.php?id=18556">#18556</a>. In short, PHP simply uses internal <code>tolower()</code> function, which is locale-aware, but in Turkish there are some specific rules for I (undotted ı is the lowercase of I, and the dotted İ is the uppercase of i). So if you have class name of method name having upper I (<code>newInstanceArgs, Image</code>, etc), you&#8217;re affected.</p>
+<p>The only workaround for now seems to be setting <code>LC_CTYPE</code> to some working locale, eg. <code>setlocale(LC_ALL, 'tr_TR'); setlocale(LC_CTYPE, 'en_US');</code>.</p>

@@ -1,0 +1,13 @@
+---
+title: "DISTINCT vs GROUP BY"
+---
+
+<p>Although it may seem so, they do NOT do exactly same thing.</p>
+<p>While <code>GROUP BY</code> groups results only by those columns that are explicitly listed after the clause, <code>DISTINCT</code> groups results by ALL columns that are present in <code>SELECT</code> statement (and not only by the one it precedes).</p>
+<p>So following queries</p>
+<p><code>SELECT DISTINCT article_id FROM article_authors</code><br/><code>SELECT article_id FROM article_authors GROUP BY article_id</code><br/> return same results,</p>
+<p>but</p>
+<p><code>SELECT DISTINCT article_id, author_id FROM article_authors</code><br/><code>SELECT article_id FROM article_authors GROUP BY article_id</code><br/>return different results,</p>
+<p>though</p>
+<p><code>SELECT DISTINCT article_id, author_id FROM article_authors</code><br/><code>SELECT article_id FROM article_authors GROUP BY article_id, author_id</code><br/>again return same results.</p>
+<p>As a sidenote, with <code>GROUP BY</code> you have <code>HAVING</code> clause by your hand as well.</p>

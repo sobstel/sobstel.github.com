@@ -1,0 +1,7 @@
+---
+title: "will_paginate per_page in rails3"
+---
+
+<p>Plugin will_paginate seems not take <code>self.per_page</code> (defined in model) into account, so you need to pass it explicitly, but you can simply pass <code>:per_page =&gt; Model.per_page</code>.</p>
+<p>
+<script src="https://gist.github.com/789923.js?file=will_paginate_in_rails3.example.rb"></script></p>

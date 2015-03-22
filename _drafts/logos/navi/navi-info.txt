@@ -1,0 +1,19 @@
+Modules for truck tracking system.
+
+- NaviTracer Web service (API) + web tester
+- moduł dla LoginTrans (we współpracy z Rising Sun Technologies) [JavaScript, jQuery, Ajax]
+- admin web interface moduł administracyjny do łatwego zarządzania pojazdami, urządzeniami, kierowcami [Zend Framework]
+
+Role: architect, developer (90% of stuff written by me), client care, technical support.
+
+tech:
+- api: PHP, Doctrine
+- module: Javascript, Ajax, jQuery 
+- admin: PHP, Zend Framework
+
+Core points:
+- request and response format independent (easily to switch)
+- 
+
+
+Database contains GPS position data, I/O information, CAN data and RFID data.

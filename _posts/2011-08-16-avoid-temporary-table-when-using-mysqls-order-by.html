@@ -1,0 +1,7 @@
+---
+title: "Avoid temporary table when using MySQL's ORDER BY"
+---
+
+<p><em>If there is an <code>ORDER BY</code> clause and a different <code>GROUP BY</code> clause, or if the <code>ORDER BY</code> or <code>GROUP BY</code> contains columns from tables other than the first table in the join queue, a temporary table is created.</em></p>
+<p><em>If all columns in <code>ORDER BY</code> and <code>GROUP BY</code> clauses come from the same table, that table is preferred first when joining.</em></p>
+<p>More tips like this in manual&#8217;s <a href="http://dev.mysql.com/doc/refman/5.1/en/where-optimizations.html">WHERE Clause Optimization</a>.</p>

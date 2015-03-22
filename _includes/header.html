@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+</head>
+<body>
+<div id="content">
+  <h1>
+    <a href="/">sobstel</a> /
+    <strong>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</strong>
+  </h1>

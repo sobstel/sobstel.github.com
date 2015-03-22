@@ -1,0 +1,9 @@
+---
+title: "mongoid: embedded documents without object ids"
+---
+
+<p>Mongoid assigns object ids to all documents, including embedded ones, which very often is simply not needed and just wastes disk space. And it&#8217;s annoying by the way.</p>
+<p>There&#8217;s fix for this coming (<a href="https://github.com/mongoid/mongoid/pull/644"><a href="https://github.com/mongoid/mongoid/pull/644">https://github.com/mongoid/mongoid/pull/644</a></a>) by introducing <code>Mongoid.embedded_object_id</code> configuration directive.</p>
+<p>For now you can simply overwrite <code>identity</code> method.</p>
+<p>
+<script src="https://gist.github.com/866182.js?file=comment.rb"></script></p>

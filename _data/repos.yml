@@ -1,0 +1,22 @@
+---
+- name: metaphore
+  full_name: sobstel/metaphore
+  html_url: https://github.com/sobstel/metaphore
+  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
+- name: sesshin
+  full_name: sobstel/sesshin
+  html_url: https://github.com/sobstel/sesshin
+  description: PHP secure advanced session manager.
+- name: jsonp.js
+  full_name: sobstel/jsonp.js
+  html_url: https://github.com/sobstel/jsonp.js
+  description: Lightweight JSONP library for cross-domain ajax calls.
+- name: AsyncHTTP
+  full_name: sobstel/AsyncHTTP
+  html_url: https://github.com/sobstel/AsyncHTTP
+  description: PHP asynchronous non-blocking HTTP requests.
+- name: scru.js
+  full_name: sobstel/scru.js
+  html_url: https://github.com/sobstel/scru.js
+  description: Lightweight execution dependency manager (perfect for lazy loading
+    with dependencies)

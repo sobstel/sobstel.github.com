@@ -1,0 +1,7 @@
+---
+title: "Value Object in ActiveRecord"
+---
+
+<p>Although it&#8217;s rather pretty hard to be <a href="http://www.blog.dannynet.net/archives/70">domain driven in Rails</a> using native ActiveRecord pattern (though they say <a href="http://blog.scottbellware.com/2010/06/no-domain-driven-design-in-rails.html">it&#8217;s more the matter of rails culture and ecosystem</a>), there are still some neat concepts, for example Value Object.</p>
+<p>Value Object has no identity, is immutable, can be easily created and discarded. It is reusable and shareable between various entities. Actually what is it for? It simply contains attributes. It can be object like Address, Money, Point, GeoLocation, string with format limitations (ZipCode, Name), number with limitations (Percentage, Quantity, etc), etc.</p>
+<p>You can see it in practice in docs for <a href="http://api.rubyonrails.org/classes/ActiveRecord/Aggregations/ClassMethods.html">ActiveRecord::Aggregations</a>. Other rereferences: <a href="http://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/0321601661">The Rails3 Way</a>, <a href="http://www.dworld.pl/static/nyac/v1_Krakow/DDD%20-%20everything%20on%20place%20and%20place%20for%20everything.pdf">Domain Driven Design presentation</a>, <a href="http://www.infoq.com/minibooks/domain-driven-design-quickly">Domain Driven Design Quickly</a>.</p>

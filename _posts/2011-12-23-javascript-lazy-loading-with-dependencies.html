@@ -1,0 +1,17 @@
+---
+title: "Javascript lazy loading with dependencies"
+---
+
+<p>Here it is, yet another javascript lazy loader. Sadly, none of existing ones has been solving my problem and I was even using great  <a href="http://github.com/ded/script.js">$script.js</a> for some time, but eventually written new one.</p>
+<p>Why?</p>
+<ul><li>extremely lightweight (less than 0.5KB gzipped)</li>
+<li>lazy (on-demand) loading</li>
+<li>support for google.load out of the box</li>
+<li>any code (not only loaders) can be executed </li>
+</ul><p>Link: <a href="https://github.com/sobstel/scru.js"><a href="https://github.com/sobstel/scru.js">https://github.com/sobstel/scru.js</a></a>.</p>
+<p>Sample usage:</p>
+<p>// Adding to queue:</p>
+<p><code>$scru.queue('google:jsapi', $scru.fn.async_load('http://www.google.com/jsapi'));</code><br/><code>$scru.queue('google:visualization', $scru.fn.google_load('visualization', '1', {packages:['corechart']}), ['google:jsapi']);</code></p>
+<p>// Somewhere in some script (called only when needed)</p>
+<p><code>$scru.execute(drawChart, ['google:visualization']);</code></p>
+<p>All jsapi, visualization js are loaded only when &#8220;execute&#8221; is called.</p>

@@ -1,0 +1,16 @@
+---
+title: MySQL "Using index" in EXPLAIN's extra column
+---
+
+<p>When you see <code>Using Index</code> showing up in <code>Extra</code> column of <code>EXPLAIN</code> output, it means <strong>a covering index</strong> is used, it is MySQL is able to locate every field for a given table within an index without lookups to table itself.</p>
+<p>It&#8217;s simply another reason to re-consider using asterisks (<code>*</code>) in <code>SELECT</code> statements.</p>
+<p>Simplest example:</p>
+<pre>mysql&gt; EXPLAIN SELECT * FROM people;
++-+-+--++-...-+-|
+|  1 | SIMPLE      | people | ALL  | ... |       |
++-+-+--+-+-...-+-+
+| id | select_type | table  | type  | ... | Extra       |
++-+-+--+-+-...-|-+
+</pre>
+<p>It can be also very handy when using joins, and don&#8217;t really need data from one (or more) of joined columns.</p>
+<p>For me more stuff like this see Jay Pipes &#8220;Target Practice: A Workshop in Tuning MySQL Queries&#8221; (OSCON 2007).</p>

@@ -1,0 +1,6 @@
+---
+title: "Doctrine: CacheProvider performance-aware adapter"
+---
+
+<p>In <a href="https://github.com/doctrine/common">doctrine/common</a> project, for <code><acronym ="Doctrine\Common\Cache\CacheProvider"> Cache\CacheProvider</acronym></code>, with introduction of cache auto-prefix support (called namespaces by Doctrine guys, but it has nothing to do with PHP namespaces), unfortunately there appeared quite serious performance issue. Every single cache call always resulted in 2 additional cache storage calls due to checks for prefix (cache namespace). Quite a big overhead, imagine your memcached instance is called like this. And it just shows that object-oriented programming itself cannot save you from many headaches. Common interface and clean API are just not everything, and it&#8217;s soooo easy to get carried away. Anyway, <a href="https://github.com/doctrine/common/pull/125">patch has been already provided</a>, but if you&#8217;re using older version or you don&#8217;t need namespaces support at all, here&#8217;s quick workaround.</p>
+<p><script src="https://gist.github.com/2686852.js?file=DoctrineCacheAdapter.php" type="text/javascript"></script></p>

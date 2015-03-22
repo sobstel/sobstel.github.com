@@ -1,0 +1,18 @@
+---
+title: "Internet Explorer under Linux or Mac OS X"
+---
+
+<p><ul><li>Download and install <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> </li>
+<li>Download Internet Explorer
+<ul><li><code>curl -s <a href="https://raw.github.com/xdissent/ievms/master/ievms.sh">https://raw.github.com/xdissent/ievms/master/ievms.sh</a> | bash</code></li>
+<li>or <code>curl -s <a href="https://raw.github.com/xdissent/ievms/master/ievms.sh">https://raw.github.com/xdissent/ievms/master/ievms.sh</a> | IEVMS_VERSIONS="9" bash</code> (IE9 only)</li>
+<li>or <code>curl -s <a href="https://raw.github.com/xdissent/ievms/master/ievms.sh">https://raw.github.com/xdissent/ievms/master/ievms.sh</a> | IEVMS_VERSIONS="8" bash</code> (IE8 only)</li>
+<li>or <code>curl -s <a href="https://raw.github.com/xdissent/ievms/master/ievms.sh">https://raw.github.com/xdissent/ievms/master/ievms.sh</a> | IEVMS_VERSIONS="7" bash</code> (IE7 only)</li>
+</ul></li>
+<li>Adjust RAM settings as it&#8217;s only 256MB by default (I&#8217;ve used 1GB for each on box with 8GB RAM and 768MB for each on box with 4GB RAM).</li>
+<li>Run virtual machine and log in to Windows as Administrator (password: Password1).</li>
+<li>Execute <code>slmgr –rearm</code> from terminal (to run terminal just type <code>cmd</code> into start menu input).</li>
+<li>Add your hosts to <code>C:\Windows\System32\drivers\etc\hosts</code> file, eg. <code>10.0.2.2 my-super-site.local</code> (10.0.2.2 is your host&#8217;s localhost).</li>
+<li>Install VirtualBox guest additions.</li>
+<li>Shutdown and make a snapshot, so you can use it as a starting point if the trial period expires (it&#8217;s not illegal, even Microsoft themselves tell us to do it this way, which is understandable as it&#8217;s all about adjusting our websites to work on their faulty browsers).</li>
+</ul></p>
