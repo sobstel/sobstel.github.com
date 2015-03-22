@@ -19,10 +19,8 @@ task :publish, :message do |t, args|
   task(:import_github_repos).execute
   task(:import_gists).execute
 
-  puts message
-
   sh "git add --all ."
-  sh "git commit . --message=\"message\"";
+  sh "git commit . --message=\"#{message}\"";
   sh "git pull --rebase"
   sh "git push"
 end
@@ -49,8 +47,8 @@ task :import_github_repos do
 end
 
 task :import_gists, :limit do |t, args|
-  args.with_defaults :limit => 1
-  limit = [10, args[:limit].to_i].max
+  args.with_defaults :limit => 5
+  limit = [5, args[:limit].to_i].max
 
   url = sprintf("https://api.github.com/users/%s/gists?per_page=%d", Configuration.for('github').user, limit)
   puts "fetch from #{url}"
