@@ -1,5 +1,6 @@
 ---
 title: Lean / Minimalist Software Development
+layout: post
 ---
 
 Split into small batches. Really small user stories. Each deliverable and shippable.

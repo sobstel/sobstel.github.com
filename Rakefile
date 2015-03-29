@@ -60,6 +60,7 @@ task :import_gists, :limit do |t, args|
   gists.each do |gist|
     output = "---\r\n"
     output += "title: \"#{gist["description"]}\"\r\n"
+    output += "date: #{gist["created_at"][0..9]}\r\n"
     output += "created_at: #{gist["created_at"]}\r\n"
     output += "updated_at: #{gist["updated_at"]}\r\n"
     output += "---\r\n\r\n";

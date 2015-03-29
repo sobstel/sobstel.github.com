@@ -2,7 +2,7 @@
 title: "HTTP Cache: stale-while-revalidate and stale-if-error"
 ---
 
-There are possible 2 [HTTP Cache-Control extensions for stale content][1rfc5861]:
+There are possible 2 [HTTP Cache-Control extensions for stale content][rfc5861]:
 stale-while-revalidate and stale-if-error. They are actually already (or being)
 adopted by [Fastly][fastly] and [Chrome](chrome).
 
