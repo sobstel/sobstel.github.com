@@ -9,13 +9,3 @@
   description: Convert CSV to SQL INSERT statements
 - id: 1ec99b45796f4e237154
   description: Converting from base-16 to base-36 number (with 128bit precision)
-- id: '9685406'
-  description: Passing HTTP AUTH BASIC/DIGEST headers from Apache to PHP-FPM
-- id: '7616588'
-  description: 'Centered block element with unknown width '
-- id: '6813174'
-  description: Simple Librato client for PHP
-- id: '6568526'
-  description: Non-blocking socket connection
-- id: '5477437'
-  description: 'Remove multiple items in the Mac OSX (Lion) ‘Open With’ '
