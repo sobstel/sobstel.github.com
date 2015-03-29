@@ -2,13 +2,13 @@
 title: "HTTP Cache: stale-while-revalidate and stale-if-error"
 ---
 
-There are possible two important [HTTP Cache-Control extensions for stale content][rfc5861]:
-stale-while-revalidate and stale-if-error. They are actually already (or being)
+There are two important [HTTP Cache-Control extensions for stale content][rfc5861] coming:
+`stale-while-revalidate` and `stale-if-error`. They are actually already being
 adopted by [Fastly][fastly] and [Chrome](chrome).
 
 ### stale-while-revalidate
 
-When cache expires, user can be server stale content while the latest version is being
+When cache expires, user can be served stale content while the latest version is being
 re-fetched in the background. It makes user never wait for content re-generation, so he
 usually gets content immediately from cache.
 
