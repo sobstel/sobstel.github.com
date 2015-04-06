@@ -15,6 +15,10 @@
   full_name: sobstel/AsyncHTTP
   html_url: https://github.com/sobstel/AsyncHTTP
   description: PHP asynchronous non-blocking HTTP requests.
+- name: Imaged
+  full_name: sobstel/Imaged
+  html_url: https://github.com/sobstel/Imaged
+  description: Image mainpulation lib. Object-oriented wrapper for PHP GD2 library.
 - name: scru.js
   full_name: sobstel/scru.js
   html_url: https://github.com/sobstel/scru.js

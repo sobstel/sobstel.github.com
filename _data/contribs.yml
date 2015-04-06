@@ -1,0 +1,7 @@
+---
+- auraphp/Aura.Marshal
+- Seldaek/monolog
+- djl/homebrew-apache2
+- doctrine/common
+- beberlei/DoctrineExtensions
+- gsmlabs/LSDCache

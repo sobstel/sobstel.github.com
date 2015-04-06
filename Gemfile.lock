@@ -11,7 +11,6 @@ GEM
       execjs
     coffee-script-source (1.9.1)
     colorator (0.1)
-    configuration (1.3.4)
     execjs (2.3.0)
     fast-stemmer (1.0.2)
     feedzirra (0.8.0)
@@ -48,6 +47,9 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
+    mini_portile (0.6.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.10)
@@ -70,7 +72,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  configuration
   feedzirra
   jekyll
   json
+  nokogiri

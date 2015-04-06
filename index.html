@@ -22,11 +22,17 @@ layout: default
     {% for repo in site.data.repos %}
     <li><a href="{{ repo.html_url }}">{{ repo.name }}</a> - {{ repo.description }}</li>
     {% endfor %}
+    <li>
+      contributions:
+      {% for contrib in site.data.contribs %}
+        <a href="https://github.com/{{ contrib }}/commits?author=sobstel">{{ contrib }}</a>{% if forloop.last == false %}, {% endif %}
+      {% endfor %}
+    </li>
   </ul>
 </div>
 
 <div>
-  <h2>blog <a href="/blog/">more...</a></h2>
+  <h2>posts <a href="/blog/">more...</a></h2>
   <ul class="blog-list">
   {% for post in site.posts limit: 10 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -37,8 +43,9 @@ layout: default
 <div>
   <h2>gists <a href="/gists/">more...</a></h2>
   <ul>
-    {% for gist in site.data.recent_gists %}
-    <li><a href="/gists/{{ gist.id }}/">{{ gist.description }}</a></li>
+    {% assign gists = site.gists | sort: 'created_at' | reverse %}
+    {% for gist in gists limit:10 %}
+    <li><a href="{{ gist.url }}">{{ gist.title }}</a></li>
     {% endfor %}
   </ul>
 </div>

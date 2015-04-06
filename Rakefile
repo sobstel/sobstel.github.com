@@ -1,16 +1,20 @@
-require "configuration"
 require "json"
 require "openssl"
 require "open-uri"
 require "yaml"
 require "time"
+require "nokogiri"
 
-Configuration.for('github') {
-  user "sobstel"
-  repos {
-    include_only ["agnostic", "metaphore", "sesshin", "jsonp.js", "AsyncHTTP", "scru.js"]
-  }
-}
+def save_data(name, object)
+  file = "_data/#{name}.yml"
+  File.write(file, object.to_yaml)
+  puts "saved to #{file}"
+end
+
+def load_data(name)
+  file = "_data/#{name}.yml"
+  YAML.load_file(file)
+end
 
 task :publish, :message do |t, args|
   args.with_defaults :message => Time.now.rfc2822
@@ -26,13 +30,15 @@ task :publish, :message do |t, args|
 end
 
 task :import_github_repos do
-  url = sprintf("https://api.github.com/users/%s/repos", Configuration.for('github').user)
+  url = sprintf("https://api.github.com/users/%s/repos", "sobstel")
   puts "fetch from #{url}"
 
   repos = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).select do |repo|
-    Configuration.for('github').repos.include_only.any? do |name|
-      repo["name"].include? name
-    end
+    (repo["stargazers_count"] > 0)
+  end.reject do |repo|
+    repo["description"].include? "UNMAINTAINED"
+  end.reject do |repo|
+    ["SyncedSideBar", "shed"].include? repo["name"]
   end.sort_by do |repo|
     repo["stargazers_count"]
   end.reverse.collect do |repo|
@@ -41,16 +47,14 @@ task :import_github_repos do
     end
   end
 
-  file = "_data/repos.yml";
-  File.write(file, repos.to_yaml)
-  puts "saved to #{file}"
+  save_data("repos", repos)
 end
 
-task :import_gists, :limit do |t, args|
-  args.with_defaults :limit => 5
-  limit = [5, args[:limit].to_i].max
+task :import_gists do
+  meta = load_data("meta")
+  since = meta["gists-last-read"].to_s
 
-  url = sprintf("https://api.github.com/users/%s/gists?per_page=%d", Configuration.for('github').user, limit)
+  url = sprintf("https://api.github.com/users/%s/gists?since=%s", "sobstel", URI::encode(since))
   puts "fetch from #{url}"
 
   gists = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).reject do |gist|
@@ -80,14 +84,44 @@ task :import_gists, :limit do |t, args|
     puts "saved to #{file}"
   end
 
-  recent_gists = gists[0..9].collect do |gist|
-    gist.select do |key, value|
-      ["id", "description"].include? key
+  meta["gists-last-read"] = Time.now.utc.iso8601
+  save_data("meta", meta)
+end
+
+task :import_github_contributions do
+  github_contributions = []
+
+  (2010..Time.now.year).each do |year|
+    (1..12).each do |month|
+      from = Date.new(year, month, 1).to_s
+      to = Date.new(year, month, 1).next_month.prev_day.to_s
+
+      url = sprintf("https://github.com/%s?tab=contributions&from=%s&to=%s", "sobstel", from, to)
+      puts "fetch from #{url}"
+
+      html_doc = Nokogiri::HTML(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read)
+      contributions = html_doc.css(".contribution-activity-listing .title")
+
+      contributions.each do |contribution|
+        text = contribution.text.strip
+        matches = /.+\s(.+)\/(.+)/.match(text)
+
+        next unless matches
+
+        vendor = matches[1]
+        name = matches[2]
+
+        repo = sprintf("%s/%s", vendor, name)
+        excluded_vendors = ["sobstel", "golazon", "tripit", "wbond"]
+
+        github_contributions << repo unless excluded_vendors.include?(vendor)
+      end
     end
   end
-  file = "_data/recent_gists.yml";
-  File.write(file, recent_gists.to_yaml)
-  puts "saved to #{file}"
+
+  github_contributions.uniq!.reverse!
+
+  save_data("contribs", github_contributions)
 end
 
 # DEPRECATED
