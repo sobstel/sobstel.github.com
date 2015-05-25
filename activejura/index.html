@@ -15,12 +15,12 @@ html, body {
   margin: 0;
   padding: 0;
 }
-div {
+div.main {
   padding: 1em 0;
   position: absolute;
   top: 50%;
   margin: 0;
-  margin-top: -120px;
+  margin-top: -220px;
   width: 100%;
   background: rgba(0,0,0,0.6);
   color: #ddd;
@@ -43,30 +43,29 @@ h1 .c2 {
 p.contact {
   font-weight: normal;
 }
+p a {
+  opacity: 0.8;
+}
+p a:hover {
+  opacity: 1;
+}
 </style>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" charset="utf-8">
-  $(document).ready(function(){
-    $("a[rel^='prettyPhoto']").prettyPhoto();
-  });
-</script>
 
 </head>
 <body>
 
-<div>
+<div class="main">
     <h1><span class="c1">ACTIVE</span><span class="c2">JURA</span></h1>
     <p>szkolenia, imprezy integracyjne i zabawy w terenie na Jurze</p>
 
     <p>
-      <a href="https://www.youtube.com/watch?v=CQDx7yvI0IY" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/CQDx7yvI0IY/mqdefault.jpg"/>
+      <a href="https://www.youtube.com/watch?v=CQDx7yvI0IY" rel="prettyPhoto" title="Jura">
+        <img src="http://img.youtube.com/vi/CQDx7yvI0IY/mqdefault.jpg" width="320" height="180"/>
       </a>
-      <a href="https://www.youtube.com/watch?v=Ktho_ASLOnU" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/Ktho_ASLOnU/mqdefault.jpg"/>
+      <a href="https://www.youtube.com/watch?v=Ktho_ASLOnU" rel="prettyPhoto" title="Jura">
+        <img src="http://img.youtube.com/vi/Ktho_ASLOnU/mqdefault.jpg" width="320" height="180"/>
       </a>
     </p>
 
@@ -75,6 +74,18 @@ p.contact {
       mariusz@activejura.pl, tel. 666 666 666<br/>
     </p>
 </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+      show_title: true,
+      social_tools: '',
+      theme: 'dark_square'
+    });
+  });
+</script>
 
 </body>
 </html>
