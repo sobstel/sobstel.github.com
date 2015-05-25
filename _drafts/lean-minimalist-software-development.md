@@ -47,6 +47,12 @@ http://zachholman.com/talk/how-github-uses-github-to-build-github/
 
 ---
 
+1. It is impossible to gather all the requirements at the beginning of a project.
+2. Whatever requirements you do gather are guaranteed to change.
+3. There will always be more to do than time and money will allow.
+
+---
+
 Minimalism is not about doing less. It's about not doing nonessential things, so there's a time
 for things that truly matter.
 
@@ -117,6 +123,14 @@ Managerial overhead not producing real value is waste.
 
 retrospective to discuss what went well. Identifying and eliminating waste should not be a rare event
 - meaningful and actionable improvements that actually help you to frequently identify and, more importantly, eliminate waste (assigned to person)
+
+partially done work
+extra processes
+extra features
+task switching
+waiting
+motion
+defects
 
 ### Build Quality In / Amplify learning / Create Knowledge
 
