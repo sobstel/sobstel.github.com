@@ -61,7 +61,7 @@ C4
 
 * context - the highest level of abstraction, represents something that delivers value to somebody (eg. financial risk management system, an Internet banking system, a website)
 * containers - represents something in which components are executed or where data reside
-* components - alogical grouping of one or moreclasses
+* components - a logical grouping of one or more classes
 * classes - the smallest building blocks
 
 ### Diagrams
