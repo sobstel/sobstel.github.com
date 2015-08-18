@@ -11,6 +11,11 @@
   full_name: sobstel/jsonp.js
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
+- name: agnostic
+  full_name: sobstel/agnostic
+  html_url: https://github.com/sobstel/agnostic
+  description: Minimalist and opinionated not-really-ORM on top of Aura.Marshal [ON
+    HOLD, NOT FINISHED]
 - name: AsyncHTTP
   full_name: sobstel/AsyncHTTP
   html_url: https://github.com/sobstel/AsyncHTTP
