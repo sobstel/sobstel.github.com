@@ -22,6 +22,7 @@ title: 'Mac OS X: Tweaking '"Open With"'
 * Look for *CFBundleTypeExtensions* section and add `<string>ext</string>` line.
 * `killall Finder`
 
+
     /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -f /Applications/Name.app/
 
     killall Finder
@@ -30,3 +31,5 @@ title: 'Mac OS X: Tweaking '"Open With"'
 
 * Right-click on the file and choose *Get Info*.
 * Select the app you want as the default under the *Open with:* section, and click on *Change All*.
+
+Details can be found at [WonderHowTo](http://mac-how-to.wonderhowto.com/how-to/remove-duplicates-customize-open-with-menu-mac-os-x-0157100/).
