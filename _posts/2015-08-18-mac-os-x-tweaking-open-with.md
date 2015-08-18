@@ -1,5 +1,5 @@
 ---
-title: 'Mac OS X: Tweaking '"Open With"'
+title: "Mac OS X: Tweaking 'Open With'"
 ---
 
 ### Clean up duplicate apps in "Open With"
