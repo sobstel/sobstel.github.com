@@ -6,10 +6,10 @@ markdown: kramdown
 
 permalink: /blog/:title/
 
-collections:
-  gists:
-    output: true
-    permalink: /gists/:name/
+# collections:
+#   gists:
+#     output: true
+#     permalink: /gists/:name/
 
 defaults:
   -

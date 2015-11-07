@@ -32,20 +32,9 @@ layout: default
 </div>
 
 <div>
-  <h2>posts <a href="/blog/">more...</a></h2>
+  <h2>others</h2>
   <ul class="blog-list">
-  {% for post in site.posts limit: 10 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </ul>
-</div>
-
-<div>
-  <h2>gists <a href="/gists/">more...</a></h2>
-  <ul>
-    {% assign gists = site.gists | sort: 'created_at' | reverse %}
-    {% for gist in gists limit:10 %}
-    <li><a href="{{ gist.url }}">{{ gist.title }}</a></li>
-    {% endfor %}
+    <li><a href="/blog/">posts</a></li>
+    <li><a href="/gists/">gists</a></li>
   </ul>
 </div>

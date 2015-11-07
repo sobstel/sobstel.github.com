@@ -5,8 +5,7 @@ permalink: /gists/
 ---
 
 <ul class="blog-list">
-    {% assign gists = site.gists | sort: 'created_at' %}
-    {% for gist in gists reversed %}
-    <li><a href="{{ gist.url }}">{{ gist.title }}</a></li>
+    {% for gist in site.data.cgists reversed %}
+    <li><a href="{{ gist.url }}">{{ gist.description }}</a></li>
     {% endfor %}
 </ul>

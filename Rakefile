@@ -51,38 +51,28 @@ task :import_github_repos do
 end
 
 task :import_gists do
+  gists = load_data("gists")
   meta = load_data("meta")
   since = meta["gists-last-read"].to_s
 
   url = sprintf("https://api.github.com/users/%s/gists?since=%s", "sobstel", URI::encode(since))
   puts "fetch from #{url}"
 
-  gists = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).reject do |gist|
+  new_gists = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).reject do |gist|
     gist["public"] === false
   end
 
-  gists.each do |gist|
-    output = "---\r\n"
-    output += "title: \"#{gist["description"]}\"\r\n"
-    output += "date: #{gist["created_at"][0..9]}\r\n"
-    output += "created_at: #{gist["created_at"]}\r\n"
-    output += "updated_at: #{gist["updated_at"]}\r\n"
-    output += "---\r\n\r\n";
-
-    gist["files"].each do |name, file|
-      output += "<strong>#{file["filename"]}</strong>\r\n\r\n"
-      content = open(file["raw_url"]).read.gsub(/^/, "    ")
-      output += "#{content}\r\n\r\n"
-    end
-
-    output += "[fork or comment at github](#{gist["html_url"]})\r\n"
-
-    file = "_gists/#{gist["id"]}.md"
-
-    File.write(file, output)
-
-    puts "saved to #{file}"
+  new_gists.reject do |gist|
+    gist['created_at'] < since # github uses "updated at"
+  end.reverse.each do |gist|
+    gists.unshift({
+      'title' => gist["description"],
+      'utl' => gist["url"],
+      'created_at' => gist["created_at"]
+    })
   end
+
+  save_data("gists", gists)
 
   meta["gists-last-read"] = Time.now.utc.iso8601
   save_data("meta", meta)
@@ -124,23 +114,3 @@ task :import_github_contributions do
   save_data("contribs", github_contributions)
 end
 
-# DEPRECATED
-# task :import_posts_from_nanoc do
-#   source_dir = "/Users/sobstel/Projects/sobstel.org/content/blog"
-#   target_dir = "/Users/sobstel/Projects/sobstel/_posts"
-
-#   Dir.foreach source_dir do |f|
-#     next if f == "." || f == ".."
-
-#     frontmatter = YAML.load_file(source_dir + "/" + f)
-
-#     output = "---\r\ntitle: \"#{frontmatter["title"]}\"\r\n---";
-
-#     content = File.read(source_dir + "/" + f)
-#     content.gsub! /---(.|\n)*?---/, ''
-
-#     output += content
-
-#     File.write(target_dir + "/" + frontmatter["date"].strftime("%Y-%m-%d") + "-" + f, output)
-#   end
-# end
