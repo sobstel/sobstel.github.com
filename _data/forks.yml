@@ -1,0 +1,26 @@
+---
+- name: Carpet.js
+  full_name: sobstel/Carpet.js
+  html_url: https://github.com/sobstel/Carpet.js
+  description: A simple DOM-module JavaScript framework
+  fork: true
+  language: JavaScript
+- name: Aura.Marshal
+  full_name: sobstel/Aura.Marshal
+  html_url: https://github.com/sobstel/Aura.Marshal
+  description: A data-marshaling toolset
+  fork: true
+  language: PHP
+- name: Underscore.php
+  full_name: sobstel/Underscore.php
+  html_url: https://github.com/sobstel/Underscore.php
+  description: PHP port of Underscore.js
+  fork: true
+  language: PHP
+- name: LSDCache
+  full_name: sobstel/LSDCache
+  html_url: https://github.com/sobstel/LSDCache
+  description: LSD Slam Defence - cache lib with semaphore implementation using many
+    storages (Memcache, APC, Array)
+  fork: true
+  language: PHP

@@ -1,0 +1,39 @@
+---
+layout: default
+title: Open source
+permalink: /open-source/
+---
+
+<h2>repositories</h2>
+<ul>
+  {% for repo in site.data.repos %}
+  <li>
+    <a href="{{ repo.html_url }}">{{ repo.name }}</a>
+    {% if repo.description.size > 0 %}
+      - {{ repo.description }}
+    {% endif %}
+    {% if repo.language %}
+      <em>[{{ repo.language }}]</em>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>forks</h2>
+<ul>
+  {% for fork in site.data.forks %}
+  <li>
+    <a href="{{ fork.html_url }}">{{ fork.name }}</a>
+    {% if fork.description %} - {{ fork.description }}{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>contributions</h2>
+<ul>
+  {% for contrib in site.data.contribs %}
+  <li>
+    <a href="https://github.com/{{ contrib }}/commits?author=sobstel">{{ contrib }}</a>
+  </li>
+  {% endfor %}
+</ul>

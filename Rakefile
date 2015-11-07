@@ -33,21 +33,21 @@ task :import_github_repos do
   url = sprintf("https://api.github.com/users/%s/repos", "sobstel")
   puts "fetch from #{url}"
 
-  repos = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).select do |repo|
-    (repo["stargazers_count"] > 0)
-  end.reject do |repo|
-    repo["description"].include? "UNMAINTAINED"
-  end.reject do |repo|
-    ["SyncedSideBar", "shed"].include? repo["name"]
+  all_repos = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).reject do |repo|
+    ["skeptic"].include? repo["name"]
   end.sort_by do |repo|
-    repo["stargazers_count"]
-  end.reverse.collect do |repo|
+    repo["pushed_at"]
+  end.collect do |repo|
     repo.select do |key, value|
-      ["name", "full_name", "description", "html_url"].include? key
+      ["name", "full_name", "description", "html_url", "fork", "language"].include? key
     end
-  end
+  end.reverse
+
+  repos = all_repos.reject { |repo| repo["fork"] }
+  forks = all_repos.select { |repo| repo["fork"] }
 
   save_data("repos", repos)
+  save_data("forks", forks)
 end
 
 task :import_gists do
@@ -113,4 +113,3 @@ task :import_github_contributions do
 
   save_data("contribs", github_contributions)
 end
-

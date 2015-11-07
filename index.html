@@ -7,29 +7,3 @@ layout: default
   Aspiring <a href="http://mnmlist.com/archive/">mnmlist</a>.
   Speaks <a href="http://programming-motherfucker.com/">programming</a>.
 </p>
-
-<p class="linkbar">
-  <a href="https://github.com/sobstel/?tab=repositories">open source</a> ::
-  <a href="https://twitter.com/sobstel">thoughts</a> ::
-  <a href="http://stackoverflow.com/users/219272/sobstel">stackoverflow</a> ::
-  <a href="/blog/">posts</a> ::
-  <a href="/gists/">gists</a> ::
-  <a href="https://www.linkedin.com/in/sobstel">linkedin</a> ::
-  przemek&#64;sobstel.org
-</p>
-
-<div class="repo-list">
-  <ul>
-    {% for repo in site.data.repos %}
-    <li><a href="{{ repo.html_url }}">{{ repo.name }}</a> - {{ repo.description }}</li>
-    {% endfor %}
-    <li>
-      contributions:
-      {% for contrib in site.data.contribs %}
-        <a href="https://github.com/{{ contrib }}/commits?author=sobstel">{{ contrib }}</a>{% if forloop.last == false %}, {% endif %}
-      {% endfor %}
-    </li>
-  </ul>
-</div>
-
-

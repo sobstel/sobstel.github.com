@@ -1,34 +1,117 @@
 ---
+- name: sobstel.github.com
+  full_name: sobstel/sobstel.github.com
+  html_url: https://github.com/sobstel/sobstel.github.com
+  description: sobstel.org
+  fork: false
+  language: HTML
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
   description: PHP cache slam defense using a semaphore to prevent dogpile effect.
-- name: sesshin
-  full_name: sobstel/sesshin
-  html_url: https://github.com/sobstel/sesshin
-  description: PHP secure advanced session manager.
+  fork: false
+  language: PHP
+- name: pathway
+  full_name: sobstel/pathway
+  html_url: https://github.com/sobstel/pathway
+  description: RubyMotion (iOS) custom scrolling experiments
+  fork: false
+  language: Ruby
 - name: jsonp.js
   full_name: sobstel/jsonp.js
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
+  fork: false
+  language: JavaScript
+- name: dotfiles
+  full_name: sobstel/dotfiles
+  html_url: https://github.com/sobstel/dotfiles
+  description: ''
+  fork: false
+  language: VimL
+- name: sesshin
+  full_name: sobstel/sesshin
+  html_url: https://github.com/sobstel/sesshin
+  description: PHP secure advanced session manager.
+  fork: false
+  language: PHP
 - name: agnostic
   full_name: sobstel/agnostic
   html_url: https://github.com/sobstel/agnostic
   description: not-really-ORM [ON HOLD]
+  fork: false
+  language: PHP
+- name: jsondocr
+  full_name: sobstel/jsondocr
+  html_url: https://github.com/sobstel/jsondocr
+  description: DSL for documenting JSON structure
+  fork: false
+  language: Ruby
 - name: AsyncHTTP
   full_name: sobstel/AsyncHTTP
   html_url: https://github.com/sobstel/AsyncHTTP
   description: PHP asynchronous non-blocking HTTP requests.
+  fork: false
+  language: PHP
+- name: SyncedSideBar
+  full_name: sobstel/SyncedSideBar
+  html_url: https://github.com/sobstel/SyncedSideBar
+  description: Sublime Text 2 plugin to sync project sidebar (folder view) with currently
+    active file.
+  fork: false
+  language: Python
 - name: Imaged
   full_name: sobstel/Imaged
   html_url: https://github.com/sobstel/Imaged
   description: Image mainpulation lib. Object-oriented wrapper for PHP GD2 library.
+  fork: false
+  language: PHP
+- name: elicorege
+  full_name: sobstel/elicorege
+  html_url: https://github.com/sobstel/elicorege
+  description: Extremely lightweight (PHP) Composer repository generator.
+  fork: false
+  language: PHP
+- name: theraventhatrefusedtosing
+  full_name: sobstel/theraventhatrefusedtosing
+  html_url: https://github.com/sobstel/theraventhatrefusedtosing
+  description: ''
+  fork: false
+  language: 
+- name: Execution
+  full_name: sobstel/Execution
+  html_url: https://github.com/sobstel/Execution
+  description: PHP class to handle unrecoverable fatal errors. (use Monolog instead)
+  fork: false
+  language: PHP
+- name: komixin
+  full_name: sobstel/komixin
+  html_url: https://github.com/sobstel/komixin
+  description: ''
+  fork: false
+  language: Ruby
+- name: emolRTE
+  full_name: sobstel/emolRTE
+  html_url: https://github.com/sobstel/emolRTE
+  description: Unbloated Rich Text Editor for jQuery.
+  fork: false
+  language: JavaScript
 - name: scru.js
   full_name: sobstel/scru.js
   html_url: https://github.com/sobstel/scru.js
   description: Lightweight execution dependency manager (perfect for lazy loading
     with dependencies)
-- name: pathway
-  full_name: sobstel/pathway
-  html_url: https://github.com/sobstel/pathway
-  description: RubyMotion (iOS) custom scrolling experiments
+  fork: false
+  language: JavaScript
+- name: shed
+  full_name: sobstel/shed
+  html_url: https://github.com/sobstel/shed
+  description: PHP Dependency Injection container
+  fork: false
+  language: PHP
+- name: XReflect
+  full_name: sobstel/XReflect
+  html_url: https://github.com/sobstel/XReflect
+  description: Object Oriented PHP Reflection to XML (generator).
+  fork: false
+  language: PHP
