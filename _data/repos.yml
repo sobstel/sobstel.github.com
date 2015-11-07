@@ -28,3 +28,7 @@
   html_url: https://github.com/sobstel/scru.js
   description: Lightweight execution dependency manager (perfect for lazy loading
     with dependencies)
+- name: pathway
+  full_name: sobstel/pathway
+  html_url: https://github.com/sobstel/pathway
+  description: RubyMotion (iOS) custom scrolling experiments
