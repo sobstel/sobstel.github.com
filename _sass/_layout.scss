@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font: 400 15px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 300 15px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #000;
 }
 h1, h2, h3, h4 {
@@ -9,6 +9,11 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 1.4em;
   line-height: 1.2em;
+  font-weight: 500;
+}
+h1 strong {
+  font-weight: 500;
+  letter-spacing: -1px;
 }
 h1 a {
   border-bottom: none;
@@ -23,8 +28,8 @@ h2 a {
 h3 {
   font-size: 1.1em;
 }
-h2, h3 {
-  font-weight: bold;
+h2, h3, h4 {
+  font-weight: 500;
 }
 blockquote {
   border-left: 1px solid #A5ABAB;
@@ -49,7 +54,7 @@ ul, ol {
 li {
   margin-left: 1.5em;
   list-style: disc;
-  line-height: 1.7em;
+  line-height: 1.6em;
 }
 
 #content {
@@ -109,5 +114,14 @@ table.mysql-comparison-matrix td:first-child {
 }
 
 .self {
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.linkbar, .linkbar a {
+  font-size: 0.85rem;
+}
+
+.repo-list li {
+  margin-left: 0;
+  list-style: none;
 }

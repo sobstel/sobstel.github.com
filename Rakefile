@@ -67,7 +67,7 @@ task :import_gists do
   end.reverse.each do |gist|
     gists.unshift({
       'title' => gist["description"],
-      'utl' => gist["url"],
+      'url' => gist["html_url"],
       'created_at' => gist["created_at"]
     })
   end
@@ -79,9 +79,9 @@ task :import_gists do
 end
 
 task :import_github_contributions do
-  github_contributions = []
+  github_contributions = load_data("contribs")
 
-  (2010..Time.now.year).each do |year|
+  (2015..Time.now.year).each do |year|
     (1..12).each do |month|
       from = Date.new(year, month, 1).to_s
       to = Date.new(year, month, 1).next_month.prev_day.to_s

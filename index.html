@@ -8,16 +8,17 @@ layout: default
   Speaks <a href="http://programming-motherfucker.com/">programming</a>.
 </p>
 
-<p>
-  At this very moment cracking on with <a href="http://www.protipster.com/">Protipster</a> (betting tips from experts) for <a href="http://www.baytekin.info/">Baytekin Media</a>. Earlier worked for <a href="https://www.linkedin.com/in/sobstel">PERFORM, Global Sports Media and Crimson Oak</a>.
+<p class="linkbar">
+  <a href="https://github.com/sobstel/?tab=repositories">open source</a> ::
+  <a href="https://twitter.com/sobstel">thoughts</a> ::
+  <a href="http://stackoverflow.com/users/219272/sobstel">stackoverflow</a> ::
+  <a href="/blog/">posts</a> ::
+  <a href="/gists/">gists</a> ::
+  <a href="https://www.linkedin.com/in/sobstel">linkedin</a> ::
+  przemek&#64;sobstel.org
 </p>
 
-<p>
-  Contact: przemek&#64;sobstel.org.
-</p>
-
-<div>
-  <h2>open source <a href="https://github.com/sobstel">more at github...</a></h2>
+<div class="repo-list">
   <ul>
     {% for repo in site.data.repos %}
     <li><a href="{{ repo.html_url }}">{{ repo.name }}</a> - {{ repo.description }}</li>
@@ -31,11 +32,4 @@ layout: default
   </ul>
 </div>
 
-<div>
-  <h2>others</h2>
-  <ul class="blog-list">
-    <li><a href="https://twitter.com/sobstel">thoughts</a></li>
-    <li><a href="/blog/">posts</a></li>
-    <li><a href="/gists/">gists</a></li>
-  </ul>
-</div>
+

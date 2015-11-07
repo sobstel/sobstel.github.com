@@ -1,127 +1,127 @@
 ---
 - title: 'OS X: forward port 80 to 8080'
-  utl: https://api.github.com/gists/a51f7c181ef5be27175c
+  url: https://gist.github.com/a51f7c181ef5be27175c
   created_at: '2015-10-15T11:57:40Z'
 - title: Connecting to remote server local services via SSH tunnel
-  utl: https://api.github.com/gists/a0dec70a91f9d0f7c867
+  url: https://gist.github.com/a0dec70a91f9d0f7c867
   created_at: '2015-02-24T18:38:16Z'
 - title: Forwarding fluentd internal tag to loggly automatically
-  utl: https://api.github.com/gists/9bb797e46b1838797a8c
+  url: https://gist.github.com/9bb797e46b1838797a8c
   created_at: '2015-01-13T13:13:09Z'
 - title: Nginx PHP common configuration
-  utl: https://api.github.com/gists/2e9eb996c990f3d14adf
+  url: https://gist.github.com/2e9eb996c990f3d14adf
   created_at: '2014-08-15T06:47:40Z'
 - title: Convert CSV to SQL INSERT statements
-  utl: https://api.github.com/gists/448fe080a52286a8e7ec
+  url: https://gist.github.com/448fe080a52286a8e7ec
   created_at: '2014-06-24T14:57:21Z'
 - title: Converting from base-16 to base-36 number (with 128bit precision)
-  utl: https://api.github.com/gists/1ec99b45796f4e237154
+  url: https://gist.github.com/1ec99b45796f4e237154
   created_at: '2014-05-17T18:56:33Z'
 - title: Passing HTTP AUTH BASIC/DIGEST headers from Apache to PHP-FPM
-  utl: https://api.github.com/gists/9685406
+  url: https://gist.github.com/9685406
   created_at: '2014-03-21T12:46:28Z'
 - title: 'Centered block element with unknown width '
-  utl: https://api.github.com/gists/7616588
+  url: https://gist.github.com/7616588
   created_at: '2013-11-23T16:19:50Z'
 - title: Simple Librato client for PHP
-  utl: https://api.github.com/gists/6813174
+  url: https://gist.github.com/6813174
   created_at: '2013-10-03T16:59:48Z'
 - title: Non-blocking socket connection
-  utl: https://api.github.com/gists/6568526
+  url: https://gist.github.com/6568526
   created_at: '2013-09-15T06:41:14Z'
 - title: 'Remove multiple items in the Mac OSX (Lion) ‘Open With’ '
-  utl: https://api.github.com/gists/5477437
+  url: https://gist.github.com/5477437
   created_at: '2013-04-28T16:35:55Z'
 - title: preg_replace_callback with match counter
-  utl: https://api.github.com/gists/5358541
+  url: https://gist.github.com/5358541
   created_at: '2013-04-10T21:21:10Z'
 - title: Responsive embedded youtube video
-  utl: https://api.github.com/gists/5231484
+  url: https://gist.github.com/5231484
   created_at: '2013-03-24T11:22:10Z'
 - title: "$jsonp"
-  utl: https://api.github.com/gists/3938785
+  url: https://gist.github.com/3938785
   created_at: '2012-10-23T13:37:41Z'
 - title: homebrew formula for apache2 (2.4.3)
-  utl: https://api.github.com/gists/3886598
+  url: https://gist.github.com/3886598
   created_at: '2012-10-13T23:30:17Z'
 - title: 'Doctrine\Common\Cache\CacheProvider performance-aware adapter '
-  utl: https://api.github.com/gists/2686852
+  url: https://gist.github.com/2686852
   created_at: '2012-05-13T07:59:23Z'
 - title: Russian roulette ;-)
-  utl: https://api.github.com/gists/2000841
+  url: https://gist.github.com/2000841
   created_at: '2012-03-08T12:45:47Z'
 - title: Service task for Mac OS X
-  utl: https://api.github.com/gists/1772677
+  url: https://gist.github.com/1772677
   created_at: '2012-02-08T19:30:01Z'
 - title: Observer in JS
-  utl: https://api.github.com/gists/1769380
+  url: https://gist.github.com/1769380
   created_at: '2012-02-08T13:17:00Z'
 - title: Call class method via instance
-  utl: https://api.github.com/gists/1367629
+  url: https://gist.github.com/1367629
   created_at: '2011-11-15T17:08:45Z'
 - title: Codility demo test (Ruby)
-  utl: https://api.github.com/gists/1313873
+  url: https://gist.github.com/1313873
   created_at: '2011-10-25T19:05:15Z'
 - title: Codility demo test (PHP)
-  utl: https://api.github.com/gists/1313729
+  url: https://gist.github.com/1313729
   created_at: '2011-10-25T18:20:32Z'
 - title: 'Devise: find by username OR email'
-  utl: https://api.github.com/gists/1249314
+  url: https://gist.github.com/1249314
   created_at: '2011-09-28T21:30:32Z'
 - title: 'PHP: Converting DateTime between timezones'
-  utl: https://api.github.com/gists/1206722
+  url: https://gist.github.com/1206722
   created_at: '2011-09-09T16:52:32Z'
 - title: Regex look ahead and look behind
-  utl: https://api.github.com/gists/1042677
+  url: https://gist.github.com/1042677
   created_at: '2011-06-23T14:51:36Z'
 - title: Apache log analyzer
-  utl: https://api.github.com/gists/1021497
+  url: https://gist.github.com/1021497
   created_at: '2011-06-12T12:27:39Z'
 - title: PHP PDO grouping results
-  utl: https://api.github.com/gists/1001068
+  url: https://gist.github.com/1001068
   created_at: '2011-05-31T19:03:57Z'
 - title: Accessing private members of the same object type
-  utl: https://api.github.com/gists/976185
+  url: https://gist.github.com/976185
   created_at: '2011-05-17T09:11:52Z'
 - title: PHP new ternary operator gotcha
-  utl: https://api.github.com/gists/969179
+  url: https://gist.github.com/969179
   created_at: '2011-05-12T18:45:32Z'
 - title: MySQL fast data load
-  utl: https://api.github.com/gists/961414
+  url: https://gist.github.com/961414
   created_at: '2011-05-08T14:59:46Z'
 - title: 'Mac OS X: redirecting port 80 to actual http port'
-  utl: https://api.github.com/gists/919114
+  url: https://gist.github.com/919114
   created_at: '2011-04-14T08:15:51Z'
 - title: Clipped text in CSS
-  utl: https://api.github.com/gists/876466
+  url: https://gist.github.com/876466
   created_at: '2011-03-18T17:18:44Z'
 - title: 'mongoid: embedded document without object_id'
-  utl: https://api.github.com/gists/866182
+  url: https://gist.github.com/866182
   created_at: '2011-03-11T16:54:00Z'
 - title: "~/.mplayer/config (polish font in mplayer)"
-  utl: https://api.github.com/gists/855634
+  url: https://gist.github.com/855634
   created_at: '2011-03-04T20:17:42Z'
 - title: interpret_status in rails3
-  utl: https://api.github.com/gists/835382
+  url: https://gist.github.com/835382
   created_at: '2011-02-19T21:29:42Z'
 - title: hirb and wirble configuration
-  utl: https://api.github.com/gists/821275
+  url: https://gist.github.com/821275
   created_at: '2011-02-10T20:34:16Z'
 - title: Lazy assignment pattern
-  utl: https://api.github.com/gists/807459
+  url: https://gist.github.com/807459
   created_at: '2011-02-02T09:25:01Z'
 - title: 'PHP: function in method'
-  utl: https://api.github.com/gists/801098
+  url: https://gist.github.com/801098
   created_at: '2011-01-28T22:05:45Z'
 - title: will_paginate query with per_page working in rails3
-  utl: https://api.github.com/gists/789923
+  url: https://gist.github.com/789923
   created_at: '2011-01-21T16:27:55Z'
 - title: jQuery onload event for images
-  utl: https://api.github.com/gists/789615
+  url: https://gist.github.com/789615
   created_at: '2011-01-21T12:29:36Z'
 - title: Doctrine_Hydrator_FlatArray
-  utl: https://api.github.com/gists/740225
+  url: https://gist.github.com/740225
   created_at: '2010-12-14T10:05:34Z'
 - title: Doctrine2 EnumType
-  utl: https://api.github.com/gists/8c0c01597b5260f896ef
+  url: https://gist.github.com/8c0c01597b5260f896ef
   created_at: '2010-12-13T11:31:18Z'
