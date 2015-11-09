@@ -22,10 +22,11 @@ title: "Mac OS X: Tweaking 'Open With'"
 * Look for *CFBundleTypeExtensions* section and add `<string>ext</string>` line.
 * `killall Finder`
 
+<pre><code>/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -f /Applications/Name.app/
 
-    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -f /Applications/Name.app/
+killall Finder
+</code></pre>
 
-    killall Finder
 
 ### Set an app as the default option in "Open With"
 

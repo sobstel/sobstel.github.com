@@ -1,3 +1,33 @@
-{% include header.html %}
-{{ content }}
-{% include footer.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+</head>
+<body>
+<div id="content">
+  <h1>
+    <a href="/">sobstel</a> /
+    <strong>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</strong>
+  </h1>
+
+  {{ content }}
+
+  <p class="linkbar">
+    <!-- <a href="/work/">work</a> :: -->
+    <a href="/open-source/">open source</a> ::
+    <a href="/blog/">posts</a> ::
+    <a href="/gists/">gists</a> ::
+    <a href="https://github.com/sobstel/?tab=repositories">github</a> ::
+    <a href="http://stackoverflow.com/users/219272/sobstel">stackoverflow</a> ::
+    <a href="https://twitter.com/sobstel">twitter</a> ::
+    <a href="https://www.linkedin.com/in/sobstel">linkedin</a> ::
+    przemek&#64;sobstel.org
+  </p>
+</div>
+</body>
+</html>
