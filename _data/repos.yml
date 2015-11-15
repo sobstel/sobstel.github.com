@@ -1,16 +1,28 @@
 ---
-- name: metaphore
-  full_name: sobstel/metaphore
-  html_url: https://github.com/sobstel/metaphore
-  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
+- name: golazon
+  full_name: sobstel/golazon
+  html_url: https://github.com/sobstel/golazon
+  description: simple football rails app. ABANDONED
   fork: false
-  language: PHP
+  language: Ruby
+- name: golazon.com
+  full_name: sobstel/golazon.com
+  html_url: https://github.com/sobstel/golazon.com
+  description: ''
+  fork: false
+  language: HTML
 - name: sobstel.github.com
   full_name: sobstel/sobstel.github.com
   html_url: https://github.com/sobstel/sobstel.github.com
   description: sobstel.org
   fork: false
   language: HTML
+- name: metaphore
+  full_name: sobstel/metaphore
+  html_url: https://github.com/sobstel/metaphore
+  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
+  fork: false
+  language: PHP
 - name: pathway
   full_name: sobstel/pathway
   html_url: https://github.com/sobstel/pathway
@@ -44,7 +56,7 @@
 - name: developer.golazon
   full_name: sobstel/developer.golazon
   html_url: https://github.com/sobstel/developer.golazon
-  description: abandoned
+  description: TipIt's Slate soccer API/schema doc. ABANDONED
   fork: false
   language: CSS
 - name: jsondocr
