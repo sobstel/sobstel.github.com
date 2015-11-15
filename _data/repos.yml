@@ -1,16 +1,16 @@
 ---
-- name: sobstel.github.com
-  full_name: sobstel/sobstel.github.com
-  html_url: https://github.com/sobstel/sobstel.github.com
-  description: sobstel.org
-  fork: false
-  language: HTML
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
   description: PHP cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
   language: PHP
+- name: sobstel.github.com
+  full_name: sobstel/sobstel.github.com
+  html_url: https://github.com/sobstel/sobstel.github.com
+  description: sobstel.org
+  fork: false
+  language: HTML
 - name: pathway
   full_name: sobstel/pathway
   html_url: https://github.com/sobstel/pathway
@@ -41,6 +41,12 @@
   description: not-really-ORM [ON HOLD]
   fork: false
   language: PHP
+- name: developer.golazon
+  full_name: sobstel/developer.golazon
+  html_url: https://github.com/sobstel/developer.golazon
+  description: abandoned
+  fork: false
+  language: CSS
 - name: jsondocr
   full_name: sobstel/jsondocr
   html_url: https://github.com/sobstel/jsondocr
