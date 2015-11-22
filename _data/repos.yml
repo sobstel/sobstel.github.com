@@ -1,20 +1,27 @@
 ---
-- name: golazon
-  full_name: sobstel/golazon
-  html_url: https://github.com/sobstel/golazon
-  description: simple football rails app. ABANDONED
+- name: sobstel.github.com
+  full_name: sobstel/sobstel.github.com
+  html_url: https://github.com/sobstel/sobstel.github.com
+  description: ''
+  fork: false
+  language: HTML
+- name: albicelestes.com
+  full_name: sobstel/albicelestes.com
+  html_url: https://github.com/sobstel/albicelestes.com
+  description: ":soccer: :sun_with_face:"
+  fork: false
+  language: CSS
+- name: golazon.universo
+  full_name: sobstel/golazon.universo
+  html_url: https://github.com/sobstel/golazon.universo
+  description: a bunch unfinished/abandoned football-related projects (ruby, rails,
+    mongodb, nanoc, slate)
   fork: false
   language: Ruby
 - name: golazon.com
   full_name: sobstel/golazon.com
   html_url: https://github.com/sobstel/golazon.com
   description: ''
-  fork: false
-  language: HTML
-- name: sobstel.github.com
-  full_name: sobstel/sobstel.github.com
-  html_url: https://github.com/sobstel/sobstel.github.com
-  description: sobstel.org
   fork: false
   language: HTML
 - name: metaphore
@@ -53,12 +60,6 @@
   description: not-really-ORM [ON HOLD]
   fork: false
   language: PHP
-- name: developer.golazon
-  full_name: sobstel/developer.golazon
-  html_url: https://github.com/sobstel/developer.golazon
-  description: TipIt's Slate soccer API/schema doc. ABANDONED
-  fork: false
-  language: CSS
 - name: jsondocr
   full_name: sobstel/jsondocr
   html_url: https://github.com/sobstel/jsondocr
