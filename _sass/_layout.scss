@@ -1,6 +1,6 @@
 body {
-  background: #fff;
-  font: 300 15px/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: #f9f9f9;
+  font: 300 15px/1.5 Inconsolata, monospace;
   color: #000;
 }
 #content {
@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 .self {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h1, h2, h3, h4 {
@@ -25,7 +25,7 @@ h1 {
   text-transform: lowercase;
 }
 h1 strong {
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -1px;
 
   a {
@@ -44,7 +44,7 @@ h3 {
   font-size: 1.1em;
 }
 h2, h3, h4 {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .linkbar {
@@ -92,18 +92,17 @@ blockquote {
 }
 
 pre {
-  font-family: Monaco, monospace;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: #444;
   border-left: 5px solid #ccc;
   padding: 0.5em 1em;
   background: #efefef;
-
-  code {
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    color: #444;
-  }
+}
+code {
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  color: #444;
 }
 
 table, table th, table td {
