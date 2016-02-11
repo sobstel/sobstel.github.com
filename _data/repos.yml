@@ -1,16 +1,23 @@
 ---
+- name: SyncedSideBar
+  full_name: sobstel/SyncedSideBar
+  html_url: https://github.com/sobstel/SyncedSideBar
+  description: Sublime Text 2 plugin to sync project sidebar (folder view) with currently
+    active file.
+  fork: false
+  language: Python
+- name: albicelestes.com
+  full_name: sobstel/albicelestes.com
+  html_url: https://github.com/sobstel/albicelestes.com
+  description: ":soccer: :sun_with_face:"
+  fork: false
+  language: Ruby
 - name: sobstel.github.com
   full_name: sobstel/sobstel.github.com
   html_url: https://github.com/sobstel/sobstel.github.com
   description: ''
   fork: false
   language: HTML
-- name: albicelestes.com
-  full_name: sobstel/albicelestes.com
-  html_url: https://github.com/sobstel/albicelestes.com
-  description: ":soccer: :sun_with_face:"
-  fork: false
-  language: CSS
 - name: golazon.universo
   full_name: sobstel/golazon.universo
   html_url: https://github.com/sobstel/golazon.universo
@@ -72,13 +79,6 @@
   description: PHP asynchronous non-blocking HTTP requests.
   fork: false
   language: PHP
-- name: SyncedSideBar
-  full_name: sobstel/SyncedSideBar
-  html_url: https://github.com/sobstel/SyncedSideBar
-  description: Sublime Text 2 plugin to sync project sidebar (folder view) with currently
-    active file.
-  fork: false
-  language: Python
 - name: Imaged
   full_name: sobstel/Imaged
   html_url: https://github.com/sobstel/Imaged
