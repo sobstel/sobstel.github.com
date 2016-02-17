@@ -6,12 +6,12 @@ Data types
 ----------
 
 * Use small data types...
-** eg. `VARCHAR(20)` and not `VARCHAR(255)`` or `SMALLINT` and not `BIGINT`
-** ...so more records fit in a single page of memory. Faster seeks and scans.
+  * eg. `VARCHAR(20)` and not `VARCHAR(255)`` or `SMALLINT` and not `BIGINT`
+  * ...so more records fit in a single page of memory. Faster seeks and scans.
 * Use appropriate data types...
-** `INT UNSIGNED` for IP addresses
-** Avoid `TEXT` and `BLOB`. Consider separate tables or use the filesystem.
-*** They result in using a disk. Slow.
+    * `INT UNSIGNED` for IP addresses
+    * Avoid `TEXT` and `BLOB`. Consider separate tables or use the filesystem.
+        * They result in using a disk. Slow.
 
 Indexes
 -------
@@ -65,3 +65,8 @@ Configuration
 * examine `Qcache_hits`/`Questions` for the query cache hit ratio
 * ensure `Qcache_lowmem_prunes` is low
 * ensure `Qcache_free_blocks = 1`, if not `FLUSH QUERY CACHE`
+
+Tools
+-----
+
+* [EXPLAIN cheatsheet (pdf)](https://www.pythian.com/blog/wp-content/uploads/explain-diagram1.pdf)
