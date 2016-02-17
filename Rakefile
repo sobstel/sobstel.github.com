@@ -16,6 +16,7 @@ def load_data(name)
   YAML.load_file(file)
 end
 
+desc "Publish live"
 task :publish, :message do |t, args|
   args.with_defaults :message => Time.now.rfc2822
   message = args[:message]
@@ -29,6 +30,7 @@ task :publish, :message do |t, args|
   sh "git push"
 end
 
+desc "Import GitHub repos"
 task :import_github_repos do
   url = sprintf("https://api.github.com/users/%s/repos", "sobstel")
   puts "fetch from #{url}"
@@ -50,6 +52,7 @@ task :import_github_repos do
   save_data("forks", forks)
 end
 
+desc "Import GitHub gists"
 task :import_gists do
   gists = load_data("gists")
   meta = load_data("meta")
@@ -78,6 +81,7 @@ task :import_gists do
   save_data("meta", meta)
 end
 
+desc "Import GitHub contributions"
 task :import_github_contributions do
   github_contributions = load_data("contribs")
 

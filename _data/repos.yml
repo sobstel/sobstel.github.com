@@ -1,4 +1,10 @@
 ---
+- name: sobstel.github.com
+  full_name: sobstel/sobstel.github.com
+  html_url: https://github.com/sobstel/sobstel.github.com
+  description: ''
+  fork: false
+  language: HTML
 - name: SyncedSideBar
   full_name: sobstel/SyncedSideBar
   html_url: https://github.com/sobstel/SyncedSideBar
@@ -12,12 +18,6 @@
   description: ":soccer: :sun_with_face:"
   fork: false
   language: Ruby
-- name: sobstel.github.com
-  full_name: sobstel/sobstel.github.com
-  html_url: https://github.com/sobstel/sobstel.github.com
-  description: ''
-  fork: false
-  language: HTML
 - name: golazon.universo
   full_name: sobstel/golazon.universo
   html_url: https://github.com/sobstel/golazon.universo
@@ -25,12 +25,6 @@
     mongodb, nanoc, slate)
   fork: false
   language: Ruby
-- name: golazon.com
-  full_name: sobstel/golazon.com
-  html_url: https://github.com/sobstel/golazon.com
-  description: ''
-  fork: false
-  language: HTML
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
