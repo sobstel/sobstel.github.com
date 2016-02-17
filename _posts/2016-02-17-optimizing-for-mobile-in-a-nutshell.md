@@ -14,9 +14,8 @@ Solution
 * Reduce page weight
 * Reduce the number of requests
 * Optimize when content is loaded (so website is usable more quickly)
-* Optimize JS performance
 
-namely...
+Namely...
 
 * Enable mod_gzip or mod_deflate to compress files
 * Make sure assets are cached by the browser
@@ -28,6 +27,8 @@ namely...
 * Embed small images and fonts using the Data URI scheme
 * User localStorage as a browser cache (when it makes sense)
 * Drop big frameworks (only when you know what you're doing)
+
+That's not all, but that's a good start ;-)
 
 Tools
 -----
