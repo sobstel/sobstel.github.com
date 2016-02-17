@@ -6,7 +6,7 @@ SELECTs
 -------
 
 * Select only what you need. Avoid `SELECT *`.
-  ** More columns, less fit into a memory, bigger probability it'll be dumped to disk. Slow.
+  * More columns, less fit into a memory, bigger probability it'll be dumped to disk. Slow.
 * Know [access strategies](http://joinfu.com/presentations/target-practice/target-practice-workbook.pdf)
 
 EXPLAIN
