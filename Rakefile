@@ -1,9 +1,12 @@
+# encoding: UTF-8
+
 require "json"
 require "openssl"
 require "open-uri"
 require "yaml"
 require "time"
 require "nokogiri"
+require "quotey"
 
 def save_data(name, object)
   file = "_data/#{name}.yml"
@@ -18,7 +21,7 @@ end
 
 desc "Publish live"
 task :publish, :message do |t, args|
-  args.with_defaults :message => Time.now.rfc2822
+  args.with_defaults :message => Quotey::Quoter.new.get_quote.gsub('"', '')
   message = args[:message]
 
   task(:import_github_repos).execute
