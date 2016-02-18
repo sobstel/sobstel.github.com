@@ -49,6 +49,12 @@
   description: ''
   fork: false
   language: VimL
+- name: skeptic
+  full_name: sobstel/skeptic
+  html_url: https://github.com/sobstel/skeptic
+  description: Minimalist non-ORM (PHP)
+  fork: false
+  language: 
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin

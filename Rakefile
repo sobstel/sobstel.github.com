@@ -38,9 +38,7 @@ task :import_github_repos do
   url = sprintf("https://api.github.com/users/%s/repos", "sobstel")
   puts "fetch from #{url}"
 
-  all_repos = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).reject do |repo|
-    ["skeptic"].include? repo["name"]
-  end.sort_by do |repo|
+  all_repos = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).sort_by do |repo|
     repo["pushed_at"]
   end.collect do |repo|
     repo.select do |key, value|
