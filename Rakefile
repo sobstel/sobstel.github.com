@@ -1,5 +1,3 @@
-# encoding: UTF-8
-
 require "json"
 require "openssl"
 require "open-uri"
@@ -21,7 +19,7 @@ end
 
 desc "Publish live"
 task :publish, :message do |t, args|
-  args.with_defaults :message => Quotey::Quoter.new.get_quote.gsub('"', '')
+  args.with_defaults :message => Quotey::Quoter.new.get_quote.encode('UTF-8').gsub('"', '')
   message = args[:message]
 
   task(:import_github_repos).execute
