@@ -1,4 +1,16 @@
 ---
+- name: albicelestes
+  full_name: sobstel/albicelestes
+  html_url: https://github.com/sobstel/albicelestes
+  description: ":soccer: :sun_with_face:"
+  fork: false
+  language: CSS
+- name: jsonp.js
+  full_name: sobstel/jsonp.js
+  html_url: https://github.com/sobstel/jsonp.js
+  description: Lightweight JSONP library for cross-domain ajax calls.
+  fork: false
+  language: JavaScript
 - name: sobstel.github.com
   full_name: sobstel/sobstel.github.com
   html_url: https://github.com/sobstel/sobstel.github.com
@@ -12,12 +24,6 @@
     active file.
   fork: false
   language: Python
-- name: albicelestes.com
-  full_name: sobstel/albicelestes.com
-  html_url: https://github.com/sobstel/albicelestes.com
-  description: ":soccer: :sun_with_face:"
-  fork: false
-  language: Ruby
 - name: golazon.universo
   full_name: sobstel/golazon.universo
   html_url: https://github.com/sobstel/golazon.universo
@@ -37,12 +43,6 @@
   description: RubyMotion (iOS) custom scrolling experiments
   fork: false
   language: Ruby
-- name: jsonp.js
-  full_name: sobstel/jsonp.js
-  html_url: https://github.com/sobstel/jsonp.js
-  description: Lightweight JSONP library for cross-domain ajax calls.
-  fork: false
-  language: JavaScript
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles

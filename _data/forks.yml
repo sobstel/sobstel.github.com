@@ -1,4 +1,10 @@
 ---
+- name: Varnish-Cache
+  full_name: sobstel/Varnish-Cache
+  html_url: https://github.com/sobstel/Varnish-Cache
+  description: Varnish Cache github mirror
+  fork: true
+  language: C
 - name: Carpet.js
   full_name: sobstel/Carpet.js
   html_url: https://github.com/sobstel/Carpet.js
