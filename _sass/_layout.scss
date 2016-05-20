@@ -232,3 +232,25 @@ table {
     }
   }
 }
+
+#xteam {
+  article {
+    border-top: 1px dotted #ccc;
+    padding: 1em 0;
+
+    &:last-child {
+      border-bottom: 1px dotted #ccc;
+    }
+  }
+  header {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-weight: 500;
+    text-transform: none;
+  }
+  img {
+    max-width: 100%;
+  }
+}
