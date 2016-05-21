@@ -130,6 +130,10 @@ permalink: /xteam/
       Working software and small number of regression bugs. That's what matters. Clients don't care about code coverage.
     </li>
     <li>
+      Common mistake is to test method body instead of its return value. Actually you should be able to do refactoring without rewriting your tests.
+      Not possible if tests just replicate what method does.
+    </li>
+    <li>
       Long running tests. More tests, longer time to run, slower time to deploy to production.
       There are no tests ever that will cover all fail scenarios. Bugs will always happen. It's important to be able to hotfix and release them quickly.
       Not that it should happen often of course ;-)
