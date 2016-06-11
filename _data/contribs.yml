@@ -1,7 +1,8 @@
 ---
-- gsmlabs/LSDCache
-- beberlei/DoctrineExtensions
-- doctrine/common
-- djl/homebrew-apache2
-- Seldaek/monolog
+- TheSpyder/SyncedSideBar
 - auraphp/Aura.Marshal
+- Seldaek/monolog
+- djl/homebrew-apache2
+- doctrine/common
+- beberlei/DoctrineExtensions
+- gsmlabs/LSDCache

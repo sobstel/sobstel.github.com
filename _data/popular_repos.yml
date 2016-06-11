@@ -1,0 +1,34 @@
+---
+- name: jsonp.js
+  full_name: sobstel/jsonp.js
+  html_url: https://github.com/sobstel/jsonp.js
+  description: Lightweight JSONP library for cross-domain ajax calls.
+  fork: false
+  stargazers_count: 19
+  languages:
+    JavaScript: 873
+- name: metaphore
+  full_name: sobstel/metaphore
+  html_url: https://github.com/sobstel/metaphore
+  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
+  fork: false
+  stargazers_count: 62
+  languages:
+    PHP: 28855
+- name: sesshin
+  full_name: sobstel/sesshin
+  html_url: https://github.com/sobstel/sesshin
+  description: PHP secure advanced session manager.
+  fork: false
+  stargazers_count: 26
+  languages:
+    PHP: 46340
+    Shell: 308
+- name: AsyncHTTP
+  full_name: sobstel/AsyncHTTP
+  html_url: https://github.com/sobstel/AsyncHTTP
+  description: PHP asynchronous non-blocking HTTP requests.
+  fork: false
+  stargazers_count: 4
+  languages:
+    PHP: 15280

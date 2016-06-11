@@ -1,136 +1,155 @@
 ---
+- name: xentry
+  full_name: sobstel/xentry
+  html_url: https://github.com/sobstel/xentry
+  description: laravel vs rails playground
+  fork: false
+  stargazers_count: 0
+  languages:
+    PHP: 99215
+    Ruby: 30602
+    HTML: 12868
+    JavaScript: 1164
+    CSS: 862
+    ApacheConf: 553
+    CoffeeScript: 211
 - name: albicelestes
   full_name: sobstel/albicelestes
   html_url: https://github.com/sobstel/albicelestes
   description: ":soccer: :sun_with_face:"
   fork: false
-  language: CSS
-- name: jsonp.js
-  full_name: sobstel/jsonp.js
-  html_url: https://github.com/sobstel/jsonp.js
-  description: Lightweight JSONP library for cross-domain ajax calls.
+  stargazers_count: 0
+  languages:
+    CSS: 197025
+    HTML: 22180
+    Ruby: 3949
+    JavaScript: 1285
+    CoffeeScript: 84
+- name: jsondocr
+  full_name: sobstel/jsondocr
+  html_url: https://github.com/sobstel/jsondocr
+  description: DSL for documenting JSON structure
   fork: false
-  language: JavaScript
-- name: sobstel.github.com
-  full_name: sobstel/sobstel.github.com
-  html_url: https://github.com/sobstel/sobstel.github.com
-  description: ''
+  stargazers_count: 0
+  languages:
+    Ruby: 8838
+- name: agnostic
+  full_name: sobstel/agnostic
+  html_url: https://github.com/sobstel/agnostic
+  description: not-really-ORM [ON HOLD]
   fork: false
-  language: HTML
-- name: SyncedSideBar
-  full_name: sobstel/SyncedSideBar
-  html_url: https://github.com/sobstel/SyncedSideBar
-  description: Sublime Text 2 plugin to sync project sidebar (folder view) with currently
-    active file.
-  fork: false
-  language: Python
+  stargazers_count: 2
+  languages:
+    PHP: 34482
 - name: golazon.universo
   full_name: sobstel/golazon.universo
   html_url: https://github.com/sobstel/golazon.universo
   description: a bunch unfinished/abandoned football-related projects (ruby, rails,
     mongodb, nanoc, slate)
   fork: false
-  language: Ruby
-- name: metaphore
-  full_name: sobstel/metaphore
-  html_url: https://github.com/sobstel/metaphore
-  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
-  fork: false
-  language: PHP
+  stargazers_count: 0
+  languages:
+    Ruby: 53019
+    HTML: 35722
+    CSS: 26812
+    JavaScript: 838
+    CoffeeScript: 422
+    Shell: 302
+    PHP: 50
 - name: pathway
   full_name: sobstel/pathway
   html_url: https://github.com/sobstel/pathway
   description: RubyMotion (iOS) custom scrolling experiments
   fork: false
-  language: Ruby
+  stargazers_count: 0
+  languages:
+    Ruby: 7338
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles
   description: ''
   fork: false
-  language: VimL
+  stargazers_count: 0
+  languages:
+    VimL: 462995
+    Shell: 3262
+    Ruby: 936
 - name: skeptic
   full_name: sobstel/skeptic
   html_url: https://github.com/sobstel/skeptic
   description: Minimalist non-ORM (PHP)
   fork: false
-  language: 
-- name: sesshin
-  full_name: sobstel/sesshin
-  html_url: https://github.com/sobstel/sesshin
-  description: PHP secure advanced session manager.
-  fork: false
-  language: PHP
-- name: agnostic
-  full_name: sobstel/agnostic
-  html_url: https://github.com/sobstel/agnostic
-  description: not-really-ORM [ON HOLD]
-  fork: false
-  language: PHP
-- name: jsondocr
-  full_name: sobstel/jsondocr
-  html_url: https://github.com/sobstel/jsondocr
-  description: DSL for documenting JSON structure
-  fork: false
-  language: Ruby
-- name: AsyncHTTP
-  full_name: sobstel/AsyncHTTP
-  html_url: https://github.com/sobstel/AsyncHTTP
-  description: PHP asynchronous non-blocking HTTP requests.
-  fork: false
-  language: PHP
+  stargazers_count: 0
+  languages: {}
 - name: Imaged
   full_name: sobstel/Imaged
   html_url: https://github.com/sobstel/Imaged
   description: Image mainpulation lib. Object-oriented wrapper for PHP GD2 library.
   fork: false
-  language: PHP
+  stargazers_count: 2
+  languages:
+    PHP: 17314
 - name: elicorege
   full_name: sobstel/elicorege
   html_url: https://github.com/sobstel/elicorege
   description: Extremely lightweight (PHP) Composer repository generator.
   fork: false
-  language: PHP
+  stargazers_count: 0
+  languages:
+    PHP: 6683
 - name: theraventhatrefusedtosing
   full_name: sobstel/theraventhatrefusedtosing
   html_url: https://github.com/sobstel/theraventhatrefusedtosing
   description: ''
   fork: false
-  language: 
+  stargazers_count: 0
+  languages: {}
 - name: Execution
   full_name: sobstel/Execution
   html_url: https://github.com/sobstel/Execution
   description: PHP class to handle unrecoverable fatal errors. (use Monolog instead)
   fork: false
-  language: PHP
+  stargazers_count: 2
+  languages:
+    PHP: 5570
 - name: komixin
   full_name: sobstel/komixin
   html_url: https://github.com/sobstel/komixin
   description: ''
   fork: false
-  language: Ruby
+  stargazers_count: 0
+  languages:
+    Ruby: 23103
 - name: emolRTE
   full_name: sobstel/emolRTE
   html_url: https://github.com/sobstel/emolRTE
   description: Unbloated Rich Text Editor for jQuery.
   fork: false
-  language: JavaScript
+  stargazers_count: 2
+  languages:
+    JavaScript: 6566
 - name: scru.js
   full_name: sobstel/scru.js
   html_url: https://github.com/sobstel/scru.js
   description: Lightweight execution dependency manager (perfect for lazy loading
     with dependencies)
   fork: false
-  language: JavaScript
+  stargazers_count: 1
+  languages:
+    JavaScript: 5255
 - name: shed
   full_name: sobstel/shed
   html_url: https://github.com/sobstel/shed
   description: PHP Dependency Injection container
   fork: false
-  language: PHP
+  stargazers_count: 1
+  languages:
+    PHP: 11308
 - name: XReflect
   full_name: sobstel/XReflect
   html_url: https://github.com/sobstel/XReflect
   description: Object Oriented PHP Reflection to XML (generator).
   fork: false
-  language: PHP
+  stargazers_count: 1
+  languages:
+    PHP: 22276

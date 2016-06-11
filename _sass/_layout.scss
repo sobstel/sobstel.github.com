@@ -1,3 +1,5 @@
+$link-color: #3072b3;
+
 body {
   background: #fcfcfc;
   font: 300 15px/1.5 Inconsolata, monospace;
@@ -60,7 +62,7 @@ h2, h3, h4 {
 
 a {
   text-decoration: none;
-  color: #3072b3;
+  color: $link-color;
 
   &:hover {
     text-decoration: underline;
@@ -128,6 +130,37 @@ table {
   }
   &.mysql-comparison-matrix td:first-child {
     background: #eee;
+  }
+}
+
+#open-source {
+  .hidden {
+    display: none;
+  }
+
+  .lang-picker {
+    li {
+      cursor: pointer;
+      color: $link-color;
+      list-style-type: none;
+      display: inline-block;
+      margin-left: 0;
+
+      &.active {
+        color: #000;
+        font-weight: 900;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  .langs {
+    display: block;
+    font-size: 0.8rem;
   }
 }
 

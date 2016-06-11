@@ -4,27 +4,40 @@ title: Open source
 permalink: /open-source/
 ---
 
-<h2>repositories</h2>
-<ul>
-  {% for repo in site.data.repos %}
+<section id="open-source">
+
+<nav class="lang-picker hidden">
+  <ul>
+    <li class="active">all</li>
+    <li>php</li>
+    <li>ruby</li>
+    <li>javascript</li>
+  </ul>
+</nav>
+
+<h2>popular repos</h2>
+<ul class="filterable">
+  {% for repo in site.data.popular_repos %}
   <li>
-    <a href="{{ repo.html_url }}">{{ repo.name }}</a>
-    {% if repo.description.size > 0 %}
-      - {{ repo.description }}
-    {% endif %}
-    {% if repo.language %}
-      <em>[{{ repo.language }}]</em>
-    {% endif %}
+    {% include repo-item.html repo=repo %}
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>other repos</h2>
+<ul class="filterable">
+  {% for repo in site.data.other_repos %}
+  <li>
+    {% include repo-item.html repo=repo %}
   </li>
   {% endfor %}
 </ul>
 
 <h2>forks</h2>
-<ul>
+<ul class="filterable">
   {% for fork in site.data.forks %}
   <li>
-    <a href="{{ fork.html_url }}">{{ fork.name }}</a>
-    {% if fork.description %} - {{ fork.description }}{% endif %}
+    {% include repo-item.html repo=fork %}
   </li>
   {% endfor %}
 </ul>
@@ -37,3 +50,37 @@ permalink: /open-source/
   </li>
   {% endfor %}
 </ul>
+
+</section>
+
+<script>
+  (function(document) {
+    var root = document.getElementById('open-source');
+    var lang_picker = root.getElementsByClassName('lang-picker')[0];
+
+    [].forEach.call(lang_picker.getElementsByTagName('li'), function(filterEl) {
+      var filterText = filterEl.innerText.toLowerCase();
+
+      filterEl.addEventListener('click', function(event) {
+        var activeEl = lang_picker.getElementsByClassName('active')[0];
+        activeEl.className = '';
+
+        var clickedEl = event.target;
+        clickedEl.className = 'active';
+
+        [].forEach.call(root.getElementsByClassName('filterable'), function(parent) {
+          [].forEach.call(parent.children, function(el) {
+              if (el.innerText.toLowerCase().indexOf(filterText) >= 0 || filterText == 'all') {
+                el.className = '';
+              } else {
+                el.className = 'hidden';
+              }
+          });
+        });
+      });
+    });
+
+    lang_picker.className = lang_picker.className.replace('hidden', '');
+
+  })(document);
+</script>

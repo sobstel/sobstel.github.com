@@ -1,32 +1,55 @@
 ---
-- name: Varnish-Cache
-  full_name: sobstel/Varnish-Cache
-  html_url: https://github.com/sobstel/Varnish-Cache
-  description: Varnish Cache github mirror
+- name: package_control_channel
+  full_name: sobstel/package_control_channel
+  html_url: https://github.com/sobstel/package_control_channel
+  description: 'Default channel file for Package Control. Follow the directions at:'
   fork: true
-  language: C
+  stargazers_count: 0
+  languages:
+    Python: 69231
 - name: Carpet.js
   full_name: sobstel/Carpet.js
   html_url: https://github.com/sobstel/Carpet.js
   description: A simple DOM-module JavaScript framework
   fork: true
-  language: JavaScript
+  stargazers_count: 0
+  languages:
+    JavaScript: 147032
+    HTML: 705
+- name: Varnish-Cache
+  full_name: sobstel/Varnish-Cache
+  html_url: https://github.com/sobstel/Varnish-Cache
+  description: Varnish Cache github mirror
+  fork: true
+  stargazers_count: 0
+  languages:
+    C: 1923315
+    C++: 58935
+    Python: 57775
+    Perl: 12606
+    Shell: 11535
+    Groff: 6078
 - name: Aura.Marshal
   full_name: sobstel/Aura.Marshal
   html_url: https://github.com/sobstel/Aura.Marshal
   description: A data-marshaling toolset
   fork: true
-  language: PHP
+  stargazers_count: 0
+  languages:
+    PHP: 118153
 - name: Underscore.php
   full_name: sobstel/Underscore.php
   html_url: https://github.com/sobstel/Underscore.php
   description: PHP port of Underscore.js
   fork: true
-  language: PHP
+  stargazers_count: 0
+  languages:
+    PHP: 113801
 - name: LSDCache
   full_name: sobstel/LSDCache
   html_url: https://github.com/sobstel/LSDCache
   description: LSD Slam Defence - cache lib with semaphore implementation using many
     storages (Memcache, APC, Array)
   fork: true
-  language: PHP
+  stargazers_count: 0
+  languages: {}

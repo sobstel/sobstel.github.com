@@ -17,6 +17,14 @@ def load_data(name)
   YAML.load_file(file)
 end
 
+def fetch(url)
+  params = {
+    http_basic_authentication: ['sobstel', '486e5d6a8f22b65aac97f271262b7bec9a788979'],
+    ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE
+  }
+  open(url, params).read
+end
+
 desc "Publish live"
 task :publish, :message do |t, args|
   args.with_defaults :message => Quotey::Quoter.new.get_quote.encode('UTF-8').gsub('"', '')
@@ -36,18 +44,22 @@ task :import_github_repos do
   url = sprintf("https://api.github.com/users/%s/repos", "sobstel")
   puts "fetch from #{url}"
 
-  all_repos = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).sort_by do |repo|
+  all_repos = JSON.parse(fetch(url)).sort_by do |repo|
     repo["pushed_at"]
   end.collect do |repo|
+    puts "- fetch languages from #{repo["languages_url"]}"
+    repo.merge({ "languages" => JSON.parse(fetch(repo["languages_url"])) })
+  end.collect do |repo|
     repo.select do |key, value|
-      ["name", "full_name", "description", "html_url", "fork", "language"].include? key
+      ["name", "full_name", "description", "html_url", "fork", "languages", "stargazers_count"].include? key
     end
   end.reverse
 
-  repos = all_repos.reject { |repo| repo["fork"] }
-  forks = all_repos.select { |repo| repo["fork"] }
+  repos, forks = all_repos.partition { |repo| !repo['fork'] }
+  popular_repos, other_repos = repos.partition { |repo| repo['stargazers_count'] >= 4 }
 
-  save_data("repos", repos)
+  save_data("popular_repos", popular_repos)
+  save_data("other_repos", other_repos)
   save_data("forks", forks)
 end
 
@@ -60,7 +72,7 @@ task :import_gists do
   url = sprintf("https://api.github.com/users/%s/gists?since=%s", "sobstel", URI::encode(since))
   puts "fetch from #{url}"
 
-  new_gists = JSON.parse(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read).reject do |gist|
+  new_gists = JSON.parse(fetch(url)).reject do |gist|
     gist["public"] === false
   end
 
@@ -84,7 +96,7 @@ desc "Import GitHub contributions"
 task :import_github_contributions do
   github_contributions = load_data("contribs")
 
-  (2015..Time.now.year).each do |year|
+  (2016..Time.now.year).each do |year|
     (1..12).each do |month|
       from = Date.new(year, month, 1).to_s
       to = Date.new(year, month, 1).next_month.prev_day.to_s
@@ -92,7 +104,7 @@ task :import_github_contributions do
       url = sprintf("https://github.com/%s?tab=contributions&from=%s&to=%s", "sobstel", from, to)
       puts "fetch from #{url}"
 
-      html_doc = Nokogiri::HTML(open(url, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}).read)
+      html_doc = Nokogiri::HTML(fetch(url))
       contributions = html_doc.css(".contribution-activity-listing .title")
 
       contributions.each do |contribution|
@@ -109,10 +121,15 @@ task :import_github_contributions do
 
         github_contributions << repo unless excluded_vendors.include?(vendor)
       end
+
+      sleep(2)
     end
+
+    sleep(5)
   end
 
-  github_contributions.uniq!.reverse!
+  github_contributions.uniq!
+  github_contributions.reverse!
 
   save_data("contribs", github_contributions)
 end
