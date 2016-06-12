@@ -12,12 +12,6 @@ body {
   padding: 0.5em;
   overflow: hidden;
 }
-.self {
-  font-weight: 700;
-}
-.highlights {
-  font-size: 0.9em;
-}
 
 h1, h2, h3, h4 {
   margin: 1em 0 0.8em;
@@ -148,7 +142,7 @@ table {
 
       &.active {
         color: #000;
-        font-weight: 900;
+        font-weight: 700;
       }
 
       &:hover {
