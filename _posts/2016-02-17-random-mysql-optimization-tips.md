@@ -65,7 +65,7 @@ Partitioning
   * When extra columns are mostly NULL
   * When extra columns are infrequently used
   * Need FULLTEXT on your text columns
-* Hortizontal (split table with many rows into multiple tables)
+* Horizontal (split table with many rows into multiple tables)
   * Sharding?
 
 Configuration
@@ -73,7 +73,7 @@ Configuration
 
 * `long_query_time` and `log-slow-queries` to determine if you need to
    optimize in a first place
-* `table_open_cache` - numbe of simultaneously open file descriptors
+* `table_open_cache` - number of simultaneously open file descriptors
   (more joins, higher it should be)
 * `max_heap_table_size` / `tmp_table_size`
   * increase them when `Created_tmp_disk_tables` counter increases dramatically

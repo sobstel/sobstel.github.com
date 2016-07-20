@@ -6,17 +6,8 @@ permalink: /open-source/
 
 <section id="open-source">
 
-<nav class="lang-picker hidden">
-  <ul>
-    <li class="active">all</li>
-    <li>php</li>
-    <li>ruby</li>
-    <li>javascript</li>
-  </ul>
-</nav>
-
 <h2>popular repos</h2>
-<ul class="filterable">
+<ul>
   {% for repo in site.data.popular_repos %}
   <li>
     {% include repo-item.html repo=repo %}
@@ -25,7 +16,7 @@ permalink: /open-source/
 </ul>
 
 <h2>other repos</h2>
-<ul class="filterable">
+<ul>
   {% for repo in site.data.other_repos %}
   <li>
     {% include repo-item.html repo=repo %}
@@ -34,7 +25,7 @@ permalink: /open-source/
 </ul>
 
 <h2>forks</h2>
-<ul class="filterable">
+<ul>
   {% for fork in site.data.forks %}
   <li>
     {% include repo-item.html repo=fork %}
@@ -52,35 +43,3 @@ permalink: /open-source/
 </ul>
 
 </section>
-
-<script>
-  (function(document) {
-    var root = document.getElementById('open-source');
-    var lang_picker = root.getElementsByClassName('lang-picker')[0];
-
-    [].forEach.call(lang_picker.getElementsByTagName('li'), function(filterEl) {
-      var filterText = filterEl.innerText.toLowerCase();
-
-      filterEl.addEventListener('click', function(event) {
-        var activeEl = lang_picker.getElementsByClassName('active')[0];
-        activeEl.className = '';
-
-        var clickedEl = event.target;
-        clickedEl.className = 'active';
-
-        [].forEach.call(root.getElementsByClassName('filterable'), function(parent) {
-          [].forEach.call(parent.children, function(el) {
-              if (el.innerText.toLowerCase().indexOf(filterText) >= 0 || filterText == 'all') {
-                el.className = '';
-              } else {
-                el.className = 'hidden';
-              }
-          });
-        });
-      });
-    });
-
-    lang_picker.className = lang_picker.className.replace('hidden', '');
-
-  })(document);
-</script>
