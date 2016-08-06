@@ -136,37 +136,6 @@ table {
   }
 }
 
-#open-source {
-  .hidden {
-    display: none;
-  }
-
-  .lang-picker {
-    li {
-      cursor: pointer;
-      color: $link-color;
-      list-style-type: none;
-      display: inline-block;
-      margin-left: 0;
-
-      &.active {
-        color: #000;
-        font-weight: 700;
-      }
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-
-  }
-
-  .langs {
-    display: block;
-    font-size: 0.8rem;
-  }
-}
-
 #work {
   article {
     margin: 1rem 0 3rem;
