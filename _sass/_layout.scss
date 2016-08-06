@@ -127,8 +127,13 @@ table {
   }
 }
 
-#index p {
-  margin: 2rem 0;
+#index {
+  p {
+    margin: 2rem 0;
+  }
+  .about {
+    font-weight: bold;
+  }
 }
 
 #open-source {
@@ -163,11 +168,17 @@ table {
 }
 
 #work {
-  div {
-    border-top: 1px dotted #ccc;
-    padding: 1em 0;
-    &:last-child {
-      border-bottom: 1px dotted #ccc;
+  article {
+    margin: 1rem 0 3rem;
+
+    background-repeat: no-repeat;
+    background-size: 42%;
+
+    padding-right: 45%;
+    background-position: top right;
+
+    &.full {
+        padding-right: 0;
     }
 
     header {
@@ -185,82 +196,43 @@ table {
         margin-bottom: 0;
       }
     }
+  }
 
-    &.full {
-      article {
-        background-repeat: no-repeat;
-        background-size: 42%;
-
-        &.text-left {
-          padding-right: 45%;
-          background-position: top right;
-        }
-        &.text-right {
-          padding-left: 45%;
-          background-position: top left;
-        }
-      }
-    }
-
-    &.two {
-      overflow: auto;
-
-      article {
-        width: 47%;
-
-        &:first-child {
-          float: left;
-          border-right: 1px dotted #ccc;
-          padding-right: 2%;
-        }
-        &:last-child {
-          float: right;
-        }
-      }
-    }
-
-    .protipster {
-      background-image: url(../img/work/protipster.jpg);
-    }
-    .soccerway {
-      background-image: url(../img/work/soccerway.jpg);
-    }
-    .betpal {
-      background-image: url(../img/work/betpal.jpg);
-    }
-    .hosted3 {
-      background-image: url(../img/work/hosted3.jpg);
-    }
-    .optacore {
-      background-image: url(../img/work/optacore.jpg);
-    }
-    .polifiction {
-      background-image: url(../img/work/polifiction.jpg);
-    }
-    .intragame {
-      background-image: url(../img/work/intragame.jpg);
-    }
-    .duo {
-      background-image: url(../img/work/duo.jpg);
-    }
-    .navitracer {
-      background-image: url(../img/work/navitracer.jpg);
-    }
-    .oakhosting {
-      background-image: url(../img/work/oakhosting.jpg);
-    }
-    .bnd {
-      background-image: url(../img/work/bnd.jpg);
-    }
-    .sklepbiegacza {
-      background-image: url(../img/work/sklepbiegacza.jpg);
-    }
-    .bsj {
-      background-image: url(../img/work/bsj.jpg);
-    }
-    .anathema {
-      background-image: url(../img/work/anathema.jpg);
-    }
+  .protipster {
+    background-image: url(../img/work/protipster.jpg);
+  }
+  .soccerway {
+    background-image: url(../img/work/soccerway.jpg);
+  }
+  .betpal {
+    background-image: url(../img/work/betpal.jpg);
+  }
+  .hosted3 {
+    background-image: url(../img/work/hosted3.jpg);
+  }
+  .optacore {
+    background-image: url(../img/work/optacore.jpg);
+  }
+  .polifiction {
+    background-image: url(../img/work/polifiction.jpg);
+  }
+  .intragame {
+    background-image: url(../img/work/intragame.jpg);
+  }
+  .duo {
+    background-image: url(../img/work/duo.jpg);
+  }
+  .navitracer {
+    background-image: url(../img/work/navitracer.jpg);
+  }
+  .oakhosting {
+    background-image: url(../img/work/oakhosting.jpg);
+  }
+  .sklepbiegacza {
+    background-image: url(../img/work/sklepbiegacza.jpg);
+  }
+  .anathema {
+    background-image: url(../img/work/anathema.jpg);
   }
 }
 

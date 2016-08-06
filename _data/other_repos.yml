@@ -1,18 +1,4 @@
 ---
-- name: xentry
-  full_name: sobstel/xentry
-  html_url: https://github.com/sobstel/xentry
-  description: laravel vs rails playground
-  fork: false
-  stargazers_count: 0
-  languages:
-    PHP: 99215
-    Ruby: 30602
-    HTML: 12868
-    JavaScript: 1164
-    CSS: 862
-    ApacheConf: 553
-    CoffeeScript: 211
 - name: albicelestes
   full_name: sobstel/albicelestes
   html_url: https://github.com/sobstel/albicelestes
@@ -20,11 +6,25 @@
   fork: false
   stargazers_count: 0
   languages:
-    CSS: 197025
-    HTML: 22180
+    CSS: 197333
+    HTML: 31321
     Ruby: 3949
     JavaScript: 1285
-    CoffeeScript: 84
+    CoffeeScript: 546
+- name: xentry
+  full_name: sobstel/xentry
+  html_url: https://github.com/sobstel/xentry
+  description: 'laravel vs rails playground '
+  fork: false
+  stargazers_count: 0
+  languages:
+    PHP: 107040
+    Ruby: 30602
+    HTML: 12868
+    JavaScript: 1164
+    CSS: 862
+    ApacheConf: 553
+    CoffeeScript: 211
 - name: jsondocr
   full_name: sobstel/jsondocr
   html_url: https://github.com/sobstel/jsondocr
