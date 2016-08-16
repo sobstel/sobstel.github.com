@@ -6,16 +6,26 @@ permalink: /work/
 
 <section id="work">
 
+<article class="full">
+  <p>
+    {% for tech in site.data.stack %}
+      {{ tech[0] }}{% if forloop.last == false %}, {% endif %}
+    {% endfor %}
+  </p>
+</article>
+
 <article class="protipster">
   <header>Protipster</header>
   <p>
     Marketplace for betting information (live and pre-game tips). Robust odds and stats engines.
   </p>
   <p>
-    Backend developer, sysadmin. PHP, Symfony2, MySQL, RabbitMQ, Ubuntu, Fluentd, Eye, Saas, JavaScript, Vue.js, Chimp.js. 2014-now.
+    Backend developer, sysadmin.
+    <span class="stack">PHP, Symfony2, MySQL, RabbitMQ, Ubuntu, Fluentd, Eye, Saas, Compass, JavaScript, Vue.js, Chimp.js</span>.
+    2014-now.
   </p>
   <p>
-    Delivery tool: Laravel, PHP, MySQL, Bootstrap.
+    Delivery tool: <span class="stack">Laravel, PHP, MySQL, Bootstrap</span>.
   </p>
   <p>
     <a href="http://www.protipster.com/">www.protipster.com</a>
@@ -28,7 +38,7 @@ permalink: /work/
     One of the biggest and one of the most popular football sites on the planet. Over 1000 football leagues &amp; cups from 134+ countries. High traffic, big database.
   </p>
   <p>
-    Full stack developer, sysadmin. PHP, MySQL, JavaScript, CSS, memcached, Akamai, CentOS/RedHat, Ubuntu. 2010-2012.
+    Full stack developer, sysadmin. <span class="stack">PHP, MySQL, JavaScript, CSS, Memcached, Akamai, CentOS/RedHat, Ubuntu</span>. 2010-2012.
   </p>
   <p>
     <a href="http://www.soccerway.com/">www.soccerway.com</a>
@@ -56,7 +66,9 @@ permalink: /work/
     <a href="http://www.scoresway.com/">Scoresway</a>... to name a few.
   </p>
   <p>
-    Full stack developer, sysadmin. PHP, MySQL, JavaScript, CSS, Symfony components, Doctrine, memcached, Akamai. 2010-2013.
+    Full stack developer, sysadmin.
+    <span class="stack">PHP, MySQL, JavaScript, CSS, Symfony components, Doctrine, Memcached, Akamai, ElasticSearch</span>.
+    2010-2013.
   </p>
 </article>
 
@@ -69,7 +81,8 @@ permalink: /work/
     Maintenance and improvements. Successfully dealing with high traffic and load spikes. Performance optimizations and hardening architecture and infrastructure.
   </p>
   <p>
-    Backend developer, sysadmin. PHP, MySQL, memcached, Akamai. 2010-2014.
+    Backend developer, sysadmin. <span class="stack">PHP, MySQL, Memcached, Akamai</span>.
+    2010-2014.
   </p>
   <p>
     <a href="http://client.core.optasports.com/">client.core.optasports.com</a> (demo / demo)
@@ -82,7 +95,8 @@ permalink: /work/
     Betting tips. Experimental mobile app. Available for preview only via <a href="http://view.ionic.io/">Ionic View</a> for now.
   </p>
   <p>
-    Ionic Framework, JavaScript, AngularJS. 2015.
+    <span class="stack">Ionic Framework, JavaScript, AngularJS</span>.
+    2015.
   </p>
 </article>
 
@@ -92,7 +106,8 @@ permalink: /work/
     Football data mnmlist way. After hours hobby project.
   </p>
   <p>
-    Ruby, varnish. 2016.
+    <span class="stack">Ruby, Varnish</span>.
+    2016.
     <!-- riot.js, coffeescript -->
   </p>
   <p>
@@ -121,7 +136,7 @@ permalink: /work/
     Main module behind it has been <a href="https://github.com/sobstel/komixin">open-sourced</a>.
   </p>
   <p>
-    Ruby, Rails, JavaScript, CSS, Saas, AMF. 2011.
+    <span class="stack">Ruby, Rails, JavaScript, CSS, Saas, AMF</span>. 2011.
   </p>
 </article>
 
@@ -131,7 +146,9 @@ permalink: /work/
     Gaming website. My first Rails app ever.
   </p>
   <p>
-    Backend developer. Ruby, Rails, MySQL, SOAP. 2010.
+    Backend developer.
+    <span class="stack">Ruby, Rails, MySQL, SOAP</span>.
+    2010.
   </p>
 </article>
 
@@ -141,7 +158,9 @@ permalink: /work/
     Gaming website and affiliate system. First version done fully by myself only, including server setup and administration.
   </p>
   <p>
-    Backend/frontend deveveloper, sysadmin. PHP, MySQL, CSS, JavaScript, SOAP, CentOS. 2008-2010.
+    Backend/frontend deveveloper, sysadmin.
+    <span class="stack">PHP, MySQL, CSS, JavaScript, SOAP, CentOS</span>.
+    2008-2010.
   </p>
 </article>
 
@@ -151,7 +170,9 @@ permalink: /work/
     Seamless integration with cPanel and webmail, SEO ranks reader and reports generator for clients. Dedicated account setup automation scripts.
   </p>
   <p>
-    Backend developer, sysadmin. PHP, MySQL, CSS, Ubuntu Server, DirectAdmin, cPanel. ~2009-10
+    Backend developer, sysadmin.
+    <span class="stack">PHP, MySQL, CSS, Ubuntu, DirectAdmin, cPanel</span>.
+    ~2009-10.
   </p>
 </article>
 
@@ -161,7 +182,9 @@ permalink: /work/
     Truck GPS tracking system (API, web interface, admin interface).
   </p>
   <p>
-    Backend developer. PHP, MySQL, Zend Framework, Doctrine. ~2009.
+    Backend developer.
+    <span class="stack">PHP, MySQL, Zend Framework, Doctrine</span>.
+    ~2009.
   </p>
 </article>
 
@@ -171,7 +194,9 @@ permalink: /work/
     Web lottery. Users buy lottery tickets via website to get desired thing.
   </p>
   <p>
-    Sole backend dev. PHP, MySQL. ~2009.
+    Sole backend dev.
+    <span class="stack">PHP, MySQL</span>.
+    ~2009.
   </p>
 </article>
 
@@ -181,7 +206,9 @@ permalink: /work/
     SMS lottery. Same as Szalony Banan, except users send text messages to buy lottery tickets.
   </p>
   <p>
-    Sole backend dev. PHP, MySQL. ~2009.
+    Sole backend dev.
+    <span class="stack">PHP, MySQL</span>.
+    ~2009.
   </p>
 </article>
 
@@ -191,7 +218,8 @@ permalink: /work/
     E-commerce. Web shop for runners. Done very first version (not available anymore). Website and admin panel.
   </p>
   <p>
-    PHP, MySQL, CSS, JavaScript. ~2007.
+    <span class="stack">PHP, MySQL, CSS, JavaScript</span>.
+    ~2007.
   </p>
 </article>
 
@@ -202,7 +230,7 @@ permalink: /work/
     Highlight: seamless forum integration.
   </p>
   <p>
-    Graphic design, PHP, CSS, Javascript, MySQL.
+    Graphic design, <span class="stack">PHP, CSS, JavaScript, MySQL</span>.
   </p>
   <p>
     <a href="http://www.anathema.art.pl/">www.anathema.art.pl</a>
