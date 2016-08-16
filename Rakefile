@@ -32,6 +32,7 @@ task :publish, :message do |_, args|
 
   task(:import_github_repos).execute
   task(:import_gists).execute
+  task(:generate_tech_stack_cloud).execute
 
   sh 'git add --all .'
   sh "git commit . --message=\"#{message}\""

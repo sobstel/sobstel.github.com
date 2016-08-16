@@ -1,12 +1,13 @@
 ---
-- name: package_control_channel
-  full_name: sobstel/package_control_channel
-  html_url: https://github.com/sobstel/package_control_channel
-  description: 'Default channel file for Package Control. Follow the directions at:'
+- name: decoupled.js
+  full_name: sobstel/decoupled.js
+  html_url: https://github.com/sobstel/decoupled.js
+  description: JavaScript library that allows to easily separate business logic in
+    your application from the View and Data-Access layers.
   fork: true
   stargazers_count: 0
   languages:
-    Python: 69231
+    JavaScript: 15781
 - name: Carpet.js
   full_name: sobstel/Carpet.js
   html_url: https://github.com/sobstel/Carpet.js
@@ -16,19 +17,6 @@
   languages:
     JavaScript: 147032
     HTML: 705
-- name: Varnish-Cache
-  full_name: sobstel/Varnish-Cache
-  html_url: https://github.com/sobstel/Varnish-Cache
-  description: Varnish Cache github mirror
-  fork: true
-  stargazers_count: 0
-  languages:
-    C: 1923315
-    C++: 58935
-    Python: 57775
-    Perl: 12606
-    Shell: 11535
-    Groff: 6078
 - name: Aura.Marshal
   full_name: sobstel/Aura.Marshal
   html_url: https://github.com/sobstel/Aura.Marshal

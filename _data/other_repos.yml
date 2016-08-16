@@ -1,4 +1,29 @@
 ---
+- name: golazon-2015
+  full_name: sobstel/golazon-2015
+  html_url: https://github.com/sobstel/golazon-2015
+  description: old golazon.com (frontend + admin panel)
+  fork: false
+  stargazers_count: 0
+  languages:
+    Ruby: 36280
+    HTML: 12594
+    CSS: 3470
+    JavaScript: 838
+    CoffeeScript: 422
+- name: golazon.universo
+  full_name: sobstel/golazon.universo
+  html_url: https://github.com/sobstel/golazon.universo
+  description: a bunch unfinished/abandoned football-related projects (ruby, rails,
+    mongodb, nanoc, slate)
+  fork: false
+  stargazers_count: 0
+  languages:
+    CSS: 23342
+    HTML: 22014
+    Ruby: 16739
+    Shell: 302
+    PHP: 50
 - name: albicelestes
   full_name: sobstel/albicelestes
   html_url: https://github.com/sobstel/albicelestes
@@ -41,21 +66,6 @@
   stargazers_count: 2
   languages:
     PHP: 34482
-- name: golazon.universo
-  full_name: sobstel/golazon.universo
-  html_url: https://github.com/sobstel/golazon.universo
-  description: a bunch unfinished/abandoned football-related projects (ruby, rails,
-    mongodb, nanoc, slate)
-  fork: false
-  stargazers_count: 0
-  languages:
-    Ruby: 53019
-    HTML: 35722
-    CSS: 26812
-    JavaScript: 838
-    CoffeeScript: 422
-    Shell: 302
-    PHP: 50
 - name: pathway
   full_name: sobstel/pathway
   html_url: https://github.com/sobstel/pathway
@@ -79,7 +89,7 @@
   html_url: https://github.com/sobstel/skeptic
   description: Minimalist non-ORM (PHP)
   fork: false
-  stargazers_count: 0
+  stargazers_count: 1
   languages: {}
 - name: Imaged
   full_name: sobstel/Imaged
