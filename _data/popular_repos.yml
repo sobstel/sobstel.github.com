@@ -4,7 +4,7 @@
   html_url: https://github.com/sobstel/metaphore
   description: PHP cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 62
+  stargazers_count: 65
   languages:
     PHP: 28855
 - name: jsonp.js
@@ -12,7 +12,7 @@
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
-  stargazers_count: 22
+  stargazers_count: 24
   languages:
     JavaScript: 873
 - name: sesshin
@@ -20,7 +20,7 @@
   html_url: https://github.com/sobstel/sesshin
   description: PHP secure advanced session manager.
   fork: false
-  stargazers_count: 27
+  stargazers_count: 28
   languages:
     PHP: 46340
     Shell: 308

@@ -1,8 +1,29 @@
 ---
+- name: sequent
+  full_name: sobstel/sequent
+  html_url: https://github.com/sobstel/sequent
+  description: Simple RubyMotion iOS logic game (in slow progress)
+  fork: false
+  stargazers_count: 0
+  languages:
+    Ruby: 16511
+- name: albicelestes
+  full_name: sobstel/albicelestes
+  html_url: https://github.com/sobstel/albicelestes
+  description: ":soccer: :sun_with_face:"
+  fork: false
+  stargazers_count: 0
+  languages:
+    CSS: 197333
+    HTML: 32121
+    Ruby: 3949
+    JavaScript: 1285
+    CoffeeScript: 546
 - name: golazon-2015
   full_name: sobstel/golazon-2015
   html_url: https://github.com/sobstel/golazon-2015
-  description: old golazon.com (frontend + admin panel)
+  description: old golazon.com frontend and admin panel (rails, mongoid, simple_form,
+    virtus, bourbon)
   fork: false
   stargazers_count: 0
   languages:
@@ -24,18 +45,6 @@
     Ruby: 16739
     Shell: 302
     PHP: 50
-- name: albicelestes
-  full_name: sobstel/albicelestes
-  html_url: https://github.com/sobstel/albicelestes
-  description: ":soccer: :sun_with_face:"
-  fork: false
-  stargazers_count: 0
-  languages:
-    CSS: 197333
-    HTML: 31321
-    Ruby: 3949
-    JavaScript: 1285
-    CoffeeScript: 546
 - name: xentry
   full_name: sobstel/xentry
   html_url: https://github.com/sobstel/xentry
@@ -84,13 +93,6 @@
     VimL: 462995
     Shell: 3262
     Ruby: 936
-- name: skeptic
-  full_name: sobstel/skeptic
-  html_url: https://github.com/sobstel/skeptic
-  description: Minimalist non-ORM (PHP)
-  fork: false
-  stargazers_count: 1
-  languages: {}
 - name: Imaged
   full_name: sobstel/Imaged
   html_url: https://github.com/sobstel/Imaged
