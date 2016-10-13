@@ -1,4 +1,13 @@
 ---
+- name: sesshin
+  full_name: sobstel/sesshin
+  html_url: https://github.com/sobstel/sesshin
+  description: PHP secure advanced session manager.
+  fork: false
+  stargazers_count: 28
+  languages:
+    PHP: 46340
+    Shell: 308
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
@@ -15,15 +24,6 @@
   stargazers_count: 24
   languages:
     JavaScript: 873
-- name: sesshin
-  full_name: sobstel/sesshin
-  html_url: https://github.com/sobstel/sesshin
-  description: PHP secure advanced session manager.
-  fork: false
-  stargazers_count: 28
-  languages:
-    PHP: 46340
-    Shell: 308
 - name: AsyncHTTP
   full_name: sobstel/AsyncHTTP
   html_url: https://github.com/sobstel/AsyncHTTP

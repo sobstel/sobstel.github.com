@@ -1,24 +1,22 @@
 ---
+- name: golazon
+  full_name: sobstel/golazon
+  html_url: https://github.com/sobstel/golazon
+  description: 'football data mnmlist way (prototype) :soccer: :earth_americas:'
+  fork: false
+  stargazers_count: 0
+  languages:
+    CoffeeScript: 1197
+    JavaScript: 629
+    Shell: 219
 - name: sequent
   full_name: sobstel/sequent
   html_url: https://github.com/sobstel/sequent
-  description: Simple RubyMotion iOS logic game (in slow progress)
+  description: RubyMotion/iOS memory game (in slow progress)
   fork: false
   stargazers_count: 0
   languages:
     Ruby: 16511
-- name: albicelestes
-  full_name: sobstel/albicelestes
-  html_url: https://github.com/sobstel/albicelestes
-  description: ":soccer: :sun_with_face:"
-  fork: false
-  stargazers_count: 0
-  languages:
-    CSS: 197333
-    HTML: 32121
-    Ruby: 3949
-    JavaScript: 1285
-    CoffeeScript: 546
 - name: golazon-2015
   full_name: sobstel/golazon-2015
   html_url: https://github.com/sobstel/golazon-2015
@@ -86,7 +84,7 @@
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles
-  description: ''
+  description: 
   fork: false
   stargazers_count: 0
   languages:
@@ -112,7 +110,7 @@
 - name: theraventhatrefusedtosing
   full_name: sobstel/theraventhatrefusedtosing
   html_url: https://github.com/sobstel/theraventhatrefusedtosing
-  description: ''
+  description: 
   fork: false
   stargazers_count: 0
   languages: {}
@@ -127,7 +125,7 @@
 - name: komixin
   full_name: sobstel/komixin
   html_url: https://github.com/sobstel/komixin
-  description: ''
+  description: 
   fork: false
   stargazers_count: 0
   languages:
