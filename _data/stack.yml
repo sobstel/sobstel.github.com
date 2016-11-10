@@ -1,35 +1,37 @@
 ---
 MySQL: 13
 PHP: 12
-JavaScript: 8
+JavaScript: 7
 CSS: 7
-git: 4
+SCSS: 4
 Ruby: 4
+git: 4
 Akamai: 3
-Ubuntu: 3
 Memcached: 3
 Rails: 3
+Ubuntu: 3
 SOAP: 2
 Doctrine: 2
-Saas: 2
-Laravel: 1
-Bootstrap: 1
-Fluentd: 1
-cPanel: 1
-RabbitMQ: 1
-CentOS/RedHat: 1
+CoffeeScript: 1
+Varnish: 1
 Symfony components: 1
 ElasticSearch: 1
-Vue.js: 1
-AngularJS: 1
-Symfony2: 1
-Varnish: 1
-Zend Framework: 1
+CentOS/RedHat: 1
 MongoDB: 1
 AMF: 1
 CentOS: 1
 DirectAdmin: 1
-Compass: 1
-Ionic Framework: 1
-Chimp.js: 1
+cPanel: 1
+Zend Framework: 1
+Symfony2: 1
+RabbitMQ: 1
+Fluentd: 1
 Eye: 1
+Vue.js: 1
+Chimp.js: 1
+Laravel: 1
+Bootstrap: 1
+Ionic2: 1
+Angular2: 1
+TypeScript: 1
+Riot.js: 1
