@@ -3,21 +3,21 @@ MySQL: 13
 PHP: 12
 JavaScript: 7
 CSS: 7
-SCSS: 4
 Ruby: 4
+SCSS: 4
 git: 4
+Ubuntu: 3
+Rails: 3
 Akamai: 3
 Memcached: 3
-Rails: 3
-Ubuntu: 3
 SOAP: 2
 Doctrine: 2
 CoffeeScript: 1
 Varnish: 1
+MongoDB: 1
 Symfony components: 1
 ElasticSearch: 1
 CentOS/RedHat: 1
-MongoDB: 1
 AMF: 1
 CentOS: 1
 DirectAdmin: 1
