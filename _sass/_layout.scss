@@ -131,6 +131,10 @@ table {
   p {
     margin: 2rem 0;
   }
+  li {
+    margin-left: 0;
+    list-style-type: none;
+  }
   .about {
     font-weight: bold;
   }
