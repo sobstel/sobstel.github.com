@@ -1,4 +1,15 @@
 ---
+- name: golazon
+  full_name: sobstel/golazon
+  html_url: https://github.com/sobstel/golazon
+  description: 'football data mnmlist way (prototype) :soccer: :earth_americas:'
+  fork: false
+  stargazers_count: 6
+  languages:
+    HTML: 23849
+    CSS: 8474
+    CoffeeScript: 6662
+    JavaScript: 1440
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
@@ -13,7 +24,7 @@
   html_url: https://github.com/sobstel/metaphore
   description: PHP cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 65
+  stargazers_count: 69
   languages:
     PHP: 28855
 - name: jsonp.js
@@ -21,7 +32,7 @@
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
-  stargazers_count: 24
+  stargazers_count: 29
   languages:
     JavaScript: 873
 - name: AsyncHTTP

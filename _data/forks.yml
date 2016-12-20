@@ -1,4 +1,13 @@
 ---
+- name: pt-tests
+  full_name: sobstel/pt-tests
+  html_url: https://github.com/sobstel/pt-tests
+  description: Sample tests for PT
+  fork: true
+  stargazers_count: 0
+  languages:
+    JavaScript: 14094
+    Cucumber: 1085
 - name: imanee
   full_name: sobstel/imanee
   html_url: https://github.com/sobstel/imanee
@@ -7,14 +16,15 @@
   stargazers_count: 0
   languages:
     PHP: 126167
-- name: awesome-php
-  full_name: sobstel/awesome-php
-  html_url: https://github.com/sobstel/awesome-php
-  description: A curated list of amazingly awesome PHP libraries, resources and shiny
-    things.
+- name: riotify
+  full_name: sobstel/riotify
+  html_url: https://github.com/sobstel/riotify
+  description: browserify plugin for riot tag files
   fork: true
   stargazers_count: 0
-  languages: {}
+  languages:
+    JavaScript: 3373
+    HTML: 140
 - name: doctrine2
   full_name: sobstel/doctrine2
   html_url: https://github.com/sobstel/doctrine2
@@ -25,15 +35,6 @@
     PHP: 5183814
     Shell: 724
     Batchfile: 220
-- name: Carpet.js
-  full_name: sobstel/Carpet.js
-  html_url: https://github.com/sobstel/Carpet.js
-  description: A simple DOM-module JavaScript framework
-  fork: true
-  stargazers_count: 0
-  languages:
-    JavaScript: 147032
-    HTML: 705
 - name: Aura.Marshal
   full_name: sobstel/Aura.Marshal
   html_url: https://github.com/sobstel/Aura.Marshal

@@ -1,19 +1,20 @@
 ---
 MySQL: 13
 PHP: 12
-JavaScript: 7
+JavaScript: 8
 CSS: 7
 Ruby: 4
-SCSS: 4
 git: 4
+SCSS: 4
 Ubuntu: 3
 Rails: 3
-Akamai: 3
 Memcached: 3
-SOAP: 2
+Akamai: 3
 Doctrine: 2
+SOAP: 2
+Riot: 1
 CoffeeScript: 1
-Varnish: 1
+nginx: 1
 MongoDB: 1
 Symfony components: 1
 ElasticSearch: 1
@@ -27,11 +28,11 @@ Symfony2: 1
 RabbitMQ: 1
 Fluentd: 1
 Eye: 1
-Vue.js: 1
-Chimp.js: 1
+ES6: 1
+Vue: 1
+Chimp: 1
 Laravel: 1
 Bootstrap: 1
 Ionic2: 1
 Angular2: 1
 TypeScript: 1
-Riot.js: 1
