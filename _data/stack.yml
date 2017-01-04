@@ -3,21 +3,19 @@ MySQL: 13
 PHP: 12
 JavaScript: 9
 CSS: 7
-Ruby: 4
 SCSS: 4
 git: 4
-Akamai: 3
+Ruby: 4
 Ubuntu: 3
-Rails: 3
 nginx: 3
+Rails: 3
 Memcached: 3
-CentOS: 2
+Akamai: 3
 Symfony2: 2
-Doctrine: 2
-SOAP: 2
 ES6: 2
-AMF: 1
-Zend Framework: 1
+Doctrine: 2
+CentOS: 2
+SOAP: 2
 RabbitMQ: 1
 Fluentd: 1
 Eye: 1
@@ -34,3 +32,5 @@ React Native: 1
 Redux: 1
 ElasticSearch: 1
 RedHat: 1
+AMF: 1
+Zend Framework: 1
