@@ -102,15 +102,17 @@ task :import_github_contributions do
       from = Date.new(year, month, 1).to_s
       to = Date.new(year, month, 1).next_month.prev_day.to_s
 
+      next if year >= Time.now.year && month > Time.now.month
+
       url = format('https://github.com/%s?tab=contributions&from=%s&to=%s', 'sobstel', from, to)
       puts "fetch from #{url}"
 
       html_doc = Nokogiri::HTML(fetch(url))
-      contributions = html_doc.css('.contribution-activity-listing .title')
+      contributions = html_doc.css('.contribution-activity-listing li a:first-child')
 
       contributions.each do |contribution|
         text = contribution.text.strip
-        matches = %r{.+\s(.+)/(.+)}.match(text)
+        matches = %r{(.+)/(.+)}.match(text)
 
         next unless matches
 
@@ -123,10 +125,10 @@ task :import_github_contributions do
         github_contributions << repo unless excluded_vendors.include?(vendor)
       end
 
-      sleep(2)
+      sleep(1)
     end
 
-    sleep(5)
+    sleep(3)
   end
 
   github_contributions.uniq!
