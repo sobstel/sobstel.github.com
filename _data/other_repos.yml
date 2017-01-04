@@ -1,12 +1,4 @@
 ---
-- name: sequent
-  full_name: sobstel/sequent
-  html_url: https://github.com/sobstel/sequent
-  description: memory game (iPhone)
-  fork: false
-  stargazers_count: 1
-  languages:
-    JavaScript: 1970
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles

@@ -1,4 +1,12 @@
 ---
+- name: sequent
+  full_name: sobstel/sequent
+  html_url: https://github.com/sobstel/sequent
+  description: short-term memory training game (react native / ios)
+  fork: false
+  stargazers_count: 6
+  languages:
+    JavaScript: 21348
 - name: golazon
   full_name: sobstel/golazon
   html_url: https://github.com/sobstel/golazon
@@ -6,8 +14,8 @@
   fork: false
   stargazers_count: 6
   languages:
-    HTML: 23849
-    CSS: 8474
+    HTML: 23967
+    CSS: 8440
     CoffeeScript: 6662
     JavaScript: 1440
 - name: sesshin
@@ -32,7 +40,7 @@
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
-  stargazers_count: 29
+  stargazers_count: 28
   languages:
     JavaScript: 873
 - name: AsyncHTTP
