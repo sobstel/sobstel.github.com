@@ -4,9 +4,9 @@
   html_url: https://github.com/sobstel/sequent
   description: short-term memory training game (react native / ios)
   fork: false
-  stargazers_count: 6
+  stargazers_count: 11
   languages:
-    JavaScript: 21348
+    JavaScript: 21993
 - name: golazon
   full_name: sobstel/golazon
   html_url: https://github.com/sobstel/golazon
@@ -14,16 +14,16 @@
   fork: false
   stargazers_count: 6
   languages:
-    HTML: 23967
+    HTML: 23961
+    JavaScript: 14115
     CSS: 8440
-    CoffeeScript: 6662
-    JavaScript: 1440
+    CoffeeScript: 6945
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
   description: PHP secure advanced session manager.
   fork: false
-  stargazers_count: 28
+  stargazers_count: 29
   languages:
     PHP: 46340
     Shell: 308

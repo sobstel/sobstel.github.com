@@ -1,14 +1,11 @@
 ---
-- name: awesome-react-native
-  full_name: sobstel/awesome-react-native
-  html_url: https://github.com/sobstel/awesome-react-native
-  description: An "awesome" type curated list of React Native components, news, tools,
-    and learning material
+- name: awesome-riotjs
+  full_name: sobstel/awesome-riotjs
+  html_url: https://github.com/sobstel/awesome-riotjs
+  description: A curated list of awesome riot.js resources!
   fork: true
   stargazers_count: 0
-  languages:
-    Ruby: 2181
-    Shell: 117
+  languages: {}
 - name: pt-tests
   full_name: sobstel/pt-tests
   html_url: https://github.com/sobstel/pt-tests
