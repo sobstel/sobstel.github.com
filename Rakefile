@@ -151,10 +151,10 @@ task :generate_tech_stack_cloud do
     end
   end
 
-  # puts stack.to_a.to_yaml
-
   stack_arr = stack.to_a
   stack = stack_arr.sort_by { |k, v| [-v, stack_arr.index([k, v])] }.to_h
+
+  # puts stack.to_a.to_yaml
 
   save_data('stack', stack)
 end
