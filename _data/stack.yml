@@ -2,23 +2,29 @@
 MySQL: 13
 PHP: 12
 JavaScript: 10
-CSS: 7
+CSS: 6
 Ruby: 5
 Rails: 4
 Sass: 4
 git: 4
 ES6: 3
-Ubuntu: 3
 nginx: 3
+Ubuntu: 3
 Memcached: 3
 Akamai: 3
 Vue: 2
+Vuex: 2
 Symfony2: 2
 phpunit: 2
 Doctrine: 2
 CentOS: 2
 SOAP: 2
 Heroku: 1
+React Native: 1
+Redux: 1
+Riot: 1
+CoffeeScript: 1
+MongoDB: 1
 RabbitMQ: 1
 Fluentd: 1
 Eye: 1
@@ -27,11 +33,6 @@ Laravel: 1
 Ionic2: 1
 Angular2: 1
 TypeScript: 1
-Riot: 1
-CoffeeScript: 1
-MongoDB: 1
-React Native: 1
-Redux: 1
 ElasticSearch: 1
 RedHat: 1
 AMF: 1
