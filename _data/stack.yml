@@ -19,6 +19,8 @@ phpunit: 2
 Doctrine: 2
 CentOS: 2
 SOAP: 2
+JWT: 1
+Auth0: 1
 Heroku: 1
 React Native: 1
 Redux: 1
