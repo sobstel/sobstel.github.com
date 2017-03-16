@@ -1,4 +1,12 @@
 ---
+- name: heroku-fastly
+  full_name: sobstel/heroku-fastly
+  html_url: https://github.com/sobstel/heroku-fastly
+  description: Heroku CLI plugin for Fastly
+  fork: true
+  stargazers_count: 0
+  languages:
+    JavaScript: 9268
 - name: awesome-riotjs
   full_name: sobstel/awesome-riotjs
   html_url: https://github.com/sobstel/awesome-riotjs

@@ -1,4 +1,15 @@
 ---
+- name: hydropuzzle
+  full_name: sobstel/hydropuzzle
+  html_url: https://github.com/sobstel/hydropuzzle
+  description: 
+  fork: false
+  stargazers_count: 0
+  languages:
+    Objective-C: 4431
+    JavaScript: 2748
+    Python: 1647
+    Java: 1326
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles
@@ -35,20 +46,6 @@
     Ruby: 16739
     Shell: 302
     PHP: 50
-- name: xentry
-  full_name: sobstel/xentry
-  html_url: https://github.com/sobstel/xentry
-  description: 'laravel vs rails playground '
-  fork: false
-  stargazers_count: 0
-  languages:
-    PHP: 107040
-    Ruby: 30602
-    HTML: 12868
-    JavaScript: 1164
-    CSS: 862
-    ApacheConf: 553
-    CoffeeScript: 211
 - name: jsondocr
   full_name: sobstel/jsondocr
   html_url: https://github.com/sobstel/jsondocr
@@ -137,11 +134,3 @@
   stargazers_count: 1
   languages:
     PHP: 11308
-- name: XReflect
-  full_name: sobstel/XReflect
-  html_url: https://github.com/sobstel/XReflect
-  description: Object Oriented PHP Reflection to XML (generator).
-  fork: false
-  stargazers_count: 1
-  languages:
-    PHP: 22276
