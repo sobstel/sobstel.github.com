@@ -57,7 +57,7 @@ task :import_github_repos do
   end.reverse
 
   repos, forks = all_repos.partition { |repo| !repo['fork'] }
-  popular_repos, other_repos = repos.partition { |repo| repo['stargazers_count'] >= 4 }
+  popular_repos, other_repos = repos.partition { |repo| repo['stargazers_count'] >= 7 }
 
   save_data('popular_repos', popular_repos)
   save_data('other_repos', other_repos)
