@@ -43,11 +43,3 @@
   stargazers_count: 28
   languages:
     JavaScript: 873
-- name: AsyncHTTP
-  full_name: sobstel/AsyncHTTP
-  html_url: https://github.com/sobstel/AsyncHTTP
-  description: PHP asynchronous non-blocking HTTP requests.
-  fork: false
-  stargazers_count: 4
-  languages:
-    PHP: 15280

@@ -70,6 +70,14 @@
   stargazers_count: 0
   languages:
     Ruby: 7338
+- name: AsyncHTTP
+  full_name: sobstel/AsyncHTTP
+  html_url: https://github.com/sobstel/AsyncHTTP
+  description: PHP asynchronous non-blocking HTTP requests.
+  fork: false
+  stargazers_count: 4
+  languages:
+    PHP: 15280
 - name: Imaged
   full_name: sobstel/Imaged
   html_url: https://github.com/sobstel/Imaged
