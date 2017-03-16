@@ -1,11 +1,13 @@
 ---
-- ReactNativeNews/React-Native-Apps
-- ziadoz/awesome-php
-- maciejsmolinski/decoupled.js
-- TheSpyder/SyncedSideBar
 - auraphp/Aura.Marshal
-- Seldaek/monolog
+- beberlei/DoctrineExtensions
 - djl/homebrew-apache2
 - doctrine/common
-- beberlei/DoctrineExtensions
+- fastly/heroku-fastly
 - gsmlabs/LSDCache
+- jondot/awesome-react-native
+- maciejsmolinski/decoupled.js
+- ReactNativeNews/React-Native-Apps
+- Seldaek/monolog
+- TheSpyder/SyncedSideBar
+- ziadoz/awesome-php

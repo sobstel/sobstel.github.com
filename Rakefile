@@ -97,7 +97,7 @@ desc 'Import GitHub contributions'
 task :import_github_contributions do
   github_contributions = load_data('contribs')
 
-  (2016..Time.now.year).each do |year|
+  (2017..Time.now.year).each do |year|
     (1..12).each do |month|
       from = Date.new(year, month, 1).to_s
       to = Date.new(year, month, 1).next_month.prev_day.to_s
@@ -132,7 +132,7 @@ task :import_github_contributions do
   end
 
   github_contributions.uniq!
-  github_contributions.reverse!
+  github_contributions.sort_by!(&:downcase)
 
   save_data('contribs', github_contributions)
 end
