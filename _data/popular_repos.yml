@@ -1,4 +1,12 @@
 ---
+- name: metaphore
+  full_name: sobstel/metaphore
+  html_url: https://github.com/sobstel/metaphore
+  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
+  fork: false
+  stargazers_count: 78
+  languages:
+    PHP: 29070
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
@@ -8,14 +16,6 @@
   languages:
     PHP: 46572
     Shell: 308
-- name: metaphore
-  full_name: sobstel/metaphore
-  html_url: https://github.com/sobstel/metaphore
-  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
-  fork: false
-  stargazers_count: 69
-  languages:
-    PHP: 29070
 - name: golazon
   full_name: sobstel/golazon
   html_url: https://github.com/sobstel/golazon
@@ -23,7 +23,7 @@
   fork: false
   stargazers_count: 7
   languages:
-    HTML: 24057
+    HTML: 23917
     JavaScript: 14115
     CSS: 8440
     CoffeeScript: 6945
@@ -32,7 +32,7 @@
   html_url: https://github.com/sobstel/sequent
   description: short-term memory training game (react native / ios)
   fork: false
-  stargazers_count: 22
+  stargazers_count: 29
   languages:
     JavaScript: 22534
 - name: jsonp.js
@@ -40,6 +40,6 @@
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
-  stargazers_count: 28
+  stargazers_count: 31
   languages:
     JavaScript: 873

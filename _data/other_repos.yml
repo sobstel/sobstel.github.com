@@ -145,3 +145,11 @@
   stargazers_count: 1
   languages:
     PHP: 11308
+- name: XReflect
+  full_name: sobstel/XReflect
+  html_url: https://github.com/sobstel/XReflect
+  description: Object Oriented PHP Reflection to XML (generator).
+  fork: false
+  stargazers_count: 1
+  languages:
+    PHP: 22276
