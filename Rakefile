@@ -67,30 +67,26 @@ end
 desc 'Import GitHub gists'
 task :import_gists do
   gists = load_data('gists')
-  meta = load_data('meta')
-  since = meta['gists-last-read'].to_s
+  since = gists.first['path'].gsub('_posts/', '')
 
   url = format('https://api.github.com/users/%s/gists?since=%s', 'sobstel', URI.encode(since))
   puts "fetch from #{url}"
 
-  new_gists = JSON.parse(fetch(url)).reject do |gist|
+  new_gists = JSON.parse(fetch(url)).select do |gist|
     gist['public']
   end
 
   new_gists.reject do |gist|
-    gist['created_at'] < since # github uses "updated at"
+    gist['created_at'] <= since
   end.reverse.each do |gist|
     gists.unshift(
       'title' => gist['description'],
       'url' => gist['html_url'],
-      'created_at' => gist['created_at']
+      'path' => "_posts/#{gist['created_at']}" # HACK to make gists comparable with posts
     )
   end
 
   save_data('gists', gists)
-
-  meta['gists-last-read'] = Time.now.utc.iso8601
-  save_data('meta', meta)
 end
 
 desc 'Import GitHub contributions'

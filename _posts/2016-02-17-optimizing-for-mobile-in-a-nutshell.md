@@ -25,7 +25,7 @@ Namely...
 * Optimize images
 * Defer loading when possible, eg. JS defer/async or put right before closing </body>
 * Embed small images and fonts using the Data URI scheme
-* User localStorage as a browser cache (when it makes sense)
+* Use localStorage as a browser cache (when it makes sense)
 * Drop big frameworks (only when you know what you're doing)
 
 That's not all, but that's a good start ;-)

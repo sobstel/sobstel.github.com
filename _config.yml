@@ -21,6 +21,8 @@ defaults:
 
 port: 1809
 
-# Gems
 gems:
   - jekyll-coffeescript
+
+plugins:
+  - jekyll-redirect-from

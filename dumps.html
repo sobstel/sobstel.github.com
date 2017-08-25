@@ -1,0 +1,21 @@
+---
+layout: default
+title: Dumps
+permalink: /dumps/
+redirect_from: /blog/
+---
+
+{% assign dumps = "" | split: "" %}
+{% for post in site.posts %}
+  {% assign dumps = dumps | push: post %}
+{% endfor %}
+{% for gist in site.data.gists %}
+  {% assign dumps = dumps | push: gist %}
+{% endfor %}
+{% assign dumps = dumps | sort: 'path' | reverse %}
+
+<ul class="blog-list">
+    {% for dump in dumps %}
+    <li><a href="{{ dump.url }}">{{ dump.title }}</a></li>
+    {% endfor %}
+</ul>

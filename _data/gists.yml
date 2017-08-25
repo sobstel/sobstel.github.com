@@ -1,148 +1,175 @@
 ---
+- title: fetch timeout
+  url: https://gist.github.com/ede78ad0bffc2efbcb49b93a152b838b
+  path: _posts/2017-08-06T10:24:48Z
+- title: React Native ScrollView repeated background
+  url: https://gist.github.com/202590b13e1121ef66eb15de81032b30
+  path: _posts/2017-05-12T14:24:31Z
+- title: Traductor (rails models translations)
+  url: https://gist.github.com/e102901af07bb0390ca67af914916b5d
+  path: _posts/2017-04-18T14:21:02Z
+- title: 'Rails, Auth0, JWT, RS256 '
+  url: https://gist.github.com/1a701a162a32badcce6e01e4974b313e
+  path: _posts/2017-02-09T10:48:00Z
+- title: 'nokogiri -> ERROR: cannot discover where libxml2 is located on your system'
+  url: https://gist.github.com/f6a490d854a2e5a214c3f2cd9c366032
+  path: _posts/2017-01-03T17:30:21Z
+- title: mnmlist web
+  url: https://gist.github.com/bb52784b857697b71f60ed2f040e9757
+  path: _posts/2016-10-23T15:26:43Z
+- title: 'Kata04: Data Munging - Part One: Weather Data http://codekata.com/kata/kata04-data-munging/'
+  url: https://gist.github.com/9a315bb4d8cf7a589e24768f940fd85a
+  path: _posts/2016-08-16T14:32:52Z
+- title: 10 Modern Software Over-Engineering Mistakes
+  url: https://gist.github.com/520783ba5243bf71664eea3895a77c8d
+  path: _posts/2016-08-12T13:06:09Z
+- title: 'Lean: Eliminate Waste'
+  url: https://gist.github.com/d9a55c5bc99f2cb67642a8ccd7562ded
+  path: _posts/2016-08-08T13:04:01Z
 - title: php server nginx config
   url: https://gist.github.com/7294ba7546c9825a70a6ac9efe609530
-  created_at: '2016-08-01T08:18:57Z'
+  path: _posts/2016-08-01T08:18:57Z
 - title: PHP named params
   url: https://gist.github.com/285a60dccbeb6f63d74554b0f8a2f3e1
-  created_at: '2016-07-09T10:22:34Z'
+  path: _posts/2016-07-09T10:22:34Z
 - title: "[RubyMotion] blurred background view"
   url: https://gist.github.com/7f9dbc4a91c0d78795a92853e89c2ee7
-  created_at: '2016-07-09T10:17:39Z'
+  path: _posts/2016-07-09T10:17:39Z
 - title: "[RubyMotion] [ProMotion] hide status bar"
   url: https://gist.github.com/88c30f4ea4160ebee813bf30fe767723
-  created_at: '2016-07-09T10:14:19Z'
+  path: _posts/2016-07-09T10:14:19Z
 - title: 'Symfony2: exclude 4xx client errors from logging'
   url: https://gist.github.com/d791d0347ee1f4e47b6e
-  created_at: '2016-03-02T09:53:55Z'
+  path: _posts/2016-03-02T09:53:55Z
 - title: AMD loading code
   url: https://gist.github.com/01d6ca5a87a07bb4a260
-  created_at: '2016-02-25T11:23:59Z'
+  path: _posts/2016-02-25T11:23:59Z
 - title: Component\AdyenCreditCard
   url: https://gist.github.com/b1304d26503c6ef0114e
-  created_at: '2016-02-25T10:28:02Z'
+  path: _posts/2016-02-25T10:28:02Z
 - title: 'OS X: forward port 80 to 8080'
   url: https://gist.github.com/a51f7c181ef5be27175c
-  created_at: '2015-10-15T11:57:40Z'
+  path: _posts/2015-10-15T11:57:40Z
 - title: Connecting to remote server local services via SSH tunnel
   url: https://gist.github.com/a0dec70a91f9d0f7c867
-  created_at: '2015-02-24T18:38:16Z'
+  path: _posts/2015-02-24T18:38:16Z
 - title: Forwarding fluentd internal tag to loggly automatically
   url: https://gist.github.com/9bb797e46b1838797a8c
-  created_at: '2015-01-13T13:13:09Z'
+  path: _posts/2015-01-13T13:13:09Z
 - title: Nginx PHP common configuration
   url: https://gist.github.com/2e9eb996c990f3d14adf
-  created_at: '2014-08-15T06:47:40Z'
+  path: _posts/2014-08-15T06:47:40Z
 - title: Convert CSV to SQL INSERT statements
   url: https://gist.github.com/448fe080a52286a8e7ec
-  created_at: '2014-06-24T14:57:21Z'
+  path: _posts/2014-06-24T14:57:21Z
 - title: Converting from base-16 to base-36 number (with 128bit precision)
   url: https://gist.github.com/1ec99b45796f4e237154
-  created_at: '2014-05-17T18:56:33Z'
+  path: _posts/2014-05-17T18:56:33Z
 - title: Passing HTTP AUTH BASIC/DIGEST headers from Apache to PHP-FPM
   url: https://gist.github.com/9685406
-  created_at: '2014-03-21T12:46:28Z'
+  path: _posts/2014-03-21T12:46:28Z
 - title: 'Centered block element with unknown width '
   url: https://gist.github.com/7616588
-  created_at: '2013-11-23T16:19:50Z'
+  path: _posts/2013-11-23T16:19:50Z
 - title: Simple Librato client for PHP
   url: https://gist.github.com/6813174
-  created_at: '2013-10-03T16:59:48Z'
+  path: _posts/2013-10-03T16:59:48Z
 - title: Non-blocking socket connection
   url: https://gist.github.com/6568526
-  created_at: '2013-09-15T06:41:14Z'
+  path: _posts/2013-09-15T06:41:14Z
 - title: 'Remove multiple items in the Mac OSX (Lion) ‘Open With’ '
   url: https://gist.github.com/5477437
-  created_at: '2013-04-28T16:35:55Z'
+  path: _posts/2013-04-28T16:35:55Z
 - title: preg_replace_callback with match counter
   url: https://gist.github.com/5358541
-  created_at: '2013-04-10T21:21:10Z'
+  path: _posts/2013-04-10T21:21:10Z
 - title: Responsive embedded youtube video
   url: https://gist.github.com/5231484
-  created_at: '2013-03-24T11:22:10Z'
+  path: _posts/2013-03-24T11:22:10Z
 - title: "$jsonp"
   url: https://gist.github.com/3938785
-  created_at: '2012-10-23T13:37:41Z'
+  path: _posts/2012-10-23T13:37:41Z
 - title: homebrew formula for apache2 (2.4.3)
   url: https://gist.github.com/3886598
-  created_at: '2012-10-13T23:30:17Z'
+  path: _posts/2012-10-13T23:30:17Z
 - title: 'Doctrine\Common\Cache\CacheProvider performance-aware adapter '
   url: https://gist.github.com/2686852
-  created_at: '2012-05-13T07:59:23Z'
+  path: _posts/2012-05-13T07:59:23Z
 - title: Russian roulette ;-)
   url: https://gist.github.com/2000841
-  created_at: '2012-03-08T12:45:47Z'
+  path: _posts/2012-03-08T12:45:47Z
 - title: Service task for Mac OS X
   url: https://gist.github.com/1772677
-  created_at: '2012-02-08T19:30:01Z'
+  path: _posts/2012-02-08T19:30:01Z
 - title: Observer in JS
   url: https://gist.github.com/1769380
-  created_at: '2012-02-08T13:17:00Z'
+  path: _posts/2012-02-08T13:17:00Z
 - title: Call class method via instance
   url: https://gist.github.com/1367629
-  created_at: '2011-11-15T17:08:45Z'
+  path: _posts/2011-11-15T17:08:45Z
 - title: Codility demo test (Ruby)
   url: https://gist.github.com/1313873
-  created_at: '2011-10-25T19:05:15Z'
+  path: _posts/2011-10-25T19:05:15Z
 - title: Codility demo test (PHP)
   url: https://gist.github.com/1313729
-  created_at: '2011-10-25T18:20:32Z'
+  path: _posts/2011-10-25T18:20:32Z
 - title: 'Devise: find by username OR email'
   url: https://gist.github.com/1249314
-  created_at: '2011-09-28T21:30:32Z'
+  path: _posts/2011-09-28T21:30:32Z
 - title: 'PHP: Converting DateTime between timezones'
   url: https://gist.github.com/1206722
-  created_at: '2011-09-09T16:52:32Z'
+  path: _posts/2011-09-09T16:52:32Z
 - title: Regex look ahead and look behind
   url: https://gist.github.com/1042677
-  created_at: '2011-06-23T14:51:36Z'
+  path: _posts/2011-06-23T14:51:36Z
 - title: Apache log analyzer
   url: https://gist.github.com/1021497
-  created_at: '2011-06-12T12:27:39Z'
+  path: _posts/2011-06-12T12:27:39Z
 - title: PHP PDO grouping results
   url: https://gist.github.com/1001068
-  created_at: '2011-05-31T19:03:57Z'
+  path: _posts/2011-05-31T19:03:57Z
 - title: Accessing private members of the same object type
   url: https://gist.github.com/976185
-  created_at: '2011-05-17T09:11:52Z'
+  path: _posts/2011-05-17T09:11:52Z
 - title: PHP new ternary operator gotcha
   url: https://gist.github.com/969179
-  created_at: '2011-05-12T18:45:32Z'
+  path: _posts/2011-05-12T18:45:32Z
 - title: MySQL fast data load
   url: https://gist.github.com/961414
-  created_at: '2011-05-08T14:59:46Z'
+  path: _posts/2011-05-08T14:59:46Z
 - title: 'Mac OS X: redirecting port 80 to actual http port'
   url: https://gist.github.com/919114
-  created_at: '2011-04-14T08:15:51Z'
+  path: _posts/2011-04-14T08:15:51Z
 - title: Clipped text in CSS
   url: https://gist.github.com/876466
-  created_at: '2011-03-18T17:18:44Z'
+  path: _posts/2011-03-18T17:18:44Z
 - title: 'mongoid: embedded document without object_id'
   url: https://gist.github.com/866182
-  created_at: '2011-03-11T16:54:00Z'
+  path: _posts/2011-03-11T16:54:00Z
 - title: "~/.mplayer/config (polish font in mplayer)"
   url: https://gist.github.com/855634
-  created_at: '2011-03-04T20:17:42Z'
+  path: _posts/2011-03-04T20:17:42Z
 - title: interpret_status in rails3
   url: https://gist.github.com/835382
-  created_at: '2011-02-19T21:29:42Z'
+  path: _posts/2011-02-19T21:29:42Z
 - title: hirb and wirble configuration
   url: https://gist.github.com/821275
-  created_at: '2011-02-10T20:34:16Z'
+  path: _posts/2011-02-10T20:34:16Z
 - title: Lazy assignment pattern
   url: https://gist.github.com/807459
-  created_at: '2011-02-02T09:25:01Z'
+  path: _posts/2011-02-02T09:25:01Z
 - title: 'PHP: function in method'
   url: https://gist.github.com/801098
-  created_at: '2011-01-28T22:05:45Z'
+  path: _posts/2011-01-28T22:05:45Z
 - title: will_paginate query with per_page working in rails3
   url: https://gist.github.com/789923
-  created_at: '2011-01-21T16:27:55Z'
+  path: _posts/2011-01-21T16:27:55Z
 - title: jQuery onload event for images
   url: https://gist.github.com/789615
-  created_at: '2011-01-21T12:29:36Z'
+  path: _posts/2011-01-21T12:29:36Z
 - title: Doctrine_Hydrator_FlatArray
   url: https://gist.github.com/740225
-  created_at: '2010-12-14T10:05:34Z'
+  path: _posts/2010-12-14T10:05:34Z
 - title: Doctrine2 EnumType
   url: https://gist.github.com/8c0c01597b5260f896ef
-  created_at: '2010-12-13T11:31:18Z'
+  path: _posts/2010-12-13T11:31:18Z
