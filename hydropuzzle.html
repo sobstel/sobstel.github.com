@@ -30,17 +30,20 @@ permalink: /hydropuzzle/
       line-height: 1.5rem;
     }
     .container {
-      width: 360px;
+      max-width: 355px;
+      padding: 0 10px;
       margin: auto;
       text-align: center;
     }
     h1 {
       margin: 3rem auto 2rem;
       font-family: 'Fibre';
-      font-size: 62px;
+      font-size: 42px;
       letter-spacing: 6px;
       text-align: center;
     }
+    @media (min-width: 375px) { h1 { font-size: 48px; } }
+    @media (min-width: 414px) { h1 { font-size: 54px; } }
     p {
       margin: 2rem auto;
     }
