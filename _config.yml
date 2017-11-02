@@ -19,7 +19,7 @@ defaults:
     values:
       layout: "post"
 
-port: 1809
+port: 1982
 
 gems:
   - jekyll-coffeescript
