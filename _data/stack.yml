@@ -1,19 +1,20 @@
 ---
+JavaScript: 12
 MySQL: 12
 PHP: 11
-JavaScript: 10
 CSS: 6
 Ruby: 5
+ES6: 5
+Sass: 5
 Rails: 4
-Sass: 4
 git: 4
-ES6: 3
 nginx: 3
 Ubuntu: 3
 Memcached: 3
 Akamai: 3
 Vue: 2
 Vuex: 2
+React Native: 2
 Symfony2: 2
 phpunit: 2
 Doctrine: 2
@@ -22,8 +23,8 @@ SOAP: 2
 JWT: 1
 Auth0: 1
 Heroku: 1
-React Native: 1
 Redux: 1
+Hyperapp: 1
 Riot: 1
 CoffeeScript: 1
 MongoDB: 1
