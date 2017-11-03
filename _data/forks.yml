@@ -1,4 +1,19 @@
 ---
+- name: react-native-typewriter
+  full_name: sobstel/react-native-typewriter
+  html_url: https://github.com/sobstel/react-native-typewriter
+  description: A React Native component for creating typing effects
+  fork: true
+  stargazers_count: 0
+  languages:
+    JavaScript: 3729
+- name: awesome-hyperapp
+  full_name: sobstel/awesome-hyperapp
+  html_url: https://github.com/sobstel/awesome-hyperapp
+  description: A curated list of awesome projects built with Hyperapp & more.
+  fork: true
+  stargazers_count: 0
+  languages: {}
 - name: pt-tests
   full_name: sobstel/pt-tests
   html_url: https://github.com/sobstel/pt-tests
@@ -7,7 +22,7 @@
   stargazers_count: 0
   languages:
     JavaScript: 14094
-    Cucumber: 1085
+    Gherkin: 1085
 - name: imanee
   full_name: sobstel/imanee
   html_url: https://github.com/sobstel/imanee

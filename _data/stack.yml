@@ -23,6 +23,7 @@ SOAP: 2
 JWT: 1
 Auth0: 1
 Heroku: 1
+PostgreSQL: 1
 Redux: 1
 Hyperapp: 1
 Riot: 1
