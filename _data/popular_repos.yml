@@ -1,4 +1,12 @@
 ---
+- name: metaphore
+  full_name: sobstel/metaphore
+  html_url: https://github.com/sobstel/metaphore
+  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
+  fork: false
+  stargazers_count: 79
+  languages:
+    PHP: 29134
 - name: golazon
   full_name: sobstel/golazon
   html_url: https://github.com/sobstel/golazon
@@ -17,14 +25,6 @@
   stargazers_count: 32
   languages:
     JavaScript: 1394
-- name: metaphore
-  full_name: sobstel/metaphore
-  html_url: https://github.com/sobstel/metaphore
-  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
-  fork: false
-  stargazers_count: 79
-  languages:
-    PHP: 29070
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
