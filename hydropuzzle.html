@@ -1,5 +1,14 @@
 ---
 permalink: /hydropuzzle/
+short_description: Hydropuzzle is a surreal superhero parody shaped into a short text-rich puzzle adventure.
+long_description: >
+  A summer heat wave. Warsaw is mysteriously running out of water.
+  An enigmatic professor, weird men in black, an evil doctor, a brave king of some desert nation,
+  a drunk gateman, radioactive fish, a cyber-crocodile, thousands of balloons...
+  and YOU - tech-savvy superhero with an iPhone and brain as your sole weapons.
+  How do all these things connect together?
+  Where has Warsaw’s water gone?
+  Can you solve the mystery?
 ---
 
 <!DOCTYPE html>
@@ -10,12 +19,13 @@ permalink: /hydropuzzle/
 
   <title>Hydropuzzle - surreal tech adventure for iPhone</title>
 
-  <meta name="description" content="Hydropuzzle is a surreal superhero parody shaped into a short text-rich puzzle adventure." />
+  <meta name="description" content="{{ page.short_descripiton }}" />
 
   <meta name="apple-itunes-app" content="app-id=1294812505">
   <!--<meta property="fb:app_id" content="" />-->
   <meta property="og:url" content="http://www.sobstel.org/hydropuzzle">
   <meta property="og:title" content="Hydropuzzle - surreal tech adventure for iPhone">
+  <meta properlt="og:description" content="{{ page.long_description }}"
   <meta property="og:type" content="website">
   <meta property="og:image" content="http://www.sobstel.org/img/hydro/hpromo.jpg">
 
@@ -77,7 +87,7 @@ permalink: /hydropuzzle/
 
   <div class="container">
     <p>
-      A summer heat wave. Warsaw is mysteriously running out of water. An enigmatic professor, weird men in black, an evil doctor, a brave king of some desert nation, a drunk gateman, radioactive fish, a cyber-crocodile, thousands of balloons... and YOU - tech-savvy superhero with an iPhone and brain as your sole weapons. How do all these things connect together? Where has Warsaw’s water gone? Can you solve the mystery?
+      {{ page.long_description }}
     </p>
     <p>
       <a href="https://itunes.apple.com/app/id1294812505">
@@ -85,7 +95,7 @@ permalink: /hydropuzzle/
       </a>
     </p>
     <p>
-      Hydropuzzle is a surreal superhero parody shaped into a short text-rich puzzle adventure.
+      {{ page.short_description }}
     </p>
     <p>
       <img src="/img/hydro/hpromo.jpg" class="hpromo" title="Hydropuzzle - surreal text adventure - can you solve the mystery?" />
