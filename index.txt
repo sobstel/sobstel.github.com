@@ -1,5 +1,6 @@
 gists          https://gist.github.com/sobstel
 github         https://github.com/sobstel/
+instagram      https://www.instagram.com/sobsteldev/
 linkedin       https://www.linkedin.com/in/sobstel/
 stackoverflow  https://stackoverflow.com/users/219272/sobstel
 sobstel        http://www.sobstel.org/
