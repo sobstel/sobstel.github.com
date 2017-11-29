@@ -94,6 +94,8 @@ Distributed development team. 2 devs in Katowice (Poland) + 2 devs in Hague
 Don't know and haven't used Docker in production (but truly willing to stop
 ignoring this one of top buzzwords recent years).
 
+Not available since January 2018 (+3 weeks long holidays planned in Jan/Feb).
+
 Live 3.5h drive from Warsaw, sorry :/
 
 ## EMAIL
