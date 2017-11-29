@@ -1,0 +1,10 @@
+gists          https://gist.github.com/sobstel
+github         https://github.com/sobstel/
+linkedin       https://www.linkedin.com/in/sobstel/
+stackoverflow  https://stackoverflow.com/users/219272/sobstel
+sobstel        http://www.sobstel.org/
+twitter        https://twitter.com/sobstel
+
+appjobs        https://www.appjobs.com/
+baytekin       http://baytekin.media/
+tofd           http://tipoftheday

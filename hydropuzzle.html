@@ -71,9 +71,10 @@ long_description: >
     a {
       color: #ff9500;
       text-decoration: none;
-    },
+    }
     a:hover {
-      opacity: 0.8;
+      opacity: 0.75;
+      text-decoration: underline;
     }
     .hpromo {
       width: 100%;
@@ -89,6 +90,22 @@ long_description: >
       width: 45%;
       margin: 0 1.4%;
       border-radius: 5px;
+    }
+    #walkthrough_trigger {
+      cursor: pointer;
+    }
+    #walkthrough {
+      display: none;
+    }
+    #walkthrough.visible {
+      display: block;
+    }
+    .spoiler {
+      color: #ff9500;
+      background-color: #ff9500;
+    }
+    .spoiler.visible {
+      color: #000;
     }
   </style>
 </head>
@@ -118,22 +135,22 @@ long_description: >
       </a>
     </p>
     <p>
-      <img src="/img/hydro/seq1@2x.jpg" class="thumb" />
-      <img src="/img/hydro/seq2@2x.jpg" class="thumb" />
-      <img src="/img/hydro/seq3@2x.jpg" class="thumb" />
+      <a href="/img/hydro/seq1@2x.jpg" target="_blank"><img src="/img/hydro/seq1@2x.jpg" class="thumb" /></a>
+      <a href="/img/hydro/seq2@2x.jpg" target="_blank"><img src="/img/hydro/seq2@2x.jpg" class="thumb" /></a>
+      <a href="/img/hydro/seq3@2x.jpg" target="_blank"><img src="/img/hydro/seq3@2x.jpg" class="thumb" /></a>
 
       <!-- <img src="/img/hydro/v2-laptop@2x.jpg" class="thumb" /> -->
-      <img src="/img/hydro/keypad.jpg" class="thumb" />
-      <img src="/img/hydro/v4-compass@2x.jpg" class="thumb" />
-      <img src="/img/hydro/v3-poem@2x.jpg" class="thumb" />
+      <a href="/img/hydro/keypad.jpg" target="_blank"><img src="/img/hydro/keypad.jpg" class="thumb" /></a>
+      <a href="/img/hydro/v4-compass@2x.jpg" target="_blank"><img src="/img/hydro/v4-compass@2x.jpg" class="thumb" /></a>
+      <a href="/img/hydro/v3-poem@2x.jpg" target="_blank"><img src="/img/hydro/v3-poem@2x.jpg" class="thumb" /></a>
 
-      <img src="/img/hydro/v2-skatedown@2x.jpg" class="thumb" />
-      <img src="/img/hydro/v4-streetarrow@2x.jpg" class="thumb" />
-      <img src="/img/hydro/v4-railroad@2x.jpg" class="thumb" />
+      <a href="/img/hydro/v2-skatedown@2x.jpg" target="_blank"><img src="/img/hydro/v2-skatedown@2x.jpg" class="thumb" /></a>
+      <a href="/img/hydro/v4-streetarrow@2x.jpg" target="_blank"><img src="/img/hydro/v4-streetarrow@2x.jpg" class="thumb" /></a>
+      <a href="/img/hydro/v4-railroad@2x.jpg" target="_blank"><img src="/img/hydro/v4-railroad@2x.jpg" class="thumb" /></a>
     </p>
     <p>
-      <img src="/img/hydro/filmreel.jpg" class="shot" />
-      <img src="/img/hydro/esoteric2.jpg" class="shot" />
+      <a href="/img/hydro/filmreel.jpg" target="_blank"><img src="/img/hydro/filmreel.jpg" class="shot" /></a>
+      <a href="/img/hydro/esoteric2.jpg" target="_blank"><img src="/img/hydro/esoteric2.jpg" class="shot" /></a>
     </p>
     <p>
       No 6 Top Games/Adventure<br>No 18 Top Paid Games<br>
@@ -145,14 +162,30 @@ long_description: >
     </p>
     -->
     <p>
-      Engineered by <a href="http://sobstel.org/" rel="nofollow">sobstel</a>, 2017<br>
-      Contact: przemek&#64;sobstel.org
+      <!-- press kit -->
+      <!-- video trailer -->
+      Email: przemek&#64;sobstel.org
     </p>
     <!--
     <p>
       For promo codes or any other inquiries, please email .
     </p>
   -->
+    <p>
+      Engineered by <a href="http://sobstel.org/" rel="nofollow">sobstel</a>, 2017<br>
+    </p>
+    <p>
+      <a id="walkthrough_trigger">walkthrough / spoilers</a>
+    </p>
+    <p id="walkthrough">
+      <small>click on orange bar (spoiler alert!)</small><br><br>
+      Chapter 1<br><span class="spoiler">qwerty</span><br>
+      Chapter 2<br><span class="spoiler">3 2 9 5</span><br>
+      Chapter 3<br><span class="spoiler">255</span><br>
+      Chapter 4<br><span class="spoiler"><a href="/img/hydro/chapter4spoiler.jpg" rel="nofollow" target="_blank">img</a></span><br>
+      Chapter 5<br><span class="spoiler">psswrd</span><br>
+      Chapter 6<br><span class="spoiler">19=S, 20=T, 15=O, 16=P<br><code>++++[>++++<-]>+++.+.-----.+.</code><br>
+    </p>
     <p>
       The game is a tribute to Andrzej Kondratiuk's <a href="http://www.imdb.com/title/tt0172577/" rel="nofollow">Hydrozagadka</a><br>
       Inspired by <a href="http://simogo.com/work/device-6/" rel="nofollow">Device 6</a>
@@ -162,5 +195,15 @@ long_description: >
       <a href="https://twitter.com/hashtag/hydropuzzle" rel="nofollow"><img src="/img/hydro/twitter_48.png" /></a>
     <p>
   </div>
+
+  <script>
+    document.getElementById('walkthrough_trigger').onclick = function () {
+      document.getElementById('walkthrough').className = 'visible';
+    };
+
+    document.querySelectorAll('.spoiler').forEach(function (spoiler) {
+      spoiler.onclick = function () { this.className = 'visible'; };
+    });
+  </script>
 </body>
 </html>

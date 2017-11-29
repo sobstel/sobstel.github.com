@@ -1,0 +1,105 @@
+sobstel.org(7) -- Przemek Sobstel (przemek@sobstel.org)
+=======================================================
+
+## SYNOPSIS
+
+Pragmatic, experienced full stack developer, earlier backend focused (PHP/Ruby),
+more recently captivated by reactive programming, React Native and mobile apps
+development.
+
+## SELECTED EXAMPLES
+
+Over 10 years of commercial experience. Following are recent (last a few years) projects.
+
+  * `Hydropuzzle`:
+    Surreal story shaped into a short text puzzle adventure game
+    (<http://www.sobstel.org/hydropuzzle/>).
+    Private project.
+    **Stack**: React Native.
+    Free App Store redeem codes to claim: <http://codehookup.com/f5ba3f06>.
+
+  * `Sequent  `:
+    Short-term memory training game
+    (<https://github.com/sobstel/sequent>).
+    Private project (open source).
+    **Stack:** React Native, Redux.
+
+  * `Tip of the Day`:
+    Best betting tips
+    (<https://itunes.apple.com/app/dans-tip-of-the-day/id1281243051?mt=8>).
+    **Team:** me + backend dev + designer.
+    **My role:** idea and programming.
+    **Stack:** React Native.
+
+  * `AppJobs  `:
+    All app-based (sharing economy) jobs in one place
+    (<https://www.appjobs.com>).
+    **Team:** me + frontend dev + designer.
+    **My role:** lead developer (backend [api/admin] / frontend / infrastructure).
+    **Stack**: Ruby/Rails, PostgreSQL, Vue, JWT/Auth0, Heroku.
+
+  * `Golazon  `:
+    Football data mnmlist way
+    (<https://github.com/sobstel/golazon>, <http://www.golazon.com/>)
+    Private project.
+    **Stack**: Hyperapp (earlier: Riot), Ruby.
+
+  * `Protipster`:
+    Virtual betting platform
+    (<https://www.protipster.com>).
+    **Team:** 4-8 developers, 2 designers (flat structure).
+    **My role:** backend developer.
+    **Stack**: Symfony/PHP, MySQL, RabbitMQ, Vue.
+
+  * `Soccerway`:
+    One of the biggest football websites on the planet
+    (<http://www.soccerway.com/>).
+    **Team**: 2-5 developers.
+    **My role:** lead developer 2010-2012.
+    **Stack**: PHP, MySQL.
+
+  * `Opta: Core API + Hosted Platform`:
+    Sports API and new hosted solution for nearly 100 clients (inc.
+    Microsoft/MSN, FOX Sports, Opera Sports, CONCACAF, CBC Canada, Yahoo!,
+    ESPN, Al Jazeera, etc).
+    **Team**: 2-5 developers.
+    **My role**: lead developer.
+    **Stack**: PHP, MySQL.
+
+## REMOTE EXPERIENCE
+
+Partly remote team (4-8 devs) in Poland. Swedish/Turkish stakeholders and
+product owners. (~4 years, 2014-)
+
+Distributed development team. 4-5 devs in Katowice (Poland) + 2 devs
+in  Hague (Holland). Product owners in UK. (~2 years, 2012-2014)
+
+Distributed development team. 2 devs in Katowice (Poland) + 2 devs in Hague
+(Holland). Product owners in Holland. (~2 years, 2010-2012)
+
+## CODE SAMPLES
+
+  * `seq`:
+    <https://github.com/sobstel/sequent>
+  * `hydro`:
+    on request (if you send me github nicknames, I'll give you access to
+    the repository)
+  * `github`:
+    [github][]
+  * `gists`:
+    [gists][]
+
+## WHY NOT...
+
+Don't know and haven't used Docker in production (but truly willing to stop
+ignoring this one of top buzzwords recent years).
+
+Live 3.5h drive from Warsaw, sorry :/
+
+## EMAIL
+
+<przemek@sobstel.org>
+
+## SEE ALSO
+
+[sobstel][], [github][], [gists][], [twitter][], [stackoverflow][], [linkedin][]
