@@ -16,7 +16,6 @@ Over 10 years of commercial experience. Following are recent (last a few years) 
     (<http://www.sobstel.org/hydropuzzle/>).
     Private project.
     **Stack**: React Native.
-    Free App Store redeem codes to claim: <http://codehookup.com/f5ba3f06>.
 
   * `Sequent  `:
     Short-term memory training game
