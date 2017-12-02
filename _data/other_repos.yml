@@ -5,10 +5,6 @@
   description: 
   fork: false
   stargazers_count: 0
-  languages:
-    Vim script: 462995
-    Shell: 4283
-    Ruby: 936
 - name: golazon-2015
   full_name: sobstel/golazon-2015
   html_url: https://github.com/sobstel/golazon-2015
@@ -16,12 +12,6 @@
     virtus, bourbon)
   fork: false
   stargazers_count: 0
-  languages:
-    Ruby: 36280
-    HTML: 12594
-    CSS: 3470
-    JavaScript: 838
-    CoffeeScript: 422
 - name: golazon.universo
   full_name: sobstel/golazon.universo
   html_url: https://github.com/sobstel/golazon.universo
@@ -29,127 +19,87 @@
     mongodb, nanoc, slate)
   fork: false
   stargazers_count: 0
-  languages:
-    CSS: 23342
-    HTML: 22014
-    Ruby: 16739
-    Shell: 302
-    PHP: 50
 - name: xentry
   full_name: sobstel/xentry
   html_url: https://github.com/sobstel/xentry
   description: 'laravel vs rails playground '
   fork: false
   stargazers_count: 0
-  languages:
-    PHP: 107040
-    Ruby: 30602
-    HTML: 12868
-    JavaScript: 1164
-    CSS: 862
-    ApacheConf: 553
-    CoffeeScript: 211
 - name: jsondocr
   full_name: sobstel/jsondocr
   html_url: https://github.com/sobstel/jsondocr
   description: DSL for documenting JSON structure
   fork: false
   stargazers_count: 0
-  languages:
-    Ruby: 8838
 - name: agnostic
   full_name: sobstel/agnostic
   html_url: https://github.com/sobstel/agnostic
   description: not-really-ORM [ON HOLD]
   fork: false
   stargazers_count: 2
-  languages:
-    PHP: 34482
 - name: pathway
   full_name: sobstel/pathway
   html_url: https://github.com/sobstel/pathway
   description: RubyMotion (iOS) custom scrolling experiments
   fork: false
   stargazers_count: 0
-  languages:
-    Ruby: 7338
 - name: AsyncHTTP
   full_name: sobstel/AsyncHTTP
   html_url: https://github.com/sobstel/AsyncHTTP
   description: PHP asynchronous non-blocking HTTP requests.
   fork: false
   stargazers_count: 4
-  languages:
-    PHP: 15280
 - name: Imaged
   full_name: sobstel/Imaged
   html_url: https://github.com/sobstel/Imaged
   description: Image mainpulation lib. Object-oriented wrapper for PHP GD2 library.
   fork: false
   stargazers_count: 2
-  languages:
-    PHP: 17314
 - name: elicorege
   full_name: sobstel/elicorege
   html_url: https://github.com/sobstel/elicorege
   description: Extremely lightweight (PHP) Composer repository generator.
   fork: false
   stargazers_count: 0
-  languages:
-    PHP: 6683
 - name: theraventhatrefusedtosing
   full_name: sobstel/theraventhatrefusedtosing
   html_url: https://github.com/sobstel/theraventhatrefusedtosing
   description: 
   fork: false
   stargazers_count: 0
-  languages: {}
 - name: Execution
   full_name: sobstel/Execution
   html_url: https://github.com/sobstel/Execution
   description: PHP class to handle unrecoverable fatal errors. (use Monolog instead)
   fork: false
   stargazers_count: 2
-  languages:
-    PHP: 5570
 - name: komixin
   full_name: sobstel/komixin
   html_url: https://github.com/sobstel/komixin
   description: 
   fork: false
   stargazers_count: 0
-  languages:
-    Ruby: 23103
 - name: emolRTE
   full_name: sobstel/emolRTE
   html_url: https://github.com/sobstel/emolRTE
   description: Unbloated Rich Text Editor for jQuery.
   fork: false
   stargazers_count: 2
-  languages:
-    JavaScript: 6566
 - name: scru.js
   full_name: sobstel/scru.js
   html_url: https://github.com/sobstel/scru.js
-  description: Lightweight execution dependency manager (perfect for lazy loading
-    with dependencies)
+  description: Lightweight execution dependency manager (lazy loading with dependencies)
   fork: false
   stargazers_count: 1
-  languages:
-    JavaScript: 5255
 - name: shed
   full_name: sobstel/shed
   html_url: https://github.com/sobstel/shed
   description: PHP Dependency Injection container
   fork: false
   stargazers_count: 1
-  languages:
-    PHP: 11308
 - name: XReflect
   full_name: sobstel/XReflect
   html_url: https://github.com/sobstel/XReflect
   description: Object Oriented PHP Reflection to XML (generator).
   fork: false
   stargazers_count: 1
-  languages:
-    PHP: 22276

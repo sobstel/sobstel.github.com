@@ -2,12 +2,14 @@ gists          https://gist.github.com/sobstel
 github         https://github.com/sobstel/
 instagram      https://www.instagram.com/sobsteldev/
 linkedin       https://www.linkedin.com/in/sobstel/
-stackoverflow  https://stackoverflow.com/users/219272/sobstel
 sobstel        http://www.sobstel.org/
+stackoverflow  https://stackoverflow.com/users/219272/sobstel
 twitter        https://twitter.com/sobstel
 
 hydropuzzle    http://www.sobstel.org/hydropuzzle/
+hydropuzzle-as https://itunes.apple.com/app/id1294812505?ls=1&mt=8 
 golazon        http://www.golazon/com/
+golazon-gh     https://github.com/sobstel/golazon
 
 appjobs        https://www.appjobs.com/
 baytekin       http://baytekin.media/

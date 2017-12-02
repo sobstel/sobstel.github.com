@@ -30,14 +30,20 @@ task :publish, :message do |_, args|
   args.with_defaults message: Quotey::Quoter.new.get_quote.encode('UTF-8').delete('"')
   message = args[:message]
 
+  task(:generate_ronn_pages).execute
   task(:import_github_repos).execute
   task(:import_gists).execute
-  task(:generate_tech_stack_cloud).execute
 
   sh 'git add --all .'
   sh "git commit . --message=\"#{message}\""
   sh 'git pull --rebase'
   sh 'git push'
+end
+
+desc 'Generate ronn pages'
+task :generate_ronn_pages do
+  sh 'ronn --html --style print index.ronn'
+  sh 'ronn --html --style print --pipe examples.ronn > examples/index.html'
 end
 
 desc 'Import GitHub repos'
@@ -48,11 +54,8 @@ task :import_github_repos do
   all_repos = JSON.parse(fetch(url)).sort_by do |repo|
     repo['pushed_at']
   end.collect do |repo|
-    puts "- fetch languages from #{repo['languages_url']}"
-    repo.merge('languages' => JSON.parse(fetch(repo['languages_url'])))
-  end.collect do |repo|
     repo.select do |key, _|
-      %w(name full_name description html_url fork languages stargazers_count).include? key
+      %w[name full_name description html_url fork languages stargazers_count].include? key
     end
   end.reverse
 
@@ -67,7 +70,7 @@ end
 desc 'Import GitHub gists'
 task :import_gists do
   gists = load_data('gists')
-  since = gists.first['path'].gsub('_posts/', '')
+  since = gists.first['date'].to_s
 
   url = format('https://api.github.com/users/%s/gists?since=%s', 'sobstel', URI.encode(since))
   puts "fetch from #{url}"
@@ -82,7 +85,7 @@ task :import_gists do
     gists.unshift(
       'title' => gist['description'],
       'url' => gist['html_url'],
-      'path' => "_posts/#{gist['created_at']}" # HACK to make gists comparable with posts
+      'date' => gist['created_at']
     )
   end
 
@@ -116,9 +119,8 @@ task :import_github_contributions do
         name = matches[2]
 
         repo = format('%s/%s', vendor, name)
-        excluded_vendors = %w(sobstel golazon tripit wbond)
 
-        github_contributions << repo unless excluded_vendors.include?(vendor)
+        github_contributions << repo
       end
 
       sleep(1)
@@ -131,26 +133,4 @@ task :import_github_contributions do
   github_contributions.sort_by!(&:downcase)
 
   save_data('contribs', github_contributions)
-end
-
-desc 'Generate tech stack cloud'
-task :generate_tech_stack_cloud do
-  html_doc = Nokogiri::HTML(File.read('work.html'))
-  html_stacks = html_doc.css('.stack')
-
-  stack = {}
-
-  html_stacks.each do |html_stack|
-    html_stack.text.split(', ').each do |tech|
-      stack[tech] = 0 unless stack[tech]
-      stack[tech] += 1
-    end
-  end
-
-  stack_arr = stack.to_a
-  stack = stack_arr.sort_by { |k, v| [-v, stack_arr.index([k, v])] }.to_h
-
-  # puts stack.to_a.to_yaml
-
-  save_data('stack', stack)
 end

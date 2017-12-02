@@ -5,58 +5,42 @@
   description: A React Native component for creating typing effects
   fork: true
   stargazers_count: 0
-  languages:
-    JavaScript: 3729
 - name: awesome-hyperapp
   full_name: sobstel/awesome-hyperapp
   html_url: https://github.com/sobstel/awesome-hyperapp
   description: A curated list of awesome projects built with Hyperapp & more.
   fork: true
   stargazers_count: 0
-  languages: {}
 - name: pt-tests
   full_name: sobstel/pt-tests
   html_url: https://github.com/sobstel/pt-tests
   description: Sample tests for PT
   fork: true
   stargazers_count: 0
-  languages:
-    JavaScript: 14094
-    Gherkin: 1085
 - name: imanee
   full_name: sobstel/imanee
   html_url: https://github.com/sobstel/imanee
   description: php image manipulation library for fun projects
   fork: true
   stargazers_count: 0
-  languages:
-    PHP: 126167
 - name: doctrine2
   full_name: sobstel/doctrine2
   html_url: https://github.com/sobstel/doctrine2
   description: Doctrine 2 Object Relational Mapper (ORM)
   fork: true
   stargazers_count: 0
-  languages:
-    PHP: 5183814
-    Shell: 724
-    Batchfile: 220
 - name: Aura.Marshal
   full_name: sobstel/Aura.Marshal
   html_url: https://github.com/sobstel/Aura.Marshal
   description: A data-marshaling toolset
   fork: true
   stargazers_count: 0
-  languages:
-    PHP: 118153
 - name: Underscore.php
   full_name: sobstel/Underscore.php
   html_url: https://github.com/sobstel/Underscore.php
   description: PHP port of Underscore.js
   fork: true
   stargazers_count: 0
-  languages:
-    PHP: 113801
 - name: LSDCache
   full_name: sobstel/LSDCache
   html_url: https://github.com/sobstel/LSDCache
@@ -64,4 +48,3 @@
     storages (Memcache, APC, Array)
   fork: true
   stargazers_count: 0
-  languages: {}

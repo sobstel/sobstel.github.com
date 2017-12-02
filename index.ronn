@@ -60,5 +60,5 @@ przemek@sobstel.org
 
 ## SEE ALSO
 
-[github][], [gists][], [blog](/blog/),
+[github][], [gists](/gists/), [blog](/blog/),
 [twitter][], [instagram][], [stackoverflow][], [linkedin][]

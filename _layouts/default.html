@@ -12,26 +12,11 @@
 <body>
 <div id="content">
   <h1>
-    <a href="/">sobstel</a> /
-    <strong>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</strong>
+    <strong>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</strong><br>
+    <small>by <a href="/">sobstel</a></small>
   </h1>
 
   {{ content }}
-
-  <!--
-
-  <p class="linkbar">
-    <a href="/work/">work</a> ::
-    <a href="/open-source/">open source</a> |
-    <a href="/dumps/">dumps</a> |
-    <a href="https://github.com/sobstel/">github</a> |
-    <a href="https://stackoverflow.com/users/219272/sobstel">stackoverflow</a> |
-    <a href="https://twitter.com/sobstel">twitter</a> |
-    <a href="https://www.linkedin.com/in/sobstel">linkedin</a> |
-    przemek&#64;sobstel.org
-  </p>
-
-  -->
 </div>
 </body>
 </html>

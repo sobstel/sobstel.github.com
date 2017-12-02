@@ -4,13 +4,3 @@
 {% if repo.description.size > 0 %}
   - {{ repo.description }}
 {% endif %}
-{% if repo.languages %}
-  <span class="langs">
-    {% for lang_info in repo.languages %}
-      {% assign lang = lang_info[0] %}
-      {% assign bytes = lang_info[1] %}
-
-      {{ lang }}{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-  </span>
-{% endif %}

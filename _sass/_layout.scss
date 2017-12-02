@@ -22,16 +22,22 @@ h1 {
   font-size: 1.5em;
   line-height: 1.2em;
   font-weight: 500;
-  text-transform: lowercase;
-}
-h1 strong {
-  font-weight: 700;
-  letter-spacing: -1px;
 
-  a {
-    border-bottom: none;
+  strong {
+    font-weight: 700;
+    letter-spacing: -1px;
+
+    a {
+      border-bottom: none;
+    }
+  }
+
+  small {
+    font-size: 0.8rem;
+    margin-left: 0.1rem;
   }
 }
+
 h2 {
   font-size: 1.2em;
 

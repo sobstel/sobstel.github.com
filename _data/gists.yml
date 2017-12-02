@@ -1,181 +1,184 @@
 ---
-- title: Quicka&dirty trello task list
+- title: Quick&dirty trello task list
   url: https://gist.github.com/c9b5cb6f5dc09bd2b12ada7e310c4634
-  path: _posts/2017-12-02T10:41:36Z
+  date: '2017-12-02T10:41:36Z'
+- title: Quick&dirty trello task list
+  url: https://gist.github.com/c9b5cb6f5dc09bd2b12ada7e310c4634
+  date: 2017-12-02 10:41:36.000000000 Z
 - title: Optimal images optimization
   url: https://gist.github.com/19ac8218d6c5b9bc115020d906d2bc5f
-  path: _posts/2017-10-06T21:45:03Z
+  date: 2017-10-06 21:45:03.000000000 Z
 - title: fetch timeout
   url: https://gist.github.com/ede78ad0bffc2efbcb49b93a152b838b
-  path: _posts/2017-08-06T10:24:48Z
+  date: 2017-08-06 10:24:48.000000000 Z
 - title: React Native ScrollView repeated background
   url: https://gist.github.com/202590b13e1121ef66eb15de81032b30
-  path: _posts/2017-05-12T14:24:31Z
+  date: 2017-05-12 14:24:31.000000000 Z
 - title: Traductor (rails models translations)
   url: https://gist.github.com/e102901af07bb0390ca67af914916b5d
-  path: _posts/2017-04-18T14:21:02Z
+  date: 2017-04-18 14:21:02.000000000 Z
 - title: 'Rails, Auth0, JWT, RS256 '
   url: https://gist.github.com/1a701a162a32badcce6e01e4974b313e
-  path: _posts/2017-02-09T10:48:00Z
+  date: 2017-02-09 10:48:00.000000000 Z
 - title: 'nokogiri -> ERROR: cannot discover where libxml2 is located on your system'
   url: https://gist.github.com/f6a490d854a2e5a214c3f2cd9c366032
-  path: _posts/2017-01-03T17:30:21Z
+  date: 2017-01-03 17:30:21.000000000 Z
 - title: mnmlist web
   url: https://gist.github.com/bb52784b857697b71f60ed2f040e9757
-  path: _posts/2016-10-23T15:26:43Z
+  date: 2016-10-23 15:26:43.000000000 Z
 - title: 'Kata04: Data Munging - Part One: Weather Data http://codekata.com/kata/kata04-data-munging/'
   url: https://gist.github.com/9a315bb4d8cf7a589e24768f940fd85a
-  path: _posts/2016-08-16T14:32:52Z
+  date: 2016-08-16 14:32:52.000000000 Z
 - title: 10 Modern Software Over-Engineering Mistakes
   url: https://gist.github.com/520783ba5243bf71664eea3895a77c8d
-  path: _posts/2016-08-12T13:06:09Z
+  date: 2016-08-12 13:06:09.000000000 Z
 - title: 'Lean: Eliminate Waste'
   url: https://gist.github.com/d9a55c5bc99f2cb67642a8ccd7562ded
-  path: _posts/2016-08-08T13:04:01Z
+  date: 2016-08-08 13:04:01.000000000 Z
 - title: php server nginx config
   url: https://gist.github.com/7294ba7546c9825a70a6ac9efe609530
-  path: _posts/2016-08-01T08:18:57Z
+  date: 2016-08-01 08:18:57.000000000 Z
 - title: PHP named params
   url: https://gist.github.com/285a60dccbeb6f63d74554b0f8a2f3e1
-  path: _posts/2016-07-09T10:22:34Z
+  date: 2016-07-09 10:22:34.000000000 Z
 - title: "[RubyMotion] blurred background view"
   url: https://gist.github.com/7f9dbc4a91c0d78795a92853e89c2ee7
-  path: _posts/2016-07-09T10:17:39Z
+  date: 2016-07-09 10:17:39.000000000 Z
 - title: "[RubyMotion] [ProMotion] hide status bar"
   url: https://gist.github.com/88c30f4ea4160ebee813bf30fe767723
-  path: _posts/2016-07-09T10:14:19Z
+  date: 2016-07-09 10:14:19.000000000 Z
 - title: 'Symfony2: exclude 4xx client errors from logging'
   url: https://gist.github.com/d791d0347ee1f4e47b6e
-  path: _posts/2016-03-02T09:53:55Z
+  date: 2016-03-02 09:53:55.000000000 Z
 - title: AMD loading code
   url: https://gist.github.com/01d6ca5a87a07bb4a260
-  path: _posts/2016-02-25T11:23:59Z
+  date: 2016-02-25 11:23:59.000000000 Z
 - title: Component\AdyenCreditCard
   url: https://gist.github.com/b1304d26503c6ef0114e
-  path: _posts/2016-02-25T10:28:02Z
+  date: 2016-02-25 10:28:02.000000000 Z
 - title: 'OS X: forward port 80 to 8080'
   url: https://gist.github.com/a51f7c181ef5be27175c
-  path: _posts/2015-10-15T11:57:40Z
+  date: 2015-10-15 11:57:40.000000000 Z
 - title: Connecting to remote server local services via SSH tunnel
   url: https://gist.github.com/a0dec70a91f9d0f7c867
-  path: _posts/2015-02-24T18:38:16Z
+  date: 2015-02-24 18:38:16.000000000 Z
 - title: Forwarding fluentd internal tag to loggly automatically
   url: https://gist.github.com/9bb797e46b1838797a8c
-  path: _posts/2015-01-13T13:13:09Z
+  date: 2015-01-13 13:13:09.000000000 Z
 - title: Nginx PHP common configuration
   url: https://gist.github.com/2e9eb996c990f3d14adf
-  path: _posts/2014-08-15T06:47:40Z
+  date: 2014-08-15 06:47:40.000000000 Z
 - title: Convert CSV to SQL INSERT statements
   url: https://gist.github.com/448fe080a52286a8e7ec
-  path: _posts/2014-06-24T14:57:21Z
+  date: 2014-06-24 14:57:21.000000000 Z
 - title: Converting from base-16 to base-36 number (with 128bit precision)
   url: https://gist.github.com/1ec99b45796f4e237154
-  path: _posts/2014-05-17T18:56:33Z
+  date: 2014-05-17 18:56:33.000000000 Z
 - title: Passing HTTP AUTH BASIC/DIGEST headers from Apache to PHP-FPM
   url: https://gist.github.com/9685406
-  path: _posts/2014-03-21T12:46:28Z
+  date: 2014-03-21 12:46:28.000000000 Z
 - title: 'Centered block element with unknown width '
   url: https://gist.github.com/7616588
-  path: _posts/2013-11-23T16:19:50Z
+  date: 2013-11-23 16:19:50.000000000 Z
 - title: Simple Librato client for PHP
   url: https://gist.github.com/6813174
-  path: _posts/2013-10-03T16:59:48Z
+  date: 2013-10-03 16:59:48.000000000 Z
 - title: Non-blocking socket connection
   url: https://gist.github.com/6568526
-  path: _posts/2013-09-15T06:41:14Z
+  date: 2013-09-15 06:41:14.000000000 Z
 - title: 'Remove multiple items in the Mac OSX (Lion) ‘Open With’ '
   url: https://gist.github.com/5477437
-  path: _posts/2013-04-28T16:35:55Z
+  date: 2013-04-28 16:35:55.000000000 Z
 - title: preg_replace_callback with match counter
   url: https://gist.github.com/5358541
-  path: _posts/2013-04-10T21:21:10Z
+  date: 2013-04-10 21:21:10.000000000 Z
 - title: Responsive embedded youtube video
   url: https://gist.github.com/5231484
-  path: _posts/2013-03-24T11:22:10Z
+  date: 2013-03-24 11:22:10.000000000 Z
 - title: "$jsonp"
   url: https://gist.github.com/3938785
-  path: _posts/2012-10-23T13:37:41Z
+  date: 2012-10-23 13:37:41.000000000 Z
 - title: homebrew formula for apache2 (2.4.3)
   url: https://gist.github.com/3886598
-  path: _posts/2012-10-13T23:30:17Z
+  date: 2012-10-13 23:30:17.000000000 Z
 - title: 'Doctrine\Common\Cache\CacheProvider performance-aware adapter '
   url: https://gist.github.com/2686852
-  path: _posts/2012-05-13T07:59:23Z
+  date: 2012-05-13 07:59:23.000000000 Z
 - title: Russian roulette ;-)
   url: https://gist.github.com/2000841
-  path: _posts/2012-03-08T12:45:47Z
+  date: 2012-03-08 12:45:47.000000000 Z
 - title: Service task for Mac OS X
   url: https://gist.github.com/1772677
-  path: _posts/2012-02-08T19:30:01Z
+  date: 2012-02-08 19:30:01.000000000 Z
 - title: Observer in JS
   url: https://gist.github.com/1769380
-  path: _posts/2012-02-08T13:17:00Z
+  date: 2012-02-08 13:17:00.000000000 Z
 - title: Call class method via instance
   url: https://gist.github.com/1367629
-  path: _posts/2011-11-15T17:08:45Z
+  date: 2011-11-15 17:08:45.000000000 Z
 - title: Codility demo test (Ruby)
   url: https://gist.github.com/1313873
-  path: _posts/2011-10-25T19:05:15Z
+  date: 2011-10-25 19:05:15.000000000 Z
 - title: Codility demo test (PHP)
   url: https://gist.github.com/1313729
-  path: _posts/2011-10-25T18:20:32Z
+  date: 2011-10-25 18:20:32.000000000 Z
 - title: 'Devise: find by username OR email'
   url: https://gist.github.com/1249314
-  path: _posts/2011-09-28T21:30:32Z
+  date: 2011-09-28 21:30:32.000000000 Z
 - title: 'PHP: Converting DateTime between timezones'
   url: https://gist.github.com/1206722
-  path: _posts/2011-09-09T16:52:32Z
+  date: 2011-09-09 16:52:32.000000000 Z
 - title: Regex look ahead and look behind
   url: https://gist.github.com/1042677
-  path: _posts/2011-06-23T14:51:36Z
+  date: 2011-06-23 14:51:36.000000000 Z
 - title: Apache log analyzer
   url: https://gist.github.com/1021497
-  path: _posts/2011-06-12T12:27:39Z
+  date: 2011-06-12 12:27:39.000000000 Z
 - title: PHP PDO grouping results
   url: https://gist.github.com/1001068
-  path: _posts/2011-05-31T19:03:57Z
+  date: 2011-05-31 19:03:57.000000000 Z
 - title: Accessing private members of the same object type
   url: https://gist.github.com/976185
-  path: _posts/2011-05-17T09:11:52Z
+  date: 2011-05-17 09:11:52.000000000 Z
 - title: PHP new ternary operator gotcha
   url: https://gist.github.com/969179
-  path: _posts/2011-05-12T18:45:32Z
+  date: 2011-05-12 18:45:32.000000000 Z
 - title: MySQL fast data load
   url: https://gist.github.com/961414
-  path: _posts/2011-05-08T14:59:46Z
+  date: 2011-05-08 14:59:46.000000000 Z
 - title: 'Mac OS X: redirecting port 80 to actual http port'
   url: https://gist.github.com/919114
-  path: _posts/2011-04-14T08:15:51Z
+  date: 2011-04-14 08:15:51.000000000 Z
 - title: Clipped text in CSS
   url: https://gist.github.com/876466
-  path: _posts/2011-03-18T17:18:44Z
+  date: 2011-03-18 17:18:44.000000000 Z
 - title: 'mongoid: embedded document without object_id'
   url: https://gist.github.com/866182
-  path: _posts/2011-03-11T16:54:00Z
+  date: 2011-03-11 16:54:00.000000000 Z
 - title: "~/.mplayer/config (polish font in mplayer)"
   url: https://gist.github.com/855634
-  path: _posts/2011-03-04T20:17:42Z
+  date: 2011-03-04 20:17:42.000000000 Z
 - title: interpret_status in rails3
   url: https://gist.github.com/835382
-  path: _posts/2011-02-19T21:29:42Z
+  date: 2011-02-19 21:29:42.000000000 Z
 - title: hirb and wirble configuration
   url: https://gist.github.com/821275
-  path: _posts/2011-02-10T20:34:16Z
+  date: 2011-02-10 20:34:16.000000000 Z
 - title: Lazy assignment pattern
   url: https://gist.github.com/807459
-  path: _posts/2011-02-02T09:25:01Z
+  date: 2011-02-02 09:25:01.000000000 Z
 - title: 'PHP: function in method'
   url: https://gist.github.com/801098
-  path: _posts/2011-01-28T22:05:45Z
+  date: 2011-01-28 22:05:45.000000000 Z
 - title: will_paginate query with per_page working in rails3
   url: https://gist.github.com/789923
-  path: _posts/2011-01-21T16:27:55Z
+  date: 2011-01-21 16:27:55.000000000 Z
 - title: jQuery onload event for images
   url: https://gist.github.com/789615
-  path: _posts/2011-01-21T12:29:36Z
+  date: 2011-01-21 12:29:36.000000000 Z
 - title: Doctrine_Hydrator_FlatArray
   url: https://gist.github.com/740225
-  path: _posts/2010-12-14T10:05:34Z
+  date: 2010-12-14 10:05:34.000000000 Z
 - title: Doctrine2 EnumType
   url: https://gist.github.com/8c0c01597b5260f896ef
-  path: _posts/2010-12-13T11:31:18Z
+  date: 2010-12-13 11:31:18.000000000 Z

@@ -1,0 +1,102 @@
+Examples
+========
+
++10 years of commercial experience. The list below contains only selected
+past/present examples.
+
+## PRESENT
+
+`APPJOBS` [www][appjobs]<br>
+All sharing economy jobs in one place.
+**Team:** 2 devs, designer.
+**Role:** lead developer (backend [api/admin] / frontend / infrastructure).
+**Stack**: Ruby/Rails, PostgreSQL, Vue, JWT/Auth0, Heroku, Sass.
+
+`TIP OF THE DAY` [appstore][tofd]<br>
+Best betting tips.
+**Team:** 2 devs, designer.
+**Role:** core dev, idea.
+**Stack:** React Native.
+
+`HYDROPUZZLE` [www][hydropuzzle], [appstore][hydropuzzle-as]<br>
+Surreal tech adventure puzzle game for iOS.<br>
+**Role**: private project.
+**Stack**: React Native.
+
+`GOLAZON` [www][golazon], [github][golazon-gh]<br>
+Football data mnmlst way.<br>
+**Role**: private project.
+**Stack**: Hyperapp, Ruby, HTML5/CSS3.
+
+## PAST
+
+`PROTIPSTER` [www][protipster]<br>
+Virtual betting platform.<br>
+**Team:** 4-8 developers, 2 designers (flat structure).
+**Role:** backend developer, infrastructure.
+**Stack**: Symfony/PHP, Doctrine, MySQL, RabbitMQ, Vue, Chimp,
+Ionic2, Laravel, Sass.
+(2014-2016)
+
+`SOCCERWAY` [www][soccerway]<br>
+One of the biggest football websites on the planet.<br>
+**Team**: 2-5 developers.
+**Role:** lead developer.
+**Stack**: PHP, MySQL, JavaScript, HTML/CSS, memcached.
+(2010-2012)
+
+`OPTA HOSTED PLATFORM`<br>
+Soccer-only one-brand Soccerway turned into multi-sport
+multi-client highly configurable hosted platform.
+Clients list included Microsoft/MSN, FOX Sports, Opera Sports,
+CONCACAF, CBC Canada, Yahoo!, ESPN, Al Jazeera and more.<br>
+**Team**: 2-5 developers.
+**Role**: lead developer.
+**Stack**: PHP, MySQL, JavaScript, HTML/CSS, memcached.
+(2010-2014)
+
+`OPTA CORE API`<br>
+Data feeds for probably the widest possible range of sports
+competitions across the globe.<br>
+**Team**: 2-5 developers.
+**Role**: lead developer.
+**Stack**: PHP, MySQL, memcached, ElasticSearch.
+(2010-2014)
+
+`POLIFICTION` [github](https://github.com/sobstel/komixin)<br>
+Political comic strips. Done for fun, got pretty popular,
+eventually closed due to lack of enough interest for the
+Polish political scene.<br>
+**Team**: 2 developers.
+**Role**: whole website.
+**Stack**: Ruby, Rails, JavaScript, Sass, AMF.
+(2011)
+
+`CASINO DUO`<br>
+**Stack**: Ruby, Rails, MySQL, SOAP.
+(2010)
+
+`INTRAGAME`<br>
+Gaming website and affiliate system. First version done fully
+by myself only, including server setup and administration.
+**Team**: 1-2 developers, designer.<br>
+**Stack**: PHP, MySQL, CSS, JavaScript, SOAP.
+(2008-2010)
+
+`OAK HOSTING`<br>
+Seamless integration with cPanel and webmail, SEO ranks reader
+and reports generator for clients. Dedicated account setup automation scripts.<br>
+**Stack**: PHP, MySQL, CSS, Ubuntu.
+(2009-10)
+
+`NAVITRACER`<br>
+Truck GPS tracking system (API, web interface, admin interface).<br>
+**Stack**: PHP, MySQL, Zend Framework, Doctrine.
+(2009)
+
+`SKLEP BIEGACZA`<br>
+E-commerce store for runners. Done very first version (sadly not available anymore).<br>
+**Stack**: PHP, MySQL, Doctrine, HTML/CSS, JavaScript.
+(2007)
+
+... and dozens of other web apps and small websites.

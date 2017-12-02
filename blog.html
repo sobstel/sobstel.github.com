@@ -5,7 +5,6 @@ permalink: /blog/
 redirect_from: /dumps/
 ---
 
-<h2 id="blog">blog (archives)</h2>
 <ul class="blog-list">
   {% for post in site.posts %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d %b %Y" }})</li>
