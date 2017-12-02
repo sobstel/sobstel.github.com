@@ -12,7 +12,7 @@
 <body>
 <div id="content">
   <h1>
-    <strong>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</strong><br>
+    {% if page.title %}<strong>{{ page.title }}</strong><br>{% endif %}
     <small>by <a href="/">sobstel</a></small>
   </h1>
 
