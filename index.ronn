@@ -1,0 +1,64 @@
+sobstel - Przemek Sobstel
+=========================
+
+## SYNOPSIS
+
+I speak programming and I build software.
+
+## HISTORY
+
+Currently working at [Baytekin][baytekin]</a> where we use **Symfony**,
+**Rails**, **Vue.js** and **React Native** to build engaging products
+like [AppJobs][appjobs], [Protipster][protipster] or [Tip of the Day][tofd].
+
+Previously worked at [PERFORM][perform] and [GSM/Opta][gsm] where I
+contributed to [Soccerway][soccerway], [Opta Core API][gsm-api] and
+a sports data hosted platform. More at [linkedin][].
+
+## ENVIRONMENT
+
+Trending: **React Native**, ES6, **Ruby**, Rails, REST APIs.
+
+Other: PHP, MySQL, PostgreSQL, HTML5/CSS3, Sass, Docker, JWT, Redux,
+Hyperapp, Memcached, git, RabbitMQ, MongoDB, Heroku, Laravel.
+
+Once upon a time: Ionic2, Angular2, TypeScript, CoffeeScript,
+ElasticSearch, Symfony, Doctrine, Zend Framework.
+
+## PROJECTS
+
+**Golazon** [www.golazon.com](http://www.golazon.com/ "Golazon"), [github](https://github.com/sobstel/golazon "Golazon")<br>
+Football data mnmlst way. Built with Hyperapp and Ruby.
+
+**Hydropuzzle** [web](http://www.sobstel.org/hydropuzzle/ "Hydropuzzle"), [app store](https://itunes.apple.com/app/id1294812505?ls=1&mt=8 "Hydropuzzle")<br>
+Surreal tech adventure game for iOS. Built with React Native.
+
+## OPEN SOURCE
+
+**Sequent** [github](https://github.com/sobstel/sequent "Sequent")<br>
+Short-term memory training game (mobile). Built with React Native and Redux.
+
+**Metaphore** [github](https://github.com/sobstel/metaphore "Metaphore")<br>
+Cache slam defense using a semaphore to prevent dogpile effect.
+
+**Sesshin** [github](https://github.com/sobstel/sesshin "Sesshin")<br>
+PHP secure advanced session manager.
+
+**jsonp.js** [github](https://github.com/sobstel/jsonp.js "jsonp.js")<br>
+Lightweight JSONP library for cross-domain ajax calls.
+
+**scru.js** [github](https://github.com/sobstel/scru.js "scru.js")<br>
+Lazy loading with dependencies.
+
+**SyncedSideBar** [github](https://github.com/TheSpyder/SyncedSideBar "SyncedSideBar")<br>
+Sublime Text plugin to sync project sidebar (folder view) with currently active file.
+I've had created it, later taken over by TheSpyder.
+
+## AUTHOR
+
+przemek@sobstel.org
+
+## SEE ALSO
+
+[github][], [gists][], [blog](/blog/),
+[twitter][], [instagram][], [stackoverflow][], [linkedin][]

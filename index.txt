@@ -6,6 +6,15 @@ stackoverflow  https://stackoverflow.com/users/219272/sobstel
 sobstel        http://www.sobstel.org/
 twitter        https://twitter.com/sobstel
 
+hydropuzzle    http://www.sobstel.org/hydropuzzle/
+golazon        http://www.golazon/com/
+
 appjobs        https://www.appjobs.com/
 baytekin       http://baytekin.media/
-tofd           http://tipoftheday
+protipster     https://www.protipster.com/
+tofd           https://itunes.apple.com/pl/app/dans-daily-tip/id1281243051
+
+gsm            http://optasports.com/
+gsm-api        http://client.core.optasports.com/
+perform        http://www.performgroup.com/
+soccerway      http://www.soccerway.com/
