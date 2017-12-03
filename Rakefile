@@ -41,8 +41,19 @@ end
 
 desc 'Generate ronn pages'
 task :generate_ronn_pages do
-  sh 'RONN_STYLE=css ronn --html --style print index.ronn'
-  sh 'RONN_STYLE=css ronn --html --style print examples.ronn'
+  custom_head = <<-HEREDOC
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  HEREDOC
+
+  %w[index examples].each do |name|
+    sh "RONN_STYLE=css ronn --html --style print #{name}.ronn"
+
+    content = File.read("#{name}.html")
+    content.gsub! '<head>', "<head>#{custom_head.gsub(/[[:space:]]+/, ' ').strip}"
+    File.write("#{name}.html", content)
+  end
+
   sh 'mv examples.html examples/index.html'
 end
 

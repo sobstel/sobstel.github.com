@@ -109,7 +109,7 @@ ol.man-decor li.tr            { text-align:right; float:right }
 }
 
 @media (min-width: 90ex) {
-  .mp {    
+  .mp {
     max-width: 100ex;
     text-align: justify;
   }
