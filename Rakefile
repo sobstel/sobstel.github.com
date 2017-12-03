@@ -4,7 +4,6 @@ require 'open-uri'
 require 'yaml'
 require 'time'
 require 'nokogiri'
-require 'quotey'
 
 def save_data(name, object)
   file = "_data/#{name}.yml"
@@ -19,7 +18,7 @@ end
 
 def fetch(url)
   params = {
-    http_basic_authentication: %w(sobstel 486e5d6a8f22b65aac97f271262b7bec9a788979),
+    http_basic_authentication: %w[sobstel 486e5d6a8f22b65aac97f271262b7bec9a788979],
     ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE
   }
   open(url, params).read
@@ -27,7 +26,7 @@ end
 
 desc 'Publish live'
 task :publish, :message do |_, args|
-  args.with_defaults message: Quotey::Quoter.new.get_quote.encode('UTF-8').delete('"')
+  args.with_defaults message: YAML.load_file('quotes.yml')['quotes'].values.flatten.sample
   message = args[:message]
 
   task(:generate_ronn_pages).execute
@@ -42,8 +41,9 @@ end
 
 desc 'Generate ronn pages'
 task :generate_ronn_pages do
-  sh 'ronn --html --style print index.ronn'
-  sh 'ronn --html --style print --pipe examples.ronn > examples/index.html'
+  sh 'RONN_STYLE=css ronn --html --style print index.ronn'
+  sh 'RONN_STYLE=css ronn --html --style print examples.ronn'
+  sh 'mv examples.html examples/index.html'
 end
 
 desc 'Import GitHub repos'

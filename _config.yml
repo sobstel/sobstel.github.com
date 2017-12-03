@@ -21,8 +21,6 @@ defaults:
 
 port: 1982
 
-gems:
-  - jekyll-coffeescript
-
 plugins:
+  - jekyll-coffeescript
   - jekyll-redirect-from

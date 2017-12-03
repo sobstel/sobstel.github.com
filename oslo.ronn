@@ -109,8 +109,6 @@ Distributed development team. 2 devs in Katowice (Poland) + 2 devs in Hague
 
 Also... PHP, Ruby, Rails, MySQL, PostgreSQL, Vue, Vuex, Memcached, Symfony2, phpunit, JWT, Auth0, Heroku, Hyperapp, Riot, CoffeeScript, MongoDB, RabbitMQ, Chimp, Laravel, Ionic2, Angular2, TypeScript, ElasticSearch.
 
-
-
 ## EMAIL
 
 <przemek@sobstel.org>
