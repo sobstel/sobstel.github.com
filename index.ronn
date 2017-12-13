@@ -9,7 +9,7 @@ I speak programming and I build software.
 
 Currently working at [Baytekin][baytekin]</a> where we use **Symfony**,
 **Rails**, **Vue.js** and **React Native** to build engaging products
-like [AppJobs][appjobs], [Protipster][protipster] or [Tip of the Day][tofd].
+like [AppJobs][appjobs], [Protipster][protipster] and [Tip of the Day][tofd].
 
 Previously worked at [PERFORM][perform] and [GSM/Opta][gsm] where I
 contributed to [Soccerway][soccerway], [Opta Core API][gsm-api] and
@@ -27,11 +27,11 @@ ElasticSearch, Symfony, Doctrine, Zend Framework.
 
 ## PROJECTS
 
-**Golazon** [www.golazon.com](http://www.golazon.com/ "Golazon"), [github](https://github.com/sobstel/golazon "Golazon")<br>
-Football data mnmlst way. Built with Hyperapp and Ruby.
-
 **Hydropuzzle** [web](http://www.sobstel.org/hydropuzzle/ "Hydropuzzle"), [app store](https://itunes.apple.com/app/id1294812505?ls=1&mt=8 "Hydropuzzle")<br>
 Surreal tech adventure game for iOS. Built with React Native.
+
+**Golazon** [www.golazon.com](http://www.golazon.com/ "Golazon"), [github](https://github.com/sobstel/golazon "Golazon")<br>
+Football data mnmlist way. Built with Hyperapp and Ruby.
 
 ## OPEN SOURCE
 
