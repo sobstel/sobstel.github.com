@@ -75,8 +75,10 @@ ul, ol {
 }
 li {
   margin-left: 1.5em;
-  list-style: disc;
   line-height: 1.6em;
+}
+ul li {
+  list-style: disc;
 }
 
 p {
@@ -249,4 +251,15 @@ table {
   img {
     max-width: 100%;
   }
+}
+
+.spoiler {
+  color: #000;
+  background: #000;
+  cursor: pointer;
+  padding: 0.2rem 0.2rem;
+}
+.spoiler.visible {
+  color: #eee;
+  background: #333;
 }
