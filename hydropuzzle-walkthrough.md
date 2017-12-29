@@ -5,7 +5,7 @@ permalink: /hydropuzzle/walkthrough/
 ---
 
 ~~~~
-SPOLILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
+SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 ~~~~
 
 CHAPTER 1
@@ -16,7 +16,7 @@ CHAPTER 1
 3. Solution: <span class="spoiler">qwerty</span>
 
 ~~~~
-SPOLILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
+SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 ~~~~
 
 CHAPTER 2
@@ -28,7 +28,7 @@ CHAPTER 2
 4. Solution: <span class="spoiler">3 2 9 5</span>
 
 ~~~~
-SPOLILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
+SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 ~~~~
 
 CHAPTER 3
@@ -41,7 +41,7 @@ CHAPTER 3
 5. Solution: <span class="spoiler">255</span>
 
 ~~~~
-SPOLILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
+SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 ~~~~
 
 CHAPTER 4
@@ -52,7 +52,7 @@ CHAPTER 4
 3. Solution: <span class="spoiler"><a href="/img/hydro/chapter4spoiler.jpg" rel="nofollow" target="_blank">image</a></span>
 
 ~~~~
-SPOLILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
+SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 ~~~~
 
 CHAPTER 5
@@ -63,7 +63,7 @@ CHAPTER 5
 3. Solution: <span class="spoiler">psswrd</span>
 
 ~~~~
-SPOLILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
+SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 ~~~~
 
 CHAPTER 6
@@ -74,7 +74,7 @@ CHAPTER 6
 3. Solution: (just a sample) <span class="spoiler">++++[>++++<-]>+++.+.-----.+.</span>
 
 ~~~~
-SPOLILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
+SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 ~~~~
 
 CHAPTER 7
@@ -84,7 +84,7 @@ CHAPTER 7
 2. Solution: <span class="spoiler">THE END</span>
 
 ~~~~
-SPOLILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
+SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 ~~~~
 
 CREDITS (bonus puzzle at the bottom)
