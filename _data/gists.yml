@@ -1,4 +1,7 @@
 ---
+- title: Warden Rails cookie
+  url: https://gist.github.com/f992e8ecb5950607dae7f1a9296d11b1
+  date: '2017-12-29T10:40:11Z'
 - title: Heroku prod database export to Docker database container
   url: https://gist.github.com/4d4b9d3196f8122e563722bf1bc1e767
   date: '2017-12-04T14:28:26Z'

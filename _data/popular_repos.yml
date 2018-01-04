@@ -1,16 +1,16 @@
 ---
+- name: golazon
+  full_name: sobstel/golazon
+  html_url: https://github.com/sobstel/golazon
+  description: 'football data mnmlist way :soccer: :earth_americas:'
+  fork: false
+  stargazers_count: 13
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
   description: PHP cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
   stargazers_count: 80
-- name: golazon
-  full_name: sobstel/golazon
-  html_url: https://github.com/sobstel/golazon
-  description: 'football data mnmlist way :soccer: :earth_americas:'
-  fork: false
-  stargazers_count: 12
 - name: jsonp.js
   full_name: sobstel/jsonp.js
   html_url: https://github.com/sobstel/jsonp.js
@@ -22,10 +22,10 @@
   html_url: https://github.com/sobstel/sesshin
   description: PHP secure advanced session manager.
   fork: false
-  stargazers_count: 33
+  stargazers_count: 34
 - name: sequent
   full_name: sobstel/sequent
   html_url: https://github.com/sobstel/sequent
   description: short-term memory training game (react native / ios)
   fork: false
-  stargazers_count: 36
+  stargazers_count: 37
