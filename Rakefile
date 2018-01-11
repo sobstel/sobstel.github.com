@@ -46,7 +46,7 @@ task :generate_ronn_pages do
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
   HEREDOC
 
-  %w[index examples].each do |name|
+  %w[index usage].each do |name|
     sh "RONN_STYLE=css ronn --html --style print #{name}.ronn"
 
     content = File.read("#{name}.html")
@@ -54,7 +54,7 @@ task :generate_ronn_pages do
     File.write("#{name}.html", content)
   end
 
-  sh 'mv examples.html examples/index.html'
+  sh 'mv usage.html usage/index.html'
 end
 
 desc 'Import GitHub repos'

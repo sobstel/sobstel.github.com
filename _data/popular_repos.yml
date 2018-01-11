@@ -1,4 +1,10 @@
 ---
+- name: sesshin
+  full_name: sobstel/sesshin
+  html_url: https://github.com/sobstel/sesshin
+  description: PHP secure advanced session manager.
+  fork: false
+  stargazers_count: 34
 - name: golazon
   full_name: sobstel/golazon
   html_url: https://github.com/sobstel/golazon
@@ -17,12 +23,6 @@
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
   stargazers_count: 33
-- name: sesshin
-  full_name: sobstel/sesshin
-  html_url: https://github.com/sobstel/sesshin
-  description: PHP secure advanced session manager.
-  fork: false
-  stargazers_count: 34
 - name: sequent
   full_name: sobstel/sequent
   html_url: https://github.com/sobstel/sequent

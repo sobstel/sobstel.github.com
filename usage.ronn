@@ -1,39 +1,44 @@
-EXAMPLES
-========
+USAGE
+=====
 
-+10 years of commercial experience. The list below contains only selected
-past/present examples.
++10 years of commercial experience
+(selected past/present projects below)
 
 ## PRESENT
+
+
+## PAST
 
 `APPJOBS` [www][appjobs]<br>
 All sharing economy jobs in one place.
 **Team:** 2 devs, designer.
-**Role:** lead developer (backend [api/admin] / frontend / infrastructure).
+**Role:** lead developer (backend [api/admin] / frontend / devops).
 **Stack**: Ruby/Rails, PostgreSQL, Vue, JWT/Auth0, Heroku, Sass.
+(2017-2018)
 
 `TIP OF THE DAY` [appstore][tofd]<br>
 Best betting tips.
 **Team:** 2 devs, designer.
 **Role:** core dev, idea.
 **Stack:** React Native.
+(2017)
 
 `HYDROPUZZLE` [www][hydropuzzle], [appstore][hydropuzzle-as]<br>
 Surreal tech adventure puzzle game for iOS.<br>
 **Role**: private project.
 **Stack**: React Native.
+(2017)
 
 `GOLAZON` [www][golazon], [github][golazon-gh]<br>
 Football data mnmlst way.<br>
 **Role**: private project.
 **Stack**: Hyperapp, Ruby, HTML5/CSS3.
-
-## PAST
+(2016-2017)
 
 `PROTIPSTER` [www][protipster]<br>
 Virtual betting platform.<br>
 **Team:** 4-8 developers, 2 designers (flat structure).
-**Role:** backend developer, infrastructure.
+**Role:** backend developer, devops.
 **Stack**: Symfony/PHP, Doctrine, MySQL, RabbitMQ, Vue, Chimp,
 Ionic2, Laravel, Sass.
 (2014-2016)
