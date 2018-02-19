@@ -58,7 +58,7 @@ SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 CHAPTER 5
 ---------
 
-1. Google for [lethum myth](https://www.google.com/search?q=lethum+myth). You will learn how blinking dots are encoded.
+1. Google for [lethum myth](https://www.google.com/search?q=lethum+myth). Pay attention to the name of the Roman deity.
 2. Decode blinking dots one by one (they're out of sync, starting at different times).
 3. Solution: <span class="spoiler">psswrd</span>
 
