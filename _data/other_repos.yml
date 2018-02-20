@@ -1,4 +1,16 @@
 ---
+- name: mblocks
+  full_name: sobstel/mblocks
+  html_url: https://github.com/sobstel/mblocks
+  description: written in... 1999 ;-)
+  fork: false
+  stargazers_count: 0
+- name: kampania
+  full_name: sobstel/kampania
+  html_url: https://github.com/sobstel/kampania
+  description: written in... 1998 ;-)
+  fork: false
+  stargazers_count: 0
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles
@@ -17,12 +29,6 @@
   html_url: https://github.com/sobstel/golazon.universo
   description: a bunch unfinished/abandoned football-related projects (ruby, rails,
     mongodb, nanoc, slate)
-  fork: false
-  stargazers_count: 0
-- name: xentry
-  full_name: sobstel/xentry
-  html_url: https://github.com/sobstel/xentry
-  description: 'laravel vs rails playground '
   fork: false
   stargazers_count: 0
 - name: jsondocr
@@ -95,11 +101,5 @@
   full_name: sobstel/shed
   html_url: https://github.com/sobstel/shed
   description: PHP Dependency Injection container
-  fork: false
-  stargazers_count: 1
-- name: XReflect
-  full_name: sobstel/XReflect
-  html_url: https://github.com/sobstel/XReflect
-  description: Object Oriented PHP Reflection to XML (generator).
   fork: false
   stargazers_count: 1

@@ -7,14 +7,13 @@ stackoverflow  https://stackoverflow.com/users/219272/sobstel
 twitter        https://twitter.com/sobstel
 
 hydropuzzle    http://www.sobstel.org/hydropuzzle/
-hydropuzzle-as https://itunes.apple.com/app/id1294812505?ls=1&mt=8 
+hydropuzzle-as https://itunes.apple.com/app/id1294812505?ls=1&mt=8
 golazon        http://www.golazon/com/
 golazon-gh     https://github.com/sobstel/golazon
 
 appjobs        https://www.appjobs.com/
 baytekin       http://baytekin.media/
 protipster     https://www.protipster.com/
-tofd           https://itunes.apple.com/pl/app/dans-daily-tip/id1281243051
 
 gsm            http://optasports.com/
 gsm-api        http://client.core.optasports.com/
