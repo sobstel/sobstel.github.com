@@ -71,7 +71,7 @@ CHAPTER 6
 
 1. There are many possible solutions.
 2. It's similar to [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck).
-3. Solution: (just a sample) <span class="spoiler">++++[>++++<-]>+++.+.-----.+.</span>
+3. Solution: (just a sample) <span class="spoiler">++++[>++++<-]>+++.+.-&minus;-&minus;-.+.</span>
 
 ~~~~
 SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
