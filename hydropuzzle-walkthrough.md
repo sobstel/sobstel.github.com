@@ -58,7 +58,7 @@ SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
 CHAPTER 5
 ---------
 
-1. Google for [lethum myth](https://www.google.com/search?q=lethum+myth). Pay attention to the name of the Roman deity.
+1. Google for [letum myth](https://www.google.com/search?q=letum+myth). Pay attention to the name of the Roman deity.
 2. Decode blinking dots one by one (they're out of sync, starting at different times).
 3. Solution: <span class="spoiler">psswrd</span>
 
