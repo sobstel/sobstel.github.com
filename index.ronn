@@ -30,6 +30,9 @@ ElasticSearch, Symfony, Doctrine, Zend Framework.
 **Hydropuzzle** [web](http://www.sobstel.org/hydropuzzle/ "Hydropuzzle"), [app store](https://itunes.apple.com/app/id1294812505?ls=1&mt=8 "Hydropuzzle")<br>
 Surreal tech adventure game for iOS. Built with React Native. Over 12k downloads. Rated 4.5 by over 100 gamers.
 
+**Voltpuzzle** [web](http://www.sobstel.org/voltpuzzle/ "Voltpuzzle")
+Sequel to Hydropuzzle.
+
 **Golazon** [www.golazon.com](http://www.golazon.com/ "Golazon"), [github](https://github.com/sobstel/golazon "Golazon")<br>
 Football data mnmlist way. Built with Hyperapp and Ruby.
 
