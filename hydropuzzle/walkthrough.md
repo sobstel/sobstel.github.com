@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Hydropuzzle walkthrough
-permalink: /hydropuzzle/walkthrough/
 ---
 
 ~~~~
