@@ -7,17 +7,18 @@ I speak programming
 
 ## HISTORY
 
-Previously I worked at [Baytekin][baytekin]</a> on [AppJobs][appjobs]
-and [Protipster][protipster]. Earlier I worked at [PERFORM][perform]
+Previously worked at [Baytekin][baytekin]</a> on [AppJobs][appjobs]
+and [Protipster][protipster]. Earlier worked at [PERFORM][perform]
 and [GSM/Opta][gsm] where I contributed to [Soccerway][soccerway],
 [Opta Core API][gsm-api] and a sports data hosted platform.
 
 ## ENVIRONMENT
 
-Trending: **React Native**, ES6, **Ruby**, Rails, .
+Trending: **React Native**, ES6, **Ruby**, Rails.
 
 Other: PHP, MySQL, PostgreSQL, HTML5/CSS3, Sass, Docker, JWT,
-Redux, Hyperapp, Riot, Vue, RabbitMQ, MongoDB, Laravel.
+Redux, Hyperapp, Riot, Vue, RabbitMQ, MongoDB, Laravel, Symfony,
+Ionic, ElasticSearch.
 
 ## PROJECTS
 
