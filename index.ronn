@@ -3,32 +3,26 @@ sobstel - Przemek Sobstel
 
 ## SYNOPSIS
 
-I speak programming and I build software.
+I speak programming
 
 ## HISTORY
 
-Currently working at [Baytekin][baytekin]</a> where we use **Symfony**,
-**Rails**, **Vue.js** and **React Native** to build engaging products
-like [AppJobs][appjobs] and [Protipster][protipster].
-
-Previously worked at [PERFORM][perform] and [GSM/Opta][gsm] where I
-contributed to [Soccerway][soccerway], [Opta Core API][gsm-api] and
-a sports data hosted platform. More at [linkedin][].
+Previously I worked at [Baytekin][baytekin]</a> on [AppJobs][appjobs]
+and [Protipster][protipster]. Earlier I worked at [PERFORM][perform]
+and [GSM/Opta][gsm] where I contributed to [Soccerway][soccerway],
+[Opta Core API][gsm-api] and a sports data hosted platform.
 
 ## ENVIRONMENT
 
-Trending: **React Native**, ES6, **Ruby**, Rails, REST APIs.
+Trending: **React Native**, ES6, **Ruby**, Rails, .
 
-Other: PHP, MySQL, PostgreSQL, HTML5/CSS3, Sass, Docker, JWT, Redux,
-Hyperapp, Memcached, git, RabbitMQ, MongoDB, Heroku, Laravel.
-
-Once upon a time: Ionic2, Angular2, TypeScript, CoffeeScript,
-ElasticSearch, Symfony, Doctrine, Zend Framework.
+Other: PHP, MySQL, PostgreSQL, HTML5/CSS3, Sass, Docker, JWT,
+Redux, Hyperapp, Riot, Vue, RabbitMQ, MongoDB, Laravel.
 
 ## PROJECTS
 
 **Hydropuzzle** [web](http://www.sobstel.org/hydropuzzle/ "Hydropuzzle"), [app store](https://itunes.apple.com/app/id1294812505?ls=1&mt=8 "Hydropuzzle")<br>
-Surreal tech adventure game for iOS. Built with React Native. Over 12k downloads. Rated 4.5 by over 100 gamers.
+Surreal tech adventure game for iOS. Built with React Native. ~13.5k downloads. Rated 4.5.
 
 **Voltpuzzle** [web](http://www.sobstel.org/voltpuzzle/ "Voltpuzzle")
 Sequel to Hydropuzzle.

@@ -5,22 +5,10 @@
   description: A React Native component for creating typing effects
   fork: true
   stargazers_count: 0
-- name: awesome-hyperapp
-  full_name: sobstel/awesome-hyperapp
-  html_url: https://github.com/sobstel/awesome-hyperapp
-  description: A curated list of awesome projects built with Hyperapp & more.
-  fork: true
-  stargazers_count: 0
 - name: pt-tests
   full_name: sobstel/pt-tests
   html_url: https://github.com/sobstel/pt-tests
   description: Sample tests for PT
-  fork: true
-  stargazers_count: 0
-- name: imanee
-  full_name: sobstel/imanee
-  html_url: https://github.com/sobstel/imanee
-  description: php image manipulation library for fun projects
   fork: true
   stargazers_count: 0
 - name: doctrine2
@@ -33,12 +21,6 @@
   full_name: sobstel/Aura.Marshal
   html_url: https://github.com/sobstel/Aura.Marshal
   description: A data-marshaling toolset
-  fork: true
-  stargazers_count: 0
-- name: Underscore.php
-  full_name: sobstel/Underscore.php
-  html_url: https://github.com/sobstel/Underscore.php
-  description: PHP port of Underscore.js
   fork: true
   stargazers_count: 0
 - name: LSDCache

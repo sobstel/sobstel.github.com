@@ -31,6 +31,12 @@
     mongodb, nanoc, slate)
   fork: false
   stargazers_count: 0
+- name: xentry
+  full_name: sobstel/xentry
+  html_url: https://github.com/sobstel/xentry
+  description: 'laravel vs rails playground '
+  fork: false
+  stargazers_count: 0
 - name: jsondocr
   full_name: sobstel/jsondocr
   html_url: https://github.com/sobstel/jsondocr
@@ -101,5 +107,11 @@
   full_name: sobstel/shed
   html_url: https://github.com/sobstel/shed
   description: PHP Dependency Injection container
+  fork: false
+  stargazers_count: 1
+- name: XReflect
+  full_name: sobstel/XReflect
+  html_url: https://github.com/sobstel/XReflect
+  description: Object Oriented PHP Reflection to XML (generator).
   fork: false
   stargazers_count: 1

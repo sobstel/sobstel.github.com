@@ -11,6 +11,9 @@ hydropuzzle-as https://itunes.apple.com/app/id1294812505?ls=1&mt=8
 golazon        http://www.golazon/com/
 golazon-gh     https://github.com/sobstel/golazon
 
+framventure    http://www.framventure.no/
+nabobil        https://nabobil.no/en
+
 appjobs        https://www.appjobs.com/
 baytekin       http://baytekin.media/
 protipster     https://www.protipster.com/
