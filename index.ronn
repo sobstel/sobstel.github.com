@@ -40,7 +40,7 @@ Short-term memory training game (mobile). Built with React Native and Redux.
 Cache slam defense using a semaphore to prevent dogpile effect.
 
 **Sesshin** [github](https://github.com/sobstel/sesshin "Sesshin")<br>
-PHP secure advanced session manager.
+Advanced security-oriented session manager.
 
 **jsonp.js** [github](https://github.com/sobstel/jsonp.js "jsonp.js")<br>
 Lightweight JSONP library for cross-domain ajax calls.

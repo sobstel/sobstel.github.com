@@ -1,4 +1,11 @@
 ---
+- name: awesome-preact
+  full_name: sobstel/awesome-preact
+  html_url: https://github.com/sobstel/awesome-preact
+  description: 'A curated list of amazingly awesome things regarding Preact ecosystem
+    :star2:'
+  fork: true
+  stargazers_count: 0
 - name: react-native-typewriter
   full_name: sobstel/react-native-typewriter
   html_url: https://github.com/sobstel/react-native-typewriter
