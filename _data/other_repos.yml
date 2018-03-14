@@ -1,4 +1,10 @@
 ---
+- name: dotfiles
+  full_name: sobstel/dotfiles
+  html_url: https://github.com/sobstel/dotfiles
+  description: 
+  fork: false
+  stargazers_count: 0
 - name: mblocks
   full_name: sobstel/mblocks
   html_url: https://github.com/sobstel/mblocks
@@ -9,12 +15,6 @@
   full_name: sobstel/kampania
   html_url: https://github.com/sobstel/kampania
   description: written in... 1998 ;-)
-  fork: false
-  stargazers_count: 0
-- name: dotfiles
-  full_name: sobstel/dotfiles
-  html_url: https://github.com/sobstel/dotfiles
-  description: 
   fork: false
   stargazers_count: 0
 - name: golazon-2015

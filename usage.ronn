@@ -7,8 +7,15 @@ USAGE
 ## PRESENT
 
 `NABOBIL` [www][nabobil]<br>
+(2018)
 
 ## PAST
+
+`GOLAZON` [www][golazon], [github][golazon-gh]<br>
+Football data mnmlst way.<br>
+**Role**: sole developer (private project).
+**Stack**: Preact, Ruby, HTML5/CSS3.
+(2018)
 
 `APPJOBS` [www][appjobs]<br>
 All sharing economy jobs in one place.
@@ -17,24 +24,18 @@ All sharing economy jobs in one place.
 **Stack**: Ruby/Rails, PostgreSQL, Vue, JWT/Auth0, Heroku, Sass.
 (2017-2018)
 
-`TIP OF THE DAY` [appstore][tofd]<br>
-Best betting tips.
+`HYDROPUZZLE` [www][hydropuzzle], [appstore][hydropuzzle-as]<br>
+Surreal tech adventure puzzle game for iOS.<br>
+**Role**: sole developer (private project).
+**Stack**: React Native.
+(2017)
+
+`TIP OF THE DAY`<br>
+Best betting tips (iOS app).
 **Team:** 2 devs, designer.
 **Role:** core dev, idea.
 **Stack:** React Native.
 (2017)
-
-`HYDROPUZZLE` [www][hydropuzzle], [appstore][hydropuzzle-as]<br>
-Surreal tech adventure puzzle game for iOS.<br>
-**Role**: private project.
-**Stack**: React Native.
-(2017)
-
-`GOLAZON` [www][golazon], [github][golazon-gh]<br>
-Football data mnmlst way.<br>
-**Role**: private project.
-**Stack**: Hyperapp, Ruby, HTML5/CSS3.
-(2016-2017)
 
 `PROTIPSTER` [www][protipster]<br>
 Virtual betting platform.<br>
@@ -74,11 +75,12 @@ Political comic strips. Done for fun, got pretty popular,
 eventually closed due to lack of enough interest for the
 Polish political scene.<br>
 **Team**: 2 developers.
-**Role**: whole website.
+**Role**: sole developer.
 **Stack**: Ruby, Rails, JavaScript, Sass, AMF.
 (2011)
 
 `CASINO DUO`<br>
+**Role**: sole developer.
 **Stack**: Ruby, Rails, MySQL, SOAP.
 (2010)
 
@@ -102,6 +104,7 @@ Truck GPS tracking system (API, web interface, admin interface).<br>
 
 `SKLEP BIEGACZA`<br>
 E-commerce store for runners. Done very first version (sadly not available anymore).<br>
+**Role**: sole developer.
 **Stack**: PHP, MySQL, Doctrine, HTML/CSS, JavaScript.
 (2007)
 
