@@ -1,4 +1,4 @@
-PRZEMEK SOBSTEL
+Przemek Sobstel
 ===============
 
 ## SYNOPSIS
@@ -21,40 +21,36 @@ Laravel, Symfony, Ionic, ElasticSearch.
 
 ## PROJECTS
 
-**Hydropuzzle** [web](http://www.sobstel.org/hydropuzzle/ "Hydropuzzle"), [app store](https://itunes.apple.com/app/id1294812505?ls=1&mt=8 "Hydropuzzle")<br>
+**Hydropuzzle** [sobstel.org/hydropuzzle](http://www.sobstel.org/hydropuzzle/ "Hydropuzzle"), [app store](https://itunes.apple.com/app/id1294812505?ls=1&mt=8 "Hydropuzzle")<br>
 Surreal tech adventure game for iOS. Built with React Native. ~13.5k downloads. Rated 4.5.
 
-**Voltpuzzle** [web](http://www.sobstel.org/voltpuzzle/ "Voltpuzzle")
+**Voltpuzzle** [sobstel.org/voltpuzzle](http://www.sobstel.org/voltpuzzle/ "Voltpuzzle")<br>
 Sequel to Hydropuzzle.
 
-**Golazon** [www.golazon.com](http://www.golazon.com/ "Golazon"), [github](https://github.com/sobstel/golazon "Golazon")<br>
+**Golazon** [www.golazon.com](http://www.golazon.com/ "Golazon"), [source](https://github.com/sobstel/golazon "Golazon")<br>
 Football data mnmlist way. Built with Preact and Ruby.
 
 ## OPEN SOURCE
 
-**Sequent** [github](https://github.com/sobstel/sequent "Sequent")<br>
+**Sequent** [source](https://github.com/sobstel/sequent "Sequent")<br>
 Short-term memory training game (mobile). Built with React Native and Redux.
 
-**Metaphore** [github](https://github.com/sobstel/metaphore "Metaphore")<br>
+**Metaphore** [source](https://github.com/sobstel/metaphore "Metaphore")<br>
 Cache slam defense using a semaphore to prevent dogpile effect.
 
-**Sesshin** [github](https://github.com/sobstel/sesshin "Sesshin")<br>
+**Sesshin** [source](https://github.com/sobstel/sesshin "Sesshin")<br>
 Advanced security-oriented session manager.
 
-**jsonp.js** [github](https://github.com/sobstel/jsonp.js "jsonp.js")<br>
+**jsonp.js** [source](https://github.com/sobstel/jsonp.js "jsonp.js")<br>
 Lightweight JSONP library for cross-domain ajax calls.
 
-**scru.js** [github](https://github.com/sobstel/scru.js "scru.js")<br>
+**scru.js** [source](https://github.com/sobstel/scru.js "scru.js")<br>
 Lazy loading with dependencies.
 
-**SyncedSideBar** [github](https://github.com/TheSpyder/SyncedSideBar "SyncedSideBar")<br>
+**SyncedSideBar** [source](https://github.com/TheSpyder/SyncedSideBar "SyncedSideBar")<br>
 Sublime Text plugin to sync project sidebar (folder view) with currently active file.
 
 ## AUTHOR
 
 przemek@sobstel.org
 
-## SEE ALSO
-
-[github][], [gists](/gists/), [blog](/blog/),
-[twitter][], [instagram][], [stackoverflow][], [linkedin][]

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: BLOG ARCHIVE
+title: Blog Archive
 ---
 
 <div class='mp' id='man'>
@@ -8,22 +8,27 @@ title: BLOG ARCHIVE
   <div class='man-navigation' style='display:none'>
   </div>
 
-  <ol class='man-decor man-head man head'>
-    <li class='tl'>blog</li>
-    <li class='tc'></li>
-    <li class='tr'>blog</li>
-  </ol>
-
-  <h1>BLOG ARCHIVE</h1>
+  <h1>Blog Archive</h1>
 <p>{% for post in site.posts %}
   <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d %b %Y" }})<br />
 {% endfor %}</p>
 
 
+  <h2>SEE ALSO</h2>
+  <p>
+    <a href="/">sobstel</a> &gt;
+    <a href="https://github.com/sobstel/">github</a> |
+    <a href="/gists/">gist index</a> |
+    <a href="https://twitter.com/sobstel">twitter</a> |
+    <a href="https://www.instagram.com/sobsteldev/">instagram</a> |
+    <a href="https://stackoverflow.com/users/219272/sobstel">stackoverflow</a> |
+    <a href="/blog/">blog archive</a>
+  </p>
+
   <ol class='man-decor man-foot man foot'>
     <li class='tl'></li>
-    <li class='tc'>April 2018</li>
-    <li class='tr'>blog</li>
+    <li class='tc'>blog</li>
+    <li class='tr'>April 2018</li>
   </ol>
 
 </div>

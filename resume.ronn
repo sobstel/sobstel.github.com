@@ -1,8 +1,5 @@
----
-layout: default
-title: Résumé
-redirect_from: /cv
----
+Résumé
+======
 
 ## FRAM VENTURE <span>(2018-)</span>
 

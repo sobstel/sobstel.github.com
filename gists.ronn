@@ -1,4 +1,4 @@
-GISTS INDEX
+Gists Index
 ===========
 
 {% for gist in site.data.gists %}

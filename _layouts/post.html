@@ -6,17 +6,11 @@ css: default
 <div class='mp post' id='man'>
   <div class='man-navigation'></div>
 
-  <ol class="man-decor man-head man head">
-    <li class="tl"></li>
-    <li class="tc"></li>
-    <li class="tr">{{ page.date | date: "%d %b %Y" }}</li>
-  </ol>
-
   <h1>{{ page.title }}</h1>
   {{ content }}
 
   <ol class="man-decor man-foot man foot">
-    <li class="tl"></li>
+    <li class="tl">by <a href="/">sobstel</a></li>
     <li class="tc"></li>
     <li class="tr">{{ page.date | date: "%d %b %Y" }}</li>
   </ol>
