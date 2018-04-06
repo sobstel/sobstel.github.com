@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="stylesheet" type="text/css" href="/css/main.css?v5">
-  <link rel="shortcut icon" href="/favicon.png">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<div id="content">
-  <h1>
-    {% if page.title %}<strong>{{ page.title }}</strong><br>{% endif %}
-    <small>by <a href="/">sobstel</a></small>
-  </h1>
+---
+layout: base
+css: default
+body_id: manpage
+---
 
-  {{ content }}
-</div>
-</body>
-</html>
+{{ content }}

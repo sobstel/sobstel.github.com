@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/css/{{ layout.css }}.css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+</head>
+<body id="{{ layout.body_id }}">
+  {{ content }}
+</body>
+</html>

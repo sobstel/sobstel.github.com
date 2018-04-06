@@ -1,0 +1,120 @@
+---
+layout: default
+title: Projects
+redirect_from: /usage
+---
+
++10 years of commercial experience
+(selected past/present projects below)
+
+## NABOBIL <span>[nabobil.no][nabobil] (2018)</span>
+
+## GOLAZON <span>[golazon.com][golazon] | [source][golazon-gh] (2017-2018)
+
+Football data mnmlst way.
+*Role*: sole developer (private project)
+*Stack*: Preact, Ruby, HTML5/CSS3
+
+## APPJOBS <span>[appjobs.com][appjobs] (2017-2018)</span>
+
+All sharing economy jobs in one place.
+*Team*: 2 devs, designer.
+*Role:* lead developer (backend [api/admin] / frontend / devops).
+*Stack*: Ruby/Rails, PostgreSQL, Vue, JWT/Auth0, Heroku, Sass.
+
+## HYDROPUZZLE <span>[sobstel.org/hydropuzzle][hydropuzzle] | [appstore][hydropuzzle-as] (2017)</span>
+
+Surreal tech adventure puzzle game for iOS.
+*Role*: sole developer (private project).
+*Stack*: React Native.
+
+## TIP OF THE DAY <span>(2017)</span>
+
+Best betting tips (iOS app).
+*Team*: 2 devs, designer.
+*Role*: core dev, idea.
+*Stack*: React Native.
+
+## PROTIPSTER <span>[protipster.com][protipster] (2014-2016)</span>
+
+Virtual betting platform.
+*Team*: 4-8 developers, 2 designers (flat structure)
+*Role*: backend developer, devops.
+*Stack*: Symfony/PHP, Doctrine, MySQL, RabbitMQ, Vue, Chimp,
+Ionic2, Laravel, Sass.
+
+## SOCCERWAY <span>[soccerway.com][soccerway] (2010-2012)</span>
+
+One of the biggest football websites on the planet.
+
+*Team*: 2-5 developers.
+*Role*: lead developer.
+*Stack*: PHP, MySQL, JavaScript, HTML/CSS, memcached.
+
+## OPTA HOSTED PLATFORM <span>(2010-2014)</span>
+
+Soccer-only one-brand Soccerway turned into multi-sport
+multi-client highly configurable hosted platform.
+Clients list included Microsoft/MSN, FOX Sports, Opera Sports,
+CONCACAF, CBC Canada, Yahoo!, ESPN, Al Jazeera and more.
+*Team*: 2-5 developers.
+*Role*: lead developer.
+*Stack*: PHP, MySQL, JavaScript, HTML/CSS, memcached.
+
+## OPTA CORE API <span>(2010-2014)</span>
+
+Data feeds for probably the widest possible range of sports
+competitions across the globe.
+*Team*: 2-5 developers.
+*Role*: lead developer.
+*Stack*: PHP, MySQL, memcached, ElasticSearch.
+
+## POLIFICTION <span>[source](https://github.com/sobstel/komixin) (2011)</span>
+
+Political comic strips. Done for fun, got pretty popular,
+eventually closed due to lack of enough interest for the
+Polish political scene.
+*Team*: 2 developers.
+*Role*: sole developer.
+*Stack*: Ruby, Rails, JavaScript, Sass, AMF.
+
+## CASINO DUO <span>(2010)</span>
+
+*Role*: sole developer.
+*Stack*: Ruby, Rails, MySQL, SOAP.
+
+## INTRAGAME <span>(2008-2010)</span>
+
+Gaming website and affiliate system. First version done fully
+by myself only, including server setup and administration.
+*Team*: 1-2 developers, designer.
+*Stack*: PHP, MySQL, CSS, JavaScript, SOAP.
+
+## OAK HOSTING <span>(2009-10)</span>
+
+Seamless integration with cPanel and webmail, SEO ranks reader
+and reports generator for clients. Dedicated account setup automation scripts.
+*Stack*: PHP, MySQL, CSS, Ubuntu.
+
+## NAVITRACER <span>(2009)</span>
+
+Truck GPS tracking system (API, web interface, admin interface).
+*Stack*: PHP, MySQL, Zend Framework, Doctrine.
+
+## SKLEP BIEGACZA <span>(2007)</span>
+
+E-commerce store for runners. Done very first version (sadly not available anymore).
+*Role*: sole developer.
+*Stack*: PHP, MySQL, Doctrine, HTML/CSS, JavaScript.
+
+... and dozens of other web apps and small websites.
+
+[appjobs]: https://www.appjobs.com/
+[golazon]: https://github.com/sobstel/golazon
+[golazon-gh]: https://github.com/sobstel/golazon
+[hydropuzzle]: http://www.sobstel.org/hydropuzzle/
+[hydropuzzle-as]: https://itunes.apple.com/app/id1294812505?ls=1&mt=8
+[nabobil]: https://nabobil.no/en
+[protipster]: https://www.protipster.com/
+[scoresway]: http://www.scoresway.com/
+[soccerway]: http://www.soccerway.com/

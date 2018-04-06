@@ -1,8 +1,8 @@
 sobstel.org
 ===========
 
+* development: `rake watch`
 * deploy/release/publish: `rake publish` or `rake publish["message"]`
-* development: `bundle exec jekyll serve`
 * generate ronn pages: `rake generate_ronn_pages`
 * tasks list: `rake -T`
 

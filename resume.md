@@ -1,0 +1,13 @@
+---
+layout: default
+title: Résumé
+redirect_from: /cv
+---
+
+## FRAM VENTURE <span>(2018-)</span>
+
+## BAYTEKIN MEDIA <span>(2014-2018)</span>
+
+## PERFORM / GLOBAL SPORTS MEDIA / OPTA SPORTS <span>(2010-2014)</span>
+
+## CRIMSON OAK <span>(2006-2010)</span>

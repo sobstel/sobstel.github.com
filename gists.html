@@ -1,11 +1,29 @@
 ---
 layout: default
-title: Gists links
-permalink: /gists/
+title: GISTS INDEX
 ---
 
-<ul class="blog-list">
-  {% for gist in site.data.gists %}
-    <li><a href="{{ gist.url }}">{{ gist.title }}</a> ({{ gist.date | date: "%d %b %Y" }})</li>
-  {% endfor %}
-</ul>
+<div class='mp' id='man'>
+
+  <div class='man-navigation' style='display:none'>
+  </div>
+
+  <ol class='man-decor man-head man head'>
+    <li class='tl'>gists</li>
+    <li class='tc'></li>
+    <li class='tr'>gists</li>
+  </ol>
+
+  <h1>GISTS INDEX</h1>
+<p>{% for gist in site.data.gists %}
+  <a href="{{ gist.url }}">{{ gist.title }}</a> ({{ gist.date | date: "%d %b %Y" }})<br />
+{% endfor %}</p>
+
+
+  <ol class='man-decor man-foot man foot'>
+    <li class='tl'></li>
+    <li class='tc'>April 2018</li>
+    <li class='tr'>gists</li>
+  </ol>
+
+</div>

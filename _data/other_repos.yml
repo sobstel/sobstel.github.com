@@ -34,7 +34,7 @@
 - name: xentry
   full_name: sobstel/xentry
   html_url: https://github.com/sobstel/xentry
-  description: 'laravel vs rails playground '
+  description: 'rails vs laravel playground '
   fork: false
   stargazers_count: 0
 - name: jsondocr

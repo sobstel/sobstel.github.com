@@ -4,6 +4,7 @@ require 'open-uri'
 require 'yaml'
 require 'time'
 require 'nokogiri'
+require 'filewatcher'
 
 def save_data(name, object)
   file = "_data/#{name}.yml"
@@ -24,6 +25,22 @@ def fetch(url)
   open(url, params).read
 end
 
+def generate_ronn_page(file)
+  sh({ 'RONN_LAYOUT' => '_layouts/_ronn.html' }, "ronn --html #{file}")
+end
+
+task :watch do
+  filewatcher = Filewatcher.new(['*.ronn'], interval: 0.1)
+  thread = Thread.new(filewatcher) do |fw|
+    fw.watch do |file|
+      generate_ronn_page(file)
+    end
+  end
+  sh 'bundle exec jekyll serve'
+  thread.join
+end
+task dev: :watch
+
 desc 'Publish live'
 task :publish, :message do |_, args|
   args.with_defaults message: YAML.load_file('quotes.yml')['quotes'].values.flatten.sample
@@ -41,20 +58,9 @@ end
 
 desc 'Generate ronn pages'
 task :generate_ronn_pages do
-  custom_head = <<-HEREDOC
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  HEREDOC
-
-  %w[index usage].each do |name|
-    sh "RONN_STYLE=css ronn --html --style print #{name}.ronn"
-
-    content = File.read("#{name}.html")
-    content.gsub! '<head>', "<head>#{custom_head.gsub(/[[:space:]]+/, ' ').strip}"
-    File.write("#{name}.html", content)
+  Dir.glob('*.ronn').each do |file|
+    generate_ronn_page(file)
   end
-
-  sh 'mv usage.html usage/index.html'
 end
 
 desc 'Import GitHub repos'

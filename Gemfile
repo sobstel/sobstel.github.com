@@ -6,3 +6,7 @@ gem 'json'
 gem 'nokogiri'
 gem 'rake'
 gem 'ronn'
+
+group :development do
+  gem 'filewatcher'
+end

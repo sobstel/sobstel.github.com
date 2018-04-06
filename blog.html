@@ -1,12 +1,29 @@
 ---
 layout: default
-title: Blog (archives)
-permalink: /blog/
-redirect_from: /dumps/
+title: BLOG ARCHIVE
 ---
 
-<ul class="blog-list">
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d %b %Y" }})</li>
-  {% endfor %}
-</ul>
+<div class='mp' id='man'>
+
+  <div class='man-navigation' style='display:none'>
+  </div>
+
+  <ol class='man-decor man-head man head'>
+    <li class='tl'>blog</li>
+    <li class='tc'></li>
+    <li class='tr'>blog</li>
+  </ol>
+
+  <h1>BLOG ARCHIVE</h1>
+<p>{% for post in site.posts %}
+  <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d %b %Y" }})<br />
+{% endfor %}</p>
+
+
+  <ol class='man-decor man-foot man foot'>
+    <li class='tl'></li>
+    <li class='tc'>April 2018</li>
+    <li class='tr'>blog</li>
+  </ol>
+
+</div>

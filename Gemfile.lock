@@ -27,6 +27,8 @@ GEM
       multipart-post (>= 1.2, < 3)
     feedzirra (0.8.0)
     ffi (1.9.23)
+    filewatcher (1.0.1)
+      trollop (~> 2.1, >= 2.1.2)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
     github-pages (180)
@@ -244,6 +246,7 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
+    trollop (2.1.2)
     typhoeus (1.3.0)
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
@@ -255,6 +258,7 @@ PLATFORMS
 
 DEPENDENCIES
   feedzirra
+  filewatcher
   github-pages
   json
   nokogiri

@@ -20,6 +20,7 @@ protipster     https://www.protipster.com/
 
 gsm            http://optasports.com/
 gsm-api        http://client.core.optasports.com/
+opta           http://optasports.com/
 perform        http://www.performgroup.com/
 soccerway      http://www.soccerway.com/
 scoresway      http://www.scoresway.com/

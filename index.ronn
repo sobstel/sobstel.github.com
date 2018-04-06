@@ -1,5 +1,5 @@
-sobstel - Przemek Sobstel
-=========================
+PRZEMEK SOBSTEL
+===============
 
 ## SYNOPSIS
 
@@ -7,18 +7,16 @@ I speak programming
 
 ## HISTORY
 
-<!-- [Fram Venture][framventure] ([Nabobil][nabobil). -->
-
-[Baytekin][baytekin]</a> ([AppJobs][appjobs], [Protipster][protipster]). 
-[PERFORM][perform] and [GSM/Opta][gsm] ([Soccerway][soccerway], [Scoresway][scoresway],
-[Opta Core API][gsm-api], a sports data hosted platform).
-[Crimson Oak][oak].
+[Fram Venture][framventure] (2018-),<br>
+[Baytekin Media][baytekin] (2014-2018),<br>
+[PERFORM][perform] / [Global Sports Media][gsm] / [Opta Sports][opta] (2010-2014),<br>
+[Crimson Oak][oak] (2006-2010).
 
 ## ENVIRONMENT
 
 Ruby, Rails, React Native, JS/ES6,
 PHP, MySQL, PostgreSQL, HTML5, CSS3, Sass, Docker,
-React, Redux, Vue, Preact, Riot, RabbitMQ, MongoDB, 
+React, Redux, Vue, Preact, Riot, RabbitMQ, MongoDB,
 Laravel, Symfony, Ionic, ElasticSearch.
 
 ## PROJECTS

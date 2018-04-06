@@ -1,5 +1,4 @@
 /* man.css - core manpage styles */
-/* copied from https://github.com/rtomayko/ronn/blob/master/lib/ronn/template/man.css */
 
 /* STRUCTURE, INDENT, MARGINS */
 
@@ -100,17 +99,44 @@ ol.man-decor li.tl            { text-align:left }
 ol.man-decor li.tc            { text-align:center; letter-spacing:4px }
 ol.man-decor li.tr            { text-align:right; float:right }
 
-/* CUSTOM */
 
-.mp {
-  padding: 1ex 6ex 1ex 4ex;
-  max-width: 100%;
-  text-align: left;
+
+/* toc.css - enable table of contents */
+
+.man-navigation {
+    display:block !important;
+    position:fixed;
+    top:0;
+    left:113ex; /* .mp width + padding */
+    height:100%;
+    width:100%;
+    padding:48px 0 0 0;
+    border-left:1px solid #dbdbdb;
+    background:#eee;
+}
+.man-navigation a,
+.man-navigation a:hover,
+.man-navigation a:link,
+.man-navigation a:visited {
+    display:block;
+    margin:0;
+    padding:5px 2px 5px 30px;
+    color:#999;
+    text-decoration:none;
+}
+.man-navigation a:hover {
+    color:#111;
+    text-decoration:underline;
 }
 
-@media (min-width: 90ex) {
-  .mp {
-    max-width: 100ex;
-    text-align: justify;
-  }
+
+
+/* print.css */
+
+@media print {
+    .mp { max-width:none }
+    .man-navigation { display:none !important }
+    .mp a[href]:not([href^="#"]):not([data-bare-link]):after {
+        content:" " attr(href);
+    }
 }

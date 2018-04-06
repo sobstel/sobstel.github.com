@@ -1,47 +1,56 @@
 ---
 layout: default
-title: Open source
-permalink: /open-source/
+title: OPEN SOURCE
 ---
 
-<section id="open-source">
+<div class='mp' id='man'>
 
-<h2>popular repos</h2>
-<ul>
-  {% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
+  <div class='man-navigation' style='display:none'>
+    <a href="#POPULAR-REPOS">POPULAR REPOS</a>
+    <a href="#OTHER-REPOS">OTHER REPOS</a>
+    <a href="#CURRENT-FORKS">CURRENT FORKS</a>
+    <a href="#CONTRIBUTIONS">CONTRIBUTIONS</a>
+  </div>
+
+  <ol class='man-decor man-head man head'>
+    <li class='tl'>open-source</li>
+    <li class='tc'></li>
+    <li class='tr'>open-source</li>
+  </ol>
+
+  <h1>OPEN SOURCE</h1>
+<h2 id="POPULAR-REPOS">POPULAR REPOS</h2>
+
+<p>  {% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
   {% for repo in popular_repos %}
-  <li>
-    {% include repo-item.html repo=repo %}
-  </li>
+    {% include repo-item.html repo=repo %}<br />
   {% endfor %}
-</ul>
+</p>
 
-<h2>other repos</h2>
-<ul>
-  {% assign other_repos = site.data.other_repos | sort: 'stargazers_count' | reverse %}
-  {% for repo in other_repos %}
-  <li>
-    {% include repo-item.html repo=repo %}
-  </li>
-  {% endfor %}
-</ul>
+<h2 id="OTHER-REPOS">OTHER REPOS</h2>
 
-<h2>current forks</h2>
-<ul>
-  {% for fork in site.data.forks %}
-  <li>
-    {% include repo-item.html repo=fork %}
-  </li>
-  {% endfor %}
-</ul>
+<p>{% assign other_repos = site.data.other_repos | sort: 'stargazers_count' | reverse %}
+{% for repo in other_repos %}
+  {% include repo-item.html repo=repo %}<br />
+{% endfor %}</p>
 
-<h2>contributions</h2>
-<ul>
-  {% for contrib in site.data.contribs %}
-  <li>
-    <a href="https://github.com/{{ contrib }}/commits?author=sobstel">{{ contrib }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<h2 id="CURRENT-FORKS">CURRENT FORKS</h2>
 
-</section>
+<p>{% for fork in site.data.forks %}
+  {% include repo-item.html repo=fork %}<br />
+{% endfor %}</p>
+
+<h2 id="CONTRIBUTIONS">CONTRIBUTIONS</h2>
+
+<p>{% for contrib in site.data.contribs %}
+  <a href="https://github.com/{{ contrib }}/commits?author=sobstel">{{ contrib }}</a><br />
+{% endfor %}</p>
+
+
+  <ol class='man-decor man-foot man foot'>
+    <li class='tl'></li>
+    <li class='tc'>April 2018</li>
+    <li class='tr'>open-source</li>
+  </ol>
+
+</div>
