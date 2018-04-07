@@ -1,11 +1,7 @@
----
-layout: default
-title: Projects
-redirect_from: /usage
----
+Portfolio
+=========
 
-+10 years of commercial experience
-(selected past/present projects below)
++10 years of commercial experience (selected projects below)
 
 ## NABOBIL <span>[nabobil.no][nabobil] (2018)</span>
 

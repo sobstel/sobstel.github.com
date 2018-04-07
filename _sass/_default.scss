@@ -8,6 +8,12 @@ body,
     font: 400 16px/1.5 "Inconsolata", monospace;
 }
 
+.mp a, .mp a:link, .mp a:hover,
+.mp a code, .mp a pre, .mp a tt,
+.mp a kbd, .mp a samp {
+  color: $link-color;
+}
+
 .mp > p, .mp > pre, .mp > ul,
 .mp > ol, .mp > dl {
   margin-left: 4ex;
@@ -15,11 +21,6 @@ body,
 .mp dt.flush {
   width: 4ex;
 }
-
-h1 {
-  text-transform: uppercase;
-}
-
 .post > p, .post > pre, .post > ul,
 .post > ol, .post > dl {
   margin-left: 0 !important;
@@ -28,12 +29,18 @@ h1 {
   width: 0 !important;
 }
 
+.man-navigation {
+  padding-top: 48px !important;
+}
+.mp {
+  text-align: left;
+}
+
+h1 {
+  text-transform: uppercase;
+}
 code {
   display: inline-block;
   padding: 0 5px;
   background: #eee;
-}
-
-.man-navigation {
-  padding-top: 16px !important;
 }
