@@ -8,10 +8,13 @@ body,
     font: 400 16px/1.5 "Inconsolata", monospace;
 }
 
-.mp a, .mp a:link, .mp a:hover,
+.mp a, .mp a:link,
 .mp a code, .mp a pre, .mp a tt,
 .mp a kbd, .mp a samp {
   color: $link-color;
+}
+.mp a:hover {
+  color: darken($link-color, 12%);
 }
 
 .mp > p, .mp > pre, .mp > ul,
@@ -32,6 +35,16 @@ body,
 .man-navigation {
   padding-top: 48px !important;
 }
+.man-navigation a,
+.man-navigation a:hover,
+.man-navigation a:link,
+.man-navigation a:visited {
+    color:#999 !important;
+}
+.man-navigation a:hover {
+    color:#111 !important;
+}
+
 .mp {
   text-align: left;
 }
