@@ -110,7 +110,7 @@ desc 'Import GitHub contributions'
 task :import_github_contributions do
   github_contributions = load_data('contribs')
 
-  (2017..Time.now.year).each do |year|
+  (2018..Time.now.year).each do |year|
     (1..12).each do |month|
       from = Date.new(year, month, 1).to_s
       to = Date.new(year, month, 1).next_month.prev_day.to_s
@@ -136,11 +136,7 @@ task :import_github_contributions do
 
         github_contributions << repo
       end
-
-      sleep(1)
     end
-
-    sleep(3)
   end
 
   github_contributions.uniq!
