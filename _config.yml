@@ -23,3 +23,6 @@ port: 1982
 
 plugins:
   - jekyll-redirect-from
+
+sass:
+  style: compressed

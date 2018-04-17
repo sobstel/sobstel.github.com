@@ -11,10 +11,10 @@ Ruby, Rails, ES, React Native, React, Redux, PHP
 
 ## EXAMPLES
 
-**Hydropuzzle** [sobstel.org/hydropuzzle](http://www.sobstel.org/hydropuzzle/ "Hydropuzzle"), [app store](https://itunes.apple.com/app/id1294812505?ls=1&mt=8 "Hydropuzzle")<br>
+**Hydropuzzle** [/hydropuzzle/](/hydropuzzle/ "Hydropuzzle"), [app store](https://itunes.apple.com/app/id1294812505?ls=1&mt=8 "Hydropuzzle")<br>
 Surreal tech puzzle adventure for iOS. Built with React Native. Over 15k downloads at the App Store.
 
-**Voltpuzzle** [sobstel.org/voltpuzzle](http://www.sobstel.org/voltpuzzle/ "Voltpuzzle")<br>
+**Voltpuzzle** [/voltpuzzle/](/voltpuzzle/ "Voltpuzzle")<br>
 Sequel to Hydropuzzle. Built with React Native and Expo.
 
 **Golazon** [www.golazon.com](http://www.golazon.com/ "Golazon"), [source](https://github.com/sobstel/golazon "Golazon")<br>

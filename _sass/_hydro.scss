@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Fibre";
+  src: url("/fonts/fibre.otf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e7dacb;
+  background-image: url('/img/hydro/bg@3x.jpg');
+  background-size: 100%;
+  font-family: 'Courier', monospace;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+.container {
+  max-width: 355px;
+  padding: 0 10px;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  margin: 3rem auto 2rem;
+  font-family: 'Fibre';
+  font-size: 40px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+@media (min-width: 375px) { h1 { font-size: 46px; letter-spacing: 5px; } }
+@media (min-width: 414px) { h1 { font-size: 52px; letter-spacing: 6px; } }
+p {
+  margin: 2rem auto;
+}
+a {
+  color: #bb8400;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+.hpromo {
+  width: 100%;
+  max-width: 355px;
+  border-radius: 5px;
+}
+.thumb {
+  width: 30%;
+  margin: 0 0.5%;
+  border-radius: 5px;
+}
+.shot {
+  width: 45%;
+  margin: 0 1.4%;
+  border-radius: 5px;
+}
