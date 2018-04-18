@@ -1,11 +1,13 @@
 ---
-layout: default
+layout: hydro
+main_title: Hydropuzzle
 title: Hydropuzzle walkthrough
+container_name: walkthrough
 ---
 
-~~~~
-SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
-~~~~
+**!!!SPOILER ALERT!!!**<br>
+**THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!**<br>
+
 
 CHAPTER 1
 ---------
@@ -14,10 +16,6 @@ CHAPTER 1
 2. One sign inside of email corresponds to one specific letter.
 3. Solution: <span class="spoiler">qwerty</span>
 
-~~~~
-SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
-~~~~
-
 CHAPTER 2
 ---------
 
@@ -25,10 +23,6 @@ CHAPTER 2
 2. Symbols can be interpreted as numbers.
 3. An email indicates numbers order.
 4. Solution: <span class="spoiler">3 2 9 5</span>
-
-~~~~
-SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
-~~~~
 
 CHAPTER 3
 ---------
@@ -39,10 +33,6 @@ CHAPTER 3
 4. Try to [convert hexadecimal FF to decimal](https://www.binaryhexconverter.com/hex-to-decimal-converter).
 5. Solution: <span class="spoiler">255</span>
 
-~~~~
-SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
-~~~~
-
 CHAPTER 4
 ---------
 
@@ -50,9 +40,6 @@ CHAPTER 4
 2. Final pattern is symmetrical.
 3. Solution: <span class="spoiler"><a href="/img/hydro/chapter4spoiler.jpg" rel="nofollow" target="_blank">image</a></span>
 
-~~~~
-SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
-~~~~
 
 CHAPTER 5
 ---------
@@ -61,10 +48,6 @@ CHAPTER 5
 2. Decode blinking dots one by one (they're out of sync, starting at different times).
 3. Solution: <span class="spoiler">psswrd</span>
 
-~~~~
-SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
-~~~~
-
 CHAPTER 6
 ---------
 
@@ -72,28 +55,16 @@ CHAPTER 6
 2. It's similar to [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck).
 3. Solution: (just a sample) <span class="spoiler">++++[>++++<-]>+++.+.-&minus;-&minus;-.+.</span>
 
-~~~~
-SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
-~~~~
-
 CHAPTER 7
 ---------
 
 1. Sun will show you the right way ;-)
 2. Solution: <span class="spoiler">THE END</span>
 
-~~~~
-SPOILER ALERT! THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!
-~~~~
-
 CREDITS (bonus puzzle at the bottom)
 ------------------------------------
 
 1. Eliminate crossed out keys.
-
-
-[www.sobstel.org/hydropuzzle](/hydropuzzle/)
-
 
 <script>
 Array.from(document.getElementsByClassName('spoiler')).forEach(function (spoiler) {

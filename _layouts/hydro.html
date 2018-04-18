@@ -4,9 +4,13 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>Hydropuzzle - surreal puzzle adventure game for iOS</title>
-
+  <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.short_description }}" />
+
+  <link rel="preload" href="/fonts/fibre.otf" as="font" crossorigin="anonymous">
+  <link rel="preload" href="/img/hydro/bg@2x.jpg" as="image" media="(max-width: 750px)">
+  <link rel="preload" href="/img/hydro/bg@3x.jpg" as="image" media="(min-width: 751px)">
+  <style>{% capture styles %}{% include hydro.scss %}{% endcapture %}{{ styles | scssify }}</style>
 
   <meta name="apple-itunes-app" content="app-id=1294812505">
   <meta property="og:type" content="website">
@@ -15,12 +19,26 @@
   <meta properlt="og:description" content="{{ page.long_description }}">
   <meta property="og:image" content="http://www.sobstel.org/img/hydro/hpromo.jpg">
 
-  <link rel="canonical" href="http://www.sobstel.org/hydropuzzle/" />
-  <link rel="shortcut icon" href="/img/hydro/favicon.png">
-
-  <link rel="stylesheet" type="text/css" href="/css/hydro.css?v0415">
+  <link rel="canonical" href="http://www.sobstel.org/hydropuzzle/">
+  <link rel="shortcut icon" href="/img/{{ page.main_title | downcase | replace: 'puzzle', '' }}/favicon.png">
 </head>
 <body>
-  {{ content }}
+  <h1>
+   <a href="/{{ page.main_title | downcase }}/">{{ page.main_title | upcase }}</a>
+  </h1>
+
+  <div class="container{% if page.container_name %} container__{{ page.container_name }}{% endif %}">
+    {{ content }}
+
+    <p>---</p>
+    <p>
+      Crafted by <a href="http://sobstel.org/" rel="nofollow">sobstel</a><br>
+      <a href="mailto:przemek&#64;sobstel.org">przemek&#64;sobstel.org</a>
+    </p>
+    <p>
+      <a href="https://www.instagram.com/explore/tags/hydropuzzle/" rel="nofollow"><img src="/img/hydro/instagram_48.png" /></a>
+      <a href="https://twitter.com/hashtag/hydropuzzle" rel="nofollow"><img src="/img/hydro/twitter_48.png" /></a>
+    <p>
+  </div>
 </body>
 </html>

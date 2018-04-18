@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: hydro
+main_title: Hydropuzzle
 title: Hydropuzzle review (Apps do iPhone)
 ---
+
+## {{ page.title }}
 
 <div itemscope itemtype="http://schema.org/Review">
 <div itemprop="reviewBody">
@@ -35,15 +38,18 @@ The hints to solve the puzzle tend to be in the text that precedes the puzzle, i
 </p>
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qy2WME9FBZ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="video-wrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qy2WME9FBZ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
-<p><em>Originally posted in Portuguese at <a href="http://www.appsdoiphone.com/2018/02/hydropuzzle.html">Apps do iPhone]</a>.</em></p>
+<p><em>Originally posted in Portuguese at <a href="http://www.appsdoiphone.com/2018/02/hydropuzzle.html">Apps do iPhone</a>.</em></p>
 
 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
   <meta itemprop="name" content="Bruno Ramalho">
 </span>
 <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-  <span itemprop="ratingValue">5</span>/<span itemprop="bestRating">5</span>
+  <meta itemprop="ratingValue" content="5">
+  <meta itemprop="bestRating" content="5">
 </span>
 <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <meta itemprop="name" content="Apps do iPhone">
