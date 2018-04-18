@@ -4,6 +4,8 @@ main_title: Hydropuzzle
 title: Hydropuzzle review (Apps do iPhone)
 ---
 
+{% include hydro-nav.html %}
+
 ## {{ page.title }}
 
 <div itemscope itemtype="http://schema.org/Review">

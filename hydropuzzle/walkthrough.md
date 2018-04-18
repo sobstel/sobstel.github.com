@@ -5,9 +5,10 @@ title: Hydropuzzle walkthrough
 container_name: walkthrough
 ---
 
+{% include hydro-nav.html %}
+
 **!!!SPOILER ALERT!!!**<br>
 **THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!**<br>
-
 
 CHAPTER 1
 ---------
