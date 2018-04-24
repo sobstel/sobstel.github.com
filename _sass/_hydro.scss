@@ -23,10 +23,14 @@ body {
   }
 }
 .container {
-  max-width: 355px;
+  max-width: 540px;
   padding: 0 10px;
   margin: auto;
   text-align: center;
+
+  @media only screen and (max-width: 540) {
+    width: 92%;
+  }
 }
 h1 {
   margin: 3rem auto 2rem;
@@ -54,8 +58,7 @@ a:hover {
   text-decoration: underline;
 }
 .hpromo {
-  width: 100%;
-  max-width: 355px;
+  width: 94%;
   border-radius: 5px;
 }
 .thumb {
@@ -78,7 +81,7 @@ a:hover {
     display: inline-block;
 
     a {
-      font-size: 1.2em;
+      font-size: 1.05em;
     }
   }
 }

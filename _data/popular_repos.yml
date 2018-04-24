@@ -16,7 +16,7 @@
   html_url: https://github.com/sobstel/metaphore
   description: PHP cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 81
+  stargazers_count: 82
 - name: jsonp.js
   full_name: sobstel/jsonp.js
   html_url: https://github.com/sobstel/jsonp.js
@@ -28,4 +28,4 @@
   html_url: https://github.com/sobstel/sequent
   description: short-term memory training game (react native / ios)
   fork: false
-  stargazers_count: 45
+  stargazers_count: 46

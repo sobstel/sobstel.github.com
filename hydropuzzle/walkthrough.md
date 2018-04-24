@@ -62,8 +62,8 @@ CHAPTER 7
 1. Sun will show you the right way ;-)
 2. Solution: <span class="spoiler">THE END</span>
 
-CREDITS (bonus puzzle at the bottom)
-------------------------------------
+CREDITS
+-------
 
 1. Eliminate crossed out keys.
 
