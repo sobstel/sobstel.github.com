@@ -16,6 +16,11 @@ Featured in
 
 <p>---</p>
 
+No 6 Top Games/Adventure<br>No 18 Top Paid Games
+<br><small>(November 2017 at Apple Store PL)</small>
+
+<p>---</p>
+
 _I loved this little experience. I had to come at each chapter from different angles, googling concepts and ideas, and seeing what clicked. Lots of fun. I can see the care and creativity that went into this and hope too see more from the developer soon._
 <br><small>(Paul No. 2)</small>
 
