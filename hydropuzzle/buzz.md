@@ -41,6 +41,9 @@ _Most enjoyable challenging puzzle in a long time!
 I enjoyed this app immensely and highly recommend anyone who is up for a challenge to take it on! I loved the style and inspirations this was based on. A lot of thought was put into each puzzle and hint, and unlike many, you have to work for the solutions, with nothing being a giveaway like in many puzzle apps. BRAVO 👏 to the team that put this together, I sincerely hope there will be future chapters for us to foil drevil’s plans. Please keep this work of art going!_
 <br><small>(Katily)</small>
 
+_It’s neat. Odd. Puzzles are challenging._
+<br><small>(46(;;)$)</small>
+
 _If you don't mind a good challenge with puzzles that ask you to look outside the game for information or have outside knowledge, give it a try. But it is not an easy game._
 <br><small>([App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/))</small>
 
