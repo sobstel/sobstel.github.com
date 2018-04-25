@@ -4,8 +4,6 @@ main_title: Hydropuzzle
 title: Buzz
 ---
 
-{% include hydro-nav.html %}
-
 Featured in
 [CanardPC](https://www.canardpc.com/373/au-doigt-et-loeil-hydropuzzle),
 [AppAdvice](https://appadvice.com/appnn/2018/02/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more),
@@ -44,7 +42,7 @@ _Really fun and challenging! Took me a good hour to beat it. Sometimes you have 
 
 _Most enjoyable challenging puzzle in a long time!
 I enjoyed this app immensely and highly recommend anyone who is up for a challenge to take it on! I loved the style and inspirations this was based on. A lot of thought was put into each puzzle and hint, and unlike many, you have to work for the solutions, with nothing being a giveaway like in many puzzle apps. BRAVO 👏 to the team that put this together, I sincerely hope there will be future chapters for us to foil drevil’s plans. Please keep this work of art going!_
-<br><small>(Katily)</small>
+<br><small>(Katily =^•^=)</small>
 
 _It’s neat. Odd. Puzzles are challenging._
 <br><small>(46(;;)$)</small>
@@ -52,11 +50,15 @@ _It’s neat. Odd. Puzzles are challenging._
 _If you don't mind a good challenge with puzzles that ask you to look outside the game for information or have outside knowledge, give it a try. But it is not an easy game._
 <br><small>([App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/))</small>
 
-_I love Hydropuzzle but man it makes me feel stupid!_
-<br><small>([Robert Megone](https://twitter.com/robertmegone/))</small>
-
 _I have lost the notion of time trying to solve some of the puzzles._
 <br><small>([Apps do iPhone](/hydropuzzle/reviews/appsdoiphone "Hydropuzzle review"))</small>
 
 _Hydropuzzle is obviously a labour of love_
-<br><small>([Pocket Tactics](https://www.pockettactics.com/reviews/review-hydropuzzle/))</small>
+<br><small>(Pocket Tactics)</small>
+
+_I love Hydropuzzle but man it makes me feel stupid!_
+<br><small>([Robert Megone](https://twitter.com/robertmegone/))</small>
+
+<p>---</p>
+
+{% include hydro-nav.html %}

@@ -5,10 +5,8 @@ title: Hydropuzzle walkthrough
 container_name: walkthrough
 ---
 
-{% include hydro-nav.html %}
-
 **!!!SPOILER ALERT!!!**<br>
-**THIS PAGE MAY RUIN YOUR GAME EXPERIENCE!**<br>
+**THIS PAGE MAY RUIN YOUR GAME EXPERIENCE**<br>
 
 CHAPTER 1
 ---------
@@ -72,3 +70,7 @@ Array.from(document.getElementsByClassName('spoiler')).forEach(function (spoiler
   spoiler.onclick = function () { this.className = 'spoiler visible'; };
 });
 </script>
+
+<p>---</p>
+
+{% include hydro-nav.html %}
