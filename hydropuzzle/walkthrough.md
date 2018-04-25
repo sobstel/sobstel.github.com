@@ -1,7 +1,7 @@
 ---
 layout: hydro
 main_title: Hydropuzzle
-title: Hydropuzzle walkthrough
+title: Hydropuzzle walkthrough, hints and cheat codes
 container_name: walkthrough
 ---
 

@@ -4,8 +4,6 @@ main_title: Hydropuzzle
 title: Hydropuzzle review (Apps do iPhone)
 ---
 
-{% include hydro-nav.html %}
-
 ## {{ page.title }}
 
 <div itemscope itemtype="http://schema.org/Review">
@@ -58,3 +56,6 @@ The hints to solve the puzzle tend to be in the text that precedes the puzzle, i
 </span>
 
 </div>
+
+<p>---</p>
+{% include hydro-nav.html %}

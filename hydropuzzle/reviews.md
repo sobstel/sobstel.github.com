@@ -1,16 +1,17 @@
 ---
 layout: hydro
 main_title: Hydropuzzle
-title: Buzz
+title: Hydropuzzle reviews
 ---
 
 Featured in
-[CanardPC](https://www.canardpc.com/373/au-doigt-et-loeil-hydropuzzle),
+[CanardPC](/hydropuzzle/reviews/canardpc/),
 [AppAdvice](https://appadvice.com/appnn/2018/02/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more),
 [App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/),
 [Pocket Tactics](https://www.pockettactics.com/reviews/review-hydropuzzle/),
-[Apps do iPhone](https://www.canardpc.com/373/au-doigt-et-loeil-hydropuzzle),
-[App-kostenlos](http://www.app-kostenlos.de/2018/02/18/wer-hat-die-wasserversorgung-gekappt-premium-spiel-hydropuzzle-kurzzeitig-gratis-fuer-iphone-und-ipad/).
+[Apps do iPhone](/hydropuzzle/reviews/appsdoiphone/),
+[App-kostenlos](http://www.app-kostenlos.de/2018/02/18/wer-hat-die-wasserversorgung-gekappt-premium-spiel-hydropuzzle-kurzzeitig-gratis-fuer-iphone-und-ipad/),
+[Techristic](https://www.techristic.com/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more/).
 
 <p>---</p>
 
