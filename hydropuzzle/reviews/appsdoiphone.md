@@ -58,4 +58,5 @@ The hints to solve the puzzle tend to be in the text that precedes the puzzle, i
 </div>
 
 <p>---</p>
+
 {% include hydro-nav.html %}

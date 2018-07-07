@@ -5,11 +5,13 @@ Portfolio
 
 ## NABOBIL <span>[nabobil.no][nabobil] (2018)</span>
 
+*Stack*: Ruby, Rails, React Native, GraphQL, PostgreSQL, Redis.
+
 ## GOLAZON <span>[golazon.com][golazon] | [source][golazon-gh] (2017-2018)
 
 Football data mnmlst way.
 *Role*: sole developer (private project)
-*Stack*: Preact, Ruby, HTML5/CSS3
+*Stack*: Preact, Ruby, HTML5/CSS3 (before: hyperapp, riot).
 
 ## APPJOBS <span>[appjobs.com][appjobs] (2017-2018)</span>
 
