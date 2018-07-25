@@ -10,13 +10,13 @@
   html_url: https://github.com/sobstel/metaphore
   description: PHP cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 83
+  stargazers_count: 82
 - name: jsonp.js
   full_name: sobstel/jsonp.js
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
-  stargazers_count: 34
+  stargazers_count: 33
 - name: sequent
   full_name: sobstel/sequent
   html_url: https://github.com/sobstel/sequent

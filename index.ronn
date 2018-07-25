@@ -29,7 +29,7 @@ Football data mnmlist way. Ruby/Preact/riot/hyperapp.
 
 [AppJobs][appjobs], [Protipster][protipster], Tip of the Day,
 [Soccerway][soccerway], [Scoresway][scoresway],
-[Opta Core API][opta-core] and a quite few more...
+[Opta Core API][opta-core], Navitracer, Intragame and a quite few more...
 
 ## FILES
 
