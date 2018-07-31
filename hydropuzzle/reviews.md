@@ -4,6 +4,8 @@ main_title: Hydropuzzle
 title: Hydropuzzle reviews
 ---
 
+{% include hydro-nav.html %}
+
 Featured in
 [CanardPC](/hydropuzzle/reviews/canardpc/),
 [AppAdvice](https://appadvice.com/appnn/2018/02/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more),
@@ -59,7 +61,3 @@ _Hydropuzzle is obviously a labour of love_
 
 _I love Hydropuzzle but man it makes me feel stupid!_
 <br><small>([Robert Megone](https://twitter.com/robertmegone/))</small>
-
-<p>---</p>
-
-{% include hydro-nav.html %}

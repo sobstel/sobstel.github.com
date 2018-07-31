@@ -5,6 +5,8 @@ title: Hydropuzzle walkthrough, hints and cheat codes
 container_name: walkthrough
 ---
 
+{% include hydro-nav.html %}
+
 **!!!SPOILER ALERT!!!**<br>
 **THIS PAGE MAY RUIN YOUR GAME EXPERIENCE**<br>
 
@@ -70,7 +72,3 @@ Array.from(document.getElementsByClassName('spoiler')).forEach(function (spoiler
   spoiler.onclick = function () { this.className = 'spoiler visible'; };
 });
 </script>
-
-<p>---</p>
-
-{% include hydro-nav.html %}
