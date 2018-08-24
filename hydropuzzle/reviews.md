@@ -34,6 +34,9 @@ _Great game, just the way I like it. Puzzles challenging yet solvable. No time l
 _Puzzle games usually lack any style. Or at least they all seem to copy each other. I absolutely loved the style/feel of this game. The story development and the imagery were fantastic._
 <br><small>(devxm)</small>
 
+_Super short but nice. Endearing little puzzle game. I never got really stuck on puzzles, though I almost did on the railway crossing. Note that some puzzles require looking things up. I imagine many people would be upset with paying for such a short game, but if you've got money to spare, I for one enjoyed it._
+<br><small>(OsthatoAlfakyn)</small>
+
 _Awesomeness for geeks. Challenge the nerd in you and geek out! Surprising and actually challenging._
 <br><small>(Pinky6677)</small>
 
