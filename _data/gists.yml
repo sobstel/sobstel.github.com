@@ -1,4 +1,10 @@
 ---
+- title: MVP cheatsheet
+  url: https://gist.github.com/4d6dcd7bb4389ac16957e01d58f60903
+  date: '2018-08-22T06:58:22Z'
+- title: Bulk upsert (Rails/PostgreSQL)
+  url: https://gist.github.com/1b022e17f2f2bb276e766f7fea974b17
+  date: '2018-08-21T18:07:35Z'
 - title: Effective Ruby
   url: https://gist.github.com/dab11bcac14c2b82281f563c90713ba5
   date: '2018-06-30T12:35:59Z'
