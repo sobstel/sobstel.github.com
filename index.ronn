@@ -3,16 +3,16 @@ Przemek Sobstel
 
 ## SYNOPSIS
 
-I speak programming
+Lean mnmlst that speaks programming
 
 ## ENVIRONMENT
 
 Ruby, Rails, React Native, React, Redux, PHP
 
-## EXAMPLES
+## PROJECTS
 
 **Nabobil** [nabobil.no][nabobil]<br>
-Proud to be a part of the team working on one of the most thrilling Norwegian startups.
+One of the most promising Norwegian startups.
 
 **Hydropuzzle** [www.sobstel.org/hydropuzzle/][hydropuzzle], [app store][hydropuzzle-as]<br>
 Surreal tech puzzle adventure for iOS. Built with React Native. Nearly 20k downloads at the App Store.
@@ -23,7 +23,7 @@ Sequel to Hydropuzzle. Built with React Native and Expo.
 -->
 
 **Golazon** [www.golazon.com][golazon], [source][golazon-gh]<br>
-Football data mnmlist way. Ruby/Preact/riot/hyperapp.
+Football data mnmlist way. Ruby/preact/riot/hyperapp.
 
 ## HISTORY
 
@@ -31,7 +31,7 @@ Football data mnmlist way. Ruby/Preact/riot/hyperapp.
 [Soccerway][soccerway], [Scoresway][scoresway],
 [Opta Core API][opta-core], Navitracer, Intragame and a quite few more...
 
-## FILES
+## OPEN SOURCE
 
 **Sequent** [source](https://github.com/sobstel/sequent "Sequent")<br>
 Short-term memory training game (mobile). Built with React Native and Redux.
