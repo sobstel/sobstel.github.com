@@ -65,7 +65,7 @@ CHAPTER 7
 CREDITS
 -------
 
-1. Eliminate crossed out keys.
+1. Eliminate crossed out keys from all keyboard images.
 
 <script>
 Array.from(document.getElementsByClassName('spoiler')).forEach(function (spoiler) {

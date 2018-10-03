@@ -3,7 +3,7 @@ Przemek Sobstel
 
 ## SYNOPSIS
 
-Lean mnmlst that speaks programming
+Lean mnmlst, speaks programming
 
 ## ENVIRONMENT
 
