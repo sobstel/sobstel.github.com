@@ -7,6 +7,8 @@ container_name: walkthrough
 
 {% include hydro-nav.html %}
 
+ver 2.0
+
 **!!!SPOILER ALERT!!!**<br>
 **THIS PAGE MAY RUIN YOUR GAME EXPERIENCE**<br>
 
@@ -22,17 +24,16 @@ CHAPTER 2
 
 1. Dots create a letter pattern for each block/symbol combination.
 2. Symbols can be interpreted as numbers.
-3. An email indicates numbers order.
+3. The header text indicates numbers order.
 4. Solution: <span class="spoiler">3 2 9 5</span>
 
 CHAPTER 3
 ---------
 
-1. Keyboard hint reads HEXADECIMAL, which indicates how CVV number is encoded.
-2. Hash (#) is often used to denote hexadecimal number.
-3. Self-reminding twitter post has `#FF` tag.
-4. Try to [convert hexadecimal FF to decimal](https://www.binaryhexconverter.com/hex-to-decimal-converter).
-5. Solution: <span class="spoiler">255</span>
+1. Hash (#) is often used to denote hexadecimal number.
+2. Self-reminding twitter post has `#FF` tag.
+3. Try to [convert hexadecimal FF to decimal](https://www.binaryhexconverter.com/hex-to-decimal-converter).
+4. Solution: <span class="spoiler">255</span>
 
 CHAPTER 4
 ---------
@@ -46,7 +47,7 @@ CHAPTER 5
 ---------
 
 1. Google for [letum myth](https://www.google.com/search?q=letum+myth). Pay attention to the name of the Roman deity.
-2. Decode blinking dots one by one (they're out of sync, starting at different times).
+2. Decode blinking dots one by one.
 3. Solution: <span class="spoiler">psswrd</span>
 
 CHAPTER 6

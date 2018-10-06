@@ -22,6 +22,10 @@ No 6 Top Games/Adventure<br>No 18 Top Paid Games
 
 <p>---</p>
 
+_Most enjoyable challenging puzzle in a long time!
+I enjoyed this app immensely and highly recommend anyone who is up for a challenge to take it on! I loved the style and inspirations this was based on. A lot of thought was put into each puzzle and hint, and unlike many, you have to work for the solutions, with nothing being a giveaway like in many puzzle apps. BRAVO 👏 to the team that put this together, I sincerely hope there will be future chapters for us to foil drevil’s plans. Please keep this work of art going!_
+<br><small>(Katily =^•^=)</small>
+
 _I loved this little experience. I had to come at each chapter from different angles, googling concepts and ideas, and seeing what clicked. Lots of fun. I can see the care and creativity that went into this and hope too see more from the developer soon._
 <br><small>(Paul No. 2)</small>
 
@@ -45,10 +49,6 @@ _Short and Sweet. I loved it even if it was a little short. The puzzles were ver
 
 _Really fun and challenging! Took me a good hour to beat it. Sometimes you have to stare at the puzzle until something clicks, but it’s rewarding when it does! Looking forward to more of these games!_
 <br><small>(ChriCar)</small>
-
-_Most enjoyable challenging puzzle in a long time!
-I enjoyed this app immensely and highly recommend anyone who is up for a challenge to take it on! I loved the style and inspirations this was based on. A lot of thought was put into each puzzle and hint, and unlike many, you have to work for the solutions, with nothing being a giveaway like in many puzzle apps. BRAVO 👏 to the team that put this together, I sincerely hope there will be future chapters for us to foil drevil’s plans. Please keep this work of art going!_
-<br><small>(Katily =^•^=)</small>
 
 _It’s neat. Odd. Puzzles are challenging._
 <br><small>(46(;;)$)</small>
