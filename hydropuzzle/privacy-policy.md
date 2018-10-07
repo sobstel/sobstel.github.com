@@ -11,18 +11,18 @@ title: Hydropuzzle Privacy Policy
 *This policy effective October 7, 2018*
 
 I'm committed to protecting your privacy and collecting only the minimum amount
-of info needed to provide our software and services — referred to as “Services”.
+of info needed to provide my software and services — referred to as “Services”.
 Your use of the Services indicates you agree to this policy.
 
 ### Terms
 
 As used in this policy, "Personal Info" is data that can identify a particular person.
 
-**Our Services don't collect any of your Personal Info**.
+**My Services don't collect any of your Personal Info**.
 
 I may request your email address to communicate with you.
 This info is used only as you'd expect and deleted upon request.
-Optionally, you may choose to provide your email address and communicate with us via email.
+Optionally, you may choose to provide your email address and communicate with me via email.
 
 ### Changes to this policy
 
