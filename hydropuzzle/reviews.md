@@ -6,6 +6,8 @@ title: Hydropuzzle reviews
 
 {% include hydro-nav.html %}
 
+## Reviews
+
 Featured in
 [CanardPC](/hydropuzzle/reviews/canardpc/),
 [AppAdvice](https://appadvice.com/appnn/2018/02/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more),

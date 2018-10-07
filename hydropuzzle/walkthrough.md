@@ -7,6 +7,8 @@ container_name: walkthrough
 
 {% include hydro-nav.html %}
 
+## Walkthrough
+
 ver 2.0
 
 **!!!SPOILER ALERT!!!**<br>
