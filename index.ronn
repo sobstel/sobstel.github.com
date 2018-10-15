@@ -11,10 +11,10 @@ Ruby, Rails, React Native, React, Redux, PHP
 
 ## PROJECTS
 
-**Nabobil** [nabobil.no][nabobil]<br>
+**Nabobil** [www.nabobil.no][nabobil]<br>
 One of the most promising Norwegian startups.
 
-**Hydropuzzle** [www.sobstel.org/hydropuzzle/][hydropuzzle], [app store][hydropuzzle-as]<br>
+**Hydropuzzle** [www.hydropuzzle.com][hydropuzzle], [app store][hydropuzzle-as]<br>
 Surreal tech puzzle adventure for iOS. Built with React Native. Nearly 20k downloads at the App Store.
 
 <!--
