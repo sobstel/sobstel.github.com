@@ -7,7 +7,7 @@ Lean mnmlst, speaks programming
 
 ## ENVIRONMENT
 
-Ruby, Rails, React Native, React, Redux, PHP
+Ruby, Rails, React Native, React, PHP
 
 ## PROJECTS
 
@@ -16,11 +16,6 @@ One of the most promising Norwegian startups.
 
 **Hydropuzzle** [www.hydropuzzle.com][hydropuzzle], [app store][hydropuzzle-as]<br>
 Surreal tech puzzle adventure for iOS. Built with React Native. Nearly 20k downloads at the App Store.
-
-<!--
-**Voltpuzzle** [www.sobstel.org/voltpuzzle/][voltpuzzle]<br>
-Sequel to Hydropuzzle. Built with React Native and Expo.
--->
 
 **Golazon** [www.golazon.com][golazon], [source][golazon-gh]<br>
 Football data mnmlist way. Ruby/preact/riot/hyperapp.

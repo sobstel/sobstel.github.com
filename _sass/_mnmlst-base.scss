@@ -1,0 +1,13 @@
+@import "normalize";
+
+$link-color: #3072b3;
+
+body {
+  font: 400 16px/1.5 "Inconsolata", monospace;
+}
+h1 {
+  font-size: 1.2rem;
+}
+a {
+  color: $link-color;
+}

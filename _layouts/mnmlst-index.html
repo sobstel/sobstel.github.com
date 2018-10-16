@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include mnmlst-head.html %}
+  <style>{% capture styles %}{% include mnmlst-index.scss %}{% endcapture %}{{ styles | scssify }}</style>
+</head>
+<body>
+  <div class="outer-container">
+    <div class="inner-container">
+      {{ content }}
+    </div>
+  </div>
+</body>
+</html>

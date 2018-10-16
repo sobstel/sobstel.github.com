@@ -1,0 +1,16 @@
+@import "mnmlst-base";
+
+ul {
+  &.index {
+    padding-left: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.container {
+  margin: 1em auto;
+  width: 600px;
+}
