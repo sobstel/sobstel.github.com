@@ -3,7 +3,7 @@ Przemek Sobstel
 
 ## SYNOPSIS
 
-Lean mnmlst, speaks programming
+Lean Full Stack Developer
 
 ## ENVIRONMENT
 
