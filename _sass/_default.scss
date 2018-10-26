@@ -45,9 +45,15 @@ body,
 .man-navigation a:hover {
     color:#111 !important;
 }
-
 .mp {
   text-align: left;
+}
+.mp > ol.man-foot {
+  margin-left: 0;
+
+  li.tl, li.tc, li.tr {
+    font-size: 0.84em;
+  }
 }
 
 h1 {

@@ -1,16 +1,16 @@
 ---
-- name: sequent
-  full_name: sobstel/sequent
-  html_url: https://github.com/sobstel/sequent
-  description: short-term memory training game (react native / ios)
-  fork: false
-  stargazers_count: 51
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
   description: PHP secure advanced session manager.
   fork: false
   stargazers_count: 47
+- name: sequent
+  full_name: sobstel/sequent
+  html_url: https://github.com/sobstel/sequent
+  description: short-term memory training game (react native / ios)
+  fork: false
+  stargazers_count: 51
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
