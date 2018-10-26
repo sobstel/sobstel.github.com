@@ -1,6 +1,8 @@
 Sobstel
 =======
 
-## [Developer](/dev/ "Developer")
+## Index
 
-## [Hydropuzzle](/hydropuzzle/ "Hydropuzzle")
+**[Developer](/dev/ "Developer")**
+
+**[Hydropuzzle](/hydropuzzle/ "Hydropuzzle")**
