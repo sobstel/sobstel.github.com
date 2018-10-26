@@ -2,5 +2,5 @@ Gists Index
 ===========
 
 {% for gist in site.data.gists %}
-  <a href="{{ gist.url }}">{{ gist.title }}</a> ({{ gist.date | date: "%d %b %Y" }})<br>
+  <a href="{{ gist.url }}">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br>
 {% endfor %}

@@ -1,6 +1,6 @@
 Sobstel
 =======
 
-**[Developer](/dev/ "Developer")**
+## [Developer](/dev/ "Developer")
 
-**[Hydropuzzle](/hydropuzzle/ "Hydropuzzle")**
+## [Hydropuzzle](/hydropuzzle/ "Hydropuzzle")
