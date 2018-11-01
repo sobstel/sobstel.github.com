@@ -45,6 +45,9 @@ body,
 .man-navigation a:hover {
     color:#111 !important;
 }
+.man-navigation span:first-child {
+  display: none;
+}
 .mp {
   text-align: left;
 }
@@ -54,6 +57,10 @@ body,
   li.tl, li.tc, li.tr {
     font-size: 0.84em;
   }
+}
+.mp img {
+  display: inline-block;
+  filter: grayscale(100%);
 }
 
 h1 {

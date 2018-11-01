@@ -8,13 +8,15 @@
 - name: sequent
   full_name: sobstel/sequent
   html_url: https://github.com/sobstel/sequent
-  description: short-term memory training game (react native / ios)
+  description: Short-term memory training game (mobile). Built with React Native and
+    Redux.
   fork: false
   stargazers_count: 52
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
-  description: PHP cache slam defense using a semaphore to prevent dogpile effect.
+  description: Cache slam defense using a semaphore to prevent dogpile effect. Built
+    with PHP.
   fork: false
   stargazers_count: 88
 - name: jsonp.js

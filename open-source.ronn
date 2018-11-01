@@ -3,11 +3,10 @@ Open Source
 
 ## POPULAR REPOS
 
-  {% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
-  {% for repo in popular_repos %}
-    {% include repo-item.html repo=repo %}<br>
-  {% endfor %}
-</ul>
+{% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
+{% for repo in popular_repos %}
+  {% include repo-item.html repo=repo %}<br>
+{% endfor %}
 
 ## OTHER REPOS
 

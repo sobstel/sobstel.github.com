@@ -124,12 +124,15 @@ ol.man-decor li.tr            { text-align:right; float:right }
     color:#999;
     text-decoration:none;
 }
+.man-navigation span {
+    display: block;
+    padding-left: 30px;
+    color: #333;
+}
 .man-navigation a:hover {
     color:#111;
     text-decoration:underline;
 }
-
-
 
 /* print.css */
 

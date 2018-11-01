@@ -18,6 +18,8 @@ title: Przemek Sobstel
     <a href="#GISTS">GISTS</a>
     <a href="#BLOG">BLOG</a>
     <a href="#CONTACT">CONTACT</a>
+    <span>--</span>
+    <a href="mailto:przemek@sobstel.org">PRZEMEK@SOBSTEL.ORG</a>
   </div>
 
   <h1>Przemek Sobstel</h1>
@@ -56,11 +58,14 @@ Football data mnmlist way. Ruby/preact/riot/hyperapp.</p>
 
 <h2 id="OPEN-SOURCE">OPEN SOURCE</h2>
 
-<p><strong>Sequent</strong> <a href="https://github.com/sobstel/sequent" title="Sequent">source</a><br />
-Short-term memory training game (mobile). Built with React Native and Redux.</p>
+<p>{% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
+{% for repo in popular_repos %}
+<strong>{{ repo.name }}</strong> <a href="{{%20repo.html_url%20}}" title="{{ repo.name }}">source</a><br />
+{{ repo.description }}</p>
 
-<p><strong>Metaphore</strong> <a href="https://github.com/sobstel/metaphore" title="Metaphore">source</a><br />
-Cache slam defense using a semaphore to prevent dogpile effect. Built with PHP.</p>
+<p>{% endfor %}</p>
+
+<p><a href="/open-source/">more &gt;</a></p>
 
 <h2 id="SKILLS">SKILLS</h2>
 
@@ -77,6 +82,21 @@ amplify learning, decide as late as possible, decide as fast as possible, empowe
 <h2 id="REMOTE">REMOTE</h2>
 
 <p><a href="https://www.instagram.com/sobsteldev/">I work remotely</a></p>
+
+<p><a href="https://www.instagram.com/p/BYygOuehcln/" target="_blank">
+  <img src="https://scontent-frx5-1.cdninstagram.com/vp/14bd0c098706f007db2ac96154880eee/5C7E8455/t51.2885-15/e35/c2.0.1075.1075/s150x150/21373675_115384635795876_6802165634839871488_n.jpg" />
+</a>
+<a href="https://www.instagram.com/p/BWH-Kk2B6qH/" target="_blank">
+  <img src="https://scontent-frx5-1.cdninstagram.com/vp/957b08f5ca8f3323f7f8889fc2e2a6c1/5C69C0D2/t51.2885-15/e35/s150x150/19761377_301560470255014_2695288421454184448_n.jpg" />
+</a>
+<a href="https://www.instagram.com/p/BnBv2UNBDfK/" target="_blank">
+  <img src="https://scontent-frx5-1.cdninstagram.com/vp/b9ace5147af79f8832abb5942ad2dfd2/5C72472B/t51.2885-15/e35/s150x150/39591444_452677268551853_2155402047275401216_n.jpg" />
+</a>
+<a href="https://www.instagram.com/p/BXh6RySh5I8/" target="_blank">
+  <img src="https://scontent-frx5-1.cdninstagram.com/vp/07f3cc88fa3bdae0c1f658197c784799/5C7A5858/t51.2885-15/e35/s150x150/20634897_117384005580058_8717940603289075712_n.jpg" />
+</a></p>
+
+<p>For best coffee in Katowice, go to #bezcukru and Synergia.</p>
 
 <h2 id="GISTS">GISTS</h2>
 
