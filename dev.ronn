@@ -5,10 +5,10 @@ Przemek Sobstel
 
 Lean Full Stack Developer
 
-<a href="https://github.com/sobstel/">github</a> |
-<a href="https://www.linkedin.com/in/sobstel/">linkedin</a> |
-<a href="https://stackoverflow.com/users/219272/sobstel">stackoverflow</a> |
-<a href="https://twitter.com/sobstel">twitter</a>
+<a href="https://github.com/sobstel/" class="icon icon-github" target="_blank"></a>
+<a href="https://www.linkedin.com/in/sobstel/" class="icon icon-linkedin" target="_blank"></a>
+<a href="https://stackoverflow.com/users/219272/sobstel" class="icon icon-stackoverflow" target="_blank"></a>
+<a href="https://twitter.com/sobstel" class="icon icon-twitter" target="_blank"></a>
 
 ## ENVIRONMENT
 
@@ -18,7 +18,7 @@ Ruby, Rails, React Native, React, PHP
 
 **Nabobil** [www.nabobil.no][nabobil]<br>
 Nabobil.no is a marketplace that connects people that needs a car with people that owns a car.
-One of the best Norwegian startups.
+One of the best Norwegian startups. Ruby, Rails, React, React Native, GraphQL.
 
 ## HISTORY
 

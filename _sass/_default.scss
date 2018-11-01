@@ -64,3 +64,23 @@ code {
   padding: 0 5px;
   background: #eee;
 }
+
+.icon {
+  background-image: url(/img/social-icons.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.icon-twitter {
+  background-position: -32px 0;
+}
+.icon-linkedin {
+  background-position: -194px 0;
+}
+.icon-stackoverflow {
+  background-position: -32px -129px;
+}
+.icon-github {
+  background-position: -64px -129px;
+}
