@@ -48,6 +48,9 @@ h1 a, h1 a:hover {
 }
 @media (min-width: 375px) { h1 { font-size: 46px; letter-spacing: 5px; } }
 @media (min-width: 414px) { h1 { font-size: 52px; letter-spacing: 6px; } }
+h2 {
+  margin-top: 2rem;
+}
 p {
   margin: 2rem auto;
 }

@@ -6,7 +6,7 @@ title: Hydropuzzle Privacy Policy
 
 {% include hydro-nav.html %}
 
-## Privacy Policy
+## PRIVACY POLICY
 
 *This policy effective October 7, 2018*
 

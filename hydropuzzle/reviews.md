@@ -6,7 +6,7 @@ title: Hydropuzzle reviews
 
 {% include hydro-nav.html %}
 
-## Reviews
+## REVIEWS
 
 Featured in
 [CanardPC](/hydropuzzle/reviews/canardpc/),

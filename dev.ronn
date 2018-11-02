@@ -38,7 +38,7 @@ Football data mnmlist way. Ruby/preact/riot/hyperapp.
 
 {% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
 {% for repo in popular_repos %}
-**{{ repo.name }}** [source]({{ repo.html_url }} "{{ repo.name }}")<br>
+**{{ repo.name }}** <a href="({{ repo.html_url }}" title="{{ repo.name }}">source</a><br>
 {{ repo.description }}
 
 {% endfor %}
