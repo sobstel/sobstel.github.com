@@ -25,26 +25,34 @@ Step into the shoes of a tech-savvy superhero with your brain as your primary we
 
 Hydropuzzle offers unique gameplay, challenging puzzles and a quite peculiar look at a smartphone-obsessed society.
 
+### TRAILER
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/Qy2WME9FBZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### SCREENSHOTS
+
+<p>
+  <a href="/img/hydro/esoteric2.jpg" target="_blank"><img src="/img/hydro/esoteric2.jpg" class="shot" /></a>
+  <a href="/img/hydro/filmreel.jpg" target="_blank"><img src="/img/hydro/filmreel.jpg" class="shot" /></a>
+</p>
+
+<!-- (download all + more formats) -->
+
 ### FILES
 
 Download presskit:
 <a href="/hydropuzzle-presskit.zip" title="Hydropuzzle press kit">zip 8.4M</a>
 
-### TRAILER
-
-<iframe width="480" height="270" src="https://www.youtube.com/embed/Qy2WME9FBZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- Screenshots (download all + more formats) -->
-
 ### BUZZ
 
-Apple App Store (<a href="/hydropuzzle/reviews">4.5/5</a>)<br>
-CanardPC<br>
+Apple App Store ([4.5/5](/hydropuzzle/reviews))<br>
+CanardPC ([6/10](/hydropuzzle/reviews/canardpc/))<br>
+Pocket Tactics ([2/5](https://www.pockettactics.com/reviews/review-hydropuzzle/))<br>
+Apps do iPhone ([4/5](/hydropuzzle/reviews/appsdoiphone/))<br>
 AppAdvice<br>
 App Unwrapper<br>
-Pocket Tactics<br>
-Apps do iPhone<br>
 Techristic<br>
+<a href="/hydropuzzle/reviews/">see more reviews</a>
 
 ### ABOUT DEVELOPER
 
