@@ -1,6 +1,10 @@
 Sobstel
 =======
 
+<div class="index-items">
+
 **[Developer](/dev/ "Developer")**
 
 **[Hydropuzzle](/hydropuzzle/ "Hydropuzzle")**
+
+</div>
