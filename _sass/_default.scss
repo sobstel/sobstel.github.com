@@ -62,6 +62,9 @@ body,
   display: inline-block;
   filter: grayscale(88%);
 }
+.mp .index-items p {
+  margin-left: 0;
+}
 
 h1 {
   text-transform: uppercase;
