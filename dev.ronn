@@ -17,8 +17,8 @@ Ruby, Rails, React Native, React, PHP
 ## CURRENT
 
 **Nabobil** [www.nabobil.no][nabobil]<br>
-Nabobil.no is a marketplace that connects people that needs a car with people that owns a car.
-One of the best Norwegian startups. Ruby, Rails, React, React Native, GraphQL.
+Nabobil is Norway’s first and largest peer-to-peer car sharing platform.
+Ruby, Rails, React, React Native, GraphQL.
 
 ## HISTORY
 
