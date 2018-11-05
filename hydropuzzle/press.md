@@ -27,7 +27,9 @@ Hydropuzzle offers unique gameplay, challenging puzzles and a quite peculiar loo
 
 ### TRAILER
 
-<iframe width="480" height="270" src="https://www.youtube.com/embed/Qy2WME9FBZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qy2WME9FBZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### SCREENSHOTS
 
@@ -51,6 +53,7 @@ Pocket Tactics ([2/5](https://www.pockettactics.com/reviews/review-hydropuzzle/)
 Apps do iPhone ([4/5](/hydropuzzle/reviews/appsdoiphone/))<br>
 AppAdvice<br>
 App Unwrapper<br>
+PopoGamingChannel<br>
 Techristic<br>
 <a href="/hydropuzzle/reviews/">see more reviews</a>
 

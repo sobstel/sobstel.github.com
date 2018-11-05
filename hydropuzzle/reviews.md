@@ -13,6 +13,7 @@ title: Hydropuzzle reviews
 [App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/),
 [Pocket Tactics](https://www.pockettactics.com/reviews/review-hydropuzzle/),
 [Apps do iPhone](/hydropuzzle/reviews/appsdoiphone/),
+[PopoGamingChannel](https://www.youtube.com/watch?v=KPYjlJqkB7M),
 [App-kostenlos](http://www.app-kostenlos.de/2018/02/18/wer-hat-die-wasserversorgung-gekappt-premium-spiel-hydropuzzle-kurzzeitig-gratis-fuer-iphone-und-ipad/),
 [Techristic](https://www.techristic.com/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more/)
 
