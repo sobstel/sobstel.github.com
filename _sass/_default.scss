@@ -34,7 +34,7 @@ body,
 }
 
 .man-navigation {
-  padding-top: 48px !important;
+  padding-top: 24px !important;
 }
 .man-navigation a,
 .man-navigation a:hover,
@@ -61,9 +61,13 @@ body,
 .mp img {
   display: inline-block;
   filter: grayscale(88%);
+
+  &:hover {
+    filter: grayscale(33%);
+  }
 }
-.mp .index-items p {
-  margin-left: 0;
+ol.man-decor li {
+  width: 49%;
 }
 
 h1 {
@@ -76,21 +80,29 @@ code {
 }
 
 .icon {
-  background-image: url(/img/social-icons.png);
-  background-repeat: no-repeat;
-  width: 25px;
-  height: 25px;
   display: inline-block;
+  margin-right: 8px;
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+  }
 }
-.icon-twitter {
-  background-position: -32px 0;
-}
-.icon-linkedin {
-  background-position: -194px 0;
-}
-.icon-stackoverflow {
-  background-position: -32px -129px;
-}
-.icon-github {
-  background-position: -64px -129px;
+
+.insta {
+  display: inline-block;
+  margin-right: 4px;
+  text-decoration: none;
+
+  img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+  }
 }

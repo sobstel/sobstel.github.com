@@ -1,7 +1,106 @@
-SOBSTEL
-=======
+Przemek Sobstel
+===============
 
-<div class="index-items">
-<p><strong><a href="/dev/" title="Developer">Developer</a></strong></p>
-<p><strong><a href="/hydropuzzle/" title="Hydropuzzle">Hydropuzzle</a></strong></p>
-</div>
+## SYNOPSIS
+
+Lean Full Stack Developer. Occasional gamer. Hincha albicelestes.
+
+<a href="https://github.com/sobstel/" class="icon" target="_blank">
+  <img src="https://unpkg.com/simple-icons@latest/icons/github.svg" />
+</a>
+<a href="https://www.linkedin.com/in/sobstel/" class="icon" target="_blank">
+  <img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" />
+</a>
+<a href="https://stackoverflow.com/users/219272/sobstel" class="icon" target="_blank">
+  <img src="https://unpkg.com/simple-icons@latest/icons/stackoverflow.svg" />
+</a>
+<a href="https://twitter.com/sobstel" class="icon" target="_blank">
+  <img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
+</a>
+
+## ENVIRONMENT
+
+Ruby, Rails, React Native, React, PHP
+
+## CURRENT
+
+**Nabobil** [www.nabobil.no][nabobil]<br>
+Norway’s first and largest peer-to-peer car sharing platform.
+Ruby, Rails, React, React Native, GraphQL.
+
+## HISTORY
+
+[AppJobs][appjobs], [Protipster][protipster], Tip of the Day,
+[Soccerway][soccerway], [Scoresway][scoresway],
+[Opta Core API][opta-core], Navitracer, Intragame and a quite few more...
+
+## AFTER HOURS
+
+The goal is to create things that are unconventional, minimalistic and aesthetic.
+Bells and whistles absolutely forbidden!
+
+**Hydropuzzle** [www.hydropuzzle.com][hydropuzzle], [app store][hydropuzzle-as]<br>
+Stylish puzzle adventure. Mobile game. Built with React Native. Nearly 20k downloads.
+
+**Golazon** [www.golazon.com][golazon], [source][golazon-gh]<br>
+Football data mnmlist way. Ruby/preact/riot/hyperapp.
+
+## OPEN SOURCE
+
+{% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
+{% for repo in popular_repos %}
+**{{ repo.name }}** <a href="({{ repo.html_url }}" title="{{ repo.name }}">source</a><br>
+{{ repo.description }}
+
+{% endfor %}
+
+[more &gt;](/open-source/)
+
+## SKILLS
+
+Ability to ignore new tools and technologies,
+taste for simplicity,
+preference for code deletion,
+humility
+
+## LEAN MENTALITY
+
+[Eliminate waste](https://gist.github.com/sobstel/d9a55c5bc99f2cb67642a8ccd7562ded),
+amplify learning, decide as late as possible, decide as fast as possible, empower the team, build integrity in, see the whole
+
+## REMOTE
+
+I work remotely
+
+<a href="https://www.instagram.com/p/BYygOuehcln/" class="insta" target="_blank">
+  <img src="https://scontent-frx5-1.cdninstagram.com/vp/14bd0c098706f007db2ac96154880eee/5C7E8455/t51.2885-15/e35/c2.0.1075.1075/s150x150/21373675_115384635795876_6802165634839871488_n.jpg" />
+</a>
+<a href="https://www.instagram.com/p/BWH-Kk2B6qH/" class="insta" target="_blank">
+  <img src="https://scontent-frx5-1.cdninstagram.com/vp/957b08f5ca8f3323f7f8889fc2e2a6c1/5C69C0D2/t51.2885-15/e35/s150x150/19761377_301560470255014_2695288421454184448_n.jpg" />
+</a>
+<a href="https://www.instagram.com/p/BnBv2UNBDfK/" class="insta" target="_blank">
+  <img src="https://scontent-frx5-1.cdninstagram.com/vp/b9ace5147af79f8832abb5942ad2dfd2/5C72472B/t51.2885-15/e35/s150x150/39591444_452677268551853_2155402047275401216_n.jpg" />
+</a>
+<a href="https://www.instagram.com/p/BXh6RySh5I8/" class="insta" target="_blank">
+  <img src="https://scontent-frx5-1.cdninstagram.com/vp/07f3cc88fa3bdae0c1f658197c784799/5C7A5858/t51.2885-15/e35/s150x150/20634897_117384005580058_8717940603289075712_n.jpg" />
+</a>
+
+Best coffee in Katowice while working: *Synergia* and *#bezcukru*.
+
+## GISTS
+
+{% for gist in site.data.gists limit:5 %}
+  <a href="{{ gist.url }}">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br>
+{% endfor %}
+<a href="/gists/">gists index &gt;</a>
+
+## BLOG
+
+{% for post in site.posts limit:5 %}
+  <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
+{% endfor %}
+<a href="/blog/">blog archive &gt;</a>
+
+## CONTACT
+
+przemek@sobstel.org
