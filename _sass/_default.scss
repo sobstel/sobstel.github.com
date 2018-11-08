@@ -58,14 +58,6 @@ body,
     font-size: 0.84em;
   }
 }
-.mp img {
-  display: inline-block;
-  filter: grayscale(88%);
-
-  &:hover {
-    filter: grayscale(33%);
-  }
-}
 ol.man-decor li {
   width: 49%;
 }
@@ -99,10 +91,40 @@ code {
   display: inline-block;
   margin-right: 4px;
   text-decoration: none;
+  filter: grayscale(88%);
+
+  &:hover {
+    filter: grayscale(33%);
+  }
 
   img {
     display: inline-block;
     width: 150px;
     height: 150px;
+
   }
 }
+.mp .project {
+  display: flex;
+  align-items: center;
+  margin-left: 4ex;
+  margin-bottom: 20px;
+
+  &__icon {
+    display: inline-block;
+
+    img {
+      display: inline-block;
+      width: 44px;
+      height: 44px;
+      border-radius: 22px;
+      margin: 0;
+    }
+  }
+
+  &__info {
+    margin-bottom: 0;
+    margin-left: 2ex;
+  }
+}
+

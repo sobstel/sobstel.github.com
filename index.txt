@@ -9,7 +9,7 @@ twitter        https://twitter.com/sobstel
 hydropuzzle    http://www.sobstel.org/hydropuzzle/
 hydropuzzle-as https://itunes.apple.com/app/id1294812505?ls=1&mt=8
 voltpuzzle     http://www.sobstel.org/voltpuzzle/
-golazon        http://www.golazon/com/
+golazon        http://www.golazon.com/
 golazon-gh     https://github.com/sobstel/golazon
 
 framventure    http://www.framventure.no/
