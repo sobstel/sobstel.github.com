@@ -87,23 +87,6 @@ code {
   }
 }
 
-.insta {
-  display: inline-block;
-  margin-right: 4px;
-  text-decoration: none;
-  filter: grayscale(88%);
-
-  &:hover {
-    filter: grayscale(33%);
-  }
-
-  img {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-
-  }
-}
 .mp .project {
   display: flex;
   align-items: center;
@@ -112,6 +95,12 @@ code {
 
   &__icon {
     display: inline-block;
+    margin-right: 2ex;
+    filter: grayscale(55%);
+
+    &:hover {
+      filter: grayscale(11%);
+    }
 
     img {
       display: inline-block;
@@ -120,11 +109,30 @@ code {
       border-radius: 22px;
       margin: 0;
     }
+
+    @media only screen and (max-width: 616) {
+      display: none;
+    }
   }
 
   &__info {
     margin-bottom: 0;
-    margin-left: 2ex;
   }
 }
 
+.mp .insta {
+  display: inline-block;
+  margin-right: 4px;
+  text-decoration: none;
+  filter: grayscale(77%);
+
+  &:hover {
+    filter: grayscale(22%);
+  }
+
+  img {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+  }
+}
