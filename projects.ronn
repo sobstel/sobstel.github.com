@@ -27,7 +27,7 @@ All sharing economy jobs in one place.
 
 ## HYDROPUZZLE <span>[hydropuzzle.com][hydropuzzle] | [appstore][hydropuzzle-as] (2017)</span>
 
-Stylish puzzle adventure game for iOS.
+Stylish puzzle adventure game for iOS and Android.
 
 *Role*: sole developer (private project).
 *Stack*: React Native.

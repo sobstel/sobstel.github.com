@@ -13,7 +13,7 @@ App Store link:
 
 ### DESCRIPTION
 
-HYDROPUZZLE is a stylish adventure puzzle for iOS. The game is simple, short, linear, odd... but it's a lot of fun as many gamers truly enjoy it.
+HYDROPUZZLE is a stylish adventure puzzle for iOS and Android. The game is simple, short, linear, odd... but it's a lot of fun as many gamers truly enjoy it.
 
 Chances are you probably haven't played anything like this before.
 
