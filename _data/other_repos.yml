@@ -43,12 +43,6 @@
   description: DSL for documenting JSON structure
   fork: false
   stargazers_count: 0
-- name: agnostic
-  full_name: sobstel/agnostic
-  html_url: https://github.com/sobstel/agnostic
-  description: not-really-ORM [ON HOLD]
-  fork: false
-  stargazers_count: 2
 - name: pathway
   full_name: sobstel/pathway
   html_url: https://github.com/sobstel/pathway
@@ -61,12 +55,6 @@
   description: PHP asynchronous non-blocking HTTP requests.
   fork: false
   stargazers_count: 4
-- name: Imaged
-  full_name: sobstel/Imaged
-  html_url: https://github.com/sobstel/Imaged
-  description: Image mainpulation lib. Object-oriented wrapper for PHP GD2 library.
-  fork: false
-  stargazers_count: 2
 - name: elicorege
   full_name: sobstel/elicorege
   html_url: https://github.com/sobstel/elicorege
@@ -85,33 +73,9 @@
   description: PHP class to handle unrecoverable fatal errors. (use Monolog instead)
   fork: false
   stargazers_count: 2
-- name: komixin
-  full_name: sobstel/komixin
-  html_url: https://github.com/sobstel/komixin
-  description: 
-  fork: false
-  stargazers_count: 0
-- name: emolRTE
-  full_name: sobstel/emolRTE
-  html_url: https://github.com/sobstel/emolRTE
-  description: Unbloated Rich Text Editor for jQuery.
-  fork: false
-  stargazers_count: 2
 - name: scru.js
   full_name: sobstel/scru.js
   html_url: https://github.com/sobstel/scru.js
   description: Lightweight execution dependency manager (lazy loading with dependencies)
-  fork: false
-  stargazers_count: 1
-- name: shed
-  full_name: sobstel/shed
-  html_url: https://github.com/sobstel/shed
-  description: PHP Dependency Injection container
-  fork: false
-  stargazers_count: 1
-- name: XReflect
-  full_name: sobstel/XReflect
-  html_url: https://github.com/sobstel/XReflect
-  description: Object Oriented PHP Reflection to XML (generator).
   fork: false
   stargazers_count: 1

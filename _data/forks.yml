@@ -5,28 +5,9 @@
   description: Efficient bulk inserts with ActiveRecord
   fork: true
   stargazers_count: 0
-- name: react-native-typewriter
-  full_name: sobstel/react-native-typewriter
-  html_url: https://github.com/sobstel/react-native-typewriter
-  description: A React Native component for creating typing effects
-  fork: true
-  stargazers_count: 0
 - name: pt-tests
   full_name: sobstel/pt-tests
   html_url: https://github.com/sobstel/pt-tests
   description: Sample tests for PT
-  fork: true
-  stargazers_count: 0
-- name: Aura.Marshal
-  full_name: sobstel/Aura.Marshal
-  html_url: https://github.com/sobstel/Aura.Marshal
-  description: A data-marshaling toolset
-  fork: true
-  stargazers_count: 0
-- name: LSDCache
-  full_name: sobstel/LSDCache
-  html_url: https://github.com/sobstel/LSDCache
-  description: LSD Slam Defence - cache lib with semaphore implementation using many
-    storages (Memcache, APC, Array)
   fork: true
   stargazers_count: 0

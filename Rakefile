@@ -66,7 +66,9 @@ task :import_github_repos do
   url = format('https://api.github.com/users/%s/repos', 'sobstel')
   puts "fetch from #{url}"
 
-  all_repos = JSON.parse(fetch(url)).sort_by do |repo|
+  all_repos = JSON.parse(fetch(url)).reject do |repo|
+    repo['archived']
+  end.sort_by do |repo|
     repo['pushed_at']
   end.collect do |repo|
     repo.select do |key, _|
