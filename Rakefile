@@ -143,6 +143,7 @@ task :import_github_contributions do
   end
 
   github_contributions.uniq!
+  github_contributions.reject! { |repo| repo.start_with?('sobstel') }
   github_contributions.sort_by!(&:downcase)
 
   save_data('contribs', github_contributions)
