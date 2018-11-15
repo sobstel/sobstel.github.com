@@ -1,0 +1,27 @@
+---
+- name: golazon-web
+  full_name: golazon/golazon-web
+  html_url: https://github.com/golazon/golazon-web
+  description: 'Football data mnmlist way. Powered by Golazon API. :soccer::earth_americas:'
+  fork: false
+  stargazers_count: 21
+- name: albicelestes
+  full_name: golazon/albicelestes
+  html_url: https://github.com/golazon/albicelestes
+  description: 'Argentina football national team. Powered by Golazon API. :sun_with_face:'
+  fork: false
+  stargazers_count: 0
+- name: golazon-2015
+  full_name: golazon/golazon-2015
+  html_url: https://github.com/golazon/golazon-2015
+  description: old golazon.com frontend and admin panel (rails, mongoid, simple_form,
+    virtus, bourbon)
+  fork: false
+  stargazers_count: 0
+- name: golazon.universo
+  full_name: golazon/golazon.universo
+  html_url: https://github.com/golazon/golazon.universo
+  description: a bunch unfinished/abandoned football-related projects (ruby, rails,
+    mongodb, nanoc, slate)
+  fork: false
+  stargazers_count: 0

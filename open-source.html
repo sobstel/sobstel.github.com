@@ -7,9 +7,11 @@ title: Open Source
 
   <div class='man-navigation' style='display:none'>
     <a href="#POPULAR-REPOS">POPULAR REPOS</a>
+    <a href="#GOLAZON-REPOS">GOLAZON REPOS</a>
+    <a href="#HYDROPUZZLE-REPOS">HYDROPUZZLE REPOS</a>
     <a href="#OTHER-REPOS">OTHER REPOS</a>
-    <a href="#CURRENT-FORKS">CURRENT FORKS</a>
     <a href="#CONTRIBUTIONS">CONTRIBUTIONS</a>
+    <a href="#CURRENT-FORKS">CURRENT FORKS</a>
     <span>--</span>
     <a href="/">INDEX</a>
     <a href="/hydropuzzle/">HYDROPUZZLE &#x279f;</a>
@@ -24,23 +26,34 @@ title: Open Source
   {% include repo-item.html repo=repo %}<br />
 {% endfor %}</p>
 
-<h2 id="OTHER-REPOS">OTHER REPOS</h2>
+<h2 id="GOLAZON-REPOS">GOLAZON REPOS</h2>
 
-<p>{% assign other_repos = site.data.other_repos | sort: 'stargazers_count' | reverse %}
-{% for repo in other_repos %}
+<p>{% for repo in site.data.golazon_repos %}
   {% include repo-item.html repo=repo %}<br />
 {% endfor %}</p>
 
-<h2 id="CURRENT-FORKS">CURRENT FORKS</h2>
+<h2 id="HYDROPUZZLE-REPOS">HYDROPUZZLE REPOS</h2>
 
-<p>{% for fork in site.data.forks %}
-  {% include repo-item.html repo=fork %}<br />
+<p>{% for repo in site.data.hydropuzzle_repos %}
+  {% include repo-item.html repo=repo %}<br />
+{% endfor %}</p>
+
+<h2 id="OTHER-REPOS">OTHER REPOS</h2>
+
+<p>{% for repo in site.data.other_repos %}
+  {% include repo-item.html repo=repo %}<br />
 {% endfor %}</p>
 
 <h2 id="CONTRIBUTIONS">CONTRIBUTIONS</h2>
 
 <p>{% for contrib in site.data.contribs %}
   <a href="https://github.com/{{ contrib }}/commits?author=sobstel">{{ contrib }}</a><br />
+{% endfor %}</p>
+
+<h2 id="CURRENT-FORKS">CURRENT FORKS</h2>
+
+<p>{% for fork in site.data.forks %}
+  {% include repo-item.html repo=fork %}<br />
 {% endfor %}</p>
 
 

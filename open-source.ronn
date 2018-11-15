@@ -8,21 +8,32 @@ Open Source
   {% include repo-item.html repo=repo %}<br>
 {% endfor %}
 
-## OTHER REPOS
+## GOLAZON REPOS
 
-{% assign other_repos = site.data.other_repos | sort: 'stargazers_count' | reverse %}
-{% for repo in other_repos %}
+{% for repo in site.data.golazon_repos %}
   {% include repo-item.html repo=repo %}<br>
 {% endfor %}
 
-## CURRENT FORKS
+## HYDROPUZZLE REPOS
 
-{% for fork in site.data.forks %}
-  {% include repo-item.html repo=fork %}<br>
+{% for repo in site.data.hydropuzzle_repos %}
+  {% include repo-item.html repo=repo %}<br>
+{% endfor %}
+
+## OTHER REPOS
+
+{% for repo in site.data.other_repos %}
+  {% include repo-item.html repo=repo %}<br>
 {% endfor %}
 
 ## CONTRIBUTIONS
 
 {% for contrib in site.data.contribs %}
   <a href="https://github.com/{{ contrib }}/commits?author=sobstel">{{ contrib }}</a><br>
+{% endfor %}
+
+## CURRENT FORKS
+
+{% for fork in site.data.forks %}
+  {% include repo-item.html repo=fork %}<br>
 {% endfor %}

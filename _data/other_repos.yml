@@ -8,33 +8,19 @@
 - name: mblocks
   full_name: sobstel/mblocks
   html_url: https://github.com/sobstel/mblocks
-  description: written in... 1999 ;-)
+  description: Built with Pascal in 1999
   fork: false
   stargazers_count: 0
 - name: kampania
   full_name: sobstel/kampania
   html_url: https://github.com/sobstel/kampania
-  description: written in... 1998 ;-)
-  fork: false
-  stargazers_count: 0
-- name: golazon-2015
-  full_name: sobstel/golazon-2015
-  html_url: https://github.com/sobstel/golazon-2015
-  description: old golazon.com frontend and admin panel (rails, mongoid, simple_form,
-    virtus, bourbon)
-  fork: false
-  stargazers_count: 0
-- name: golazon.universo
-  full_name: sobstel/golazon.universo
-  html_url: https://github.com/sobstel/golazon.universo
-  description: a bunch unfinished/abandoned football-related projects (ruby, rails,
-    mongodb, nanoc, slate)
+  description: Built with Pascal in 1998
   fork: false
   stargazers_count: 0
 - name: xentry
   full_name: sobstel/xentry
   html_url: https://github.com/sobstel/xentry
-  description: 'rails vs laravel playground '
+  description: 'Rails4 vs Laravel5 playground '
   fork: false
   stargazers_count: 0
 - name: jsondocr

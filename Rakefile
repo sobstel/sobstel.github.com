@@ -25,6 +25,18 @@ def fetch(url)
   open(url, params).read
 end
 
+def fetch_repos(url)
+  JSON.parse(fetch(url)).reject do |repo|
+    repo['archived']
+  end.sort_by do |repo|
+    repo['pushed_at']
+  end.collect do |repo|
+    repo.select do |key, _|
+      %w[name full_name description html_url fork languages stargazers_count].include? key
+    end
+  end.reverse
+end
+
 def generate_ronn_page(file)
   sh({ 'RONN_LAYOUT' => '_layouts/_ronn.html' }, "ronn --html #{file}")
 end
@@ -66,15 +78,7 @@ task :import_github_repos do
   url = format('https://api.github.com/users/%s/repos', 'sobstel')
   puts "fetch from #{url}"
 
-  all_repos = JSON.parse(fetch(url)).reject do |repo|
-    repo['archived']
-  end.sort_by do |repo|
-    repo['pushed_at']
-  end.collect do |repo|
-    repo.select do |key, _|
-      %w[name full_name description html_url fork languages stargazers_count].include? key
-    end
-  end.reverse
+  all_repos = fetch_repos(url)
 
   repos, forks = all_repos.partition { |repo| !repo['fork'] }
   popular_repos, other_repos = repos.partition { |repo| repo['stargazers_count'] >= 7 }
@@ -82,6 +86,12 @@ task :import_github_repos do
   save_data('popular_repos', popular_repos)
   save_data('other_repos', other_repos)
   save_data('forks', forks)
+
+  %w(golazon hydropuzzle).each do |org|
+    url = format('https://api.github.com/orgs/%s/repos', org)
+    repos = fetch_repos(url)
+    save_data("#{org}_repos", repos)
+  end
 end
 
 desc 'Import GitHub gists'
@@ -143,7 +153,7 @@ task :import_github_contributions do
   end
 
   github_contributions.uniq!
-  github_contributions.reject! { |repo| repo.start_with?('sobstel') }
+  github_contributions.reject! { |repo| repo.start_with?('sobstel', 'golazon', 'hydropuzzle') }
   github_contributions.sort_by!(&:downcase)
 
   save_data('contribs', github_contributions)
