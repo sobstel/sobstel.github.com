@@ -5,6 +5,7 @@ require 'yaml'
 require 'time'
 require 'nokogiri'
 require 'filewatcher'
+require 'gemoji-parser'
 
 def save_data(name, object)
   file = "_data/#{name}.yml"
@@ -33,6 +34,8 @@ def fetch_repos(url)
   end.collect do |repo|
     repo.select do |key, _|
       %w[name full_name description html_url fork languages stargazers_count].include? key
+    end.tap do |repo|
+      repo['description'] = EmojiParser.detokenize(repo['description']) if repo['description']
     end
   end.reverse
 end

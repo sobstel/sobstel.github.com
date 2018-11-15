@@ -7,4 +7,4 @@ gem 'nokogiri'
 gem 'rake'
 gem 'ronn'
 gem 'filewatcher'
-
+gem 'gemoji-parser'

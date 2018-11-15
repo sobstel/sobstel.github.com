@@ -33,6 +33,8 @@ GEM
       optimist (~> 3.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
+    gemoji-parser (1.3.1)
+      gemoji (>= 2.1.0)
     github-pages (192)
       activesupport (= 4.2.10)
       github-pages-health-check (= 1.8.1)
@@ -257,6 +259,7 @@ PLATFORMS
 DEPENDENCIES
   feedzirra
   filewatcher
+  gemoji-parser
   github-pages
   json
   nokogiri
@@ -264,4 +267,4 @@ DEPENDENCIES
   ronn
 
 BUNDLED WITH
-   1.16.1
+   1.17.1
