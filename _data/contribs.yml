@@ -5,10 +5,13 @@
 - doctrine/common
 - fastly/heroku-fastly
 - gsmlabs/LSDCache
+- Homebrew/homebrew-cask
+- jamis/bulk_insert
 - jondot/awesome-react-native
 - maciejsmolinski/decoupled.js
 - ooade/awesome-preact
 - ReactNativeNews/React-Native-Apps
 - Seldaek/monolog
 - TheSpyder/SyncedSideBar
+- wix/react-native-camera-kit
 - ziadoz/awesome-php
