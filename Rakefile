@@ -128,33 +128,28 @@ desc 'Import GitHub contributions'
 task :import_github_contributions do
   github_contributions = load_data('contribs')
 
-  (2018..Time.now.year).each do |year|
-    max_month = (year == Time.now.year ? Time.now.month : 12)
-    (1..max_month).each do |month|
-      from = Date.new(year, month, 1).to_s
-      to = Date.new(year, month, 1).next_month.prev_day.to_s
+  6.downto(0) do |i|
+    from = DateTime.now - 30 * i
+    to = DateTime.now - 30 * (i - 1)
 
-      next if year >= Time.now.year && month > Time.now.month
+    url = format('https://github.com/%s?tab=contributions&from=%s&to=%s', 'sobstel', from.to_s, to.to_s)
+    puts "fetch from #{url}"
 
-      url = format('https://github.com/%s?tab=contributions&from=%s&to=%s', 'sobstel', from, to)
-      puts "fetch from #{url}"
+    html_doc = Nokogiri::HTML(github_fetch(url))
+    contributions = html_doc.css('.contribution-activity-listing li a:first-child')
 
-      html_doc = Nokogiri::HTML(github_fetch(url))
-      contributions = html_doc.css('.contribution-activity-listing li a:first-child')
+    contributions.each do |contribution|
+      text = contribution.text.strip
+      matches = %r{(.+)/(.+)}.match(text)
 
-      contributions.each do |contribution|
-        text = contribution.text.strip
-        matches = %r{(.+)/(.+)}.match(text)
+      next unless matches
 
-        next unless matches
+      vendor = matches[1]
+      name = matches[2]
 
-        vendor = matches[1]
-        name = matches[2]
+      repo = format('%s/%s', vendor, name)
 
-        repo = format('%s/%s', vendor, name)
-
-        github_contributions << repo
-      end
+      github_contributions << repo
     end
   end
 
