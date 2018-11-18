@@ -110,13 +110,16 @@ Best coffee in Katowice while working: *Synergia* and *#bezcukru*.
 ## GISTS
 
 {% for gist in site.data.gists limit:5 %}
-  <a href="{{ gist.url }}">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br>
+  <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br>
 {% endfor %}
 <a href="/gists/">gists index &gt;</a>
 
-## BLOG
+## POSTS
 
-{% for post in site.posts limit:5 %}
+{% for post in site.data.medium_posts %}
+  <a href="{{ post.url }}" target="_blank">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
+{% endfor %}
+{% for post in site.posts limit:4 %}
   <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
 {% endfor %}
 <a href="/blog/">blog archive &gt;</a>

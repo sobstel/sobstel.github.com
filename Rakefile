@@ -18,16 +18,16 @@ def load_data(name)
   YAML.load_file(file)
 end
 
-def fetch(url)
-  params = {
+def github_fetch(url)
+  options = {
     http_basic_authentication: %w[sobstel 486e5d6a8f22b65aac97f271262b7bec9a788979],
     ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE
   }
-  open(url, params).read
+  open(url, options).read
 end
 
 def fetch_repos(url)
-  JSON.parse(fetch(url)).reject do |repo|
+  JSON.parse(github_fetch(url)).reject do |repo|
     repo['archived']
   end.sort_by do |repo|
     repo['pushed_at']
@@ -62,6 +62,8 @@ task :publish, :message do |_, args|
   task(:generate_ronn_pages).execute
   task(:import_github_repos).execute
   task(:import_gists).execute
+  task(:import_github_contributions).execute
+  task(:import_medium_posts).execute
 
   sh 'git add --all .'
   sh "git commit . --message=\"#{message}\""
@@ -105,7 +107,7 @@ task :import_gists do
   url = format('https://api.github.com/users/%s/gists?since=%s', 'sobstel', URI.encode(since))
   puts "fetch from #{url}"
 
-  new_gists = JSON.parse(fetch(url)).select do |gist|
+  new_gists = JSON.parse(github_fetch(url)).select do |gist|
     gist['public']
   end
 
@@ -127,7 +129,8 @@ task :import_github_contributions do
   github_contributions = load_data('contribs')
 
   (2018..Time.now.year).each do |year|
-    (1..12).each do |month|
+    max_month = (year == Time.now.year ? Time.now.month : 12)
+    (1..max_month).each do |month|
       from = Date.new(year, month, 1).to_s
       to = Date.new(year, month, 1).next_month.prev_day.to_s
 
@@ -136,7 +139,7 @@ task :import_github_contributions do
       url = format('https://github.com/%s?tab=contributions&from=%s&to=%s', 'sobstel', from, to)
       puts "fetch from #{url}"
 
-      html_doc = Nokogiri::HTML(fetch(url))
+      html_doc = Nokogiri::HTML(github_fetch(url))
       contributions = html_doc.css('.contribution-activity-listing li a:first-child')
 
       contributions.each do |contribution|
@@ -160,4 +163,19 @@ task :import_github_contributions do
   github_contributions.sort_by!(&:downcase)
 
   save_data('contribs', github_contributions)
+end
+
+
+desc 'Import Medium posts'
+task :import_medium_posts do
+  feed = Nokogiri::XML(open('https://medium.com/feed/@sobstel').read)
+  medium_posts = feed.xpath("//item").collect do |item|
+    {
+      'title' => item.xpath('title').text,
+      'url' => item.xpath('link').text,
+      'date' => item.xpath('pubDate').text,
+    }
+  end
+
+  save_data('medium_posts', medium_posts)
 end
