@@ -15,8 +15,8 @@ title: Przemek Sobstel
     <a href="#SKILLS">SKILLS</a>
     <a href="#LEAN-MENTALITY">LEAN MENTALITY</a>
     <a href="#REMOTE">REMOTE</a>
-    <a href="#GISTS">GISTS</a>
     <a href="#POSTS">POSTS</a>
+    <a href="#GISTS">GISTS</a>
     <a href="#CONTACT">CONTACT</a>
     <span>--</span>
     <a href="/">INDEX</a>
@@ -40,6 +40,9 @@ title: Przemek Sobstel
 </a>
 <a href="https://twitter.com/sobstel" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
+</a>
+<a href="https://medium.com/@sobstel" class="icon" target="_blank">
+  <img src="https://unpkg.com/simple-icons@latest/icons/medium.svg" />
 </a></p>
 
 <h2 id="ENVIRONMENT">ENVIRONMENT</h2>
@@ -133,13 +136,6 @@ amplify learning, decide as late as possible, decide as fast as possible, empowe
 
 <p>Best coffee in Katowice while working: <em>Synergia</em> and <em>#bezcukru</em>.</p>
 
-<h2 id="GISTS">GISTS</h2>
-
-<p>{% for gist in site.data.gists limit:5 %}
-  <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br />
-{% endfor %}
-<a href="/gists/">gists index &gt;</a></p>
-
 <h2 id="POSTS">POSTS</h2>
 
 <p>{% for post in site.data.medium_posts %}
@@ -149,6 +145,13 @@ amplify learning, decide as late as possible, decide as fast as possible, empowe
   <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
 {% endfor %}
 <a href="/blog/">blog archive &gt;</a></p>
+
+<h2 id="GISTS">GISTS</h2>
+
+<p>{% for gist in site.data.gists limit:5 %}
+  <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br />
+{% endfor %}
+<a href="/gists/">gists index &gt;</a></p>
 
 <h2 id="CONTACT">CONTACT</h2>
 

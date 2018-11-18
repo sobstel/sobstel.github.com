@@ -17,6 +17,9 @@ Lean Full Stack Developer. Occasional gamer. Hincha albicelestes.
 <a href="https://twitter.com/sobstel" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
 </a>
+<a href="https://medium.com/@sobstel" class="icon" target="_blank">
+  <img src="https://unpkg.com/simple-icons@latest/icons/medium.svg" />
+</a>
 
 ## ENVIRONMENT
 
@@ -107,13 +110,6 @@ I work remotely
 
 Best coffee in Katowice while working: *Synergia* and *#bezcukru*.
 
-## GISTS
-
-{% for gist in site.data.gists limit:5 %}
-  <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br>
-{% endfor %}
-<a href="/gists/">gists index &gt;</a>
-
 ## POSTS
 
 {% for post in site.data.medium_posts %}
@@ -123,6 +119,13 @@ Best coffee in Katowice while working: *Synergia* and *#bezcukru*.
   <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
 {% endfor %}
 <a href="/blog/">blog archive &gt;</a>
+
+## GISTS
+
+{% for gist in site.data.gists limit:5 %}
+  <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br>
+{% endfor %}
+<a href="/gists/">gists index &gt;</a>
 
 ## CONTACT
 

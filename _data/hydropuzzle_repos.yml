@@ -1,4 +1,16 @@
 ---
+- name: awesome-react-native
+  full_name: hydropuzzle/awesome-react-native
+  html_url: https://github.com/hydropuzzle/awesome-react-native
+  description: Awesome React Native components, news, tools, and learning material!
+  fork: true
+  stargazers_count: 0
+- name: React-Native-Apps
+  full_name: hydropuzzle/React-Native-Apps
+  html_url: https://github.com/hydropuzzle/React-Native-Apps
+  description: Curated List of Open Source React Native Apps
+  fork: true
+  stargazers_count: 0
 - name: react-native-unmount-animatable
   full_name: hydropuzzle/react-native-unmount-animatable
   html_url: https://github.com/hydropuzzle/react-native-unmount-animatable
@@ -17,7 +29,7 @@
   html_url: https://github.com/hydropuzzle/hydropuzzle
   description: Stylish puzzle adventure for iOS and Android. Built with React Native.
   fork: false
-  stargazers_count: 1
+  stargazers_count: 3
 - name: www.hydropuzzle.com
   full_name: hydropuzzle/www.hydropuzzle.com
   html_url: https://github.com/hydropuzzle/www.hydropuzzle.com
