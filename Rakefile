@@ -168,7 +168,10 @@ end
 
 desc 'Import Medium posts'
 task :import_medium_posts do
-  feed = Nokogiri::XML(open('https://medium.com/feed/@sobstel').read)
+  url = 'https://medium.com/feed/@sobstel'
+  puts "fetch from #{url}"
+
+  feed = Nokogiri::XML(open(url).read)
   medium_posts = feed.xpath("//item").collect do |item|
     {
       'title' => item.xpath('title').text,
