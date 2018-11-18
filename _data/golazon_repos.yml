@@ -1,4 +1,11 @@
 ---
+- name: golazon-2015
+  full_name: golazon/golazon-2015
+  html_url: https://github.com/golazon/golazon-2015
+  description: old golazon.com frontend and admin panel (rails, mongoid, simple_form,
+    virtus, bourbon)
+  fork: false
+  stargazers_count: 0
 - name: golazon-web
   full_name: golazon/golazon-web
   html_url: https://github.com/golazon/golazon-web
@@ -9,13 +16,6 @@
   full_name: golazon/albicelestes
   html_url: https://github.com/golazon/albicelestes
   description: "Argentina football national team. Powered by Golazon API. \U0001F31E"
-  fork: false
-  stargazers_count: 0
-- name: golazon-2015
-  full_name: golazon/golazon-2015
-  html_url: https://github.com/golazon/golazon-2015
-  description: old golazon.com frontend and admin panel (rails, mongoid, simple_form,
-    virtus, bourbon)
   fork: false
   stargazers_count: 0
 - name: golazon.universo

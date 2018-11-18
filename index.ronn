@@ -47,7 +47,8 @@ Bells and whistles absolutely forbidden!
   </a>
   <p class="project__info">
     <strong>Hydropuzzle</strong>
-    <a href="/hydropuzzle/" target="_blank">www.hydropuzzle.com</a><br>
+    <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">www.hydropuzzle.com</a>,
+    <a href="https://github.com/hydropuzzle/" target="_blank">source</a><br>
     Stylish puzzle adventure. Built with React Native. Nearly 20k downloads.
   </p>
 </div>
@@ -58,8 +59,8 @@ Bells and whistles absolutely forbidden!
   </a>
   <p class="project__info">
     <strong>Golazon</strong>
-    <a href="http://www.golazon.com/" target="_blank">www.golazon.com</a>,
-    <a href="https://github.com/golazon" target="_blank">source</a><br>
+    <a href="http://www.golazon.com/" title="Golazon" target="_blank">www.golazon.com</a>,
+    <a href="https://github.com/golazon/" target="_blank">source</a><br>
     Football data mnmlist way. Ruby/preact/riot/hyperapp.
   </p>
 </div>
