@@ -1,4 +1,10 @@
 ---
+- name: react-native-animatable-unmountable
+  full_name: hydropuzzle/react-native-animatable-unmountable
+  html_url: https://github.com/hydropuzzle/react-native-animatable-unmountable
+  description: Unmount animations for oblador/react-native-animatable
+  fork: false
+  stargazers_count: 0
 - name: awesome-react-native
   full_name: hydropuzzle/awesome-react-native
   html_url: https://github.com/hydropuzzle/awesome-react-native
@@ -10,12 +16,6 @@
   html_url: https://github.com/hydropuzzle/React-Native-Apps
   description: Curated List of Open Source React Native Apps
   fork: true
-  stargazers_count: 0
-- name: react-native-unmount-animatable
-  full_name: hydropuzzle/react-native-unmount-animatable
-  html_url: https://github.com/hydropuzzle/react-native-unmount-animatable
-  description: Unmount animations for oblador/react-native-animatable
-  fork: false
   stargazers_count: 0
 - name: voltpuzzle
   full_name: hydropuzzle/voltpuzzle
