@@ -128,8 +128,8 @@ desc 'Import GitHub contributions'
 task :import_github_contributions do
   github_contributions = load_data('contribs')
 
-  # last 6 months
-  6.downto(0) do |i|
+  # last 3 months
+  3.downto(0) do |i|
     from = DateTime.now - 30 * i
     to = DateTime.now - 30 * (i - 1)
 
