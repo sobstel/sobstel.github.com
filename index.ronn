@@ -40,7 +40,7 @@ Ruby, Rails, React Native, React, PHP
 ## CURRENT
 
 **Nabobil** [www.nabobil.no][nabobil]<br>
-Norway’s first and largest peer-to-peer car sharing platform.
+Norway’s largest peer-to-peer car sharing platform.
 Ruby, Rails, React, React Native, GraphQL.
 
 ## HISTORY
@@ -100,7 +100,7 @@ humility
 
 ## LEAN MENTALITY
 
-[Eliminate waste](https://gist.github.com/sobstel/d9a55c5bc99f2cb67642a8ccd7562ded),
+<a href="https://gist.github.com/sobstel/d9a55c5bc99f2cb67642a8ccd7562ded" target="_blank">Eliminate waste</a>,
 amplify learning, decide as late as possible, decide as fast as possible, empower the team, build integrity in, see the whole
 
 ## REMOTE
@@ -126,9 +126,6 @@ Best coffee in Katowice while working: *Synergia* and *#bezcukru*.
 
 {% for post in site.data.medium_posts %}
   <a href="{{ post.url }}" target="_blank">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
-{% endfor %}
-{% for post in site.posts limit:4 %}
-  <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
 {% endfor %}
 <a href="/blog/">blog archive &gt;</a>
 
