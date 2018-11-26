@@ -17,6 +17,10 @@ ver 2.0
 CHAPTER 1
 ---------
 
+<a href="https://medium.com/@sobstel/walkthrough-story-hydropuzzle-3dace5845190" target="_blank" title="Hydropuzzle walkthrough story">
+  go to special walkthrough story for chapter 1
+</a>
+
 1. Email signs have a meaning, they are not random.
 2. One sign inside of email corresponds to one specific letter.
 3. Solution: <span class="spoiler">qwerty</span>

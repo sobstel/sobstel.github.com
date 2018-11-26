@@ -22,14 +22,16 @@ title: Hydropuzzle reviews
 
 ### APPLE STORE
 
-★★★★★	127<br>
+★★★★★	130<br>
 ★★★★ 18<br>
 ★★★	8<br>
 ★★ 3<br>
 ★	9<br>
 
+<!--
 No 6 Top Games/Adventure & No 18 Top Paid Games<br>
 <small>in Nov 2017 at Apple Store PL</small>
+-->
 
 ### GOOD REVIEWS
 
