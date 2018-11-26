@@ -17,6 +17,7 @@ title: Hydropuzzle reviews
 [TVGry](https://tvgry.pl/wideo.asp?ID=-37891),
 [PopoGamingChannel](https://www.youtube.com/watch?v=KPYjlJqkB7M),
 [gamepressure](https://www.gamepressure.com/games/hydropuzzle/zb5589),
+[LUBIEGRAC.PL](https://lubiegrac.pl/news,hydropuzzle-premiera-na-android),
 [App-kostenlos](http://www.app-kostenlos.de/2018/02/18/wer-hat-die-wasserversorgung-gekappt-premium-spiel-hydropuzzle-kurzzeitig-gratis-fuer-iphone-und-ipad/),
 [Techristic](https://www.techristic.com/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more/)
 
