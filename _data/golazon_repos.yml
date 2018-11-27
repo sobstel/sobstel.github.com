@@ -1,4 +1,10 @@
 ---
+- name: albicelestes
+  full_name: golazon/albicelestes
+  html_url: https://github.com/golazon/albicelestes
+  description: "Argentina football national team. Powered by Golazon API. \U0001F31E"
+  fork: false
+  stargazers_count: 0
 - name: golazon-2015
   full_name: golazon/golazon-2015
   html_url: https://github.com/golazon/golazon-2015
@@ -12,12 +18,6 @@
   description: "Football data mnmlist way. Powered by Golazon API. ⚽️\U0001F30E"
   fork: false
   stargazers_count: 21
-- name: albicelestes
-  full_name: golazon/albicelestes
-  html_url: https://github.com/golazon/albicelestes
-  description: "Argentina football national team. Powered by Golazon API. \U0001F31E"
-  fork: false
-  stargazers_count: 0
 - name: golazon.universo
   full_name: golazon/golazon.universo
   html_url: https://github.com/golazon/golazon.universo
