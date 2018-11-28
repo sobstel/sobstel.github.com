@@ -1,4 +1,10 @@
 ---
+- name: hydropuzzle
+  full_name: hydropuzzle/hydropuzzle
+  html_url: https://github.com/hydropuzzle/hydropuzzle
+  description: Stylish puzzle adventure for iOS and Android. Built with React Native.
+  fork: false
+  stargazers_count: 3
 - name: react-native-animatable-unmountable
   full_name: hydropuzzle/react-native-animatable-unmountable
   html_url: https://github.com/hydropuzzle/react-native-animatable-unmountable
@@ -19,12 +25,6 @@
     :/)
   fork: false
   stargazers_count: 1
-- name: hydropuzzle
-  full_name: hydropuzzle/hydropuzzle
-  html_url: https://github.com/hydropuzzle/hydropuzzle
-  description: Stylish puzzle adventure for iOS and Android. Built with React Native.
-  fork: false
-  stargazers_count: 3
 - name: www.hydropuzzle.com
   full_name: hydropuzzle/www.hydropuzzle.com
   html_url: https://github.com/hydropuzzle/www.hydropuzzle.com

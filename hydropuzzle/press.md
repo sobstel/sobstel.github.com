@@ -48,7 +48,8 @@ Download presskit:
 ### BUZZ
 
 Apple App Store ([4.5/5](/hydropuzzle/reviews))<br>
-CanardPC ([6/10](/hydropuzzle/reviews/canardpc/))<br>
+Mój Mac Magazyn #41 (4/5)<br>
+Canard PC #373 ([6/10](/hydropuzzle/reviews/canardpc/))<br>
 Pocket Tactics ([2/5](https://www.pockettactics.com/reviews/review-hydropuzzle/))<br>
 Apps do iPhone ([4/5](/hydropuzzle/reviews/appsdoiphone/))<br>
 AppAdvice<br>
@@ -59,11 +60,12 @@ Techristic<br>
 
 ### ABOUT DEVELOPER
 
-SOBSTEL is is an independent one-developer studio that prefers to provide a gentle brain message over a fancy eye-popping visuals. Bells and whistles? Absolutely not what it is about. The goal is to create things that are unconventional, minimalistic and aesthetic.
+SOBSTEL is is an independent one-developer studio that prefers to provide a gentle brain message over a fancy eye-popping visuals. The goal is to create things that are unconventional, minimalistic and aesthetic.
 
 ### CONTACT
 
 mail: [przemek@sobstel.org](mailto:przemek@sobstel.org)<br>
 web: [www.sobstel.org](//www.sobstel.org/) <br>
+medium: [@sobstel](//medium.com/@sobstel)<br>
 twitter: [@sobstel](//twitter.com/sobstel)<br>
 instagram: [@sobsteldev](//www.instagram.com/sobsteldev/)<br>

@@ -8,7 +8,8 @@ title: Hydropuzzle reviews
 
 ### FEATURED IN...
 
-[CanardPC](/hydropuzzle/reviews/canardpc/),
+[Canard PC](/hydropuzzle/reviews/canardpc/),
+[Mój Mac Magazyn](https://mojmac.pl/2018/11/27/41-moj-mac-magazyn-nowosci-apple/),
 [AppAdvice](https://appadvice.com/appnn/2018/02/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more),
 [App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/),
 [Pocket Tactics](https://www.pockettactics.com/reviews/review-hydropuzzle/),

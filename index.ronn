@@ -84,7 +84,7 @@ Bells and whistles absolutely forbidden!
 
 {% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
 {% for repo in popular_repos %}
-**{{ repo.name }}** <a href="{{ repo.html_url }}" title="{{ repo.name }}">source</a><br>
+**{{ repo.name }}** <a href="{{ repo.html_url }}" title="{{ repo.name }}" target="_blank">source</a><br>
 {{ repo.description }}
 
 {% endfor %}
