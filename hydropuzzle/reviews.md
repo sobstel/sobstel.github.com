@@ -8,12 +8,12 @@ title: Hydropuzzle reviews
 
 ### FEATURED IN...
 
+[Mój Mac Magazyn](/hydropuzzle/reviews/mmm/),
 [Canard PC](/hydropuzzle/reviews/canardpc/),
-[Mój Mac Magazyn](https://mojmac.pl/2018/11/27/41-moj-mac-magazyn-nowosci-apple/),
-[AppAdvice](https://appadvice.com/appnn/2018/02/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more),
+[Apps do iPhone](/hydropuzzle/reviews/appsdoiphone/),
 [App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/),
 [Pocket Tactics](https://www.pockettactics.com/reviews/review-hydropuzzle/),
-[Apps do iPhone](/hydropuzzle/reviews/appsdoiphone/),
+[AppAdvice](https://appadvice.com/appnn/2018/02/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more),
 [GRYOnline](https://www.gry-online.pl/gry/hydropuzzle/zb5589),
 [TVGry](https://tvgry.pl/wideo.asp?ID=-37891),
 [PopoGamingChannel](https://www.youtube.com/watch?v=KPYjlJqkB7M),
