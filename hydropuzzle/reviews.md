@@ -6,7 +6,7 @@ title: Hydropuzzle reviews
 
 {% include hydro-nav.html %}
 
-### FEATURED IN...
+## FEATURED IN...
 
 [Mój Mac Magazyn](/hydropuzzle/reviews/mmm/),
 [Canard PC](/hydropuzzle/reviews/canardpc/),
