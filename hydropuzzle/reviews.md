@@ -24,7 +24,7 @@ title: Hydropuzzle reviews
 
 ### APPLE STORE
 
-★★★★★	130<br>
+★★★★★	131<br>
 ★★★★ 18<br>
 ★★★	8<br>
 ★★ 3<br>

@@ -2,9 +2,10 @@
 - name: albicelestes
   full_name: golazon/albicelestes
   html_url: https://github.com/golazon/albicelestes
-  description: "Argentina football national team. Powered by Golazon API. \U0001F31E"
+  description: "Argentina football national team archive. Powered by Golazon API.
+    \U0001F31E"
   fork: false
-  stargazers_count: 0
+  stargazers_count: 1
 - name: golazon-2015
   full_name: golazon/golazon-2015
   html_url: https://github.com/golazon/golazon-2015
