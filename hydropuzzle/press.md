@@ -15,11 +15,11 @@ Google Play (Android): [https://play.google.com/store/apps/details?id=org.sobste
 
 ### DESCRIPTION
 
-HYDROPUZZLE is a stylish adventure puzzle for iOS and Android. The game is simple, short, linear, odd... but it's a lot of fun as many gamers truly enjoy it.
+HYDROPUZZLE is a surreal adventure puzzle for iOS and Android. The game is simple, short, linear, odd... but it's a lot of fun as many gamers truly enjoy it.
 
 Chances are you probably haven't played anything like this before.
 
-Totally refreshed **ver 2.0** is set for release on **8th Dec 2018**.
+Refreshed Hydropuzzle 2.0 has been released on 7th Nov 2018 for Android and 8th Dec 2018 for iOS.
 
 ### STORY
 

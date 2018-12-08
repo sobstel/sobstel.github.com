@@ -17,6 +17,9 @@ Software Developer
 <a href="https://medium.com/@sobstel" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/medium.svg" />
 </a>
+<a href="https://www.instagram.com/sobsteldev/" class="icon" target="_blank">
+  <img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" />
+</a>
 <a href="https://www.linkedin.com/in/sobstel/" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" />
 </a>
@@ -52,9 +55,6 @@ Ruby, Rails, React, React Native, GraphQL.
 ## AFTER HOURS
 
 The goal is to create things that are unconventional, minimalistic and aesthetic.
-Bells and whistles absolutely forbidden!
-
-
 
 <div class="project">
   <a href="/hydropuzzle/" class="project__icon" target="_blank">
@@ -64,7 +64,7 @@ Bells and whistles absolutely forbidden!
     <strong>Hydropuzzle</strong>
     <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">www.hydropuzzle.com</a>,
     <a href="https://github.com/hydropuzzle/" target="_blank">source</a><br>
-    Stylish puzzle adventure. Built with React Native. Nearly 20k downloads.
+    Surreal tech puzzle adventure. Built with React Native. Over 15k downloads.
   </p>
 </div>
 
@@ -91,7 +91,7 @@ Bells and whistles absolutely forbidden!
 
 [more &gt;](/open-source/)
 
-## SKILLS
+## LEAN SKILLS
 
 Ability to ignore new tools and technologies,
 taste for simplicity,
@@ -119,8 +119,6 @@ I work remotely
 <a href="https://www.instagram.com/p/BXh6RySh5I8/" class="insta" target="_blank">
   <img src="https://scontent-frx5-1.cdninstagram.com/vp/07f3cc88fa3bdae0c1f658197c784799/5C7A5858/t51.2885-15/e35/s150x150/20634897_117384005580058_8717940603289075712_n.jpg" />
 </a>
-
-Best coffee in Katowice while working: *Synergia* and *#bezcukru*.
 
 ## POSTS
 

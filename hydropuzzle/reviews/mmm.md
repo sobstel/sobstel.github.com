@@ -1,7 +1,7 @@
 ---
 layout: hydro
 main_title: Hydropuzzle
-title: Hydropuzzle review (Canard PC)
+title: Hydropuzzle review (Mój Mac Magazyn)
 ---
 
 {% include hydro-nav.html %}
