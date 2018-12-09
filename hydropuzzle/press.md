@@ -53,9 +53,8 @@ Apple App Store ([4.5/5](/hydropuzzle/reviews))<br>
 Mój Mac Magazyn #41 (4/5)<br>
 Apps do iPhone ([4/5](/hydropuzzle/reviews/appsdoiphone/))<br>
 Canard PC #373 ([6/10](/hydropuzzle/reviews/canardpc/))<br>
-Pocket Tactics ([2/5](https://www.pockettactics.com/reviews/review-hydropuzzle/))<br>
 AppAdvice<br>
-App Unwrapper<br>
+AppUnwrapper<br>
 PopoGamingChannel<br>
 Techristic<br>
 Lubiegrac.pl<br>

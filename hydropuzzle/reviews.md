@@ -11,6 +11,7 @@ title: Hydropuzzle reviews
 [Mój Mac Magazyn](/hydropuzzle/reviews/mmm/),
 [Canard PC](/hydropuzzle/reviews/canardpc/),
 [Apps do iPhone](/hydropuzzle/reviews/appsdoiphone/),
+[Android Police](https://www.androidpolice.com/2018/12/08/26-best-new-android-games-released-this-week-including-hydropuzzle-marching-order-and-age-of-civilizations-ii/),
 [App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/),
 [Pocket Tactics](https://www.pockettactics.com/reviews/review-hydropuzzle/),
 [AppAdvice](https://appadvice.com/appnn/2018/02/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more),
@@ -24,7 +25,7 @@ title: Hydropuzzle reviews
 
 ### APPLE STORE
 
-★★★★★	131<br>
+★★★★★	133<br>
 ★★★★ 18<br>
 ★★★	8<br>
 ★★ 3<br>
@@ -65,14 +66,11 @@ _Short and Sweet. I loved it even if it was a little short. The puzzles were ver
 _Really fun and challenging! Took me a good hour to beat it. Sometimes you have to stare at the puzzle until something clicks, but it’s rewarding when it does! Looking forward to more of these games!_
 <br><small>(ChriCar)</small>
 
-_If you don't mind a good challenge with puzzles that ask you to look outside the game for information or have outside knowledge, give it a try. But it is not an easy game._
-<br><small>([App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/))</small>
-
-_I have lost the notion of time trying to solve some of the puzzles._
-<br><small>([Apps do iPhone](/hydropuzzle/reviews/appsdoiphone "Hydropuzzle review"))</small>
+_If you are looking for something that's unique and not like everything else on the Play Store, you should definitely check this out._
+<br><small>(Android Police)</small>
 
 _I love Hydropuzzle but man it makes me feel stupid!_
-<br><small>([Robert Megone](https://twitter.com/robertmegone/))</small>
+<br><small>(Robert Megone)</small>
 
 ### BAD REVIEWS
 

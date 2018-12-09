@@ -2,7 +2,7 @@
 - name: hydropuzzle
   full_name: hydropuzzle/hydropuzzle
   html_url: https://github.com/hydropuzzle/hydropuzzle
-  description: Surreal puzzle adventure for iOS and Android. Built with React Native.
+  description: Surreal tech adventure for iOS and Android. Built with React Native.
   fork: false
   stargazers_count: 4
 - name: react-native-animatable-unmountable
