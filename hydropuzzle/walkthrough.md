@@ -79,10 +79,3 @@ Array.from(document.getElementsByClassName('spoiler')).forEach(function (spoiler
   spoiler.onclick = function () { this.className = 'spoiler visible'; };
 });
 </script>
-
---
-
-<div class="video-wrapper">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/KPYjlJqkB7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<br><br>

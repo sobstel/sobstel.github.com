@@ -49,16 +49,14 @@ Download presskit:
 
 ### BUZZ
 
-Apple App Store ([4.5/5](/hydropuzzle/reviews))<br>
+App Store ([4.5/5](/hydropuzzle/reviews))<br>
 Mój Mac Magazyn #41 (4/5)<br>
 Apps do iPhone ([4/5](/hydropuzzle/reviews/appsdoiphone/))<br>
 Canard PC #373 ([6/10](/hydropuzzle/reviews/canardpc/))<br>
-AppAdvice<br>
-AppUnwrapper<br>
-PopoGamingChannel<br>
-Techristic<br>
+Android Police<br>
+App Unwrapper<br>
 Lubiegrac.pl<br>
-<a href="/hydropuzzle/reviews/">see more reviews</a>
+<a href="/hydropuzzle/reviews/">more</a>
 
 ### ABOUT DEVELOPER
 

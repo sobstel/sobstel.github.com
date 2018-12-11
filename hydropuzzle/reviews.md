@@ -23,7 +23,7 @@ title: Hydropuzzle reviews
 [app-kostenlos](http://www.app-kostenlos.de/2018/02/18/wer-hat-die-wasserversorgung-gekappt-premium-spiel-hydropuzzle-kurzzeitig-gratis-fuer-iphone-und-ipad/),
 [techristic](https://www.techristic.com/todays-apps-gone-free-hydropuzzle-pinz-sentence-builder-master-and-more/)
 
-### APPLE STORE
+### APP STORE
 
 ★★★★★	133<br>
 ★★★★ 18<br>
@@ -33,7 +33,7 @@ title: Hydropuzzle reviews
 
 <!--
 No 6 Top Games/Adventure & No 18 Top Paid Games<br>
-<small>in Nov 2017 at Apple Store PL</small>
+<small>in Nov 2017 at App Store PL</small>
 -->
 
 ### GOOD REVIEWS
