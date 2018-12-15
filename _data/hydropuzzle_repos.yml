@@ -12,12 +12,6 @@
     effect)
   fork: false
   stargazers_count: 3
-- name: awesome-react-native
-  full_name: hydropuzzle/awesome-react-native
-  html_url: https://github.com/hydropuzzle/awesome-react-native
-  description: Awesome React Native components, news, tools, and learning material!
-  fork: true
-  stargazers_count: 0
 - name: voltpuzzle
   full_name: hydropuzzle/voltpuzzle
   html_url: https://github.com/hydropuzzle/voltpuzzle

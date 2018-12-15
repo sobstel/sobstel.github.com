@@ -11,6 +11,7 @@ title: Hydropuzzle reviews
 [Mój Mac Magazyn](/hydropuzzle/reviews/mmm/),
 [Canard PC](/hydropuzzle/reviews/canardpc/),
 [Apps do iPhone](/hydropuzzle/reviews/appsdoiphone/),
+[Ustatkowany Gracz](https://ustatkowanygracz.pl/sprawdz-sie-w-hydropuzzle/),
 [Android Police](https://www.androidpolice.com/2018/12/08/26-best-new-android-games-released-this-week-including-hydropuzzle-marching-order-and-age-of-civilizations-ii/),
 [App Unwrapper](https://appunwrapper.com/2018/02/20/my-week-unwrapped-january-20-2018/),
 [Pocket Tactics](https://www.pockettactics.com/reviews/review-hydropuzzle/),

@@ -55,6 +55,7 @@ Apps do iPhone ([4/5](/hydropuzzle/reviews/appsdoiphone/))<br>
 Canard PC #373 ([6/10](/hydropuzzle/reviews/canardpc/))<br>
 Android Police<br>
 App Unwrapper<br>
+Ustatkowany Gracz<br>
 Lubiegrac.pl<br>
 <a href="/hydropuzzle/reviews/">more</a>
 
