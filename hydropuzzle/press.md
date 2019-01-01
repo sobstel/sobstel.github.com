@@ -52,11 +52,11 @@ Download presskit:
 App Store ([4.5/5](/hydropuzzle/reviews))<br>
 Mój Mac Magazyn #41 (4/5)<br>
 Apps do iPhone ([4/5](/hydropuzzle/reviews/appsdoiphone/))<br>
-Canard PC #373 ([6/10](/hydropuzzle/reviews/canardpc/))<br>
+Lubiegrac ([7](https://lubiegrac.pl/recenzja,6088,hydropuzzle)<br>
+Canard PC #373 ([6](/hydropuzzle/reviews/canardpc/))<br>
 Android Police<br>
 App Unwrapper<br>
 Ustatkowany Gracz<br>
-Lubiegrac.pl<br>
 <a href="/hydropuzzle/reviews/">more</a>
 
 ### ABOUT DEVELOPER
