@@ -14,9 +14,6 @@ Software Developer
 <a href="https://twitter.com/sobstel" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
 </a>
-<a href="https://medium.com/@sobstel" class="icon" target="_blank">
-  <img src="https://unpkg.com/simple-icons@latest/icons/medium.svg" />
-</a>
 <a href="https://www.instagram.com/sobsteldev/" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" />
 </a>
