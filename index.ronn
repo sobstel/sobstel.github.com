@@ -88,17 +88,12 @@ The goal is to create things that are unconventional, minimalistic and aesthetic
 
 [more &gt;](/open-source/)
 
-## LEAN SKILLS
+## SKILLS
 
-Ability to ignore new tools and technologies,
-taste for simplicity,
+Taste for simplicity,
 preference for code deletion,
-humility
-
-## LEAN MENTALITY
-
-<a href="https://gist.github.com/sobstel/d9a55c5bc99f2cb67642a8ccd7562ded" target="_blank">Eliminate waste</a>,
-amplify learning, decide as late as possible, decide as fast as possible, empower the team, build integrity in, see the whole
+humility,
+ability to ignore new tools and technologies
 
 ## REMOTE
 

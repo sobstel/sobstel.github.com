@@ -4,14 +4,14 @@
   html_url: https://github.com/hydropuzzle/hydropuzzle
   description: Surreal tech adventure for iOS and Android. Built with React Native.
   fork: false
-  stargazers_count: 4
+  stargazers_count: 5
 - name: react-native-animatable-unmountable
   full_name: hydropuzzle/react-native-animatable-unmountable
   html_url: https://github.com/hydropuzzle/react-native-animatable-unmountable
   description: Declarative transitions and animations for React Native (with unmount
     effect)
   fork: false
-  stargazers_count: 3
+  stargazers_count: 5
 - name: voltpuzzle
   full_name: hydropuzzle/voltpuzzle
   html_url: https://github.com/hydropuzzle/voltpuzzle
