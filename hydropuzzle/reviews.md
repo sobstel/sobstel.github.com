@@ -26,8 +26,8 @@ title: Hydropuzzle reviews
 
 ### APP STORE
 
-★★★★★	131<br>
-★★★★ 18<br>
+★★★★★	137<br>
+★★★★ 19<br>
 ★★★	9<br>
 ★★ 3<br>
 ★	9<br>
@@ -39,8 +39,8 @@ No 6 Top Games/Adventure & No 18 Top Paid Games<br>
 
 ### GOOD REVIEWS
 
-_Great game, just the way I like it. Puzzles challenging yet solvable. No time limit. Test intelligence not how fast your nerves work. Stylish._
-<br><small>(絲隹)</small>
+_Puzzles that actually require thought! It is refreshing how little this mystery app holds my hand. Beautiful, intuitive, clever design, an interesting story and achievable but non-obvious puzzles._
+<br><small>(Mezzomaniac!)</small>
 
 _Puzzle games usually lack any style. Or at least they all seem to copy each other. I absolutely loved the style/feel of this game. The story development and the imagery were fantastic._
 <br><small>(devxm)</small>
@@ -48,6 +48,9 @@ _Puzzle games usually lack any style. Or at least they all seem to copy each oth
 _Most enjoyable challenging puzzle in a long time!
 I enjoyed this app immensely and highly recommend anyone who is up for a challenge to take it on! I loved the style and inspirations this was based on. A lot of thought was put into each puzzle and hint, and unlike many, you have to work for the solutions, with nothing being a giveaway like in many puzzle apps. BRAVO 👏 to the team that put this together, I sincerely hope there will be future chapters for us to foil drevil’s plans. Please keep this work of art going!_
 <br><small>(Katily =^•^=)</small>
+
+_Great game, just the way I like it. Puzzles challenging yet solvable. No time limit. Test intelligence not how fast your nerves work. Stylish._
+<br><small>(絲隹)</small>
 
 _I loved this little experience. I had to come at each chapter from different angles, googling concepts and ideas, and seeing what clicked. Lots of fun. I can see the care and creativity that went into this and hope too see more from the developer soon._
 <br><small>(Paul No. 2)</small>
