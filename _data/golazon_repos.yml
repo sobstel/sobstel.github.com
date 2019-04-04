@@ -6,10 +6,10 @@
     \U0001F31E"
   fork: false
   stargazers_count: 1
-- name: golazon-web
-  full_name: golazon/golazon-web
-  html_url: https://github.com/golazon/golazon-web
-  description: "Football data mnmlist way. Powered by Golazon API. ⚽️\U0001F30E"
+- name: golazon-uno
+  full_name: golazon/golazon-uno
+  html_url: https://github.com/golazon/golazon-uno
+  description: First golazon version. DEPRECATED.
   fork: false
   stargazers_count: 22
 - name: golazon-2015
