@@ -26,8 +26,8 @@ title: Hydropuzzle reviews
 
 ### APP STORE
 
-★★★★★	137<br>
-★★★★ 19<br>
+★★★★★	151<br>
+★★★★ 23<br>
 ★★★	9<br>
 ★★ 3<br>
 ★	9<br>
