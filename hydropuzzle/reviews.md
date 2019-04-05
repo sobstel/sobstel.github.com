@@ -26,9 +26,9 @@ title: Hydropuzzle reviews
 
 ### APP STORE
 
-★★★★★	151<br>
-★★★★ 23<br>
-★★★	9<br>
+★★★★★	159<br>
+★★★★ 27<br>
+★★★	10<br>
 ★★ 3<br>
 ★	9<br>
 
@@ -39,7 +39,7 @@ No 6 Top Games/Adventure & No 18 Top Paid Games<br>
 
 ### GOOD REVIEWS
 
-_Puzzles that actually require thought! It is refreshing how little this mystery app holds my hand. Beautiful, intuitive, clever design, an interesting story and achievable but non-obvious puzzles._
+_It is refreshing how little this mystery app holds my hand. Beautiful, intuitive, clever design, an interesting story and achievable but non-obvious puzzles._
 <br><small>(Mezzomaniac!)</small>
 
 _Puzzle games usually lack any style. Or at least they all seem to copy each other. I absolutely loved the style/feel of this game. The story development and the imagery were fantastic._
