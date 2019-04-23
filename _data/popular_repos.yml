@@ -4,14 +4,14 @@
   html_url: https://github.com/sobstel/sesshin
   description: PHP secure advanced session manager.
   fork: false
-  stargazers_count: 52
+  stargazers_count: 53
 - name: sequent
   full_name: sobstel/sequent
   html_url: https://github.com/sobstel/sequent
   description: Short-term memory training game (mobile). Built with React Native and
     Redux.
   fork: false
-  stargazers_count: 54
+  stargazers_count: 56
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
@@ -24,4 +24,4 @@
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
-  stargazers_count: 34
+  stargazers_count: 35
