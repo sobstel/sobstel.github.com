@@ -14,9 +14,6 @@ Software Developer
 <a href="https://twitter.com/sobstel" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
 </a>
-<a href="https://www.instagram.com/sobsteldev/" class="icon" target="_blank">
-  <img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" />
-</a>
 <a href="https://www.linkedin.com/in/sobstel/" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" />
 </a>
@@ -61,7 +58,7 @@ The goal is to create things that are unconventional, minimalistic and aesthetic
     <strong>Hydropuzzle</strong>
     <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">www.hydropuzzle.com</a>,
     <a href="https://github.com/hydropuzzle/" target="_blank">source</a><br>
-    Surreal tech puzzle adventure. Built with React Native. Over 25k downloads.
+    Surreal tech puzzle adventure. Built with React Native. Over 28k downloads.
   </p>
 </div>
 
@@ -73,7 +70,7 @@ The goal is to create things that are unconventional, minimalistic and aesthetic
     <strong>Golazon</strong>
     <a href="http://www.golazon.com/" title="Golazon" target="_blank">www.golazon.com</a>,
     <a href="https://github.com/golazon/" target="_blank">source</a><br>
-    Football data mnmlist way. Ruby/Rails, Preact, GraphQL, AWS Lambda.
+    Football data mnmlist way. Built with Ruby/Rails, GraphQL and AWS Lambda.
   </p>
 </div>
 
