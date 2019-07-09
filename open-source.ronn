@@ -8,18 +8,6 @@ Open Source
   {% include repo-item.html repo=repo %}<br>
 {% endfor %}
 
-## GOLAZON REPOS
-
-{% for repo in site.data.golazon_repos %}
-  {% include repo-item.html repo=repo %}<br>
-{% endfor %}
-
-## HYDROPUZZLE REPOS
-
-{% for repo in site.data.hydropuzzle_repos %}
-  {% include repo-item.html repo=repo %}<br>
-{% endfor %}
-
 ## OTHER REPOS
 
 {% for repo in site.data.other_repos %}

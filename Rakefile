@@ -91,12 +91,6 @@ task :import_github_repos do
   save_data('popular_repos', popular_repos)
   save_data('other_repos', other_repos)
   save_data('forks', forks)
-
-  %w(golazon hydropuzzle).each do |org|
-    url = format('https://api.github.com/orgs/%s/repos', org)
-    repos = fetch_repos(url)
-    save_data("#{org}_repos", repos)
-  end
 end
 
 desc 'Import GitHub gists'

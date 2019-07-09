@@ -7,8 +7,6 @@ title: Open Source
 
   <div class='man-navigation' style='display:none'>
     <a href="#POPULAR-REPOS">POPULAR REPOS</a>
-    <a href="#GOLAZON-REPOS">GOLAZON REPOS</a>
-    <a href="#HYDROPUZZLE-REPOS">HYDROPUZZLE REPOS</a>
     <a href="#OTHER-REPOS">OTHER REPOS</a>
     <a href="#CONTRIBUTIONS">CONTRIBUTIONS</a>
     <a href="#CURRENT-FORKS">CURRENT FORKS</a>
@@ -23,18 +21,6 @@ title: Open Source
 
 <p>{% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
 {% for repo in popular_repos %}
-  {% include repo-item.html repo=repo %}<br />
-{% endfor %}</p>
-
-<h2 id="GOLAZON-REPOS">GOLAZON REPOS</h2>
-
-<p>{% for repo in site.data.golazon_repos %}
-  {% include repo-item.html repo=repo %}<br />
-{% endfor %}</p>
-
-<h2 id="HYDROPUZZLE-REPOS">HYDROPUZZLE REPOS</h2>
-
-<p>{% for repo in site.data.hydropuzzle_repos %}
   {% include repo-item.html repo=repo %}<br />
 {% endfor %}</p>
 
@@ -58,7 +44,7 @@ title: Open Source
 
 
   <ol class='man-decor man-foot man foot'>
-    <li class='tl'>open-source &#8226; November 2018</li>
+    <li class='tl'>open-source &#8226; July 2019</li>
     <li class='tr'></li>
   </ol>
 </div>

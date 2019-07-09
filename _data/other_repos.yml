@@ -1,10 +1,29 @@
 ---
+- name: hydropuzzle
+  full_name: sobstel/hydropuzzle
+  html_url: https://github.com/sobstel/hydropuzzle
+  description: Surreal tech adventure for iOS and Android. Built with React Native.
+  fork: false
+  stargazers_count: 5
+- name: albicelestes
+  full_name: sobstel/albicelestes
+  html_url: https://github.com/sobstel/albicelestes
+  description: 
+  fork: false
+  stargazers_count: 1
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles
   description: 
   fork: false
   stargazers_count: 0
+- name: voltpuzzle
+  full_name: sobstel/voltpuzzle
+  html_url: https://github.com/sobstel/voltpuzzle
+  description: Sequel to Hydropuzzle. Built with React Native and Expo. (unfinished
+    :/)
+  fork: false
+  stargazers_count: 1
 - name: mblocks
   full_name: sobstel/mblocks
   html_url: https://github.com/sobstel/mblocks
@@ -15,12 +34,6 @@
   full_name: sobstel/kampania
   html_url: https://github.com/sobstel/kampania
   description: Built with Pascal in 1998
-  fork: false
-  stargazers_count: 0
-- name: xentry
-  full_name: sobstel/xentry
-  html_url: https://github.com/sobstel/xentry
-  description: 'Rails4 vs Laravel5 playground '
   fork: false
   stargazers_count: 0
 - name: jsondocr
