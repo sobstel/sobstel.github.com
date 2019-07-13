@@ -38,6 +38,7 @@ Ruby, Rails, React Native, React, PHP
 
 **Nabobil** [www.nabobil.no][nabobil]<br>
 Norway’s largest peer-to-peer car sharing platform.
+Now a member of [www.getaround.com][Getaround] family.
 Ruby, Rails, React, React Native, GraphQL.
 
 ## HISTORY
