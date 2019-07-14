@@ -36,10 +36,30 @@ Ruby, Rails, React Native, React, PHP
 
 ## CURRENT
 
-**Nabobil** [www.nabobil.no][nabobil]<br>
-Norway’s largest peer-to-peer car sharing platform.
-Now a member of [www.getaround.com][Getaround] family.
-Ruby, Rails, React, React Native, GraphQL.
+<div class="project">
+  <a href="https://nabobil.no/en/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/nabobil.png" />
+  </a>
+  <p class="project__info">
+    <strong>Nabobil</strong>
+    <a href="https://nabobil.no/en/" target="_blank">www.nabobil.no</a><br>
+    Norway’s largest peer-to-peer car sharing platform.
+    Ruby, Rails, React, React Native, GraphQL.
+  </p>
+</div>
+
+<div class="project">
+  <a href="https://www.getaround.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/getaround.png" />
+  </a>
+  <p class="project__info">
+    <strong>Getaround</strong>
+    <a href="https://www.getaround.com/" target="_blank">www.getaround.com</a><br>
+    <!-- A peer-to-peer carsharing service that allows drivers to rent cars from private car owners,
+    and owners to rent out their cars for payment. -->
+    <em>We envision a world in which all cars are shared.</em>
+  </p>
+</div>
 
 ## HISTORY
 
@@ -47,9 +67,7 @@ Ruby, Rails, React, React Native, GraphQL.
 [Soccerway][soccerway], [Scoresway][scoresway],
 [Opta Core API][opta-core], Navitracer, Intragame and a quite few more...
 
-## AFTER HOURS
-
-The goal is to create things that are unconventional, minimalistic and aesthetic.
+## ON MY OWN
 
 <div class="project">
   <a href="/hydropuzzle/" class="project__icon" target="_blank">
@@ -59,7 +77,9 @@ The goal is to create things that are unconventional, minimalistic and aesthetic
     <strong>Hydropuzzle</strong>
     <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">www.hydropuzzle.com</a>,
     <a href="https://github.com/hydropuzzle/" target="_blank">source</a><br>
-    Surreal tech puzzle adventure. Built with React Native. Over 28k downloads.
+    Surreal tech puzzle adventure. Can you solve the mystery?
+    Built with React Native.
+    Over 28k downloads.
   </p>
 </div>
 
@@ -96,8 +116,6 @@ humility,
 ability to ignore new tools and technologies
 
 ## REMOTE
-
-I work remotely
 
 <a href="https://www.instagram.com/p/BYygOuehcln/" class="insta" target="_blank">
   <img src="/img/insta-thumbs/insta1.jpg" />

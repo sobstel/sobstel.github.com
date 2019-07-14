@@ -12,11 +12,10 @@ voltpuzzle     http://www.sobstel.org/voltpuzzle/
 golazon        http://www.golazon.com/
 golazon-gh     https://github.com/sobstel/golazon
 
-framventure    http://www.framventure.no/
 nabobil        https://nabobil.no/en
+getaround      https://www.getaround.com/
 
 appjobs        https://www.appjobs.com/
-baytekin       http://baytekin.media/
 protipster     https://www.protipster.com/
 
 gsm            http://optasports.com/
