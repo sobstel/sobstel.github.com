@@ -15,10 +15,9 @@
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
-  description: Cache slam defense using a semaphore to prevent dogpile effect. Built
-    with PHP.
+  description: Cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 89
+  stargazers_count: 91
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
