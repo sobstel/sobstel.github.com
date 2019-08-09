@@ -23,7 +23,7 @@
   html_url: https://github.com/sobstel/sesshin
   description: PHP secure advanced session manager.
   fork: false
-  stargazers_count: 59
+  stargazers_count: 60
 - name: sequent
   full_name: sobstel/sequent
   html_url: https://github.com/sobstel/sequent
@@ -36,4 +36,4 @@
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
-  stargazers_count: 35
+  stargazers_count: 36
