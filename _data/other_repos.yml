@@ -11,18 +11,19 @@
   description: Surreal tech adventure game for iOS and Android. Built with React Native.
   fork: false
   stargazers_count: 6
-- name: albicelestes
-  full_name: sobstel/albicelestes
-  html_url: https://github.com/sobstel/albicelestes
-  description: 
-  fork: false
-  stargazers_count: 1
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles
   description: 
   fork: false
   stargazers_count: 0
+- name: voltpuzzle
+  full_name: sobstel/voltpuzzle
+  html_url: https://github.com/sobstel/voltpuzzle
+  description: Sequel to Hydropuzzle. Built with React Native and Expo. (unfinished
+    :/)
+  fork: false
+  stargazers_count: 1
 - name: mblocks
   full_name: sobstel/mblocks
   html_url: https://github.com/sobstel/mblocks

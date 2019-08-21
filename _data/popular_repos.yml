@@ -4,7 +4,7 @@
   html_url: https://github.com/sobstel/golazon
   description: football data mnmlist way
   fork: false
-  stargazers_count: 22
+  stargazers_count: 23
 - name: react-native-animatable-unmountable
   full_name: sobstel/react-native-animatable-unmountable
   html_url: https://github.com/sobstel/react-native-animatable-unmountable
@@ -17,7 +17,7 @@
   html_url: https://github.com/sobstel/metaphore
   description: Cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 91
+  stargazers_count: 92
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
