@@ -32,7 +32,7 @@ Software Developer
 
 ## ENVIRONMENT
 
-Ruby, Rails, React Native, React, PHP
+Ruby, Rails, React Native, React, TypeScript, Node, PHP
 
 ## CURRENT
 
