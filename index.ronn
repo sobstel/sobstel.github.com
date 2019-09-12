@@ -79,7 +79,7 @@ Ruby, Rails, React Native, React, TypeScript, Node, PHP
     <a href="https://github.com/hydropuzzle/" target="_blank">source</a><br>
     Surreal tech puzzle adventure. Can you solve the mystery?
     Built with React Native.
-    Over 28k downloads.
+    Over 35k downloads.
   </p>
 </div>
 
