@@ -24,6 +24,5 @@ opta           http://optasports.com/
 opta-core      https://www.optasports.com/services/data-feeds/
 perform        http://www.performgroup.com/
 soccerway      http://www.soccerway.com/
-scoresway      http://www.scoresway.com/
 
 oak            http://www.grupaoak.pl/

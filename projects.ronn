@@ -129,5 +129,4 @@ E-commerce store for runners. Done very first version (sadly not available anymo
 [hydropuzzle-as]: https://itunes.apple.com/app/id1294812505?ls=1&mt=8
 [nabobil]: https://nabobil.no/en
 [protipster]: https://www.protipster.com/
-[scoresway]: http://www.scoresway.com/
 [soccerway]: http://www.soccerway.com/

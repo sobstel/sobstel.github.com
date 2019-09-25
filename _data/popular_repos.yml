@@ -17,7 +17,7 @@
   html_url: https://github.com/sobstel/metaphore
   description: Cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 92
+  stargazers_count: 93
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
