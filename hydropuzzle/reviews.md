@@ -26,11 +26,11 @@ title: Hydropuzzle reviews
 
 ### APP STORE
 
-★★★★★ 253<br>
-★★★★ 39<br>
-★★★ 19<br>
+★★★★★ 265<br>
+★★★★ 41<br>
+★★★ 20<br>
 ★★ 6<br>
-★ 14<br>
+★ 16<br>
 
 <!--
 No 6 Top Games/Adventure & No 18 Top Paid Games<br>
@@ -38,6 +38,9 @@ No 6 Top Games/Adventure & No 18 Top Paid Games<br>
 -->
 
 ### GOOD REVIEWS
+
+_Great story, gameplay, and one of the hardest in the genre. Less is more on this one. Quality over quantity._
+<br><small>(AshleyZM)</small>
 
 _It is refreshing how little this mystery app holds my hand. Beautiful, intuitive, clever design, an interesting story and achievable but non-obvious puzzles._
 <br><small>(Mezzomaniac!)</small>
@@ -92,3 +95,6 @@ _Super headache inducing, blinky, and awkward. The first puzzle is mildly intere
 
 _What was that? Easy to solve game. I had it in like 30mins. I was really enjoying the game when it suddenly ended. WORST GAME EVER! Big disappointment..._
 <br><small>(IamSerggo)</small>
+
+_Meeeh. It was way too complicated without hints or options to solve. Finally when you start to get how it works... the game ends!_
+<br><small>(Dario3267)</small>
