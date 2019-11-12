@@ -68,7 +68,7 @@ Ruby, Rails, React Native, React, TypeScript, Node, PHP
 [Opta Core API][opta-core], Global Sports Media,
 Navitracer, Intragame and a quite few more...
 
-## ON MY OWN
+## AFTER HOURS
 
 <div class="project">
   <a href="/hydropuzzle/" class="project__icon" target="_blank">
@@ -94,7 +94,7 @@ Navitracer, Intragame and a quite few more...
     <a href="https://github.com/sobstel/golazon/" target="_blank">source</a><br>
     Football data mnmlist way. Serverless.
     Built with Next.js, React, Ruby, Node.
-    Powered by Zeit.co and AWS Lambda.
+    Powered by Zeit and AWS Lambda.
   </p>
 </div>
 
@@ -104,10 +104,10 @@ Navitracer, Intragame and a quite few more...
   </a>
   <p class="project__info">
     <strong>Albicelestes</strong>
-    <a href="https://albicelestes.com/" title="Golazon" target="_blank">www.albicelestes.com</a><br>
-    Argentina football team fan-site. Serverless.
+    <a href="https://albicelestes.com/" title="Albicelestes" target="_blank">www.albicelestes.com</a><br>
+    Argentina football team fan-site.
     Built with Next.js, React, Ruby, Node.
-    Powered by Zeit.co.
+    Powered by Zeit.
   </p>
 </div>
 

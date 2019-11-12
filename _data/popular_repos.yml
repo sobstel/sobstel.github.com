@@ -17,7 +17,7 @@
   description: Declarative transitions and animations for React Native (with unmount
     effect)
   fork: false
-  stargazers_count: 9
+  stargazers_count: 10
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
@@ -30,7 +30,7 @@
   description: Short-term memory training game (mobile). Built with React Native and
     Redux.
   fork: false
-  stargazers_count: 58
+  stargazers_count: 60
 - name: jsonp.js
   full_name: sobstel/jsonp.js
   html_url: https://github.com/sobstel/jsonp.js
