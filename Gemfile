@@ -8,7 +8,6 @@ end
 
 group :development do
   gem 'feedzirra'
-  gem 'github-pages'
   gem 'json'
   gem 'nokogiri'
   gem 'rake'
