@@ -80,7 +80,7 @@ Navitracer, Intragame and a quite few more...
     <a href="https://github.com/hydropuzzle/" target="_blank">source</a><br>
     Surreal tech puzzle adventure. Can you solve the mystery?
     Built with React Native.
-    Over 35k downloads.
+    Over 40k downloads.
   </p>
 </div>
 
