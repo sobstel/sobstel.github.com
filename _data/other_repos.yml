@@ -1,22 +1,4 @@
 ---
-- name: calmbook
-  full_name: sobstel/calmbook
-  html_url: https://github.com/sobstel/calmbook
-  description: Facebook pages without distractions
-  fork: false
-  stargazers_count: 3
-- name: hydropuzzle
-  full_name: sobstel/hydropuzzle
-  html_url: https://github.com/sobstel/hydropuzzle
-  description: Surreal tech adventure game for iOS and Android. Built with React Native.
-  fork: false
-  stargazers_count: 6
-- name: dotfiles
-  full_name: sobstel/dotfiles
-  html_url: https://github.com/sobstel/dotfiles
-  description: 
-  fork: false
-  stargazers_count: 0
 - name: voltpuzzle
   full_name: sobstel/voltpuzzle
   html_url: https://github.com/sobstel/voltpuzzle
@@ -24,6 +6,18 @@
     :/)
   fork: false
   stargazers_count: 1
+- name: calmbook
+  full_name: sobstel/calmbook
+  html_url: https://github.com/sobstel/calmbook
+  description: Facebook pages without distractions
+  fork: false
+  stargazers_count: 3
+- name: dotfiles
+  full_name: sobstel/dotfiles
+  html_url: https://github.com/sobstel/dotfiles
+  description: 
+  fork: false
+  stargazers_count: 0
 - name: mblocks
   full_name: sobstel/mblocks
   html_url: https://github.com/sobstel/mblocks

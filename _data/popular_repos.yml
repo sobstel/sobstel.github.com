@@ -4,7 +4,26 @@
   html_url: https://github.com/sobstel/golazon
   description: football data mnmlist way
   fork: false
-  stargazers_count: 23
+  stargazers_count: 25
+- name: metaphore
+  full_name: sobstel/metaphore
+  html_url: https://github.com/sobstel/metaphore
+  description: Cache slam defense using a semaphore to prevent dogpile effect.
+  fork: false
+  stargazers_count: 94
+- name: hydropuzzle
+  full_name: sobstel/hydropuzzle
+  html_url: https://github.com/sobstel/hydropuzzle
+  description: Surreal tech adventure game for iOS and Android. Built with React Native.
+  fork: false
+  stargazers_count: 7
+- name: sequent
+  full_name: sobstel/sequent
+  html_url: https://github.com/sobstel/sequent
+  description: Short-term memory training game (mobile). Built with React Native and
+    Redux.
+  fork: false
+  stargazers_count: 60
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
@@ -18,22 +37,9 @@
     effect)
   fork: false
   stargazers_count: 10
-- name: metaphore
-  full_name: sobstel/metaphore
-  html_url: https://github.com/sobstel/metaphore
-  description: Cache slam defense using a semaphore to prevent dogpile effect.
-  fork: false
-  stargazers_count: 93
-- name: sequent
-  full_name: sobstel/sequent
-  html_url: https://github.com/sobstel/sequent
-  description: Short-term memory training game (mobile). Built with React Native and
-    Redux.
-  fork: false
-  stargazers_count: 60
 - name: jsonp.js
   full_name: sobstel/jsonp.js
   html_url: https://github.com/sobstel/jsonp.js
   description: Lightweight JSONP library for cross-domain ajax calls.
   fork: false
-  stargazers_count: 36
+  stargazers_count: 34
