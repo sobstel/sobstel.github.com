@@ -89,7 +89,7 @@ Ruby, Rails, React Native, React, TypeScript, Node, PHP
 
 <a href="https://www.protipster.com/" target="_blank">Protipster</a>,
 <a href="https://appadvice.com/app/dans-tip-of-the-day/1281243051" target="_blank">Tip of the Day (app)</a>,
-<a href="https://www.optasports.com/services/data-feeds/" target="_blank">Opta Core API]</a>,
+<a href="https://www.optasports.com/services/data-feeds/" target="_blank">Opta Core API</a>,
 Scoresway hosted product,
 Global Sports Media,
 Navitracer,
@@ -155,7 +155,7 @@ and a quite few more...
 Taste for simplicity,
 preference for code deletion,
 humility,
-ability to ignore new tools and technologies
+ability to ignore the hype over new tools and technologies
 
 ## REMOTE
 
@@ -186,7 +186,7 @@ ability to ignore new tools and technologies
 {% endfor %}
 <a href="/gists/">gists index &gt;</a>
 
-## CURRENT INTERESTS
+## INTERESTS
 
 🏃 Trail running<br>
 🌞 Argentina<br>
