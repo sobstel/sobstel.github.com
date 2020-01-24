@@ -87,6 +87,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
   </p>
 </div>
 
+Also:
 <a href="https://www.protipster.com/" target="_blank">Protipster</a>,
 <a href="https://appadvice.com/app/dans-tip-of-the-day/1281243051" target="_blank">Tip of the Day (app)</a>,
 <a href="https://www.optasports.com/services/data-feeds/" target="_blank">Opta Core API</a>,
