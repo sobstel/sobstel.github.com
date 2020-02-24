@@ -23,7 +23,7 @@
   description: Short-term memory training game (mobile). Built with React Native and
     Redux.
   fork: false
-  stargazers_count: 62
+  stargazers_count: 63
 - name: sesshin
   full_name: sobstel/sesshin
   html_url: https://github.com/sobstel/sesshin
@@ -36,7 +36,7 @@
   description: Declarative transitions and animations for React Native (with unmount
     effect)
   fork: false
-  stargazers_count: 10
+  stargazers_count: 11
 - name: jsonp.js
   full_name: sobstel/jsonp.js
   html_url: https://github.com/sobstel/jsonp.js

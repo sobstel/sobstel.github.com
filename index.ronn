@@ -136,7 +136,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
     Surreal tech puzzle adventure game for iOS and Android.
     Can you solve the mystery?
     Built with React Native.
-    Over 43k downloads.
+    Over 45k downloads.
   </p>
 </div>
 

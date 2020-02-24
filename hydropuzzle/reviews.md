@@ -26,11 +26,11 @@ title: Hydropuzzle reviews
 
 ### APP STORE
 
-★★★★★ 319<br>
-★★★★ 46<br>
-★★★ 19<br>
-★★ 8<br>
-★ 16<br>
+★★★★★ 340<br>
+★★★★ 50<br>
+★★★ 20<br>
+★★ 08<br>
+★ 18<br>
 
 <!--
 No 6 Top Games/Adventure & No 18 Top Paid Games<br>
