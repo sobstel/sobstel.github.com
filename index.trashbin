@@ -1,0 +1,21 @@
+<div class="project">
+  <a href="https://www.optasports.com/services/data-feeds/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/opta.png" />
+  </a>
+  <p class="project__info">
+    <strong>Opta Core API</strong>
+    <a href="https://www.optasports.com/services/data-feeds/" target="_blank">www.optasports.com</a><br>
+    Live scores, updates and post-match content from sporting competitions around the world.
+  </p>
+</div>
+<div class="project">
+  <a href="https://www.statsperform.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/perform.png" />
+  </a>
+  <p class="project__info">
+    <strong>Perform Group</strong>
+    <a href="https://www.statsperform.com/" target="_blank">www.statsperform.com</a><br>
+    Perform brings unmatched depth and breadth of data, sports research, news and video content
+    to sports media and broadcasters, technology companies, global brands, sportsbooks, teams and a leagues, and fantasy providers.
+  </p>
+</div>

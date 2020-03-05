@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'json'
 require 'openssl'
 require 'open-uri'
@@ -60,10 +62,11 @@ task :publish, :message do |_, args|
   message = args[:message]
 
   task(:generate_ronn_pages).execute
-  task(:import_github_repos).execute
-  task(:import_gists).execute
-  task(:import_github_contributions).execute
-  task(:import_medium_posts).execute
+  # temporairly disabled
+  # task(:import_github_repos).execute
+  # task(:import_gists).execute
+  # task(:import_github_contributions).execute
+  # task(:import_medium_posts).execute
 
   sh 'git add --all .'
   sh "git commit . --message=\"#{message}\""
@@ -145,18 +148,17 @@ task :import_github_contributions do
   save_data('contribs', github_contributions)
 end
 
-
 desc 'Import Medium posts'
 task :import_medium_posts do
   url = 'https://medium.com/feed/@sobstel'
   puts "fetch from #{url}"
 
   feed = Nokogiri::XML(open(url).read)
-  medium_posts = feed.xpath("//item").collect do |item|
+  medium_posts = feed.xpath('//item').collect do |item|
     {
       'title' => item.xpath('title').text,
       'url' => item.xpath('link').text,
-      'date' => item.xpath('pubDate').text,
+      'date' => item.xpath('pubDate').text
     }
   end
 

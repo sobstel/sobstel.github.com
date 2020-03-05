@@ -18,7 +18,6 @@ Software Developer
   <img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" />
 </a>
 
-<!--
 <a href="https://rubygems.org/profiles/sobstel" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/ruby.svg" />
 </a>
@@ -28,7 +27,6 @@ Software Developer
 <a href="https://packagist.org/users/sobstel/" class="icon" target="_blank">
   <img src="https://unpkg.com/simple-icons@latest/icons/php.svg" />
 </a>
--->
 
 ## ENVIRONMENT
 
@@ -43,8 +41,6 @@ Ruby, Rails, React Native, React, TypeScript, Node
   <p class="project__info">
     <strong>Getaround</strong>
     <a href="https://www.getaround.com/" target="_blank">www.getaround.com</a><br>
-    <!-- A peer-to-peer carsharing service that allows drivers to rent cars from private car owners,
-    and owners to rent out their cars for payment. -->
     <em>We envision a world in which all cars are shared.</em>
   </p>
 </div>
@@ -71,7 +67,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
     <strong>AppJobs</strong>
     <a href="https://www.appjobs.com/" title="AppJobs" target="_blank">www.appjobs.com</a><br>
     World's largest community of gig workers.
-    Built with Vue.js, Ruby, Rails, PostgreSQL.
+    Built with Ruby, Rails, PostgreSQL, Vue.js, Heroku.
   </p>
 </div>
 
@@ -96,30 +92,12 @@ Ruby, Rails, React Native, React, TypeScript, Node
     <strong>Soccerway</strong>
     <a href="https://www.soccerway.com/" title="Soccerway" target="_blank">www.soccerway.com</a><br>
     World's largest football database.
-    Built with PHP, MySQL.
-  </p>
-</div>
-
-<div class="project">
-  <a href="https://www.optasports.com/services/data-feeds/" class="project__icon" target="_blank">
-    <img src="/img/project-logos/opta.png" />
-  </a>
-  <p class="project__info">
-    <strong>Opta Core API</strong>
-    <a href="https://www.optasports.com/services/data-feeds/" target="_blank">www.optasports.com</a><br>
-    Live scores, updates and post-match content from sporting competitions around the world.
-  </p>
-</div>
-
-<div class="project">
-  <a href="https://www.statsperform.com/" class="project__icon" target="_blank">
-    <img src="/img/project-logos/perform.png" />
-  </a>
-  <p class="project__info">
-    <strong>Perform Group</strong>
-    <a href="https://www.statsperform.com/" target="_blank">www.statsperform.com</a><br>
-    Perform brings unmatched depth and breadth of data, sports research, news and video content
-    to sports media and broadcasters, technology companies, global brands, sportsbooks, teams and a leagues, and fantasy providers.
+    Built with PHP, MySQL, Prototype.<br>
+    (while working for
+      <a href="http://www.globalsportsmedia.com" target="_blank">Global Sports Media</a>,
+      <a href="https://www.optasports.com/" target="_blank">Opta</a> and
+      <a href="https://www.statsperform.com/" target="_blank">Perform</a>
+    )
   </p>
 </div>
 
@@ -131,7 +109,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
   </a>
   <p class="project__info">
     <strong>Hydropuzzle</strong>
-    <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">www.hydropuzzle.com</a>,
+    <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">sobstel.org/hydropuzzle</a>,
     <a href="https://github.com/hydropuzzle/" target="_blank">source</a><br>
     Surreal tech puzzle adventure game for iOS and Android.
     Can you solve the mystery?
