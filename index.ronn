@@ -18,16 +18,6 @@ Software Developer
   <img src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" />
 </a>
 
-<a href="https://rubygems.org/profiles/sobstel" class="icon" target="_blank">
-  <img src="https://unpkg.com/simple-icons@latest/icons/ruby.svg" />
-</a>
-<a href="https://www.npmjs.com/~sobstel" class="icon" target="_blank">
-  <img src="https://unpkg.com/simple-icons@latest/icons/javascript.svg" />
-</a>
-<a href="https://packagist.org/users/sobstel/" class="icon" target="_blank">
-  <img src="https://unpkg.com/simple-icons@latest/icons/php.svg" />
-</a>
-
 ## ENVIRONMENT
 
 Ruby, Rails, React Native, React, TypeScript, Node
