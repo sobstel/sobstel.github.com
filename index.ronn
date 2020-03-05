@@ -136,7 +136,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
     Surreal tech puzzle adventure game for iOS and Android.
     Can you solve the mystery?
     Built with React Native.
-    Over 45k downloads.
+    Over 47k downloads.
   </p>
 </div>
 
@@ -200,12 +200,12 @@ ability to ignore the hype over new tools and technologies
   <img src="/img/insta-thumbs/insta4.jpg" />
 </a>
 
-## POSTS
+## TECH BLOG
 
-{% for post in site.data.medium_posts %}
-  <a href="{{ post.url }}" target="_blank">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
+{% for post in site.posts limit:5 %}
+  <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
 {% endfor %}
-<a href="/blog/">blog archive &gt;</a>
+<a href="/blog/">archive &gt;</a>
 
 ## GISTS
 

@@ -14,7 +14,7 @@ title: Przemek Sobstel
     <a href="#OPEN-SOURCE">OPEN SOURCE</a>
     <a href="#SKILLS">SKILLS</a>
     <a href="#REMOTE">REMOTE</a>
-    <a href="#POSTS">POSTS</a>
+    <a href="#TECH-BLOG">TECH BLOG</a>
     <a href="#GISTS">GISTS</a>
     <a href="#INTERESTS">INTERESTS</a>
     <a href="#CONTACT">CONTACT</a>
@@ -178,7 +178,7 @@ title: Przemek Sobstel
     Surreal tech puzzle adventure game for iOS and Android.
     Can you solve the mystery?
     Built with React Native.
-    Over 45k downloads.
+    Over 47k downloads.
   </p>
 </div>
 
@@ -249,12 +249,12 @@ ability to ignore the hype over new tools and technologies</p>
   <img src="/img/insta-thumbs/insta4.jpg" />
 </a></p>
 
-<h2 id="POSTS">POSTS</h2>
+<h2 id="TECH-BLOG">TECH BLOG</h2>
 
-<p>{% for post in site.data.medium_posts %}
-  <a href="{{ post.url }}" target="_blank">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
+<p>{% for post in site.posts limit:5 %}
+  <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
 {% endfor %}
-<a href="/blog/">blog archive &gt;</a></p>
+<a href="/blog/">archive &gt;</a></p>
 
 <h2 id="GISTS">GISTS</h2>
 
@@ -276,7 +276,7 @@ ability to ignore the hype over new tools and technologies</p>
 
 
   <ol class='man-decor man-foot man foot'>
-    <li class='tl'>index &#8226; February 2020</li>
+    <li class='tl'>index &#8226; March 2020</li>
     <li class='tr'></li>
   </ol>
 </div>

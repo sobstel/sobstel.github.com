@@ -36,12 +36,6 @@
   description: DSL for documenting JSON structure
   fork: false
   stargazers_count: 0
-- name: pathway
-  full_name: sobstel/pathway
-  html_url: https://github.com/sobstel/pathway
-  description: RubyMotion (iOS) custom scrolling experiments
-  fork: false
-  stargazers_count: 0
 - name: AsyncHTTP
   full_name: sobstel/AsyncHTTP
   html_url: https://github.com/sobstel/AsyncHTTP

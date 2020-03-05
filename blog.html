@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog Archive
+title: Tech Blog
 ---
 
 <div class='mp' id='man'>
@@ -12,17 +12,14 @@ title: Blog Archive
     <a href="mailto:przemek@sobstel.org">PRZEMEK@SOBSTEL.ORG</a>
   </div>
 
-  <h1>Blog Archive</h1>
-<p>{% for post in site.data.medium_posts %}
-  <a href="{{ post.url }}" target="_blank">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
-{% endfor %}
-{% for post in site.posts %}
+  <h1>Tech Blog</h1>
+<p>{% for post in site.posts %}
   <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
 {% endfor %}</p>
 
 
   <ol class='man-decor man-foot man foot'>
-    <li class='tl'>blog &#8226; May 2019</li>
+    <li class='tl'>blog &#8226; March 2020</li>
     <li class='tr'></li>
   </ol>
 </div>
