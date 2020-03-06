@@ -86,8 +86,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
     (while working for
       <a href="http://www.globalsportsmedia.com" target="_blank">Global Sports Media</a>,
       <a href="https://www.optasports.com/" target="_blank">Opta</a> and
-      <a href="https://www.statsperform.com/" target="_blank">Perform</a>
-    )
+      <a href="https://www.statsperform.com/" target="_blank">Perform</a>)
   </p>
 </div>
 
