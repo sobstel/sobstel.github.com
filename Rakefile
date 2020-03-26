@@ -62,10 +62,9 @@ task :publish, :message do |_, args|
   message = args[:message]
 
   task(:generate_ronn_pages).execute
-  # temporairly disabled
-  # task(:import_github_repos).execute
-  # task(:import_gists).execute
-  # task(:import_github_contributions).execute
+  task(:import_github_repos).execute
+  task(:import_gists).execute
+  task(:import_github_contributions).execute
   # task(:import_medium_posts).execute
 
   sh 'git add --all .'
