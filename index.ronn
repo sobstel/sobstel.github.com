@@ -36,7 +36,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
     <a href="https://www.getaround.com/" target="_blank">www.getaround.com</a><br>
     <em>We envision a world in which all cars are shared.</em>
     Norway’s largest peer-to-peer car sharing platform.
-    Ruby, Rails, React, React Native, Node, TypeScript, GraphQL, PostgreSQL.
+    Ruby, Rails, React, React Native, Node, TypeScript, GraphQL, PostgreSQL, ElasticSearch.
   </p>
 </div>
 
@@ -61,7 +61,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
   <p class="project__info">
     <strong>Protipster</strong>
     <a href="https://www.protipster.com/" title="Protipster" target="_blank">www.protipster.com</a><br>
-    Betting information marketplace. Built with Symfony, MySQL, Vue.js.<br>
+    Betting information marketplace. Built with Symfony, MySQL, RabbitMQ, Vue.js.<br>
     <a href="https://appadvice.com/app/dans-tip-of-the-day/1281243051" target="_blank">Tip of the Day (app)</a>.
     Built with React Native.
   </p>
