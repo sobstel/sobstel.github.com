@@ -34,10 +34,9 @@ Ruby, Rails, React Native, React, TypeScript, Node
     /
     <strong>Getaround</strong>
     <a href="https://www.getaround.com/" target="_blank">www.getaround.com</a><br>
-    <br>
     <em>We envision a world in which all cars are shared.</em>
     Norway’s largest peer-to-peer car sharing platform.
-    Ruby, Rails, React, React Native, TypeScript, GraphQL, PostgreSQL.
+    Ruby, Rails, React, React Native, Node, TypeScript, GraphQL, PostgreSQL.
   </p>
 </div>
 
@@ -124,7 +123,7 @@ Ruby, Rails, React Native, React, TypeScript, Node
     <a href="https://albicelestes.com/" title="Albicelestes" target="_blank">www.albicelestes.com</a>,
     <a href="https://github.com/sobstel/albicelestes/" target="_blank">source</a><br>
     Ultimate La Selección Argentina Archive.
-    Built with TypeScript, Next.js, React, Ruby.
+    Built with Next.js, TypeScript, React, Ruby.
     Powered by Zeit.
   </p>
 </div>
