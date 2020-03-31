@@ -4,33 +4,57 @@
 $link-color: #3072b3;
 
 body,
-.mp, .mp code, .mp pre, .mp tt,
-.mp kbd, .mp samp, .mp h3, .mp h4 {
-    font: 400 16px/1.5 "Inconsolata", monospace;
+.mp,
+.mp code,
+.mp pre,
+.mp tt,
+.mp kbd,
+.mp samp,
+.mp h3,
+.mp h4 {
+  font: 400 16px/1.5 "Inconsolata", monospace;
+}
+.mp h3 {
+  font-weight: bold;
+  margin-left: 0;
+  margin-bottom: 20px;
 }
 
-.mp a, .mp a:link,
-.mp a code, .mp a pre, .mp a tt,
-.mp a kbd, .mp a samp {
+.mp a,
+.mp a:link,
+.mp a code,
+.mp a pre,
+.mp a tt,
+.mp a kbd,
+.mp a samp {
   color: $link-color;
 }
 .mp a:hover {
   color: darken($link-color, 12%);
 }
 
-.mp > p, .mp > pre, .mp > ul,
-.mp > ol, .mp > dl {
+.mp > p,
+.mp > pre,
+.mp > ul,
+.mp > ol,
+.mp > dl {
   margin-left: 4ex;
 }
 .mp dt.flush {
   width: 4ex;
 }
-.post > p, .post > pre, .post > ul,
-.post > ol, .post > dl {
+.post > p,
+.post > pre,
+.post > ul,
+.post > ol,
+.post > dl {
   margin-left: 0 !important;
 }
 .post dt.flush {
   width: 0 !important;
+}
+.post pre {
+  padding-left: 0;
 }
 
 .man-navigation {
@@ -40,10 +64,10 @@ body,
 .man-navigation a:hover,
 .man-navigation a:link,
 .man-navigation a:visited {
-    color:#999 !important;
+  color: #999 !important;
 }
 .man-navigation a:hover {
-    color:#111 !important;
+  color: #111 !important;
 }
 .man-navigation span:first-child {
   display: none;
@@ -54,7 +78,9 @@ body,
 .mp > ol.man-foot {
   margin-left: 0;
 
-  li.tl, li.tc, li.tr {
+  li.tl,
+  li.tc,
+  li.tr {
     font-size: 0.84em;
   }
 }
@@ -87,15 +113,26 @@ code {
   }
 }
 
+.mp .synopsis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .tagline {
+    margin-left: 4ex;
+  }
+}
+
 .mp .project {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-left: 4ex;
   margin-bottom: 20px;
 
   &__icon {
     display: inline-block;
-    margin-right: 2ex;
+    margin-left: 3ex;
     filter: grayscale(55%);
 
     &:hover {

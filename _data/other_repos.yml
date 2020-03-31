@@ -11,12 +11,6 @@
   description: futbol feeds scraper
   fork: false
   stargazers_count: 0
-- name: eleven
-  full_name: sobstel/eleven
-  html_url: https://github.com/sobstel/eleven
-  description: 11v11 team matches scraper
-  fork: false
-  stargazers_count: 0
 - name: calmbook
   full_name: sobstel/calmbook
   html_url: https://github.com/sobstel/calmbook

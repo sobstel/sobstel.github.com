@@ -17,7 +17,13 @@
   description: Short-term memory training game (mobile). Built with React Native and
     Redux.
   fork: false
-  stargazers_count: 65
+  stargazers_count: 66
+- name: sesshin
+  full_name: sobstel/sesshin
+  html_url: https://github.com/sobstel/sesshin
+  description: PHP secure advanced session manager.
+  fork: false
+  stargazers_count: 61
 - name: react-native-animatable-unmountable
   full_name: sobstel/react-native-animatable-unmountable
   html_url: https://github.com/sobstel/react-native-animatable-unmountable

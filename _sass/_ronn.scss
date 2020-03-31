@@ -2,144 +2,239 @@
 
 /* STRUCTURE, INDENT, MARGINS */
 
-body#manpage                        { margin:0 }
+body#manpage {
+  margin: 0;
+}
 .mp {
-    max-width:100ex;
-    padding:0 9ex 1ex 4ex;
+  max-width: 100ex;
+  padding: 0 9ex 1ex 4ex;
 }
 
-.mp p,  .mp pre,
-.mp ul, .mp ol, .mp dl              { margin:0 0 20px 0 }
-.mp h2                              { margin:10px 0 10px 0 }
+.mp p,
+.mp pre,
+.mp ul,
+.mp ol,
+.mp dl {
+  margin: 0 0 20px 0;
+}
+.mp h2 {
+  margin: 10px 0 10px 0;
+}
 
-.mp > p, .mp > pre, .mp > ul,
-.mp > ol, .mp > dl                  { margin-left:8ex }
-.mp h3                              { margin:0 0 0 4ex }
+.mp > p,
+.mp > pre,
+.mp > ul,
+.mp > ol,
+.mp > dl {
+  margin-left: 8ex;
+}
+.mp h3 {
+  margin: 0 0 0 4ex;
+}
 
-.mp dt                              { margin:0; clear:left }
-.mp dt.flush                        { float:left; width:8ex }
-.mp dd                              { margin:0 0 0 9ex }
-.mp h1, .mp h2, .mp h3, .mp h4      { clear:left }
+.mp dt {
+  margin: 0;
+  clear: left;
+}
+.mp dt.flush {
+  float: left;
+  width: 8ex;
+}
+.mp dd {
+  margin: 0 0 0 9ex;
+}
+.mp h1,
+.mp h2,
+.mp h3,
+.mp h4 {
+  clear: left;
+}
 
-.mp pre                             { margin-bottom:20px }
-.mp pre+h2, .mp pre+h3              { margin-top:22px }
-.mp h2+pre, .mp h3+pre              { margin-top:5px }
+.mp pre {
+  margin-bottom: 20px;
+}
+.mp pre + h2,
+.mp pre + h3 {
+  margin-top: 22px;
+}
+.mp h2 + pre,
+.mp h3 + pre {
+  margin-top: 5px;
+}
 
-.mp img                             { display:block;margin:auto }
-.mp h1.man-title                    { display:none }
+.mp img {
+  display: block;
+  margin: auto;
+}
+.mp h1.man-title {
+  display: none;
+}
 
 /* FONTS */
 
-.mp, .mp code, .mp pre, .mp tt,
-.mp kbd, .mp samp, .mp h3, .mp h4 {
-    font-family:monospace;
-    font-size:14px;
-    line-height:1.42857142857143;
+.mp,
+.mp code,
+.mp pre,
+.mp tt,
+.mp kbd,
+.mp samp,
+.mp h3,
+.mp h4 {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.42857142857143;
 }
 .mp h2 {
-  font-size:16px;
-  line-height:1.25;
+  font-size: 16px;
+  line-height: 1.25;
 }
 .mp h1 {
-  font-size:20px;
-  line-height:2;
+  font-size: 20px;
+  line-height: 2;
 }
 
 /* TEXT STYLES */
 
 .mp {
-  text-align:justify;
-  background:#fff;
+  text-align: justify;
+  background: #fff;
 }
-.mp, .mp code, .mp pre,
-.mp pre code, .mp tt, .mp kbd,
-.mp samp                            { color:#131211 }
-.mp h1, .mp h2, .mp h3, .mp h4      { color:#030201 }
-.mp u                               { text-decoration:underline; }
-
-.mp code, .mp strong, .mp b {
-    font-weight:bold;
-    color:#131211;
+.mp,
+.mp code,
+.mp pre,
+.mp pre code,
+.mp tt,
+.mp kbd,
+.mp samp {
+  color: #131211;
+}
+.mp h1,
+.mp h2,
+.mp h3,
+.mp h4 {
+  color: #030201;
+}
+.mp u {
+  text-decoration: underline;
 }
 
-.mp em, .mp var {
-    font-style:italic;
-    color:#232221;
-    text-decoration:none;
+.mp code,
+.mp strong,
+.mp b {
+  font-weight: bold;
+  color: #131211;
+}
+
+.mp em,
+.mp var {
+  font-style: italic;
+  color: #232221;
+  text-decoration: none;
 }
 
 /* LINKS */
 
-.mp a, .mp a:link, .mp a:hover,
-.mp a code, .mp a pre, .mp a tt,
-.mp a kbd, .mp a samp              { color:#0000ff }
+.mp a,
+.mp a:link,
+.mp a:hover,
+.mp a code,
+.mp a pre,
+.mp a tt,
+.mp a kbd,
+.mp a samp {
+  color: #0000ff;
+}
 
-.mp b.man-ref                      { font-weight:normal;color:#434241 }
+.mp b.man-ref {
+  font-weight: normal;
+  color: #434241;
+}
 
 /* PREFORMATTED BLOCKS */
 
-.mp pre                            { padding:0 4ex }
-.mp pre code                       { font-weight:normal;color:#434241 }
-.mp h2+pre, h3+pre                 { padding-left:0 }
+.mp pre {
+  padding: 0 4ex;
+}
+.mp pre code {
+  font-weight: normal;
+  color: #434241;
+}
+.mp h2 + pre,
+h3 + pre {
+  padding-left: 0;
+}
 
 /* DOCUMENT HEADER AND FOOTER AREAS */
 
-ol.man-decor, ol.man-decor li {
-    margin:3px 0 10px 0;
-    padding:0;
-    float:left;
-    width:33%;
-    list-style-type:none;
-    text-transform:uppercase;
-    color:#999;
-    letter-spacing:1px;
+ol.man-decor,
+ol.man-decor li {
+  margin: 3px 0 10px 0;
+  padding: 0;
+  float: left;
+  width: 33%;
+  list-style-type: none;
+  text-transform: uppercase;
+  color: #999;
+  letter-spacing: 1px;
 }
-ol.man-decor                  { width:100% }
-ol.man-decor li.tl            { text-align:left }
-ol.man-decor li.tc            { text-align:center; letter-spacing:4px }
-ol.man-decor li.tr            { text-align:right; float:right }
-
-
+ol.man-decor {
+  width: 100%;
+}
+ol.man-decor li.tl {
+  text-align: left;
+}
+ol.man-decor li.tc {
+  text-align: center;
+  letter-spacing: 4px;
+}
+ol.man-decor li.tr {
+  text-align: right;
+  float: right;
+}
 
 /* toc.css - enable table of contents */
 
 .man-navigation {
-    display:block !important;
-    position:fixed;
-    top:0;
-    left:113ex; /* .mp width + padding */
-    height:100%;
-    width:100%;
-    padding:48px 0 0 0;
-    border-left:1px solid #dbdbdb;
-    background:#eee;
+  display: block !important;
+  position: fixed;
+  top: 0;
+  left: 113ex; /* .mp width + padding */
+  height: 100%;
+  width: 100%;
+  padding: 48px 0 0 0;
+  border-left: 1px solid #dbdbdb;
+  background: #eee;
 }
 .man-navigation a,
 .man-navigation a:hover,
 .man-navigation a:link,
 .man-navigation a:visited {
-    display:block;
-    margin:0;
-    padding:5px 2px 5px 30px;
-    color:#999;
-    text-decoration:none;
+  display: block;
+  margin: 0;
+  padding: 5px 2px 5px 30px;
+  color: #999;
+  text-decoration: none;
 }
 .man-navigation span {
-    display: block;
-    padding-left: 30px;
-    color: #333;
+  display: block;
+  padding-left: 30px;
+  color: #333;
 }
 .man-navigation a:hover {
-    color:#111;
-    text-decoration:underline;
+  color: #111;
+  text-decoration: underline;
 }
 
 /* print.css */
 
 @media print {
-    .mp { max-width:none }
-    .man-navigation { display:none !important }
-    .mp a[href]:not([href^="#"]):not([data-bare-link]):after {
-        content:" " attr(href);
-    }
+  .mp {
+    max-width: none;
+  }
+  .man-navigation {
+    display: none !important;
+  }
+  .mp a[href]:not([href^="#"]):not([data-bare-link]):after {
+    content: " " attr(href);
+  }
 }
