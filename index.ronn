@@ -25,7 +25,7 @@ Przemek Sobstel
 
 ## ENVIRONMENT
 
-TypeScript, JavaScript, React, React Native, Node, Ruby, Rails
+Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
 
 ## CURRENT
 
