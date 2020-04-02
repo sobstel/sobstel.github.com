@@ -1,0 +1,100 @@
+# sobstel.org -- Przemek Sobstel (przemek@sobstel.org)
+
+## SYNOPSIS
+
+Lean, pragmatic and proactive full stack developer
+
+`#ruby` `#rails` `#react` `#javascript` `#typescript` `#reactnative` `#node`
+
+## RUBY EXPERIENCE
+
+Started learning Ruby around ~2009, developed a few commercial projects,
+later always around (used as a hobby and/or 2nd choice language), then
+started full-time again since December 2016.
+
+- `Nabobil (Getaround company)` (2018-now):
+  Norway’s largest peer-to-peer car sharing platform. (<https://nabobil.no/>)<br>
+  **Stack**: Ruby, Rails, React, Redux, React Native, Node, TypeScript, GraphQL, PostgreSQL.
+  **Team:** 5 senior full-stack developers.
+
+- `AppJobs` (2016-18):
+  Community of gig workers (sharing economy). (<https://www.appjobs.com>).<br>
+  **Stack**: Ruby, Rails, Vue, PostgreSQL, JWT, Auth0, Heroku.
+  **Team:** me + frontend dev + designer.
+  **My role:** lead developer (backend [api/admin] / frontend / infrastructure).
+
+- `Golazon` &nbsp;:
+  Football data mnmlist way. (<http://www.golazon.com/>)<br>
+  **Stack**: React (earlier: Preact, Hyperapp, Riot), Ruby.
+
+- `Polifiction` (2011-12):
+  Political comic strips.<br>
+  **Stack**: Ruby, Rails, MySQL, HTML/CSS.
+  **My role:** backend/frontend developer.
+
+- `Casino Duo` (2010):
+  Online casino.<br>
+  **Stack**: Ruby, Rails, MySQL, HTML/CSS.
+  **My role:** backend/frontend developer.
+
+## OTHER SELECTED PROJECTS
+
+- `Protipster` (2014-16):
+  Betting information marketplace. (<https://www.protipster.com>)<br>
+  **Team:** 4-8 developers, 2 designers (flat structure).
+  **My role:** backend developer.
+  **Stack**: Symfony/PHP, Vue, MySQL, RabbitMQ.
+
+- `Soccerway` (2010-12):
+  One of the biggest football websites on the planet. (<http://www.soccerway.com/>)<br>
+  **Team**: 2-5 developers.
+  **My role:** lead developer.
+  **Stack**: PHP, MySQL, JavaScript.
+
+- `Opta: Core API + Hosted Platform` (2010-12):
+  Sports API and new hosted solution for nearly 100 clients (inc.
+  Microsoft/MSN, FOX Sports, Opera Sports, CONCACAF, CBC Canada, Yahoo!,
+  ESPN, Al Jazeera, etc).<br>
+  **Team**: 2-5 developers.
+  **My role**: lead developer.
+  **Stack**: PHP, MySQL, JavaScript.
+
+- `Hydropuzzle mobile game` (2017-2019):
+  Surreal story shaped into a short text puzzle adventure game. (<http://www.hydropuzzle.com/>)<br>
+  Private project. Over 50k downloads up to now!
+  **Stack**: React Native.
+
+- `Sequent mobile game` (2017):
+  Short-term memory training game. (<https://github.com/sobstel/sequent>)<br>
+  Private project (open source).
+  **Stack:** React Native, Redux.
+
+- `Tip of the Day mobile app` (2017):
+  Best betting tips. (<https://appadvice.com/app/dans-tip-of-the-day/1281243051>)<br>
+  **Team:** me + backend dev + designer.
+  **My role:** idea, sole developer.
+  **Stack:** React Native, PHP.
+
+## OPEN SOURCE
+
+<https://www.github.com/sobstel/>
+
+## REMOTE EXPERIENCE
+
+Fully remote team. 3 devs in Norway, 2 devs in Poland.
+Product owners and stakeholders in Norway and US.
+(~2&nbsp;years, 2018-2020)
+
+Partly remote team (4-8 devs) in Poland.
+Product owners and stakeholders in Sweden and Turkey.
+(~4&nbsp;years, 2014-2018)
+
+Distributed development team. 4-5 devs in Poland + 2 devs in Holland.
+Product owners and stakeholders in UK and Holland.
+(~4&nbsp;years, 2010-2014)
+
+## SEE ALSO
+
+[sobstel][], [github][], [stackoverflow][], [linkedin][], [instagram][]
+
+Last update: Thu 02 Apr 2020
