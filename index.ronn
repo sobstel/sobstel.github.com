@@ -17,11 +17,9 @@ Przemek Sobstel
     <a href="https://stackoverflow.com/users/219272/sobstel" class="icon" target="_blank">
       <img src="https://unpkg.com/simple-icons@latest/icons/stackoverflow.svg" />
     </a>
-    <!--
-    <a href="https://twitter.com/sobstel" class="icon" target="_blank">
-      <img src="https://unpkg.com/simple-icons@latest/icons/twitter.svg" />
+    <a href="https://www.instagram.com/sobsteldev/" class="icon" target="_blank">
+      <img src="https://unpkg.com/simple-icons@latest/icons/instagram.svg" />
     </a>
-    -->
   </p>
 </div>
 
