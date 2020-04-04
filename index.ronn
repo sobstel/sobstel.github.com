@@ -162,10 +162,10 @@ ability to ignore the hype
 
 ## TECH NOTES
 
-{% for post in site.posts limit:1 %}
-  <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br>
+{% for post in site.posts limit:2 %}
+  <a href="{{ post.url }}">{{ post.title }}</a>,
 {% endfor %}
-<a href="/blog/">blog archive &gt;</a><br>
+<a href="/blog/">blog archive &gt;</a>,
 <a href="/gists/">gists index &gt;</a>
 
 ## INTERESTS
