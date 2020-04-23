@@ -10,7 +10,13 @@
   html_url: https://github.com/sobstel/metaphore
   description: Cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 95
+  stargazers_count: 96
+- name: hydropuzzle
+  full_name: sobstel/hydropuzzle
+  html_url: https://github.com/sobstel/hydropuzzle
+  description: Surreal tech adventure game for iOS and Android. Built with React Native.
+  fork: false
+  stargazers_count: 9
 - name: sequent
   full_name: sobstel/sequent
   html_url: https://github.com/sobstel/sequent
@@ -23,7 +29,7 @@
   html_url: https://github.com/sobstel/sesshin
   description: PHP secure advanced session manager.
   fork: false
-  stargazers_count: 61
+  stargazers_count: 63
 - name: react-native-animatable-unmountable
   full_name: sobstel/react-native-animatable-unmountable
   html_url: https://github.com/sobstel/react-native-animatable-unmountable

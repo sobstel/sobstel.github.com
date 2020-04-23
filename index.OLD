@@ -1,0 +1,71 @@
+## HISTORY
+
+<div class="project">
+  <p class="project__info">
+    <strong>AppJobs</strong>
+    <a href="https://www.appjobs.com/" title="AppJobs" target="_blank">www.appjobs.com</a><br>
+    World's largest community of gig workers.
+    Built with Ruby, Rails, Vue.js, PostgreSQL, Heroku.
+  </p>
+  <a href="https://www.appjobs.com" class="project__icon" target="_blank">
+    <img src="/img/project-logos/appjobs.png" />
+  </a>
+</div>
+
+<div class="project">
+  <p class="project__info">
+    <strong>Protipster</strong>
+    <a href="https://www.protipster.com/" title="Protipster" target="_blank">www.protipster.com</a><br>
+    Betting information marketplace. Built with Symfony, MySQL, RabbitMQ, Vue.js.<br>
+    <a href="https://appadvice.com/app/dans-tip-of-the-day/1281243051" target="_blank">Tip of the Day (app)</a>.
+    Built with React Native.
+  </p>
+  <a href="https://www.protipster.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/protipster.png" />
+  </a>
+</div>
+
+<div class="project">
+  <p class="project__info">
+    <strong>Soccerway</strong>
+    <a href="https://www.soccerway.com/" title="Soccerway" target="_blank">www.soccerway.com</a><br>
+    World's largest football database.
+    Built with PHP, MySQL, JavaScript.<br>
+    (while working for
+      <a href="http://www.globalsportsmedia.com" target="_blank">Global Sports Media</a>,
+      <a href="https://www.optasports.com/" target="_blank">Opta</a> and
+      <a href="https://www.statsperform.com/" target="_blank">Perform</a>)
+  </p>
+  <a href="https://www.soccerway.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/soccerway.png" />
+  </a>
+</div>
+
+
+<div class="project">
+  <p class="project__info">
+    <strong>Golazon</strong>
+    <a href="https://golazon.com/" title="Golazon" target="_blank">www.golazon.com</a>,
+    <a href="https://github.com/sobstel/golazon/" target="_blank">source</a><br>
+    Football data mnmlist way. Serverless.
+    Built with Next.js, React, Ruby.
+    Powered by Zeit and AWS Lambda.
+  </p>
+  <a href="https://golazon.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/logo.svg" />
+  </a>
+</div>
+
+<div class="project">
+  <p class="project__info">
+    <strong>Albicelestes</strong>
+    <a href="https://albicelestes.com/" title="Albicelestes" target="_blank">www.albicelestes.com</a>,
+    <a href="https://github.com/sobstel/albicelestes/" target="_blank">source</a><br>
+    Ultimate La Selección Argentina Archive.
+    Built with Next.js, React, TypeScript, Ruby.
+    Powered by Zeit.
+  </p>
+  <a href="https://albicelestes.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/albicelestes.png" />
+  </a>
+</div>

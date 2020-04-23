@@ -89,7 +89,7 @@ task :import_github_repos do
 
   repos, forks = all_repos.partition { |repo| !repo['fork'] }
   popular_repos, other_repos = repos.partition do |repo|
-    next repo['stargazers_count'] >= 10
+    next repo['stargazers_count'] >= 9
   end
 
   save_data('popular_repos', popular_repos)
