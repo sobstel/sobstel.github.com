@@ -47,11 +47,11 @@ Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
 </div>
 
 Before:
-<a href="https://www.appjobs.com/" target="_blank">AppJobs</a>,
-<a href="https://www.protipster.com/" target="_blank">Protipster</a>,
-<a href="https://www.soccerway.com/" target="_blank">Soccerway</a>,
-<a href="https://www.optasports.com/" target="_blank">Opta Core API</a>,
-<a href="https://www.statsperform.com/" target="_blank">Perform</a>.
+<a href="https://www.appjobs.com/" target="_blank">AppJobs</a> [SE],
+<a href="https://www.protipster.com/" target="_blank">Protipster</a> [PL/TR],
+<a href="https://www.soccerway.com/" target="_blank">Soccerway</a> [NL],
+<a href="https://www.optasports.com/" target="_blank">Opta Core API</a> [UK],
+<a href="https://www.statsperform.com/" target="_blank">Perform</a> [UK].
 
 ## SIDE PROJECTS
 
@@ -63,7 +63,7 @@ Before:
     Can you solve the mystery?<br>
     Built with React Native.
     Downloaded 50k+ times.
-    Rated 4.5 out of 500+ reviews.
+    Rated 4.6 out of 500+ reviews.
   </p>
   <a href="/hydropuzzle/" class="project__icon" target="_blank">
     <img src="/img/project-logos/hydro.jpg" />
