@@ -46,12 +46,48 @@ Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
   </a>
 </div>
 
-Before:
-<a href="https://www.appjobs.com/" target="_blank">AppJobs</a> [SE],
-<a href="https://www.protipster.com/" target="_blank">Protipster</a> [PL/TR],
-<a href="https://www.soccerway.com/" target="_blank">Soccerway</a> [NL],
-<a href="https://www.optasports.com/" target="_blank">Opta Core API</a> [UK],
-<a href="https://www.statsperform.com/" target="_blank">Perform</a> [UK].
+## HISTORY
+
+<div class="project">
+  <p class="project__info">
+    <strong>AppJobs</strong>
+    <a href="https://www.appjobs.com/" title="AppJobs" target="_blank">www.appjobs.com</a><br>
+    World's largest community of gig workers.
+    Built with Ruby, Rails, Vue.js, PostgreSQL, Heroku.
+  </p>
+  <a href="https://www.appjobs.com" class="project__icon" target="_blank">
+    <img src="/img/project-logos/appjobs.png" />
+  </a>
+</div>
+
+<div class="project">
+  <p class="project__info">
+    <strong>Protipster</strong>
+    <a href="https://www.protipster.com/" title="Protipster" target="_blank">www.protipster.com</a><br>
+    Betting information marketplace. Built with Symfony, MySQL, RabbitMQ, Vue.js.<br>
+    <a href="https://appadvice.com/app/dans-tip-of-the-day/1281243051" target="_blank">Tip of the Day (app)</a>.
+    Built with React Native.
+  </p>
+  <a href="https://www.protipster.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/protipster.png" />
+  </a>
+</div>
+
+<div class="project">
+  <p class="project__info">
+    <strong>Soccerway</strong>
+    <a href="https://www.soccerway.com/" title="Soccerway" target="_blank">www.soccerway.com</a><br>
+    World's largest football database.
+    Built with JavaScript, PHP, MySQL.<br>
+    (while working for
+      <a href="http://www.globalsportsmedia.com" target="_blank">Global Sports Media</a>,
+      <a href="https://www.optasports.com/" target="_blank">Opta</a> and
+      <a href="https://www.statsperform.com/" target="_blank">Perform</a>)
+  </p>
+  <a href="https://www.soccerway.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/soccerway.png" />
+  </a>
+</div>
 
 ## SIDE PROJECTS
 
@@ -60,7 +96,6 @@ Before:
     <strong>Hydropuzzle</strong>
     <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">sobstel.org/hydropuzzle</a><br>
     Surreal mobile game for iOS/Android.
-    Can you solve the mystery?<br>
     Built with React Native.
     Downloaded 50k+ times.
     Rated 4.6 out of 500+ reviews.
@@ -70,24 +105,53 @@ Before:
   </a>
 </div>
 
+<div class="project">
+  <p class="project__info">
+    <strong>Golazon</strong>
+    <a href="https://golazon.com/" title="Golazon" target="_blank">www.golazon.com</a>,
+    <a href="https://github.com/sobstel/golazon/" target="_blank">source</a><br>
+    Football data mnmlist way. Serverless.
+    Built with Next.js, React, Ruby.
+    Powered by Zeit and AWS Lambda.
+  </p>
+  <a href="https://golazon.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/logo.svg" />
+  </a>
+</div>
+
+<div class="project">
+  <p class="project__info">
+    <strong>Albicelestes</strong>
+    <a href="https://albicelestes.com/" title="Albicelestes" target="_blank">www.albicelestes.com</a>,
+    <a href="https://github.com/sobstel/albicelestes/" target="_blank">source</a><br>
+    Ultimate La Selección Argentina Archive.
+    Built with Next.js, React, TypeScript, Ruby.
+    Powered by Zeit.
+  </p>
+  <a href="https://albicelestes.com/" class="project__icon" target="_blank">
+    <img src="/img/project-logos/albicelestes.png" />
+  </a>
+</div>
+
 Other:
-<a href="https://golazon.com/" target="_blank">Golazon</a>,
-<a href="https://albicelestes.com/" target="_blank">Albicelestes</a>,
 <a href="https://calmbook.now.sh/" target="_blank">Calmbook</a>,
-<a href="https://locals.now.sh/" target="_blank">Locals</a>.
+<a href="https://locals.now.sh/" target="_blank">Locals</a>
 
 ## OPEN SOURCE
 
 {% assign popular_repos = site.data.popular_repos | sort: 'stargazers_count' | reverse %}
-{% for repo in popular_repos %}<a href="{{ repo.html_url }}" title="{{ repo.description }}" target="_blank">{{ repo.name }}</a>, {% endfor %}
+{% for repo in popular_repos %}<a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a> - {{ repo.description }}<br>{% endfor %}
 [more &gt;](/open-source/)
 
-## FEATURES
+## LEAN MINDSET
 
-Taste for simplicity,
-preference for code deletion,
-humility,
-ability to ignore the hype
+Eliminate waste.
+Build quality in.
+Create knowledge.
+Defer commitment.
+Deliver fast.
+Respect people.
+Optimize the Whole.
 
 ## REMOTE
 
@@ -106,18 +170,18 @@ ability to ignore the hype
 
 ## TECH NOTES
 
-{% for post in site.posts limit:2 %}
-  <a href="{{ post.url }}">{{ post.title }}</a>,
+{% for post in site.posts limit:3 %}
+  <a href="{{ post.url }}">{{ post.title }}</a><br>
 {% endfor %}
-<a href="/blog/">blog archive &gt;</a>,
+<a href="/blog/">blog archive &gt;</a><br>
 <a href="/gists/">gists index &gt;</a>
 
 ## INTERESTS
 
-🏃 Trail running,
-🌞 Argentina,
-💻 Productivity hacks,
-⛰ Winter trekking
+🏃 Trail running<br>
+🌞 Argentina<br>
+💻 Productivity hacks<br>
+⛰ Winter trekking<br>
 
 ## CONTACT
 
