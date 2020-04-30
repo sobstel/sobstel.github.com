@@ -184,3 +184,10 @@ code {
 .post div.highlighter-rouge {
   margin-left: 2.5em;
 }
+
+@media screen and (max-width: 616px) {
+  div.project,
+  p {
+    margin-left: 0 !important;
+  }
+}
