@@ -113,12 +113,19 @@ code {
   }
 }
 
-.mp .synopsis {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+@media screen and (min-width: 616px) {
+  .mp .synopsis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 
+.mp .synopsis {
   .tagline {
+    margin-left: 4ex;
+  }
+  .icons {
     margin-left: 4ex;
   }
 }
