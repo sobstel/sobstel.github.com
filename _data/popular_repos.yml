@@ -1,16 +1,10 @@
 ---
-- name: golazon
-  full_name: sobstel/golazon
-  html_url: https://github.com/sobstel/golazon
-  description: football data mnmlist way
-  fork: false
-  stargazers_count: 25
 - name: metaphore
   full_name: sobstel/metaphore
   html_url: https://github.com/sobstel/metaphore
   description: Cache slam defense using a semaphore to prevent dogpile effect.
   fork: false
-  stargazers_count: 96
+  stargazers_count: 95
 - name: hydropuzzle
   full_name: sobstel/hydropuzzle
   html_url: https://github.com/sobstel/hydropuzzle

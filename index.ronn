@@ -119,22 +119,11 @@ Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
   </a>
 </div>
 
-<div class="project">
-  <p class="project__info">
-    <strong>Albicelestes</strong>
-    <a href="https://albicelestes.com/" title="Albicelestes" target="_blank">www.albicelestes.com</a>,
-    <a href="https://github.com/sobstel/albicelestes/" target="_blank">source</a><br>
-    Ultimate La Selección Argentina Archive.
-    Built with Next.js, React, TypeScript, Ruby.
-    Powered by Zeit.
-  </p>
-  <a href="https://albicelestes.com/" class="project__icon" target="_blank">
-    <img src="/img/project-logos/albicelestes.png" />
-  </a>
-</div>
-
 Other:
-<a href="https://calmbook.now.sh/" target="_blank">Calmbook</a>,
+<a href="https://albicelestes.com/" target="_blank">Albicelestes</a>
+(<a href="https://github.com/sobstel/albicelestes" target="_blank">source</a>),
+<a href="https://calmbook.now.sh/" target="_blank">Calmbook</a>
+(<a href="https://github.com/sobstel/calmbook" target="_blank">source</a>),
 <a href="https://locals.now.sh/" target="_blank">Locals</a>,
 <a href="https://github.com/sobstel/may05" target="_blank>May05</a>
 

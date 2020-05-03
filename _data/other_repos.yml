@@ -1,4 +1,10 @@
 ---
+- name: calmbook
+  full_name: sobstel/calmbook
+  html_url: https://github.com/sobstel/calmbook
+  description: Facebook pages without distractions
+  fork: false
+  stargazers_count: 3
 - name: may05
   full_name: sobstel/may05
   html_url: https://github.com/sobstel/may05
@@ -23,12 +29,6 @@
   description: 
   fork: false
   stargazers_count: 0
-- name: calmbook
-  full_name: sobstel/calmbook
-  html_url: https://github.com/sobstel/calmbook
-  description: Facebook pages without distractions
-  fork: false
-  stargazers_count: 3
 - name: dotfiles
   full_name: sobstel/dotfiles
   html_url: https://github.com/sobstel/dotfiles
