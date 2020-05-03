@@ -29,7 +29,9 @@ Przemek Sobstel
 
 Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
 
-## CURRENT
+[comment]: <> ## CURRENT
+
+## HISTORY
 
 <div class="project">
   <p class="project__info">
@@ -45,8 +47,6 @@ Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
     <img src="/img/project-logos/nabobil.png" />
   </a>
 </div>
-
-## HISTORY
 
 <div class="project">
   <p class="project__info">
