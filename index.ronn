@@ -29,7 +29,7 @@ Przemek Sobstel
 
 Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
 
-[comment]: <> ## CURRENT
+<!-- ## CURRENT -->
 
 ## HISTORY
 
