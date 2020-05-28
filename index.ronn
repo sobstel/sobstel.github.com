@@ -158,7 +158,7 @@ Optimize the Whole.
 
 ## TECH NOTES
 
-<a href="http://github.com/sobstel/playground/" target="_blank">playground</a><br>
+<a href="https://til.sobstel.org/" target="_blank">todayilearned</a><br>
 <a href="/blog/">blog archive</a> &gt;<br>
 <a href="/gists/">gists index</a> &gt;<br>
 

@@ -1,69 +1,39 @@
 #main quotes
-quotes: 
-    bruce_lee: 
-        - "Mistakes are always forgivable, if one has the courage to admit them"
-        - "If you spend too much time thinking about a thing, you'll never get it done"
-        - "A wise man can learn more from a foolish question than a fool can learn from a wise answer"
-    steve_jobs:
-        - "Design is not just what it looks like and feels like. Design is how it works"
-        - "Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations"
-        - "Innovation distinguishes between a leader and a follower"
-    abraham_lincoln:
-        - "Nearly all men can stand adversity, but if you want to test a man's character, give him power"
-        - "Whatever you are, be a good one"
-        - "Always bear in mind that your own resolution to succeed is more important than any other"
-    c_s_lewis: 
-        - "I have found a desire within myself that no experience in this world can satisfy; the most probable explanation is that I was made for another world"
-        - "Friendship is born at that moment when one person says to another: What! You too? I thought I was the only one"
-        - "You are never too old to set another goal or to dream a new dream"
-    thomas_edison:
-        - "I have not failed. I've just found 10,000 ways that won't work"
-        - "Many of life's failures are people who did not realize how close they were to success when they gave up"
-        - "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time"
-    eleanor_roosevelt:
-        - "No one can make you feel inferior without your consent"
-        - "Great minds discuss ideas; average minds discuss events; small minds discuss people"
-        - "The future belongs to those who believe in the beauty of their dreams"
-    mark_twain:
-        - "Don't go around saying the world owes you a living. The world owes you nothing. It was here first"
-        - "I have never let my schooling interfere with my education"
-        - "If you tell the truth, you don't have to remember anything"
-    albert_einstein:
-        - "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe"
-        - "The important thing is not to stop questioning. Curiosity has its own reason for existing"
-        - "Science without religion is lame, religion without science is blind"
-    winston_churchill:
-        - "Success consists of going from failure to failure without loss of enthusiasm"
-        - "If you're going through hell, keep going"
-        - "You have enemies? Good. That means you've stood up for something, sometime in your life"
-    walt_disney: 
-        - "All our dreams can come true, if we have the courage to pursue them"
-        - "It's kind of fun to do the impossible"
-        - "We keep moving forward, opening new doors, and doing new things, because we're curious and curiosity keeps leading us down new paths"
-    walt_whitman:
-        - "Nothing exterior to me will ever take command of me."
-    ralph_waldo_emerson:
-        - "Do not go where the path may lead, go instead where there is no path and leave a trail."
-        - "The task ahead of us is never as great as the power behind us."
-    aristotle:
-        - "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
-    frederick_douglas:
-        - "If there are no struggles, there is no progress."
-    alexander_the_great:
-        - "Nothing is impossible to him who will try."
-    sir_ken_robinson:
-        - "If you are not prepared to be wrong, you will not come up with anything original."
-    brian_kernighan:
-        - "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?"
-    tupac_shakur:
-        - "For every dark night there's a brighter day."
-    anon:
-        - "If you want to achieve greatness stop asking for permission."
-        - "To live a creative life, we must lose our fear of being wrong."
-        - "Trust because you are willing to accept the risk, not because it's safe or certain."
-        - "If you do what you always did, you will get what you always got."
-        - "Good things come to people who wait, but better things come to those who go out and get them."
-        - "The meaning of life is to find your gift. The purpose of life is to give it away."
-        - "You can do anything, but not everything."
-    wade_wilson:
-        - "Maximum effort"
+quotes:
+  robert_frost:
+    - "The best way out is always through."
+  bruce_lee:
+    - "Mistakes are always forgivable, if one has the courage to admit them"
+    - "If you spend too much time thinking about a thing, you'll never get it done"
+    - "A wise man can learn more from a foolish question than a fool can learn from a wise answer"
+  abraham_lincoln:
+    - "Whatever you are, be a good one"
+  c_s_lewis:
+    - "You are never too old to set another goal or to dream a new dream"
+  eleanor_roosevelt:
+    - "No one can make you feel inferior without your consent"
+    - "Great minds discuss ideas; average minds discuss events; small minds discuss people"
+    - "The future belongs to those who believe in the beauty of their dreams"
+  mark_twain:
+    - "Don't go around saying the world owes you a living. The world owes you nothing. It was here first"
+    - "If you tell the truth, you don't have to remember anything"
+  winston_churchill:
+    - "Success consists of going from failure to failure without loss of enthusiasm"
+    - "If you're going through hell, keep going"
+  walt_disney:
+    - "All our dreams can come true, if we have the courage to pursue them"
+    - "It's kind of fun to do the impossible"
+  walt_whitman:
+    - "Nothing exterior to me will ever take command of me."
+  frederick_douglas:
+    - "If there are no struggles, there is no progress."
+  sir_ken_robinson:
+    - "If you are not prepared to be wrong, you will not come up with anything original."
+  tupac_shakur:
+    - "For every dark night there's a brighter day."
+  anon:
+    - "To live a creative life, we must lose our fear of being wrong."
+    - "If you do what you always did, you will get what you always got."
+    - "Good things come to people who wait, but better things come to those who go out and get them."
+    - "The meaning of life is to find your gift. The purpose of life is to give it away."
+    - "You can do anything, but not everything."

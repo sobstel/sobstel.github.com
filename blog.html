@@ -16,7 +16,7 @@ title: Blog Archive
   <h1>Blog Archive</h1>
 <h2 id="TODAY-I-LEARNED-TIL-">TODAY I LEARNED (TIL)</h2>
 
-<p>This has been discontinued in favor of more free-form <a href="http://github.com/sobstel/playground/">playground</a>.</p>
+<p>This has been discontinued in favor of more free-form <a href="https://til.sobstel.org">til.sobstel.org</a>.</p>
 
 <p>{% assign til_posts = site.posts | limit:3 %}
 {% for post in til_posts %}
@@ -26,7 +26,7 @@ title: Blog Archive
 <h2 id="OLD-POSTS">OLD POSTS</h2>
 
 <p>{% assign old_posts = site.posts | offset:3 %}
-{% for post in old_posts  %}
+{% for post in old_posts %}
   <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
 {% endfor %}</p>
 
