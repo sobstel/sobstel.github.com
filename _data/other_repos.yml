@@ -5,18 +5,18 @@
   description: "¡Vamos Argentina! \U0001F1E6\U0001F1F7"
   fork: false
   stargazers_count: 1
-- name: calmbook
-  full_name: sobstel/calmbook
-  html_url: https://github.com/sobstel/calmbook
-  description: Facebook pages without distractions
-  fork: false
-  stargazers_count: 3
 - name: locals
   full_name: sobstel/locals
   html_url: https://github.com/sobstel/locals
   description: Order form for local stores grounded by COVID-19
   fork: false
   stargazers_count: 0
+- name: calmbook
+  full_name: sobstel/calmbook
+  html_url: https://github.com/sobstel/calmbook
+  description: Facebook pages without distractions
+  fork: false
+  stargazers_count: 3
 - name: jurathlon
   full_name: sobstel/jurathlon
   html_url: https://github.com/sobstel/jurathlon
