@@ -8,6 +8,7 @@ require 'time'
 require 'nokogiri'
 require 'filewatcher'
 require 'gemoji-parser'
+require 'dotenv/load'
 
 def save_data(name, object)
   file = "_data/#{name}.yml"
@@ -22,7 +23,7 @@ end
 
 def github_fetch(url)
   options = {
-    http_basic_authentication: %w[sobstel 486e5d6a8f22b65aac97f271262b7bec9a788979],
+    http_basic_authentication: ['sobstel', ENV['GITHUB_PAT']],
     ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE
   }
   open(url, options).read

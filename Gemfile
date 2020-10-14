@@ -14,4 +14,5 @@ group :development do
   gem 'ronn'
   gem 'filewatcher'
   gem 'gemoji-parser'
+  gem 'dotenv'
 end
