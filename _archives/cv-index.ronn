@@ -28,7 +28,7 @@
 
 Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
 
-## CURRENT
+## HISTORY
 
 <div class="project">
   <p class="project__info">
@@ -41,8 +41,6 @@ Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
     <img src="/img/project-logos/saxobank.jpg" />
   </a>
 </div>
-
-## HISTORY
 
 <div class="project">
   <p class="project__info">
@@ -181,10 +179,6 @@ Optimize the Whole.
 🌞 Argentina<br>
 💻 Productivity hacks<br>
 ⛰ Winter trekking<br>
-
-## TRIVIA
-
-I offset 1.1 tons of CO<sub>2</sub> each month by funding the <a href="https://projectwren.com/join/przemeksobstel" target="_blank">The Wren Climate Fund project</a>.
 
 ## CONTACT
 
