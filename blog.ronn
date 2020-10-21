@@ -2,7 +2,7 @@
 
 ## TODAY I LEARNED (TIL)
 
-This has been discontinued in favor of more free-form <a href="https://til.sobstel.org">til.sobstel.org</a> and <a href="https://www.notion.so/sobstel/TodayILearned-b80317b3c707442d8410e42ae61c4c3f">https://www.notion.so/sobstel/TodayILearned-b80317b3c707442d8410e42ae61c4c3f</a>.
+This has been discontinued in favor of more free-form <a href="https://www.notion.so/sobstel/TodayILearned-b80317b3c707442d8410e42ae61c4c3f">https://www.notion.so/sobstel/TodayILearned-b80317b3c707442d8410e42ae61c4c3f</a>.
 
 {% assign til_posts = site.posts | limit:3 %}
 {% for post in til_posts %}
