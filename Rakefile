@@ -48,10 +48,10 @@ def generate_ronn_page(file)
 end
 
 task :watch do
-  task(:generate_ronn_pages).execute
-  thread = Thread.new(Filewatcher.new(['*.ronn'])) do |fw|
-    fw.watch { |file| generate_ronn_page(file) }
-  end
+  # task(:generate_ronn_pages).execute
+  # thread = Thread.new(Filewatcher.new(['*.ronn'])) do |fw|
+  #   fw.watch { |file| generate_ronn_page(file) }
+  # end
   sh 'bundle exec jekyll serve'
   thread.join
 end

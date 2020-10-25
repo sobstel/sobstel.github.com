@@ -185,9 +185,14 @@ code {
   margin-left: 2.5em;
 }
 
+div.project,
+p {
+  margin-left: 0 !important;
+}
+
 @media screen and (max-width: 616px) {
-  div.project,
-  p {
-    margin-left: 0 !important;
+  #manpage {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
