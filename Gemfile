@@ -7,12 +7,8 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'feedzirra'
   gem 'json'
   gem 'nokogiri'
   gem 'rake'
-  gem 'ronn'
-  gem 'filewatcher'
-  gem 'gemoji-parser'
   gem 'dotenv'
 end

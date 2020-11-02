@@ -1,6 +1,0 @@
-{% assign repo = include.repo %}
-
-<a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
-{% if repo.description.size > 0 %}
-  - {{ repo.description }}
-{% endif %}

@@ -1,5 +1,0 @@
-Metrics/LineLength:
-  Max: 100
-
-Style/MultilineBlockChain:
-  Enabled: false
