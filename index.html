@@ -8,18 +8,18 @@
     <style>
       {% capture styles %}{% include normalize.scss %}{% endcapture %}{{ styles | scssify }}
       body, html { height: 100%; }
-      body { font-family: monospace; font-size: 1.15rem; line-height: 1.75rem; display: grid; margin: 1rem; background: #fff; color: #333 }
-      #container { margin: auto; }
+      body { font-family: monospace; font-size: 1.15rem; line-height: 1.75rem; display: grid; align-items: start; justify-content: center; margin: 1rem; background: #fff; color: #333 }
       h1 { font-size: 1.66rem}
       p { margin: 0; }
       a { color: #3072b3; }
       .del { text-decoration: line-through; }
+      .pronouncation { font-size: 0.75rem }
     </style>
     <link rel="shortcut icon" href="/favicon.jpg" />
   </head>
   <body>
     <div id="container">
-      <h1>sobstel</h1>
+      <h1 title="Przemek Sobstel">sobstel</h1>
       <p>
         <strong>/env/</strong> react ruby
       </p>
@@ -52,6 +52,12 @@
       </p>
       <p>
         <strong>/mail/</strong> przemek&#64;sobstel&#46;org
+      </p>
+      <p>
+        &nbsp;
+      </p>
+      <p class="pronouncation">
+        🗣 Przemek = <a href="https://www.pronouncenames.com/search?name=przemek"><em>p-sh-eh-m-eh-k</em></a>
       </p>
     </div>
   </body>
