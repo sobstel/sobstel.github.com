@@ -1,4 +1,4 @@
-# sobstel.org
+# sobstel.dev
 
 - development: `rake watch`
 - deploy/release/publish: `rake publish` or `rake publish["message"]`

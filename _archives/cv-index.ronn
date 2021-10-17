@@ -103,7 +103,7 @@ Ruby, Rails, React, React Native, TypeScript, JavaScript, Node
 <div class="project">
   <p class="project__info">
     <strong>Hydropuzzle</strong>
-    <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">sobstel.org/hydropuzzle</a><br>
+    <a href="/hydropuzzle/" title="Hydropuzzle" target="_blank">sobstel.dev/hydropuzzle</a><br>
     Surreal mobile game for iOS/Android.
     Built with React Native.
     Downloaded 50k+ times.
@@ -182,4 +182,4 @@ Optimize the Whole.
 
 ## CONTACT
 
-przemek@sobstel.org
+przemek@sobstel.dev

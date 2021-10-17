@@ -65,8 +65,8 @@ SOBSTEL is is an independent one-developer studio that prefers to provide a gent
 
 ### CONTACT
 
-mail: [przemek@sobstel.org](mailto:przemek@sobstel.org)<br>
-web: [www.sobstel.org](//www.sobstel.org/) <br>
+mail: [przemek@sobstel.dev](mailto:przemek@sobstel.dev)<br>
+web: [www.sobstel.dev](//www.sobstel.dev/) <br>
 medium: [@sobstel](//medium.com/@sobstel)<br>
 twitter: [@sobstel](//twitter.com/sobstel)<br>
 instagram: [@sobsteldev](//www.instagram.com/sobsteldev/)<br>

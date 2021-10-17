@@ -8,7 +8,7 @@ title: Hydropuzzle Privacy Policy
 
 ## PRIVACY POLICY
 
-*This policy effective October 7, 2018*
+_This policy effective October 7, 2018_
 
 I'm committed to protecting your privacy and collecting only the minimum amount
 of info needed to provide my software and services — referred to as “Services”.
@@ -31,4 +31,4 @@ to you, so you’re encouraged to review the policy from time to time.
 
 ### Contact
 
-You can contact me at przemek@sobstel.org if you have any questions about this policy.
+You can contact me at przemek@sobstel.dev if you have any questions about this policy.

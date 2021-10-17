@@ -1,4 +1,4 @@
-# sobstel.org -- Przemek Sobstel (przemek@sobstel.org)
+# sobstel.dev -- Przemek Sobstel (przemek@sobstel.dev)
 
 ## SYNOPSIS
 
