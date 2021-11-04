@@ -27,7 +27,7 @@ title: Hydropuzzle reviews
 
 ### APP STORE
 
-★★★★★ 473<br>
+★★★★★ 481<br>
 ★★★★ 64<br>
 ★★★ 31<br>
 ★★ 12<br>
@@ -62,9 +62,6 @@ _I loved this little experience. I had to come at each chapter from different an
 _I’ve never seen a game like this before. It is short and very challenging. But was really fun to play and had a clever story._
 <br><small>(Fishbowl z)</small>
 
-_Super short but nice. Endearing little puzzle game. I never got really stuck on puzzles, though I almost did on the railway crossing. Note that some puzzles require looking things up. I imagine many people would be upset with paying for such a short game, but if you've got money to spare, I for one enjoyed it._
-<br><small>(OsthatoAlfakyn)</small>
-
 _Awesomeness for geeks. Challenge the nerd in you and geek out! Surprising and actually challenging._
 <br><small>(Pinky6677)</small>
 
@@ -79,6 +76,8 @@ _If you are looking for something that's unique and not like everything else on 
 
 _I love Hydropuzzle but man it makes me feel stupid!_
 <br><small>(Robert Megone)</small>
+
+_A jaw-dropping good time. This game is SO GOOD! Literally the only thing I want is a lengthier game._<br><small>(anonymity inc)</small>
 
 ### BAD REVIEWS
 
