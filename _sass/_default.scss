@@ -196,3 +196,7 @@ p {
     padding-right: 1rem;
   }
 }
+
+a[target="_blank"]::after {
+  content: '➚';
+}
