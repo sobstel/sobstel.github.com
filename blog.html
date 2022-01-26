@@ -1,24 +1,13 @@
 ---
 layout: default
-title: Blog Archive
+title: Posts
 ---
 
 <div class="mp" id="man">
-  <h1>Blog Archive</h1>
-  <h2 id="TODAY-I-LEARNED-TIL-">TODAY I LEARNED (TIL)</h2>
-
+  <h1>Posts</h1>
   <p>
-    {% for post in site.posts limit:3 %}
-      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
-    {% endfor %}
-  </p>
-
-  <p>Discontinued in favor of more free-form <a href="https://sobstel.notion.site/TodayILearned-b80317b3c707442d8410e42ae61c4c3f">sobstel.notion.site/TodayILearned-b80317b3c707442d8410e42ae61c4c3f</a>.</p>
-
-  <h2 id="OLD-POSTS">OLD POSTS</h2>
-
-  <p>
-    {% for post in site.posts offset:3 %}
+    <a href="https://sobstel.notion.site/TodayILearned-b80317b3c707442d8410e42ae61c4c3f" target="_blank">TIL: 2020-2021</a><br/>
+    {% for post in site.posts %}
       <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
     {% endfor %}
   </p>
