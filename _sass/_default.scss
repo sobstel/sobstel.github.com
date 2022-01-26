@@ -21,7 +21,9 @@ body,
 }
 
 .mp a,
+.mp a:hover,
 .mp a:link,
+.mp a:visited,
 .mp a code,
 .mp a pre,
 .mp a tt,
@@ -29,8 +31,11 @@ body,
 .mp a samp {
   color: $link-color;
 }
+.mp a {
+  text-decoration: none;
+}
 .mp a:hover {
-  color: darken($link-color, 12%);
+  text-decoration: underline;
 }
 
 .mp > p,
@@ -197,6 +202,8 @@ p {
   }
 }
 
-a[target="_blank"]::after {
-  content: '➚';
+a[target="_blank"] {
+  background: url(/img/external.svg) center right no-repeat;
+  background-size: 10px;
+  padding-right: 13px;
 }
