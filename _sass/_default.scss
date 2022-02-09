@@ -15,6 +15,7 @@ body,
   font: 400 16px/1.5 "Inconsolata", monospace;
 }
 .mp h3 {
+  font-size: 1.17em;
   font-weight: bold;
   margin-left: 0;
   margin-bottom: 20px;
@@ -184,10 +185,6 @@ code {
     width: 130px;
     height: 130px;
   }
-}
-
-.post div.highlighter-rouge {
-  margin-left: 2.5em;
 }
 
 div.project,
