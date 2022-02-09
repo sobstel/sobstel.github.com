@@ -6,7 +6,6 @@ title: Posts by Przemek Sobstel
 <div class="mp" id="man">
   <h1><a href="/">Przemek Sobstel</a> &gt; Posts</h1>
   <p>
-    <a href="https://sobstel.notion.site/TodayILearned-b80317b3c707442d8410e42ae61c4c3f" target="_blank">TIL: 2020-2021</a><br/>
     {% for post in site.posts %}
       <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />
     {% endfor %}
