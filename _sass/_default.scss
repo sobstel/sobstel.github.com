@@ -189,7 +189,11 @@ code {
 
 .home p {
   max-width: 64ex;
-  margin: 0 0 0.25rem 0;
+  margin: 0;
+
+  strong {
+    font-size: 1.17rem;
+  }
 }
 
 div.project,
