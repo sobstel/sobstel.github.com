@@ -187,12 +187,19 @@ code {
   }
 }
 
-.home p {
-  max-width: 64ex;
-  margin: 0;
+.home {
+  max-width: 48ex;
+  margin: 1em auto;
 
-  strong {
-    font-size: 1.17rem;
+  p {
+    display: flex;
+    flex-direction: row;
+
+    strong {
+      width: 8ex;
+      text-align: right;
+      margin-right: 0.75rem;
+    }
   }
 }
 
