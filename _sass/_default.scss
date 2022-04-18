@@ -196,9 +196,14 @@ code {
     flex-direction: row;
 
     strong {
-      width: 8ex;
+      width: 8rem;
       text-align: right;
       margin-right: 0.75rem;
+    }
+
+    &.header {
+      font-weight: bold;
+      font-size: 1.17rem;
     }
   }
 }
