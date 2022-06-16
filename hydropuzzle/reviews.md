@@ -36,8 +36,6 @@ title: Hydropuzzle reviews
 No 6 Top Games/Adventure & No 18 Top Paid Games<br>
 <small>in Nov 2017 at App Store PL</small>
 
-[App Store (United States) reviews](https://apps.apple.com/us/app/hydropuzzle/id1294812505#see-all/reviews)
-
 ### GOOD REVIEWS
 
 _Great story, gameplay, and one of the hardest in the genre. Less is more on this one. Quality over quantity._
@@ -100,4 +98,4 @@ _Meeeh. It was way too complicated without hints or options to solve. Finally wh
 <br><small>(Dario3267)</small>
 
 _Boring story and the puzzles made no sense._
-<br><small>Worse than TV</small>
+<br><small>(Worse than TV)</small>
