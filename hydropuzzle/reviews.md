@@ -27,11 +27,11 @@ title: Hydropuzzle reviews
 
 ### APP STORE
 
-★★★★★ 481<br>
-★★★★ 64<br>
-★★★ 31<br>
+★★★★★ 483<br>
+★★★★ 65<br>
+★★★ 32<br>
 ★★ 12<br>
-★ 21<br>
+★ 22<br>
 
 No 6 Top Games/Adventure & No 18 Top Paid Games<br>
 <small>in Nov 2017 at App Store PL</small>
@@ -98,3 +98,6 @@ _What was that? Easy to solve game. I had it in like 30mins. I was really enjoyi
 
 _Meeeh. It was way too complicated without hints or options to solve. Finally when you start to get how it works... the game ends!_
 <br><small>(Dario3267)</small>
+
+_Boring story and the puzzles made no sense._
+<br><small>Worse than TV</small>
