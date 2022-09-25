@@ -119,7 +119,7 @@ code {
   }
 }
 
-@media screen and (min-width: 616px) {
+@media screen and (min-width: 680px) {
   .mp .synopsis {
     display: flex;
     align-items: center;
@@ -160,7 +160,7 @@ code {
       margin: 0;
     }
 
-    @media screen and (max-width: 616px) {
+    @media screen and (max-width: 680px) {
       display: none;
     }
   }
@@ -188,7 +188,7 @@ code {
 }
 
 .home {
-  max-width: 48ex;
+  max-width: 64ex;
   margin: 1em auto;
 
   p {
@@ -205,6 +205,14 @@ code {
       font-weight: bold;
       font-size: 1.17rem;
     }
+
+    .gistlink {
+      //display: inline-flex;
+      //overflow: hidden;
+      //max-width: 32ex;
+      //text-overflow: ellipsis;
+      //white-space: nowrap;
+    }
   }
 }
 
@@ -213,7 +221,7 @@ p {
   margin-left: 0 !important;
 }
 
-@media screen and (max-width: 616px) {
+@media screen and (max-width: 680px) {
   #manpage {
     padding-left: 1rem;
     padding-right: 1rem;

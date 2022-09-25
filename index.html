@@ -11,17 +11,15 @@ title: Przemek Sobstel
         sobstel
       </span>
     </p>
-    {% comment %}
     <p>
       <strong>/env/</strong>
       <span>
-        react<br>
-        typescript<br>
-        ruby<br>
-        rails<br>
+        react
+        typescript
+        ruby
+        rails
       </span>
     </p>
-    {% endcomment %}
     {% comment %}
     <p>
       <strong>/dev/</strong>
@@ -52,9 +50,9 @@ title: Przemek Sobstel
     <p>
       <strong>/priv/</strong>
       <span>
-        <a href="/hydropuzzle/" target="_blank">hydropuzzle</a><br>
-        <a href="https://golazon.com/" target="_blank">golazon</a><br>
-        <a href="https://albicelestes.com/" target="_blank">albicelestes</a><br>
+        <a href="/hydropuzzle/" target="_blank">hydropuzzle</a>
+        <a href="https://golazon.com/" target="_blank">golazon</a>
+        <a href="https://albicelestes.com/" target="_blank">albicelestes</a>
       </span>
     </p>
     {% comment %}
@@ -67,6 +65,15 @@ title: Przemek Sobstel
       </span>
     </p>
     {% endcomment %}
+    <p>
+      <strong>/text/</strong>
+      <span>
+        {% for gist in site.data.gists | limit: 7 %}
+          <a href="{{ gist.url }}" target="_blank" class="gistlink">{{ gist.title }}</a><br />
+        {% endfor %}
+        <a href="/gists/">more gists...</a>
+      </span>
+    </p>
     <p>
       <strong>/opt/</strong>
       <span>
