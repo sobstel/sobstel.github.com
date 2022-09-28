@@ -44,10 +44,7 @@ body,
 .mp > ul,
 .mp > ol,
 .mp > dl {
-  margin-left: 4ex;
-}
-.mp dt.flush {
-  width: 4ex;
+  margin-left: 0;
 }
 .post > p,
 .post > pre,
@@ -136,91 +133,6 @@ code {
   }
 }
 
-.mp .project {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 4ex;
-  margin-bottom: 20px;
-
-  &__icon {
-    display: inline-block;
-    margin-left: 3ex;
-    filter: grayscale(55%);
-
-    &:hover {
-      filter: grayscale(11%);
-    }
-
-    img {
-      display: inline-block;
-      width: 52px;
-      height: 52px;
-      border-radius: 26px;
-      margin: 0;
-    }
-
-    @media screen and (max-width: 680px) {
-      display: none;
-    }
-  }
-
-  &__info {
-    margin-bottom: 0;
-  }
-}
-
-.mp .insta {
-  display: inline-block;
-  margin-right: 4px;
-  text-decoration: none;
-  filter: grayscale(77%);
-
-  &:hover {
-    filter: grayscale(22%);
-  }
-
-  img {
-    display: inline-block;
-    width: 130px;
-    height: 130px;
-  }
-}
-
-.home {
-  max-width: 64ex;
-  margin: 1em auto;
-
-  p {
-    display: flex;
-    flex-direction: row;
-
-    strong {
-      width: 3rem;
-      text-align: right;
-      margin-right: 0.75rem;
-    }
-
-    &.header {
-      font-weight: bold;
-      font-size: 1.17rem;
-    }
-
-    .gistlink {
-      //display: inline-flex;
-      //overflow: hidden;
-      //max-width: 32ex;
-      //text-overflow: ellipsis;
-      //white-space: nowrap;
-    }
-  }
-}
-
-div.project,
-p {
-  margin-left: 0 !important;
-}
-
 @media screen and (max-width: 680px) {
   #manpage {
     padding-left: 1rem;
@@ -228,8 +140,4 @@ p {
   }
 }
 
-a[target="_blank"] {
-  background: url(/img/external.svg) center right no-repeat;
-  background-size: 10px;
-  padding-right: 13px;
-}
+@import "common";

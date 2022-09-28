@@ -1,90 +1,71 @@
 ---
-layout: default
+layout: mnmlst
 title: Przemek Sobstel
+bodyclass: home
 ---
 
-<div class="mp" id="man">
-  <div class="home">
-    <p class="header">
-      <strong>~/</strong>
-      <span>
+<section>
+  <dl>
+    <dt class="header">~/</dt>
+    <dd class="header">
+      <abbr title="Przemek Sobstel">
         sobstel
-      </span>
-    </p>
-    <p>
-      <strong>/env/</strong>
-      <span>
-        react
-        typescript
-        ruby
-        rails
-      </span>
-    </p>
-    {% comment %}
-    <p>
-      <strong>/dev/</strong>
-      <span>
-        <a href="//www.home.saxo/" target="_blank">saxotrader</a> (2020-now)<br>
-        <a href="//no.getaround.com" target="_blank">getaround/nabobil</a> (2018-2020)<br>
-        <a href="//www.appjobs.com" target="_blank">appjobs</a> (2017-2018)<br>
-        <a href="//www.protipster.com" target="_blank">protipster</a> (2014-2016)<br>
-        <a href="//www.statsperform.com/opta-feeds/" target="_blank">opta data feeds</a> (2010-2014)<br>
-        <a href="//www.soccerway.com/" target="_blank">soccerway</a> (2010-2012)
-      </span>
-    </p>
-    {% endcomment %}
-    <p>
-      <strong>/code/</strong>
-      <span>
-        <a href="https://github.com/sobstel/" target="_blank">github.com/sobstel</a>
-      </span>
-    </p>
-    {% comment %}
-    <p>
-      <strong>/work/</strong>
-      <span>
+      </abbr>
+    </dd>
+    <dt>/env/</dt>
+    <dd>
+      react typescript ruby rails
+    </dd>
+    <dt>/dev/</dt>
+    <dd>
+      <a href="https://github.com/sobstel/" target="_blank">github.com/sobstel</a>
+    </dd>
+    <dt>/proj/</dt>
+    <dd>
+      <a href="//www.home.saxo/" target="_blank">saxo</a>
+      <a href="//no.getaround.com" target="_blank">getaround</a>
+      <a href="//www.appjobs.com" target="_blank">appjobs</a>
+      <a href="//www.protipster.com" target="_blank">protipster</a>
+      <a href="//www.statsperform.com/opta-feeds/" target="_blank">opta</a>
+      <a href="//www.soccerway.com/" target="_blank">soccerway</a>
+    </dd>
+    <dt>/priv/</dt>
+    <dd>
+      <a href="/hydropuzzle/" target="_blank">hydropuzzle</a>
+      <a href="https://golazon.com/" target="_blank">golazon</a>
+      <a href="https://albicelestes.com/" target="_blank">albicelestes</a>
+    </dd>
+    <dt>/text/</dt>
+    <dd>
+      {% for gist in site.data.gists limit:6 %}
+        <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a><br />
+      {% endfor %}
+      <a href="/gists/">more gists...</a>
+    </dd>
+    <dt>/var/</dt>
+    <dd>
+      <a href="https://twitter.com/sobstel" target="_blank">@sobstel</a>
+    </dd>
+    <dt>/opt/</dt>
+    <dd>
+      ⛰🏃🇦🇷⚽🧉🐕🎲
+    </dd>
+    <dt>/mail/</dt>
+    <dd>
+      hello&#64;sobstel&#46;dev
+    </dd>
+  </dl>
+</section>
+
+{% comment %}
+<p>
+  <strong>/dev/</strong>
+
+</p>
+<p>
+  <strong>/work/</strong>
+  <span>
         <a href="https://www.linkedin.com/in/sobstel/" target="_blank">linkedin</a>
       </span>
-    </p>
-    {% endcomment %}
-    <p>
-      <strong>/priv/</strong>
-      <span>
-        <a href="/hydropuzzle/" target="_blank">hydropuzzle</a>
-        <a href="https://golazon.com/" target="_blank">golazon</a>
-        <a href="https://albicelestes.com/" target="_blank">albicelestes</a>
-      </span>
-    </p>
-    {% comment %}
-    <p>
-      <strong>/txt/</strong>
-      <span>
-        <a href="/blog/">posts</a><br>
-        <a href="/gists/">gists</a><br>
-        <a href="https://twitter.com/sobstel" target="_blank">twitter</a>
-      </span>
-    </p>
-    {% endcomment %}
-    <p>
-      <strong>/text/</strong>
-      <span>
-        {% for gist in site.data.gists | limit: 7 %}
-          <a href="{{ gist.url }}" target="_blank" class="gistlink">{{ gist.title }}</a><br />
-        {% endfor %}
-        <a href="/gists/">more gists...</a>
-      </span>
-    </p>
-    <p>
-      <strong>/opt/</strong>
-      <span>
-        ⛰🏃🇦🇷⚽🧉🐕🎲<br>
-      </span>
-    </p>
-    <p>
-      <strong>/mail/</strong>
-      <span>
-        hello&#64;sobstel&#46;dev
-      </span>
-    </p>
-  </div>
-</div>
+</p>
+{% endcomment %}

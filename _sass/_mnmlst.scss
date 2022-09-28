@@ -1,0 +1,46 @@
+@import "normalize";
+@import "common";
+
+$link-color: #3072b3;
+
+body {
+  margin: 1rem auto;
+  padding: 0 1rem;
+  max-width: 64ch;
+  font: 400 16px/1.5 "Inconsolata", monospace;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+.home {
+  dl {
+    display: grid;
+    grid-template-columns: min-content auto;
+
+    .header {
+      font-weight: 700;
+      font-size: 1.17rem;
+    }
+  }
+  dt {
+    grid-column: 1;
+    text-align: right;
+    font-weight: 700;
+  }
+  dd {
+    grid-column: 2;
+    margin-left: 1ch;
+    margin-bottom: 1rem;
+  }
+}

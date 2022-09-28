@@ -1,13 +1,12 @@
 ---
-layout: default
-title: Gists by Przemek Sobstel
+layout: legacy
+title: Gists (sobstel)
 ---
 
 <div class="mp" id="man">
-  <h1>~/<a href="/" title="Przemek Sobstel">sobstel</a>/Gists</h1>
   <p>
     {% for gist in site.data.gists %}
-      <a href="{{ gist.url }}">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br />
+      <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a> ({{ gist.date | date: "%b %Y" }})<br />
     {% endfor %}
   </p>
 </div>

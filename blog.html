@@ -1,10 +1,9 @@
 ---
-layout: default
-title: Posts by Przemek Sobstel
+layout: legacy
+title: Blog archive (sobstel)
 ---
 
 <div class="mp" id="man">
-  <h1>~/<a href="/" title="Przemek Sobstel">sobstel</a>/Posts</h1>
   <p>
     {% for post in site.posts %}
       <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %Y" }})<br />

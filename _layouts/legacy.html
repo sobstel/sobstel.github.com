@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }}</title>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" />
+  <style>
+    {% capture styles %}{% include legacy.scss %}{% endcapture %}{{ styles | scssify }}
+  </style>
+  <link rel="shortcut icon" href="/favicon.jpg" />
+</head>
+<body id="manpage">
+<div class="mp post" id="man">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+
+  <ol class="man-decor man-foot man foot">
+    <li class="tl">
+      by <a href="/">sobstel</a>
+      {% if page.date %}
+        &#8226; {{ page.date | date: "%B %Y" }}
+      {% endif %}
+    </li>
+    <li class="tc"></li>
+    <li class="tr"></li>
+  </ol>
+</div>
+</body>
+</html>
+
+
+
