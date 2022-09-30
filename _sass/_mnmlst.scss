@@ -24,6 +24,8 @@ abbr[title] {
 }
 
 .home {
+  text-transform: lowercase;
+
   dl {
     display: grid;
     grid-template-columns: min-content auto;
