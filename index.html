@@ -35,12 +35,11 @@ bodyclass: home
       <a href="https://golazon.com/" target="_blank">golazon</a>
       <a href="https://albicelestes.com/" target="_blank">albicelestes</a>
     </dd>
-    <dt>/text/</dt>
+    <dt>/<a href="/gists/">text</a>/</dt>
     <dd>
       {% for gist in site.data.gists limit:6 %}
         <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a><br />
       {% endfor %}
-      <a href="/gists/">more gists...</a>
     </dd>
     <dt>/var/</dt>
     <dd>
