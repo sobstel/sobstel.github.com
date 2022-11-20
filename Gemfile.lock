@@ -50,6 +50,8 @@ GEM
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     ffi (1.15.5)
+    filewatcher (2.1.0)
+      module_methods (~> 0.1.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (225)
@@ -233,6 +235,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
+    module_methods (0.1.0)
     multipart-post (2.1.1)
     nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
@@ -281,6 +284,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  filewatcher
   github-pages
   jekyll-redirect-from
   json
@@ -288,4 +292,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   2.0.2
+   2.1.4

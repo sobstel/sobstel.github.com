@@ -7,6 +7,7 @@ group :jekyll_plugins do
 end
 
 group :development do
+  gem 'filewatcher'
   gem 'json'
   gem 'nokogiri'
   gem 'rake'
