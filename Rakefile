@@ -25,7 +25,7 @@ def github_fetch(url)
     http_basic_authentication: ['sobstel', ENV['GITHUB_PAT']],
     ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE
   }
-  open(url, options).read
+  URI.open(url, options).read
 end
 
 desc 'Dev/watch'
