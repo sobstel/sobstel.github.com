@@ -52,7 +52,7 @@ task :import_gists do
   gists = load_data('gists')
   since = gists.first['date'].to_s
 
-  url = format('https://api.github.com/users/%s/gists?since=%s', 'sobstel', URI.encode(since))
+  url = format('https://api.github.com/users/%s/gists?since=%s', 'sobstel', since)
   puts "fetch from #{url}"
 
   new_gists = JSON.parse(github_fetch(url)).select do |gist|
