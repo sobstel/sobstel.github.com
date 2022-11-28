@@ -41,11 +41,15 @@ bodyclass: home
       trail running event at jura (pl)
     </dd>
 
-    <dt>/<a href="/gists/">text</a>/</dt>
+    <dt>/text/</dt>
     <dd>
-      {% for gist in site.data.gists limit:6 %}
+      {% assign top_gists_num = 7 %}
+      {% for gist in site.data.gists limit:top_gists_num %}
         <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a><br />
       {% endfor %}
+      <small>
+        <a href="/gists/" title="gists">{{ site.data.gists.size | minus: top_gists_num }} gists more</a> and <a href="/blog/">blog archive</a>
+      </small>
     </dd>
     <dt>/var/</dt>
     <dd>
