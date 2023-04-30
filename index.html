@@ -6,19 +6,21 @@ bodyclass: home
 
 <section>
   <dl>
+    {% comment %}
     <dt class="header">~/</dt>
     <dd class="header">
       <abbr title="Przemek Sobstel">
         sobstel
       </abbr>
     </dd>
-    <dt>/dev/</dt>
-    <dd>
-      <a href="https://github.com/sobstel/" target="_blank">github.com/sobstel</a>
+    {% endcomment %}
+    {% comment %}<dt>/dev/</dt>{% endcomment %}
+    <dd style="text-align: center">
+      <strong>dev:</strong> <a href="https://github.com/sobstel/">github.com/sobstel</a>
     </dd>
-    <dt>/cv/</dt>
-    <dd>
-      <a href="https://read.cv/sobstel" target="_blank">read.cv/sobstel</a>
+    {% comment %}<dt>/dev/</dt>{% endcomment %}
+    <dd style="text-align: center">
+      <strong>cv:</strong> <a href="https://read.cv/sobstel">read.cv/sobstel</a>
     </dd>
     {% comment %}
     <dt>/env/</dt>
@@ -67,8 +69,8 @@ bodyclass: home
       ⛰🏃🇦🇷⚽🧉🐕🎲
     </dd>
     {% endcomment %}
-    <dt>/mail/</dt>
-    <dd>
+    {% comment %}<dt>/dev/</dt>{% endcomment %}
+    <dd style="text-align: center">
       przemek&#64;sobstel&#46;dev
     </dd>
   </dl>
