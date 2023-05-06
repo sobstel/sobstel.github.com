@@ -1,0 +1,78 @@
+---
+layout: mnmlst
+title: Przemek Sobstel
+bodyclass: home
+---
+
+<section>
+  <dl style="margin-bottom: 2rem">
+    {% comment %}
+    <dt class="header">~/</dt>
+    <dd class="header">
+      <abbr title="Przemek Sobstel">
+        sobstel
+      </abbr>
+    </dd>
+    {% endcomment %}
+    {% comment %}<dt>/dev/</dt>{% endcomment %}
+    <dd style="text-align: center">
+      [<a href="https://github.com/sobstel/" target="_blank">github.com/sobstel</a>]
+    </dd>
+    {% comment %}<dt>/dev/</dt>{% endcomment %}
+    <dd style="text-align: center">
+      [<a href="https://read.cv/sobstel" target="_blank">read.cv/sobstel</a>]
+    </dd>
+    {% comment %}
+    <dt>/env/</dt>
+    <dd>
+      react typescript ruby rails
+    </dd>
+    <dt>/work/</dt>
+    <dd>
+      now: <a href="//www.home.saxo/" target="_blank">saxo</a>,
+      before:
+      <a href="//no.getaround.com" target="_blank">getaround</a>
+      <a href="//www.appjobs.com" target="_blank">appjobs</a>
+      <a href="//www.protipster.com" target="_blank">protipster</a>
+      <a href="//www.statsperform.com/opta-feeds/" target="_blank">opta&nbsp;data&nbsp;feeds</a>
+      <a href="//www.soccerway.com/" target="_blank">soccerway</a>
+    </dd>
+    <dt>/priv/</dt>
+    <dd>
+      <a href="/hydropuzzle/" target="_blank">hydropuzzle</a>
+      surreal tech adventure for ios and android, 60k+&nbsp;downloads, built with react native
+    </dd>
+    <dd>
+      <a href="https://golazon.com/" target="_blank">golazon</a>
+      football scores and tables mnmlst way,<br /> built with next.js and ruby
+    </dd>
+    <dd>
+      <a href="https://albicelestes.com/" target="_blank">albicelestes</a>
+      argentina football national team archive. built with remix
+    </dd>
+    <dd>
+      <a href="https://www.jurathlon.pl/" target="_blank">jurathlon</a>
+      trail running event at jura (pl)
+    </dd>
+    <dt>/text/</dt>
+    <dd>
+      {% assign top_gists_num = 7 %}
+      {% for gist in site.data.gists limit:top_gists_num %}
+        <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a><br />
+      {% endfor %}
+      <small>
+        <a href="/gists/" title="gists">{{ site.data.gists.size | minus: top_gists_num }} gists more</a> and <a href="/blog/">blog archive</a>
+      </small>
+    </dd>
+    <dt>/opt/</dt>
+    <dd>
+      ⛰🏃🇦🇷⚽🧉🐕🎲
+    </dd>
+    {% endcomment %}
+    {% comment %}<dt>/dev/</dt>{% endcomment %}
+    <dd style="text-align: center">
+      przemek&#64;sobstel&#46;dev
+    </dd>
+  </dl>
+</section>
+

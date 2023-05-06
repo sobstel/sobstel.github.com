@@ -4,75 +4,84 @@ title: Przemek Sobstel
 bodyclass: home
 ---
 
-<section>
-  <dl style="margin-bottom: 2rem">
-    {% comment %}
-    <dt class="header">~/</dt>
-    <dd class="header">
-      <abbr title="Przemek Sobstel">
-        sobstel
-      </abbr>
-    </dd>
-    {% endcomment %}
-    {% comment %}<dt>/dev/</dt>{% endcomment %}
-    <dd style="text-align: center">
-      [<a href="https://github.com/sobstel/" target="_blank">github.com/sobstel</a>]
-    </dd>
-    {% comment %}<dt>/dev/</dt>{% endcomment %}
-    <dd style="text-align: center">
-      [<a href="https://read.cv/sobstel" target="_blank">read.cv/sobstel</a>]
-    </dd>
-    {% comment %}
-    <dt>/env/</dt>
-    <dd>
-      react typescript ruby rails
-    </dd>
-    <dt>/work/</dt>
-    <dd>
-      now: <a href="//www.home.saxo/" target="_blank">saxo</a>,
-      before:
-      <a href="//no.getaround.com" target="_blank">getaround</a>
-      <a href="//www.appjobs.com" target="_blank">appjobs</a>
-      <a href="//www.protipster.com" target="_blank">protipster</a>
-      <a href="//www.statsperform.com/opta-feeds/" target="_blank">opta&nbsp;data&nbsp;feeds</a>
-      <a href="//www.soccerway.com/" target="_blank">soccerway</a>
-    </dd>
-    <dt>/priv/</dt>
-    <dd>
-      <a href="/hydropuzzle/" target="_blank">hydropuzzle</a>
-      surreal tech adventure for ios and android, 60k+&nbsp;downloads, built with react native
-    </dd>
-    <dd>
-      <a href="https://golazon.com/" target="_blank">golazon</a>
-      football scores and tables mnmlst way,<br /> built with next.js and ruby
-    </dd>
-    <dd>
-      <a href="https://albicelestes.com/" target="_blank">albicelestes</a>
-      argentina football national team archive. built with remix
-    </dd>
-    <dd>
-      <a href="https://www.jurathlon.pl/" target="_blank">jurathlon</a>
-      trail running event at jura (pl)
-    </dd>
-    <dt>/text/</dt>
-    <dd>
-      {% assign top_gists_num = 7 %}
-      {% for gist in site.data.gists limit:top_gists_num %}
-        <a href="{{ gist.url }}" target="_blank">{{ gist.title }}</a><br />
-      {% endfor %}
-      <small>
-        <a href="/gists/" title="gists">{{ site.data.gists.size | minus: top_gists_num }} gists more</a> and <a href="/blog/">blog archive</a>
-      </small>
-    </dd>
-    <dt>/opt/</dt>
-    <dd>
-      ⛰🏃🇦🇷⚽🧉🐕🎲
-    </dd>
-    {% endcomment %}
-    {% comment %}<dt>/dev/</dt>{% endcomment %}
-    <dd style="text-align: center">
-      przemek&#64;sobstel&#46;dev
-    </dd>
-  </dl>
-</section>
+<div class="front-container">
+    <ul class="front">
+        <li class="front__item">
+            <a class="front__item-content" href="https://read.cv/sobstel">read.cv/sobstel</a>
+        </li>
+        <li class="front__item">
+            <a class="front__item-content" href="https://github.com/sobstel">github.com/sobstel</a>
+        </li>
+        <li class="front__item">
+            <a class="front__item-content" href="mailto:przemek@sobstel.dev">przemek@sobstel.dev</a>
+        </li>
+    </ul>
+</div>
+
+<style>
+    .front-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .front {
+        padding: 0;
+        list-style: none;
+    }
+    .front__item {
+        margin: 0;
+    }
+    .front__item-content {
+        font-weight: bold;
+        text-decoration: underline;
+        letter-spacing: 1px;
+    }
+    .cursor {
+        color: #3072b3;
+    }
+</style>
+
+<script type="application/javascript">
+  (function () {
+    var items = document.querySelectorAll('.front .front__item-content');
+    var values = [];
+    for (var i = 0, count = items.length; i < count; i++) {
+      values[i] = items[i].innerText;
+      items[i].innerText = '';
+    }
+
+    function typeChar(rowIndex, charIndex) {
+      items[rowIndex].innerText += values[rowIndex].charAt(charIndex);
+
+      var nextCharIndex = charIndex + 1;
+      var nextRowIndex = rowIndex;
+
+      if (nextCharIndex > values[rowIndex].length) {
+        nextCharIndex = 0;
+        nextRowIndex = rowIndex + 1;
+        document.querySelector('.cursor').remove();
+        items[rowIndex].setAttribute('target', '_blank');
+      }
+
+      if (nextRowIndex >= values.length) {
+        return;
+      }
+
+      if (nextRowIndex > rowIndex || (rowIndex === 0 && charIndex === 0)) {
+        var cursor = document.querySelector('.cursor');
+        if (cursor) {
+            cursor.remove();
+        }
+        items[nextRowIndex].insertAdjacentHTML('afterend', '<span class="cursor">█</span>');
+      }
+
+      setTimeout(function() { typeChar(nextRowIndex, nextCharIndex); }, 80);
+    }
+
+    typeChar(0, 0);
+  })();
+</script>
 
