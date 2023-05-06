@@ -63,7 +63,10 @@ bodyclass: home
         nextCharIndex = 0;
         nextRowIndex = rowIndex + 1;
         document.querySelector('.cursor').remove();
-        items[rowIndex].setAttribute('target', '_blank');
+
+        if (items[rowIndex].getAttribute('href').indexOf('https') === 0) {
+          items[rowIndex].setAttribute('target', '_blank');
+        }
       }
 
       if (nextRowIndex >= values.length) {
