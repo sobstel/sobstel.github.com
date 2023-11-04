@@ -17,7 +17,7 @@ end
 
 def load_data(name)
   file = "_data/#{name}.yml"
-  YAML.load_file(file)
+  YAML.load_file(file, permitted_classes: [Time])
 end
 
 def github_fetch(url)
