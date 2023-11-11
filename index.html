@@ -5,26 +5,36 @@ bodyclass: home
 ---
 
 <div class="container">
-    <h1>sobstel.dev</h1>
-    <p>
-        &larr; <a href="https://read.cv/sobstel">read.cv</a> | <a href="https://github.com/sobstel">github</a> &rarr;
-    </p>
+    <div class="banner">
+        <h1>sobstel.dev</h1>
+        <p>
+            &larr; <a href="https://read.cv/sobstel">read.cv</a> | <a href="https://github.com/sobstel">github</a> &rarr;
+        </p>
+    </div>
 </div>
 
 <style>
     .container {
-        margin-top: 4rem;
-        max-width: 80em;
-        text-align: center;
+        position: relative;
     }
-    .container h1 {
+    .banner {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .banner h1 {
         font-size: 1.33rem;
         font-weight: bold;
     }
-    .container p {
+    .banner p {
         margin: 1rem 0;
     }
 </style>
+
+
+}
 
 
 
