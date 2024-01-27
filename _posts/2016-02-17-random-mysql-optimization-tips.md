@@ -49,7 +49,7 @@ title: "Random MySQL optimization tips"
 - Correlated subqueries are evil.
   - They're executed over and over again for each matched row.
   - Use `EXPLAIN` (`DEPENDENT SUBQUERY`) and
-    [SHOW PROFILE](http://www.sobstel.dev/blog/mysql-profiling-queries/)
+    [SHOW PROFILE](https://sobstel.github.io/blog/mysql-profiling-queries/)
     to detect this.
 
 ## Partitioning
