@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   line-height: 2.2;
   text-align: justify;
+  text-transform: lowercase;
 
   strong,
   a,
@@ -30,6 +31,7 @@ body {
 
   strong {
     padding: 0 1.2ch;
+    text-transform: none;
     background: #ffe94d;
   }
 
