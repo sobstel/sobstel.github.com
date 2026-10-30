@@ -12,7 +12,7 @@ body,
 .mp samp,
 .mp h3,
 .mp h4 {
-  font: 400 16px/1.5 "Inconsolata", monospace;
+  font: 400 15px/1.7 "JetBrains Mono", monospace;
 }
 .mp h3 {
   font-weight: bold;
@@ -97,101 +97,53 @@ code {
   background: #eee;
 }
 
-.icon {
-  display: inline-block;
-  margin-right: 8px;
-  opacity: 0.75;
+.mp .oneliner {
+  max-width: 50ch;
+  line-height: 2.2;
+  margin: 0 auto !important;
+  text-align: justify;
+  hyphens: none;
 
-  &:hover {
-    opacity: 1;
-  }
-
-  img {
+  strong {
+    padding: 0 0.4ch;
+    background: #ffe94d;
+    white-space: nowrap;
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .item {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 1.1em;
+    height: 1.1em;
+    margin: 0 0.5ch 0 0;
+    border-radius: 50%;
+    vertical-align: -0.2em;
   }
 }
 
-@media screen and (min-width: 616px) {
-  .mp .synopsis {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-
-.mp .synopsis {
-  .tagline {
-    margin-left: 4ex;
-  }
-  .icons {
-    margin-left: 4ex;
-  }
-}
-
-.mp .project {
+body#manpage.oneliner-page {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-left: 4ex;
-  margin-bottom: 20px;
+  justify-content: center;
+  min-height: 100vh;
 
-  &__icon {
-    display: inline-block;
-    margin-left: 3ex;
-    filter: grayscale(55%);
-
-    &:hover {
-      filter: grayscale(11%);
-    }
-
-    img {
-      display: inline-block;
-      width: 52px;
-      height: 52px;
-      border-radius: 26px;
-      margin: 0;
-    }
-
-    @media screen and (max-width: 616px) {
-      display: none;
-    }
-  }
-
-  &__info {
-    margin-bottom: 0;
-  }
-}
-
-.mp .insta {
-  display: inline-block;
-  margin-right: 4px;
-  text-decoration: none;
-  filter: grayscale(77%);
-
-  &:hover {
-    filter: grayscale(22%);
-  }
-
-  img {
-    display: inline-block;
-    width: 130px;
-    height: 130px;
-  }
-}
-
-.post div.highlighter-rouge {
-  margin-left: 2.5em;
-}
-
-@media screen and (max-width: 616px) {
-  div.project,
-  p,
-  dl {
-    margin-left: 0 !important;
-  }
-  .mp dd {
-    margin-left: 4ex;
+  .mp {
+    padding: 2rem;
   }
 }

@@ -10,13 +10,13 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
     />
     <style>
       {% capture styles %}{% include default.scss %}{% endcapture %}{{ styles | scssify }}
     </style>
   </head>
-  <body id="manpage">
+  <body id="manpage" class="{{ page.bodyclass }}">
     {{ content }}
   </body>
 </html>
