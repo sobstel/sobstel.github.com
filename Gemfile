@@ -12,4 +12,5 @@ group :development do
   gem 'nokogiri'
   gem 'rake'
   gem 'dotenv'
+  gem 'webrick'
 end
