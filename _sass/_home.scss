@@ -1,0 +1,53 @@
+@import "normalize";
+
+$link-color: #3072b3;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #131211;
+  background: #fff;
+  font: 400 15px/1.7 "JetBrains Mono", monospace;
+}
+
+.oneliner {
+  max-width: 50ch;
+  margin: 0 auto;
+  line-height: 2.2;
+  text-align: justify;
+
+  strong,
+  a,
+  .item {
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 1.5;
+  }
+
+  strong {
+    padding: 0 1.2ch;
+    background: #ffe94d;
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($link-color, 12%);
+      text-decoration: underline;
+    }
+  }
+
+  .logo {
+    width: 1.1em;
+    height: 1.1em;
+    margin-right: 0.5ch;
+    border-radius: 50%;
+    vertical-align: -0.2em;
+  }
+}
