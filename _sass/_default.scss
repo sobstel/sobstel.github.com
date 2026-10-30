@@ -1,0 +1,197 @@
+@import "normalize";
+@import "ronn_man";
+
+$link-color: #3072b3;
+
+body,
+.mp,
+.mp code,
+.mp pre,
+.mp tt,
+.mp kbd,
+.mp samp,
+.mp h3,
+.mp h4 {
+  font: 400 16px/1.5 "Inconsolata", monospace;
+}
+.mp h3 {
+  font-weight: bold;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.mp a,
+.mp a:link,
+.mp a code,
+.mp a pre,
+.mp a tt,
+.mp a kbd,
+.mp a samp {
+  color: $link-color;
+}
+.mp a:hover {
+  color: darken($link-color, 12%);
+}
+
+.mp > p,
+.mp > pre,
+.mp > ul,
+.mp > ol,
+.mp > dl {
+  margin-left: 4ex;
+}
+.mp dt.flush {
+  width: 4ex;
+}
+.post > p,
+.post > pre,
+.post > ul,
+.post > ol,
+.post > dl {
+  margin-left: 0 !important;
+}
+.post dt.flush {
+  width: 0 !important;
+}
+.post pre {
+  padding-left: 0;
+}
+
+.man-navigation {
+  padding-top: 24px !important;
+}
+.man-navigation a,
+.man-navigation a:hover,
+.man-navigation a:link,
+.man-navigation a:visited {
+  color: #999 !important;
+}
+.man-navigation a:hover {
+  color: #111 !important;
+}
+.man-navigation span:first-child {
+  display: none;
+}
+.mp {
+  text-align: left;
+}
+.mp > ol.man-foot {
+  margin-left: 0;
+
+  li.tl,
+  li.tc,
+  li.tr {
+    font-size: 0.84em;
+  }
+}
+ol.man-decor li {
+  width: 49%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+code {
+  display: inline-block;
+  padding: 0 5px;
+  background: #eee;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 8px;
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (min-width: 616px) {
+  .mp .synopsis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.mp .synopsis {
+  .tagline {
+    margin-left: 4ex;
+  }
+  .icons {
+    margin-left: 4ex;
+  }
+}
+
+.mp .project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 4ex;
+  margin-bottom: 20px;
+
+  &__icon {
+    display: inline-block;
+    margin-left: 3ex;
+    filter: grayscale(55%);
+
+    &:hover {
+      filter: grayscale(11%);
+    }
+
+    img {
+      display: inline-block;
+      width: 52px;
+      height: 52px;
+      border-radius: 26px;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 616px) {
+      display: none;
+    }
+  }
+
+  &__info {
+    margin-bottom: 0;
+  }
+}
+
+.mp .insta {
+  display: inline-block;
+  margin-right: 4px;
+  text-decoration: none;
+  filter: grayscale(77%);
+
+  &:hover {
+    filter: grayscale(22%);
+  }
+
+  img {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.post div.highlighter-rouge {
+  margin-left: 2.5em;
+}
+
+@media screen and (max-width: 616px) {
+  div.project,
+  p,
+  dl {
+    margin-left: 0 !important;
+  }
+  .mp dd {
+    margin-left: 4ex;
+  }
+}
