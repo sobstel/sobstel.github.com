@@ -8,10 +8,8 @@ title: Hydropuzzle presskit
 
 ## PRESSKIT
 
-App Store (iOS):
-[https://itunes.apple.com/app/id1294812505](https://itunes.apple.com/app/id1294812505?ls=1&mt=8)
-
-Google Play (Android): [https://play.google.com/store/apps/details?id=org.sobstel.hydropuzzle](https://play.google.com/store/apps/details?id=org.sobstel.hydropuzzle)
+_Hydropuzzle is no longer available from the App Store or Google Play.
+It is now open source: [github.com/sobstel/hydropuzzle](https://github.com/sobstel/hydropuzzle)._
 
 ### DESCRIPTION
 
