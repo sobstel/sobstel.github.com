@@ -1,7 +1,7 @@
 title: Przemek Sobstel
 url: "https://sobstel.github.io" # the base hostname & protocol for your site
 
-exclude: ["Rakefile", "Gemfile", "stuff"]
+exclude: ["Rakefile", "Gemfile", "stuff", "AGENTS.md", "docs"]
 markdown: kramdown
 
 permalink: /blog/:title/

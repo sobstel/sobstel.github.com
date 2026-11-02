@@ -15,11 +15,12 @@ body {
 }
 
 .oneliner {
-  max-width: 50ch;
+  max-width: 60ch;
   margin: 0 auto;
-  line-height: 2.2;
+  line-height: 2;
   text-align: justify;
   text-transform: lowercase;
+  hyphens: auto;
 
   strong,
   a,
@@ -51,5 +52,15 @@ body {
     margin-right: 0.5ch;
     border-radius: 50%;
     vertical-align: -0.2em;
+  }
+
+  .nohyphen {
+    hyphens: none;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
   }
 }
