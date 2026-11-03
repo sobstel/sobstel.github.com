@@ -22,12 +22,24 @@ body {
   text-transform: lowercase;
   hyphens: auto;
 
-  strong,
-  a,
-  .item {
+  strong {
     display: inline-block;
     white-space: nowrap;
     line-height: 1.5;
+  }
+
+  // inline, not inline-block: no wrap between an item and its trailing
+  // "&nbsp;·", and justification stretches that &nbsp; as much as the
+  // space after the dot, keeping the dot centered
+  a,
+  .item {
+    white-space: nowrap;
+  }
+
+  // multi-word names may wrap between words; .item glues logo to first word
+  a:has(> .item) {
+    white-space: normal;
+    hyphens: none;
   }
 
   strong {
